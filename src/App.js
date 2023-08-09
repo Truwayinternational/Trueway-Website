@@ -1,3 +1,4 @@
+import HomeSlider from "./Components/HomeSlider";
 import Navbar from "./Components/Navbar";
 import TopBar from "./Components/TopBar";
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <TopBar />
       <Navbar />
+      <HomeSlider />
     </>
   );
 }

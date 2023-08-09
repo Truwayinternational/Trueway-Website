@@ -6,7 +6,7 @@ import {FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn} from 'react-icons/fa'
 
 function TopBar() {
   return (
-    <div className='h-[60px] w-screen bg-green-500 drop-shadow-lg hidden md:flex items-center'>
+    <div className='h-[60px] w-screen bg-green-600 drop-shadow-lg hidden md:flex items-center'>
         <div className='ps-32 flex justify-between items-center w-full h-full'>
           <div className='flex items-center text-zinc-100 text-md'>
             <span className='flex'> <BsWhatsapp  className='mt-1'/><a href="#!" className='px-2'> +91 83276 26262 </a></span>
