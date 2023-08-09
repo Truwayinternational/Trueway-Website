@@ -1,9 +1,13 @@
+import Navbar from "./Components/Navbar";
+import TopBar from "./Components/TopBar";
+
 
 function App() {
   return (
-    <div className="App">
-      <h1> hello world </h1>
-    </div>
+    <>
+      <TopBar />
+      <Navbar />
+    </>
   );
 }
 
