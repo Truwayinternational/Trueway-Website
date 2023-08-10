@@ -1,5 +1,6 @@
 import Hero from "./Components/Hero";
 import HomeSlider from "./Components/HomeSlider";
+import ISO from "./Components/ISO";
 import Navbar from "./Components/Navbar";
 import TopBar from "./Components/TopBar";
 
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <HomeSlider />
       <Hero />
+      <ISO />
     </>
   );
 }
