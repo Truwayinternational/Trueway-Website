@@ -1,0 +1,22 @@
+import {
+    Card,
+    CardHeader,
+    CardBody,
+    Typography,
+  } from "@material-tailwind/react";
+
+
+
+<Card className="w-1/4">
+                <CardHeader floated={false} className="h-80">
+                    <img src="https://images.unsplash.com/photo-1691389488594-9db901a93832?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="profile-picture" />
+                </CardHeader>
+                <CardBody className="text-center">
+                    <Typography variant="h4" className="mb-2">
+                        Natalie Paisley
+                    </Typography>
+                    <Typography color="blue-gray" className="font-medium"   textGradient>
+                    CEO / Co-Founder
+                    </Typography>
+                </CardBody>
+</Card>
