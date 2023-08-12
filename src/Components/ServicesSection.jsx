@@ -3,15 +3,14 @@ import React from 'react';
 
 import Certificate from '../Assets/services/Certificate.png'
 import embassy from '../Assets/services/Embassy.png'
-// import MEA from '../Assets/services/Embassy.png'
-// import MOFA from '../Assets/services/Embassy.png'
+import MEA_MOFA from '../Assets/services/MOFA-&-MEA.png'
 import HRD from '../Assets/services/HRD-Attestation.png'
 import apostille from '../Assets/services/Apostille.png'
 import Home from '../Assets/services/Home-attestation.png'
 import DataFlow from '../Assets/services/Data-Flow.png'
 import ExamCoaching from '../Assets/services/Exam-Coaching.png'
 import ACLS from '../Assets/services/ACLS.png'
-// import PCC from '../Assets/services/Embassy.png'
+import PCC from '../Assets/services/Police-Clearance.png'
 import Migration from '../Assets/services/Migration_1.png'
 import verification from '../Assets/services/Verification.png'
 
@@ -21,26 +20,20 @@ const ServicesCardData = [
     {
         id:1,
         img: Certificate,
-        title:"Certificate attestation",
+        title:"Certificate Attestation",
         description:"Certificate attestation is the process of verifying the authenticity of a document when a person heads out to another nation"
     },
     {
         id:2,
         img: embassy,
-        title:"Embassy attestation",
+        title:"Embassy Attestation",
         description:"Embassy attestation is the process of legalizing official documents in order to be accepted in a foreign country."
     },
     {
         id:3,
-        img: "",
-        title:" MEA attestation",
-        description:"MEA attestation refers to the process of getting documents authenticated by the Ministry of External Affairs (MEA) of a country."
-    },
-    {
-        id:4,
-        img: "",
-        title:"MOFA attestation",
-        description:"The MOFA attestation is the final step in this process, where the Ministry of Foreign Affairs of the destination country verifies and certifies the authenticity of the documents."
+        img: MEA_MOFA,
+        title:" MEA / MOFA Attestation",
+        description:"MEA is the process of getting documents authenticated by the Ministry of External Affairs of a country.The MOFA is the Ministry of Foreign Affairs of the destination country verifies and certifies the authenticity of the documents."
     },
     {
         id:5,
@@ -75,12 +68,12 @@ const ServicesCardData = [
     {
         id:10,
         img: ACLS,
-        title:"ACLS-BLS",
+        title:"ACLS/BLS",
         description:"Providing life-saving ACLS and BLS medical training and support as a valuable and responsive service"
     },
     {
         id:11,
-        img: "",
+        img: PCC,
         title:"Police clearance certificate",
         description:"PCC is an official document by police, confirming an individual's criminal record status within a jurisdiction."
     },
@@ -102,14 +95,14 @@ const ServicesCardData = [
 function ServicesSection(props) {
   return (
     <div className='w-full my-20'>
-        <div className='max-w-[1240px] mx-auto'>
+        <div className='max-w-[1240px] mx-auto place-content-center'>
             <div className='text-center'>
                 <h2 className='text-5xl font-bold '>Our<span className='text-green-500'>Services</span></h2>
             </div>
             <div className='mx-auto max-w-5xl px-6 lg:px-8 pt-20 '>
                 <div className='grid grid-wrap grid-cols-1 gap-x-8 gap-y-10   text-center lg:grid-cols-4 grid-flow-row' >
                     {ServicesCardData.map((card, index) => (
-                        <div key={index} className="mx-auto flex max-w-sm flex-col gap-y-4 bg-zinc-100 border border-green-500 px-3 rounded-3xl shadow-2xl">
+                        <div key={index} className="mx-auto flex max-w-sm flex-col gap-y-4 bg-zinc-100 border border-green-500 px-3 rounded-3xl shadow-2xl ">
                                 <img className="order-first w-[180px] h-[135px] py-2 mx-auto " src={card.img}alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">

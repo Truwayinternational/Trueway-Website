@@ -1,3 +1,4 @@
+import GetinTouch from "./Components/GetinTouch";
 import Hero from "./Components/Hero";
 import HomeSlider from "./Components/HomeSlider";
 import ISO from "./Components/ISO";
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <ISO />
       <ServicesSection />
+      <GetinTouch />
     </>
   );
 }
