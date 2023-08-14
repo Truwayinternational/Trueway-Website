@@ -7,10 +7,10 @@ function GetinTouch() {
   return (
     <>
         <div className='w-full h-full flex justify-center items-centre'>
-            <div className=' bg-zinc-200 lg:w-2/3 mx-10 p-10  rounded-2xl'>
+            <div className='m-auto bg-zinc-200 lg:w-2/3 mx-10 p-10  rounded-2xl'>
                 <h1 className='font-bold text-3xl subpixel-antialiased text-center'> Write to us </h1>
                 <div className='my-10 '>
-                    <form action="" >
+                    <form className='m-auto' action="" >
                         <div className="lg:flex mb-5 ">
                             <div className="w-full lg:w-1/2 mr-6">
                                 <label for="first_name_field" className="block text-sm text-gray-800">Name:</label>

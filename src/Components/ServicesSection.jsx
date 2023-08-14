@@ -102,12 +102,12 @@ function ServicesSection(props) {
             <div className='mx-auto max-w-5xl px-6 lg:px-8 pt-20 '>
                 <div className='grid grid-wrap grid-cols-1 gap-x-8 gap-y-10   text-center lg:grid-cols-4 grid-flow-row' >
                     {ServicesCardData.map((card, index) => (
-                        <div key={index} className="mx-auto flex max-w-sm flex-col gap-y-4 bg-zinc-100 border border-green-500 px-3 rounded-3xl shadow-2xl ">
-                                <img className="order-first w-[180px] h-[135px] py-2 mx-auto " src={card.img}alt="Services_image" />
+                        <div key={index} className="mx-auto flex max-w-sm flex-col gap-y-4 bg-zinc-100 border border-green-500 px-3 rounded-3xl shadow-2xl hover:bg-green-100 cursor-pointer">
+                                <img className="order-first w-[150px] h-[135px] py-2 mx-auto " src={card.img}alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
                                 <a href="#!">
-                                    <h5 class="text-md font-semibold tracking-tight  text-gray-900 md:text-1xl py-1">{card.title}</h5>
+                                    <h5 class="text-md font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">{card.title}</h5>
                                 </a>
                                 <p className="font-light tracking-tighter text-zinc-500 text-justify md:text-sm"> {card.description}</p>
                             </div>
