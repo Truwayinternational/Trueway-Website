@@ -1,3 +1,4 @@
+import FromClients from "./Components/FromClients";
 import GetinTouch from "./Components/GetinTouch";
 import Hero from "./Components/Hero";
 import HomeSlider from "./Components/HomeSlider";
@@ -23,6 +24,7 @@ function App() {
       <WhyisTrueway />
       <WhyTruewayCard />
       <Procedure />
+      <FromClients />
     </>
   );
 }
