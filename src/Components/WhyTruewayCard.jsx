@@ -140,7 +140,7 @@ function WhyTruewayCard() {
                         alt="services_icons"
                         />
                     </div>
-                    <p className="block  px-6  py-4 text-xs font-bold text-center text-black ">
+                    <p className="block  p-5 text-sm font-bold text-center text-black ">
                         {value.title}
                     </p>
                 </div>

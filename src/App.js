@@ -1,3 +1,4 @@
+import Form2 from "./Components/Form2";
 import FromClients from "./Components/FromClients";
 import GetinTouch from "./Components/GetinTouch";
 import Hero from "./Components/Hero";
@@ -25,6 +26,7 @@ function App() {
       <WhyTruewayCard />
       <Procedure />
       <FromClients />
+      <Form2 />
     </>
   );
 }

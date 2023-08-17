@@ -27,6 +27,9 @@ function HomeSlider() {
       nextEl: ".button-next-slide",
       prevEl: ".button-prev-slide",
     }}
+    autoplay={{
+      delay: 3000,
+    }}
     modules={[Navigation]}
     >
       <SwiperSlide>

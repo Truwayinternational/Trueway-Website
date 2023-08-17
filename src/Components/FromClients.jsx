@@ -8,7 +8,7 @@ function FromClients() {
         <div className='w-full h-full flex flex-col justify-between bg-white'>
             <div className="max-w-[1240px] my-20 m-auto">
                 <div className='flex flex-col justify-center md:items-center w-full px-2 py-4 md:pl-16'>
-                    <h2 className='text-3xl md:text-4xl tracking-wide font-bold text-center'> Know From <text className='text-green-500'> Our Clients  </text> </h2>
+                    <h2 className='text-3xl md:text-4xl tracking-wide font-bold text-center'> Know From <b className='text-green-500'> Our Clients  </b> </h2>
                 </div>
                 <div className='md:flex  p-5 '>
                     <div className='h-full text-center m-5 p-5  bg-zinc-100 hover:bg-green-100 rounded-2xl '>

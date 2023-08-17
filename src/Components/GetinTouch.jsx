@@ -13,22 +13,22 @@ function GetinTouch() {
                     <form className='m-auto' action="" >
                         <div className="lg:flex mb-5 ">
                             <div className="w-full lg:w-1/2 mr-6">
-                                <label for="first_name_field" className="block text-sm text-gray-800">Name:</label>
+                                <label htmlFor="first_name_field" className="block text-sm text-gray-800">Name:</label>
                                 <input className=" w-full rounded-lg p-2 my-3 ring-0 focus:ring-0 shadow-none focus:shadow-none focus:outline-none border-none focus:border-none " type="text" name="name" required/>
                             </div>
                             <div className="w-full lg:w-1/2">
-                                <label for="message_felid" className="block text-sm text-gray-800">Comment or Message </label>
+                                <label htmlFor="message_felid" className="block text-sm text-gray-800">Comment or Message </label>
                                 <textarea className="rounded-lg  w-full p-2 my-3 ring-0 focus:ring-0 shadow-none focus:shadow-none focus:outline-none border-none focus:border-none " type="text" name="messages" rows={8} required/>
                             </div>
                         </div>
 
                         <div className="w-full lg:w-1/2 mr-6 lg:mt-[-12rem]">
-                            <label for="phoneNumber_field" className="block text-sm text-gray-800">Phone Number:</label>
+                            <label htmlFor="phoneNumber_field" className="block text-sm text-gray-800">Phone Number:</label>
                             <input className="  w-full rounded-lg p-2 my-3 ring-0 focus:ring-0 shadow-none focus:shadow-none focus:outline-none border-none focus:border-none " type="text" name="phone" required/>
                         </div>
 
                         <div className="w-full lg:w-1/2 mr-6 ">
-                            <label for="phoneNumber_field" className="block text-sm text-gray-800">Email Address:</label>
+                            <label htmlFor="phoneNumber_field" className="block text-sm text-gray-800">Email Address:</label>
                             <input className="  w-full rounded-lg p-2 my-3 ring-0 focus:ring-0 shadow-none focus:shadow-none focus:outline-none border-none focus:border-none " type="email" name="email" required/>
                         </div>
                         
@@ -47,7 +47,7 @@ function GetinTouch() {
                                 <dl className="text-center ">
                                     <div className="mx-auto flex max-w-xs flex-col gap-y-2">
                                         <MdEmail className="text-4xl font-bold mx-2 text-green-500 hover:text-green-700"/>
-                                        <a href='mailto:tvm@truewayinternational.com' className="text-sm  text-gray-600"> Email Us</a>
+                                        <a href='mailto:tvm@truewayinternational.com' className="text-sm font-bold text-gray-600"> Email Us</a>
                                     </div>
                                 </dl>
                             </div>
@@ -57,7 +57,7 @@ function GetinTouch() {
                                         <dd className="text-4xl font-bold mx-3 text-green-500 hover:text-green-700">
                                         <MdWhatsapp />
                                         </dd>
-                                        <a href='https://wa.link/c3ukjh' className="text-sm  text-gray-600"> Contact Us</a>
+                                        <a href='https://wa.link/c3ukjh' className="text-sm font-bold  text-gray-600"> Contact Us</a>
                                     </div>
                                 </dl>
                             </div>
@@ -67,7 +67,7 @@ function GetinTouch() {
                                         <dd className="text-4xl font-bold mx-2 text-green-500 hover:text-green-700">
                                         <MdCall />
                                         </dd>
-                                        <a href='tel:+918327626262' className="text-sm text-gray-600"> Call Us</a>
+                                        <a href='tel:+918327626262' className="text-sm text-gray-600 font-bold"> Call Us</a>
                                     </div>
                                 </dl>
                             </div>
