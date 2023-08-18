@@ -13,27 +13,27 @@ function GetinTouch() {
                     <form className='m-auto' action="" >
                         <div className="lg:flex mb-5 ">
                             <div className="w-full lg:w-1/2 mr-6">
-                                <label htmlFor="first_name_field" className="block text-sm text-gray-800">Name:</label>
-                                <input className=" w-full rounded-lg p-2 my-3 ring-0 focus:ring-0 shadow-none focus:shadow-none focus:outline-none border-none focus:border-none " type="text" name="name" required/>
+                                <label htmlFor="first_name_field" className="block text-md text-gray-800">Name</label>
+                                <input className=" w-full rounded-lg px-3 py-2 my-3 ring-0 focus:ring-0 shadow-none focus:shadow-none focus:outline-none border-none focus:border-none " type="text" name="name" required/>
                             </div>
                             <div className="w-full lg:w-1/2">
-                                <label htmlFor="message_felid" className="block text-sm text-gray-800">Comment or Message </label>
-                                <textarea className="rounded-lg  w-full p-2 my-3 ring-0 focus:ring-0 shadow-none focus:shadow-none focus:outline-none border-none focus:border-none " type="text" name="messages" rows={8} required/>
+                                <label htmlFor="message_felid" className="block text-md text-gray-800">Comment or Message </label>
+                                <textarea className="rounded-lg  w-full py-2 px-3 my-3 ring-0 focus:ring-0 shadow-none focus:shadow-none focus:outline-none border-none focus:border-none " type="text" name="messages" rows={8} required/>
                             </div>
                         </div>
 
                         <div className="w-full lg:w-1/2 mr-6 lg:mt-[-12rem]">
-                            <label htmlFor="phoneNumber_field" className="block text-sm text-gray-800">Phone Number:</label>
-                            <input className="  w-full rounded-lg p-2 my-3 ring-0 focus:ring-0 shadow-none focus:shadow-none focus:outline-none border-none focus:border-none " type="text" name="phone" required/>
+                            <label htmlFor="phoneNumber_field" className="block text-md text-gray-800">Phone Number</label>
+                            <input className="  w-full rounded-lg px-3 py-2 my-3 ring-0 focus:ring-0 shadow-none focus:shadow-none focus:outline-none border-none focus:border-none " type="text" name="phone" required/>
                         </div>
 
                         <div className="w-full lg:w-1/2 mr-6 ">
-                            <label htmlFor="phoneNumber_field" className="block text-sm text-gray-800">Email Address:</label>
-                            <input className="  w-full rounded-lg p-2 my-3 ring-0 focus:ring-0 shadow-none focus:shadow-none focus:outline-none border-none focus:border-none " type="email" name="email" required/>
+                            <label htmlFor="phoneNumber_field" className="block text-md text-gray-800">Email Address</label>
+                            <input className="  w-full rounded-lg px-3 py-2 my-3 ring-0 focus:ring-0 shadow-none focus:shadow-none focus:outline-none border-none focus:border-none " type="email" name="email" required/>
                         </div>
                         
                         <div className='text-center'>
-                            <button className=' px-8 my-10 py-2 border-none bg-green-500  hover:bg-green-700 text-white rounded-xl '> Submit </button>
+                            <button className=' px-8 my-10 py-3 border-none bg-green-500  hover:bg-green-700 text-white rounded-xl '> Submit </button>
                         </div>
                     </form>
                     

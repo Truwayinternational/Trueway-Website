@@ -9,6 +9,10 @@
     }
 
     span {
-        @apply p-5
+        @apply p-3
     }
+}
+
+::-webkit-scrollbar {
+    display: none;
 }

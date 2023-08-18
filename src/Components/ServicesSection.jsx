@@ -97,7 +97,7 @@ function ServicesSection(props) {
     <div className='w-full my-20'>
         <div className='max-w-[1240px] mx-auto place-content-center'>
             <div className='text-center'>
-                <h2 className='text-5xl font-bold '>Our<span className='text-green-500'>Services</span></h2>
+                <h2 className='text-4xl font-bold '>Our<span className='text-green-500'>Services</span></h2>
             </div>
             <div className='mx-auto max-w-5xl px-6 lg:px-8 pt-20 '>
                 <div className='grid grid-wrap grid-cols-1 gap-x-8 gap-y-10   text-center lg:grid-cols-4 grid-flow-row' >

@@ -5,6 +5,7 @@ import Hero from "./Components/Hero";
 import HomeSlider from "./Components/HomeSlider";
 import ISO from "./Components/ISO";
 import Navbar from "./Components/Navbar";
+import OurBlogs from "./Components/OurBlogs";
 import Procedure from "./Components/Procedure";
 import ServicesSection from "./Components/ServicesSection";
 import TopBar from "./Components/TopBar";
@@ -27,6 +28,7 @@ function App() {
       <Procedure />
       <FromClients />
       <Form2 />
+      <OurBlogs />
     </>
   );
 }
