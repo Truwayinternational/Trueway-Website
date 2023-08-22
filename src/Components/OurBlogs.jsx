@@ -40,7 +40,7 @@ const BlogData = [
     details:"The biggest mistake candidates make while preparing for IELTS is that they prepare on their language skills alone ignoring the more important aspect, communication. we need to differentiate language from communication. Planning a short talk in English for improving your pronunciation.Exam techniques to help you tackle all types of test questions."
   },
   {
-    id:4,
+    id:5,
     img: "",
     date:"29 Oct 2021",
     title:"What is Police Clearance Certificate?",
@@ -71,8 +71,8 @@ function OurBlogs(props) {
       </div>
       <div id='blog_card' className="carousel scroll-smooth p-4 md:mx-10 flex items-center justify-start overflow-x-auto overflow-y-hidden">
         {BlogData.map((data, index) => (
-            <div className="Card m-4 bg-green-100 w-[100%] h-full rounded-lg shadow-lg">
-            <div className="top" key={index}>
+            <div key={index} className="Card m-4 bg-green-100 w-[100%] h-full rounded-lg shadow-lg">
+            <div className="top" >
               <img src={data.img} alt="blog_img" className='w-[400px] h-[300px] object-fill p-3'/>
             </div>
             <hr />
@@ -82,7 +82,7 @@ function OurBlogs(props) {
               </div>
               <div className="title font-bold my-1 text-xl px-10">{data.title}</div>
               <div className="details font-light my-1 text-justify px-3">{data.details}</div>
-              <div className='mb-5 mx-32 mt-3'>
+              <div className='mb-5 md:mx-32 mx-28 mt-3'>
                 <a className='text-green-800 font-bold text-lg ' href="#!">Read More </a>
               </div>
             </div>

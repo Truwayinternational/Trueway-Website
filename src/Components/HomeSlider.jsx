@@ -28,7 +28,8 @@ function HomeSlider() {
       prevEl: ".button-prev-slide",
     }}
     autoplay={{
-      delay: 3000,
+      delay: 2500,
+      disableOnInteraction: false,
     }}
     modules={[Navigation]}
     >

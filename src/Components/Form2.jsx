@@ -20,7 +20,7 @@ function Form2() {
     }
     
     const handleSubmit = () =>{
-        console.log(formData, "the input")
+        console.log(formData, "the input of form")
     }
 
 

@@ -13,25 +13,25 @@ function Navbar() {
     }
 
   return (
-    <div className='sticky w-screen h-[80px] z-10 bg-zinc-100 drop-shadow-lg'>
+    <div className='sticky top-0 w-screen h-[80px] z-10 bg-zinc-100 drop-shadow-lg'>
         <div className='px-2 flex justify-between items-center w-full h-full'>
             <div className='flex items-center'>
                 <img src={logoMain} alt='logo_image' className='w-[200px] object-contain md:w-[200px]' />
-                <ul className='hidden md:flex cursor-pointer'>
+                <ul className='hidden lg:flex text-sm font-semibold cursor-pointer'>
                     <li>Home</li>
                     <li>About Us</li>
                     <li>Attestation</li>
+                    <li>Dataflow</li>
                     <li>Exam Coaching</li>
-                    <li>WES</li>
                     <li>PCC</li>
                     <li>Migration</li>
-                    <li>Services</li>
-                    <li>Blog</li>
+                    <li>Verification & Services</li>
+                    <li>Blogs</li>
                     <li>Contact Us</li>
                 </ul>
             </div>
-            <div className="md:hidden" onClick={handleClick}>
-                {!nav ? <GrMenu className='w-5 text-3xl inline'/> : <GrClose className='w-5'/>}
+            <div className="lg:hidden" onClick={handleClick}>
+                {!nav ? <GrMenu className='w-5 text-4xl inline'/> : <GrClose className='w-5'/>}
             </div>
         </div>
 
