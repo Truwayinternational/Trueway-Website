@@ -39,7 +39,7 @@ function HomeSlider() {
           <div className="title_content absolute top-[20%] left-[6rem] space-y-5">
             <h3 className='text-[30px]'> Hello From </h3>
             <h2 className='text-[40px] f-[700]'><b> Trueway International </b></h2>
-            <p className='text-[14px] w-[40%] justify-center text-gray-600'>
+            <p className='font-poppins text-[14px] w-[40%] justify-center text-gray-600'>
               Trueway International is an ISO-assured confirmation organisation providing UAE Attestation Services in Trivandrum and is affirmed by Ministries and government offices in India and abroad. Main services include Embassy Attestation, MEA, MOFA, HRD, Home, Apostille Attestation, etc.
             </p>
             <button className='flex rounded-lg p-2 px-4  bg-transparent border-solid border-2 border-green-600'>
@@ -54,7 +54,7 @@ function HomeSlider() {
           <div className="title_content absolute top-[20%] left-[6rem] space-y-5">
             <h3 className='text-[30px]'> Make The Migration</h3>
             <h2 className='text-[40px] f-[700]'><b>Smooth With Dataflow</b></h2>
-            <p className='text-[14px] w-[40%] justify-center text-gray-600'>
+            <p className='font-poppins text-[14px] w-[40%] justify-center text-gray-600'>
             For every migration, data flow is significant. The types of dataflow services we provide are DHA, HAAD, MOH, Saudi Arabia, Qatar, Bahrain, Kuwait, Oman, etc. In order to prove the authenticity of the documents you submitted, Dataflow is mandatory.
             </p>
             <button className='flex rounded-lg p-2 px-4  bg-transparent border-solid border-2 border-green-600'>
@@ -70,7 +70,7 @@ function HomeSlider() {
           <div className="title_content absolute top-[20%] left-[6rem] space-y-5">
             <h3 className='text-[30px]'> The Complete Option for</h3>
             <h2 className='text-[40px] f-[700]'><b>Exam Coaching</b></h2>
-            <p className='text-[14px] w-[40%] justify-center text-gray-600'>
+            <p className='font-poppins text-[14px] w-[40%] justify-center text-gray-600'>
             Trying to achieve the highest scores in the exams to go abroad? For that, you need a complete academic preparation course. We provide coaching for IELTS, OET, and Prometric exams. We teach you the key skills and give you a better understanding of the subject.
             </p>
             <button className='flex rounded-lg p-2 px-4  bg-transparent border-solid border-2 border-green-600'>
@@ -85,7 +85,7 @@ function HomeSlider() {
           <div className="title_content absolute top-[20%] left-[6rem] space-y-5">
             {/* <h3 className='text-[30px]'></h3> */}
             <h2 className='text-[40px] f-[700]'><b>Employment Abroad is the Dream?</b></h2>
-            <p className='text-[14px] w-[40%] justify-center text-gray-600'>
+            <p className='font-poppins text-[14px] w-[40%] justify-center text-gray-600'>
             Verification, Attestation, data flow, and many more are needed to get visa approval to fly abroad. All this will make you mad, but with Trueway International, all of these are easy, quick, and trustworthy.
             </p>
             <button className='flex rounded-lg p-2 px-4  bg-transparent border-solid border-2 border-green-600' >

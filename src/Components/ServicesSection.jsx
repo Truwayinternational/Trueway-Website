@@ -109,7 +109,7 @@ function ServicesSection(props) {
                                 <a href="#!">
                                     <h5 className="text-md font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">{card.title}</h5>
                                 </a>
-                                <p className="font-light tracking-tighter text-zinc-500 text-justify md:text-sm"> {card.description}</p>
+                                <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-sm"> {card.description}</p>
                             </div>
                         </div>
                     ))}

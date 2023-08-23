@@ -1,3 +1,4 @@
+import Footer from "./Components/Footer";
 import Form2 from "./Components/Form2";
 import FromClients from "./Components/FromClients";
 import GetinTouch from "./Components/GetinTouch";
@@ -32,6 +33,7 @@ function App() {
       <Form2 />
       <OurBlogs />
       <OurVideos />
+      <Footer />
     </>
   );
 }

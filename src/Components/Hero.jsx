@@ -11,7 +11,7 @@ function Hero() {
                 <h2 className='pt-12 pb-8 px-4 text-3xl md:text-4xl tracking-wider md:leading-snug '>
                 The Prime partner for<b> Certificate Attestation, Authentication,<br /> Verification services </b> in India
                 </h2>
-                <p className='text-1xl text-justify px-4 text-gray-500'>
+                <p className='font-poppins text-1xl text-justify px-4 text-gray-500'>
                 <strong className='text-black'>Trueway International</strong> is the best Dataflow verification, WES & other college verification, Good standing verification, Admission Guidance and certificate attestation consultancy in  India. We will help you in the journey of these processes with our fast, easy, secure and  trustworthy services.<br />
                 We provide various services in addition to attestation and Apostle offerings, such as document translation, Educational consultancy, Registration renewals etc... We are a one-stop shop for all of your document attestation requirements.
                 <br/>

@@ -14,10 +14,10 @@ function TopBar() {
             <span className='flex'> <TfiEmail  className='mt-1'/><a href="mailto:tvm@truewayinternational.com" className='px-2'> Email Us </a></span>
           </div>
           <div className='flex text-zinc-100 justify-between'>
-            <a href="#!" className='px-2'><FaFacebookF /></a>
-            <a href="#!" className='px-2'><FaInstagram /></a>
-            <a href="#!" className='px-2'><FaTwitter /></a>
-            <a href="#!" className='px-2'><FaLinkedinIn /></a>
+            <a href="https://www.facebook.com/truewayinternational" className='px-2'><FaFacebookF /></a>
+            <a href="https://www.instagram.com/truewayinternational/?hl=en" className='px-2'><FaInstagram /></a>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FTruewayinterna1" className='px-2'><FaTwitter /></a>
+            <a href="https://www.linkedin.com/company/trueway-international-tvm/" className='px-2'><FaLinkedinIn /></a>
           </div>
           <div className='basis-1/3'>
             <div className='relative'>

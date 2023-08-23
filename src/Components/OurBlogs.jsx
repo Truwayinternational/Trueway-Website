@@ -81,7 +81,7 @@ function OurBlogs(props) {
                 <SlCalender className='mt-3 text-lg'/> <span className='font-bold'>{data.date}</span>
               </div>
               <div className="title font-bold my-1 text-xl px-10">{data.title}</div>
-              <div className="details font-light my-1 text-justify px-3">{data.details}</div>
+              <div className="font-poppins details font-light my-1 text-justify px-3">{data.details}</div>
               <div className='mb-5 md:mx-32 mx-28 mt-3'>
                 <a className='text-green-800 font-bold text-lg ' href="#!">Read More </a>
               </div>
