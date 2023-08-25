@@ -1,36 +1,13 @@
 import React from 'react'
 import whiteLogo from '../Assets/Trueway_Wt.png'
+import FooterAccordian from './FooterAccordian'
+
 
 // import {FaLocationDot} from 'react-icons/fa6'
 import {BsFacebook, BsInstagram, BsLinkedin, BsTwitter, BsWhatsapp, BsYoutube} from 'react-icons/bs'
 
 
 const footerLinks = [  
-    {
-        title: "Our Branches",
-        links: [
-            {
-                name: "Trivandrum",
-                link:""
-            },
-            {
-                name:"Attingal",
-                link:""
-            },
-            {
-                name:"Bangalore",
-                link:""
-            },
-            {
-                name:"Cochin",
-                link:""
-            },
-            {
-                name:"Chennai",
-                link:""
-            },
-        ]
-    },
     {
         title: "Useful Links",
         links: [
@@ -67,7 +44,11 @@ const footerLinks = [
                 link:""
             },
             {
-                name:"Certificate Apostille",
+                name:"Embassy Attestation",
+                link:""
+            },
+            {
+                name:"MEA/MOFA Attestation",
                 link:""
             },
             {
@@ -75,14 +56,35 @@ const footerLinks = [
                 link:""
             },
             {
-                name:"MOFA Attestation",
+                name:"Apostille Attestation",
+                link:""
+            },
+            {
+                name:"Home Attestation",
+                link:""
+            },
+            {
+                name:"Data Flow Verification",
+                link:""
+            },
+            {
+                name:"Exam Coaching",
+                link:""
+            },
+            {
+                name:"ACLS/BLS",
                 link:""
             },
             {
                 name:"Police Clearance Certificate",
                 link:""
-            },{
-                name:"Embassy Attestation",
+            },
+            {
+                name:"Migration",
+                link:""
+            },
+            {
+                name:"Verification & Other Services",
                 link:""
             },
         ]
@@ -92,6 +94,31 @@ const footerLinks = [
 
 
 function Footer() {
+
+    const OurBranches = [
+        {
+            place:"Trivandrum",
+            location: <a href="https://www.google.com/maps/place/Trueway+international/@8.5682433,76.868242,16z/data=!4m6!3m5!1s0x3b05bb83a7f4081b:0xefc31dbc16018dff!8m2!3d8.5648563!4d76.8757937!16s%2Fg%2F11pdw9prh1?authuser=0&entry=ttu">Logtech Tower, Bypass Junction, Kazhakkoottam, Thiruvananthapuram, Kerala 695582</a>
+        },
+        {
+            place:"Attingal",
+            location: <a href="https://www.google.com/maps/place/Adsomia+india+pvt+ltd/@8.6936387,76.8197565,20.43z/data=!4m14!1m7!3m6!1s0x3b05e9a0e100813f:0xffd7aae933928cfc!2sAdsomia+india+pvt+ltd!8m2!3d8.6934554!4d76.8199276!16s%2Fg%2F11sbd0j9fk!3m5!1s0x3b05e9a0e100813f:0xffd7aae933928cfc!8m2!3d8.6934554!4d76.8199276!16s%2Fg%2F11sbd0j9fk?authuser=0&entry=ttu">opp. CSI Road, hsopital, Attingal, Kerala 695101</a> 
+        },
+        {
+            place:"Kochi",
+            location: <a href="https://www.google.com/maps/place/Trueway+Attestation/@9.9723527,76.2831195,17z/data=!3m1!4b1!4m6!3m5!1s0x3b0873a7cd8c8ddb:0xd5318173f12c4809!8m2!3d9.9723474!4d76.2856944!16s%2Fg%2F11rr5z000x?authuser=0&entry=ttu">
+                G08 Wolfpack work spaces, Iyyattil Ln, near maharajas metro station, jn, Kochi, Kerala 682011
+            </a> 
+        },
+        {
+            place:"Chennai",
+            location: <a href="#!">Chennai</a>
+        },
+        {
+            place:"Bangalore",
+            location: <a href="#!">Bangalore</a>
+        }
+    ]
 
   return (
     <section className="flex justify-center items-center flex-col py-6 sm:pt-16 bg-green-500">
@@ -106,16 +133,27 @@ function Footer() {
                     We are the Experts to make your dream migration seamless. The True way to your future can be paid by us. Trust us to help you take the leap towards a rewarding career abroad. 
                 </p>
             </div>
+    
             <div className='flex-[1.5] w-full flex flex-row justify-between flex-wrap mt-10 md:mt-0'>
+                <div className='flex flex-col sm:my-0 my-4 '>
+                    <h4 className='font-md text-[18px] leading-[27px] text-zinc-100 font-bold px-3'> Our Branches </h4>
+                    <div className='list'>
+                        {
+                            OurBranches.map((item, index) => (
+                                <FooterAccordian key={index} data={item} />
+                            ))
+                        }
+                    </div>
+                </div>
                 {footerLinks.map((footerLink) => (
-                    <div key={footerLink.key} className='flex flex-col sm:my-0 my-4 min-w-[150px]'>
-                        <h4 className='font-md text-[18px] leading-[27px] text-zinc-100 font-bold'>
+                    <div key={footerLink.key}  className='flex flex-col sm:my-0 my-4 min-w-[150px]'>
+                        <h4 className='font-md text-[18px] leading-[27px] text-zinc-100 font-bold px-3'>
                             {footerLink.title}
                         </h4>
                         <ul className='list-none mt-4'>
                             {footerLink.links.map((link, index) => (
                                 <li key={link.name}
-                                className="font-poppins font-normal text-[14px] leading-[24px] text-white hover:text-green-950 cursor-pointer p-2">
+                                className="font-poppins font-normal text-[14px] leading-[24px] text-white hover:text-green-950 cursor-pointer px-3 py-1">
                                  {link.name}  
                                 </li>
                             ))}

@@ -4,6 +4,7 @@ import {TfiEmail} from 'react-icons/tfi'
 import {FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn} from 'react-icons/fa'
 
 
+
 function TopBar() {
   return (
     <div className='h-[60px] w-screen bg-green-600 drop-shadow-lg hidden md:flex items-center'>
@@ -11,7 +12,7 @@ function TopBar() {
           <div className='flex items-center text-zinc-100 text-md'>
             <span className='flex'> <BsWhatsapp  className='mt-1'/><a href="https://wa.link/c3ukjh" className='px-2'> +91 83276 26262 </a></span>
             <span className='flex'> <BsFillTelephoneFill  className='mt-1'/><a href="tel:+918327626262" className='px-2'> +91 83276 26262 </a></span>
-            <span className='flex'> <TfiEmail  className='mt-1'/><a href="mailto:tvm@truewayinternational.com" className='px-2'> Email Us </a></span>
+            <span className='flex'> <TfiEmail  className='mt-1'/><a href="mailto:social@truewayinternational.com" className='px-2'> Email Us </a></span>
           </div>
           <div className='flex text-zinc-100 justify-between'>
             <a href="https://www.facebook.com/truewayinternational" className='px-2'><FaFacebookF /></a>

@@ -19,6 +19,7 @@ function GetinTouch() {
 
     const handleSubmit = () =>{
         console.log(formData, "input data of form")
+        alert("Form submitted Successfully")
     }
 
   return (
@@ -64,7 +65,7 @@ function GetinTouch() {
                                 <dl className="text-center ">
                                     <div className="mx-auto flex max-w-xs flex-col gap-y-2">
                                         <MdEmail className="text-4xl font-bold mx-2 text-green-500 hover:text-green-700"/>
-                                        <a href='mailto:tvm@truewayinternational.com' className="text-sm font-bold text-gray-600"> Email Us</a>
+                                        <a href='mailto:social@truewayinternational.com' className="text-sm font-bold text-gray-600"> Email Us</a>
                                     </div>
                                 </dl>
                             </div>

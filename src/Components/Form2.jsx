@@ -4,6 +4,8 @@ import bgContact from '../Assets/bg_contact.png'
 
 
 
+
+
 function Form2() {
 
     const [formData, setFormData] = useState({
@@ -20,6 +22,18 @@ function Form2() {
     }
     
     const handleSubmit = () =>{
+        const config = {
+            SecureToken:'fd699ef9-89a6-47bf-842d-80eb231d3f92',
+            To : 'tvm@truewayinternational.com',
+            From : formData.email,
+            Subject : "This from contact form",
+            Body : `${formData.name} connected to you over email`,
+        };
+        if(window.Email) {
+            window.Email.send(config).then(() => alert("Form Submitted Successfully"));
+            
+        }
+
         console.log(formData, "the input of form")
     }
 
