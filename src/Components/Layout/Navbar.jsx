@@ -1,6 +1,6 @@
 import { React , useState} from 'react'
 import {GrMenu, GrClose} from 'react-icons/gr'
-import logoMain from '../Assets/logo.png'
+import logoMain from '../../Assets/logo.png'
 
 
 

@@ -5,10 +5,10 @@ import ScrollTrigger from 'react-scroll-trigger';
 
 
 
-import iso from  '../Assets/ISO/isocertified.png'
-import thumb from  '../Assets/ISO/thumb.png'
-import document from  '../Assets/ISO/Document.png'
-import Projects from  '../Assets/ISO/folders.png'
+import iso from  '../../Assets/ISO/isocertified.png'
+import thumb from  '../../Assets/ISO/thumb.png'
+import document from  '../../Assets/ISO/Document.png'
+import Projects from  '../../Assets/ISO/folders.png'
 
 
 function ISO() {

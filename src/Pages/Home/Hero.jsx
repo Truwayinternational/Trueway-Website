@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-import heroImg from '../Assets/heroImg.png'
+import heroImg from '../../Assets/heroImg.png'
 
 function Hero() {
   return (

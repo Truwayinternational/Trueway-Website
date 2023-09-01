@@ -8,10 +8,10 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 // import 'swiper/css/Autoplay';
 
-import slider1 from '../Assets/trueway welcome.png'
-import slider2 from '../Assets/Migration.png'
-import slider3 from '../Assets/Exam Coaching.png'
-import slider4 from '../Assets/Abrod.png'
+import slider1 from '../../Assets/trueway welcome.png'
+import slider2 from '../../Assets/Migration.png'
+import slider3 from '../../Assets/Exam Coaching.png'
+import slider4 from '../../Assets/Abrod.png'
 
 import {IoLogoWhatsapp} from 'react-icons/io'
 import {BiSolidPhoneCall} from 'react-icons/bi'

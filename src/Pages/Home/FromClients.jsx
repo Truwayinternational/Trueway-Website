@@ -1,5 +1,5 @@
 import React from 'react'
-import avatar from '../Assets/avatar.png'
+import avatar from '../../Assets/avatar.png'
 import {FaQuoteLeft} from 'react-icons/fa'
 
 function FromClients() {

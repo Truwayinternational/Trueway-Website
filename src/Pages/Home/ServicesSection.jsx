@@ -1,18 +1,18 @@
 import React from 'react'; 
 
 
-import Certificate from '../Assets/services/Certificate.png'
-import embassy from '../Assets/services/Embassy.png'
-import MEA_MOFA from '../Assets/services/MOFA-&-MEA.png'
-import HRD from '../Assets/services/HRD-Attestation.png'
-import apostille from '../Assets/services/Apostille.png'
-import Home from '../Assets/services/Home-attestation.png'
-import DataFlow from '../Assets/services/Data-Flow.png'
-import ExamCoaching from '../Assets/services/Exam-Coaching.png'
-import ACLS from '../Assets/services/ACLS.png'
-import PCC from '../Assets/services/Police-Clearance.png'
-import Migration from '../Assets/services/Migration_1.png'
-import verification from '../Assets/services/Verification.png'
+import Certificate from '../../Assets/services/Certificate.png'
+import embassy from '../../Assets/services/Embassy.png'
+import MEA_MOFA from '../../Assets/services/MOFA-&-MEA.png'
+import HRD from '../../Assets/services/HRD-Attestation.png'
+import apostille from '../../Assets/services/Apostille.png'
+import Home from '../../Assets/services/Home-attestation.png'
+import DataFlow from '../../Assets/services/Data-Flow.png'
+import ExamCoaching from '../../Assets/services/Exam-Coaching.png'
+import ACLS from '../../Assets/services/ACLS.png'
+import PCC from '../../Assets/services/Police-Clearance.png'
+import Migration from '../../Assets/services/Migration_1.png'
+import verification from '../../Assets/services/Verification.png'
 
 
 const ServicesCardData = [

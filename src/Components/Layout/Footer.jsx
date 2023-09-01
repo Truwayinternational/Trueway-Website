@@ -1,5 +1,5 @@
 import React from 'react'
-import whiteLogo from '../Assets/Trueway_Wt.png'
+import whiteLogo from '../../Assets/Trueway_Wt.png'
 import FooterAccordian from './FooterAccordian'
 
 
