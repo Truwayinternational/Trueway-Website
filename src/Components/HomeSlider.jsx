@@ -1,9 +1,12 @@
 import React from 'react'
 import {Swiper, SwiperSlide} from 'swiper/react'
-import { Navigation } from 'swiper/modules';
+import { Navigation} from 'swiper/modules';
+// import  Autoplay  from 'swiper';
+
 
 import 'swiper/css';
 import 'swiper/css/navigation';
+// import 'swiper/css/Autoplay';
 
 import slider1 from '../Assets/trueway welcome.png'
 import slider2 from '../Assets/Migration.png'
@@ -20,6 +23,7 @@ function HomeSlider() {
   return (
     <div>
     <Swiper 
+    modules={[Navigation]}
     className="relative group"
     spaceBetween={50}
     slidesPerView={1}
@@ -28,10 +32,8 @@ function HomeSlider() {
       prevEl: ".button-prev-slide",
     }}
     autoplay={{
-      delay: 2500,
-      disableOnInteraction: false,
+      delay: 2500
     }}
-    modules={[Navigation]}
     >
       <SwiperSlide>
         <div className="image relative">

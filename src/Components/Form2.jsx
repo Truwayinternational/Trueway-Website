@@ -1,4 +1,4 @@
-import  {React, useState} from 'react'
+import  React, {useState} from 'react'
 
 import bgContact from '../Assets/bg_contact.png'
 

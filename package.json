@@ -17,6 +17,7 @@
     "react-scroll-trigger": "^0.6.14",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
+    "smtpjs": "^0.0.1",
     "swiper": "^10.1.0",
     "tailwind-scrollbar-hide": "^1.1.7",
     "web-vitals": "^3.4.0"
