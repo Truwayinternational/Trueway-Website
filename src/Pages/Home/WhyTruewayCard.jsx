@@ -141,7 +141,7 @@ function WhyTruewayCard() {
                         />
                     </div>
                     <p className="block  p-5 text-sm font-bold text-center text-black ">
-                        {value.title}
+                      {value.title}
                     </p>
                 </div>
                 ))}

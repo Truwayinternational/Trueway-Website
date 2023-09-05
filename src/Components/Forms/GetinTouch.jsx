@@ -25,7 +25,7 @@ function GetinTouch() {
   return (
     <>
         <div className='w-full h-full flex justify-center items-centre'>
-            <div className='m-auto bg-zinc-200 lg:w-2/3 mx-10 p-10  rounded-2xl'>
+            <div className='m-auto bg-zinc-200 w-full lg:w-2/3 mx-10 p-10  rounded-2xl'>
                 <h1 className='font-bold text-3xl subpixel-antialiased text-center'> Write to us </h1>
                 <div className='my-10 '>
                     <form className='m-auto' action="" onSubmit={handleSubmit}>

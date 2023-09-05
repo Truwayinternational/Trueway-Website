@@ -1,12 +1,14 @@
 import React from 'react'
 import {Swiper, SwiperSlide} from 'swiper/react'
-import { Navigation} from 'swiper/modules';
-// import  Autoplay  from 'swiper';
+import { Navigation, Pagination} from 'swiper/modules';
+
 
 
 import 'swiper/css';
 import 'swiper/css/navigation';
-// import 'swiper/css/Autoplay';
+import 'swiper/css/pagination';
+
+
 
 import slider1 from '../../Assets/trueway welcome.png'
 import slider2 from '../../Assets/Migration.png'
@@ -21,20 +23,30 @@ import {BsArrowRight, BsArrowLeft} from 'react-icons/bs'
 
 function HomeSlider() {
   return (
-    <div>
-    <Swiper 
-    modules={[Navigation]}
-    className="relative group"
-    spaceBetween={50}
-    slidesPerView={1}
-    navigation={{
-      nextEl: ".button-next-slide",
-      prevEl: ".button-prev-slide",
-    }}
-    autoplay={{
-      delay: 2500
-    }}
-    >
+    <>
+    <div className='lg:flex hidden'>
+      <Swiper 
+      style={{
+        "--swiper-pagination-color": "#43b54b",
+        "--swiper-pagination-bullet-inactive-color": "#999999",
+        "--swiper-pagination-bullet-inactive-opacity": ".3",
+        "--swiper-pagination-bullet-size": "5px",
+        "--swiper-pagination-bullet-width": "1px",
+        "--swiper-pagination-bullet-horizontal-gap": "8px"
+      }}
+      modules={[Navigation, Pagination]}
+      className="relative group w-full h-full"
+      spaceBetween={50}
+      slidesPerView={1}
+      pagination ={{clickable:true}}
+      navigation={{
+        nextEl: ".button-next-slide",
+        prevEl: ".button-prev-slide",
+      }}
+      autoplay={{
+        delay: 2000
+      }}
+      >
       <SwiperSlide>
         <div className="image relative">
           <img src={slider1} alt="" />
@@ -45,14 +57,15 @@ function HomeSlider() {
               Trueway International is an ISO-assured confirmation organisation providing UAE Attestation Services in Trivandrum and is affirmed by Ministries and government offices in India and abroad. Main services include Embassy Attestation, MEA, MOFA, HRD, Home, Apostille Attestation, etc.
             </p>
             <button className='flex rounded-lg p-2 px-4  bg-transparent border-solid border-2 border-green-600'>
-             <IoLogoWhatsapp className='text-green-700 text-2xl mx-2 '/> <a href="https://wa.link/c3ukjh">Reach out to us to know more</a>
+             <IoLogoWhatsapp className='text-green-700 text-2xl mx-2 '/> <a href="https://wa.link/c3ukjh">Free Consulting Now</a>
             </button>
           </div>
         </div>
       </SwiperSlide>
+
       <SwiperSlide>
       <div className="image relative">
-          <img src={slider2} alt="" />
+          <img src={slider2} alt="slider_2" />
           <div className="title_content absolute top-[20%] left-[6rem] space-y-5">
             <h3 className='text-[30px]'> Make The Migration</h3>
             <h2 className='text-[40px] f-[700]'><b>Smooth With Dataflow</b></h2>
@@ -66,9 +79,10 @@ function HomeSlider() {
           </div>
         </div>
       </SwiperSlide>
+
       <SwiperSlide>
       <div className="image relative">
-          <img src={slider3} alt="" />
+          <img src={slider3} alt="slider_3" />
           <div className="title_content absolute top-[20%] left-[6rem] space-y-5">
             <h3 className='text-[30px]'> The Complete Option for</h3>
             <h2 className='text-[40px] f-[700]'><b>Exam Coaching</b></h2>
@@ -96,16 +110,17 @@ function HomeSlider() {
           </div>
         </div>
       </SwiperSlide>
-        <div className="top-[50%] absolute z-10 button-prev-slide h-[40px] w-[40px]  text-white bg-black grid place-items-center group-hover:left-0  -left-[23rem] duration-500">
+        <div className="top-[50%] absolute z-10 button-prev-slide h-[40px] w-[40px]  text-white bg-black grid place-items-center group-hover:left-0  -left-[23rem] duration-500 cursor-pointer">
             <BsArrowLeft />
         </div>
-        <div className="top-[50%] absolute z-10 button-next-slide h-[40px] w-[40px] text-white bg-black grid place-items-center group-hover:right-0  -right-[23rem] duration-500">
-          {" "}
+        <div className="top-[50%] absolute z-10 button-next-slide h-[40px] w-[40px] text-white bg-black grid place-items-center group-hover:right-0  -right-[23rem] duration-500 cursor-pointer">
             <BsArrowRight  />
         </div>
     </Swiper>
     </div>
+  </>
   )
 }
 
 export default HomeSlider
+

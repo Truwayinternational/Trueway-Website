@@ -140,7 +140,9 @@ function Footer() {
                     <div className='list'>
                         {
                             OurBranches.map((item, index) => (
-                                <FooterAccordian key={index} data={item} />
+                                <div key={index}>
+                                    <FooterAccordian data={item} />
+                                </div>
                             ))
                         }
                     </div>
