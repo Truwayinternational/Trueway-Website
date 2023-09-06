@@ -6,12 +6,15 @@ import heroImg from '../../Assets/heroImg.png'
 function Hero() {
   return (
     <div className='w-full h-full bg-zinc-100 flex flex-col justify-between'>
-        <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
-            <div className='flex flex-col justify-center md:items-start w-full px-2 py-4 md:pl-16'>
-                <h2 className='pt-12 pb-8 px-4 text-3xl md:text-4xl tracking-wider md:leading-snug '>
-                The Prime partner for<b> Certificate Attestation, Authentication,<br /> Verification services </b> in India
+        <div className="grid lg:grid-cols-2 max-w-[1240px] m-auto">
+            <div className='flex flex-col justify-center md:items-start w-full px-5 py-4 lg:pl-16'>
+                <h2 className='pt-12 pb-8 px-3 text-3xl md:text-5xl lg:text-4xl tracking-wider md:leading-snug text-center lg:text-start font-[Philosopher] md:px-[100px] lg:px-4'>
+                The Prime partner for<b className='text-green-500 lg:text-black text-'> Certificate Attestation, Authentication,<br /> Verification services </b> in India
                 </h2>
-                <p className='font-poppins text-1xl text-justify px-4 text-gray-500'>
+                <div className='md:flex  items-center lg:hidden'>
+                  <img className='w-full md:px-12 lg:p-5 lg:pt-48' src={heroImg} alt="MainImage..." />
+                </div>
+                <p className='font-poppins text-1xl text-justify px-3 text-gray-500'>
                 <strong className='text-black'>Trueway International</strong> is the best Dataflow verification, WES & other college verification, Good standing verification, Admission Guidance and certificate attestation consultancy in  India. We will help you in the journey of these processes with our fast, easy, secure and  trustworthy services.<br />
                 We provide various services in addition to attestation and Apostle offerings, such as document translation, Educational consultancy, Registration renewals etc... We are a one-stop shop for all of your document attestation requirements.
                 <br/>
@@ -21,8 +24,8 @@ function Hero() {
                 </p>
                 <button className='mx-4 my-6 py-3 sm:w-[25%]  border-2 bg-green-500 hover:bg-green-700 text-white rounded-lg'> Read More </button>
             </div>
-            <div>
-                <img className='w-full md:p-5 md:pt-48' src={heroImg} alt="MainImage..." />
+            <div className='hidden lg:block'>
+                <img className='w-full lg:p-5 lg:pt-48' src={heroImg} alt="MainImage..." />
             </div>
         </div>
     </div>

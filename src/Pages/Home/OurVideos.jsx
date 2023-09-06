@@ -53,7 +53,7 @@ function OurVideos(props) {
           </h1>
         </div>
 
-          <div className="flex flex-row my-16 w-full m-auto  pr-4  carousel scroll-smooth px-5 items-center justify-start overflow-x-auto overflow-y-hidden ">
+          <div className="flex flex-row my-16 w-full m-auto  pr-4  carousel scroll-smooth px-5 items-center justify-start overflow-x-auto overflow-y-hidden max-w-[1240px]">
           {youtubeSlides.map((video, index) => (
             <div key={index} className='flex m-auto md:mx-5'>
 

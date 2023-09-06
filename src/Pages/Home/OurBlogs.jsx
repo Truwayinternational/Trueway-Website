@@ -59,17 +59,18 @@ function OurBlogs(props) {
   }
 
   return (
-    <div className='relative'>
-      <div className='my-10'>
+    <div className='relative '>
+      <div className='my-10 '>
         <h1 className='text-center font-bold text-gray-800 text-3xl md:text-4xl my-[100px]'>
             Read<span className='text-green-500 font-bold'>Our Blogs</span>
         </h1>
       </div>
-      <div className='absolute right-4 md:right-24 top-20'>
+    <div>
+      <div className='absolute right-4 md:right-24 top-20 '>
         <button onClick={scrollLeft} className='bg-green-500 text-white font-bold p-4 m-2 rounded-full ' ><AiOutlineLeft /></button>
         <button onClick={scrollRight} className='bg-green-500 text-white font-bold p-4 m-2 rounded-full '><AiOutlineRight /></button>
       </div>
-      <div id='blog_card' className="carousel scroll-smooth p-4 md:mx-10 flex items-center justify-start overflow-x-auto overflow-y-hidden">
+      <div id='blog_card' className="carousel scroll-smooth p-4 md:mx-10 flex items-center justify-start overflow-x-auto overflow-y-hidden ">
         {BlogData.map((data, index) => (
             <div key={index} className="Card m-4 bg-green-100 w-[100%] h-full rounded-lg shadow-lg">
             <div className="top" >
@@ -89,6 +90,7 @@ function OurBlogs(props) {
           </div>
         ))}
       </div>
+    </div>
     </div>  
   )
 }

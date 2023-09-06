@@ -112,11 +112,11 @@ function WhyTruewayCard() {
         superLargeDesktop: {
           // the naming can be any, depends on you.
           breakpoint: { max: 4000, min: 2000 },
-          items: 8
+          items: 4
         },
         desktop: {
           breakpoint: { max: 2000, min: 1094 },
-          items: 5
+          items: 4
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
@@ -129,7 +129,7 @@ function WhyTruewayCard() {
     };
     
   return (
-        <div className="mx-auto md:px-20 my-10 ">
+        <div className="mx-auto md:px-20 my-10 max-w-[1240px]">
             <Carousel responsive={responsive}>
                 {TruewayCard.map((value, index) => (
                     <div key={index} className="flex flex-col bg-green-100  gap-x-6 h-auto sm:w-52 py-5 rounded-2xl ">
