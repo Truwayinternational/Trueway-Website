@@ -48,7 +48,7 @@ function OurVideos(props) {
   return (
       <div className='bg-zinc-600 py-6 '>
         <div>
-          <h1 className='text-center font-bold text-white text-3xl md:text-4xl mt-[100px]'>
+          <h1 className='text-center font-bold text-white text-3xl md:text-4xl mt-[100px] font-Philosopher'>
           Watch<span className='text-green-500 font-bold'>Our Videos</span>
           </h1>
         </div>
@@ -57,7 +57,7 @@ function OurVideos(props) {
           {youtubeSlides.map((video, index) => (
             <div key={index} className='flex m-auto md:mx-5'>
 
-                <iframe className='rounded-3xl m-2 md:w-[360px] md:h-[215px]' src={video.url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                <iframe className='rounded-3xl m-2 md:w-[360px] md:h-[215px]' src={video.url} title="YouTube video player" FrameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
             </div>
           ))}  

@@ -22,9 +22,10 @@ function FooterAccordian(props) {
                                 <IoIosArrowDroprightCircle/>
                                 </div>
                             </div>
-                            <div className='overflow-hidden max-h-0 duration-500 group-[.is-active]:max-h-[100px]'>
+                            <div className='overflow-hidden max-h-0 duration-500 group-[.is-active]:max-h-[100px] cursor-pointer'>
                                 {item.location}
                             </div>
+
                         </div>
                     </div>
         </>

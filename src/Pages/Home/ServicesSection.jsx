@@ -1,5 +1,4 @@
-import React from 'react'; 
-
+import React from 'react'
 
 import Certificate from '../../Assets/services/Certificate.png'
 import embassy from '../../Assets/services/Embassy.png'
@@ -33,7 +32,7 @@ const ServicesCardData = [
         id:3,
         img: MEA_MOFA,
         title:" MEA / MOFA Attestation",
-        description:"MEA is the process of getting documents authenticated by the Ministry of External Affairs of a country.The MOFA is the Ministry of Foreign Affairs of the destination country verifies and certifies the authenticity of the documents."
+        description:"MEA is the process of getting documents authenticated of a country.The MOFA is the Ministry of Foreign Affairs of the destination country verifies and certifies the authenticity of the documents."
     },
     {
         id:5,
@@ -97,16 +96,16 @@ function ServicesSection(props) {
     <div className='w-full my-20'>
         <div className='max-w-[1240px] mx-auto place-content-center'>
             <div className='text-center'>
-                <h2 className='text-4xl font-bold '>Our<span className='text-green-500'>Services</span></h2>
+                <h2 className='text-4xl font-bold font-Philosopher'>Our<span className='text-green-500'>Services</span></h2>
             </div>
             <div className='mx-auto max-w-5xl px-6 lg:px-8 pt-20 '>
-                <div className='grid grid-wrap grid-cols-1 gap-x-8 gap-y-10   text-center lg:grid-cols-4 grid-flow-row' >
+                <div className=' grid grid-wrap grid-cols-1 lg:gap-x-8 lg:gap-y-10  text-center lg:grid-cols-4  grid-flow-row' >
                     {ServicesCardData.map((card, index) => (
-                        <div key={index} className="mx-auto flex max-w-sm flex-col gap-y-4 bg-zinc-100 border border-green-500 px-3 rounded-3xl shadow-2xl hover:bg-green-100 cursor-pointer">
+                        <div key={index} className="mx-auto flex max-w-sm flex-col gap-y-4 bg-zinc-100 border border-green-500 px-3 py-3 rounded-3xl shadow-2xl hover:bg-green-100 cursor-pointer">
                                 <img className="order-first w-[150px] h-[135px] py-2 mx-auto " src={card.img}alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
-                                <a href="#!">
+                                <a href="/">
                                     <h5 className="text-md font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">{card.title}</h5>
                                 </a>
                                 <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-sm"> {card.description}</p>
@@ -114,6 +113,10 @@ function ServicesSection(props) {
                         </div>
                     ))}
                 </div>
+
+                {/* mobile responsive */}
+
+                
             </div>
         </div>
     </div>

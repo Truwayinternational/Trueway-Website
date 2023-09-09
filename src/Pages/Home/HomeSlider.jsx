@@ -1,6 +1,6 @@
 import React from 'react'
 import {Swiper, SwiperSlide} from 'swiper/react'
-import { Navigation, Pagination} from 'swiper/modules';
+import { Navigation, Pagination, Autoplay} from 'swiper/modules';
 
 
 
@@ -14,6 +14,7 @@ import slider1 from '../../Assets/trueway welcome.png'
 import slider2 from '../../Assets/Migration.png'
 import slider3 from '../../Assets/Exam Coaching.png'
 import slider4 from '../../Assets/Abrod.png'
+
 
 import {IoLogoWhatsapp} from 'react-icons/io'
 import {BiSolidPhoneCall} from 'react-icons/bi'
@@ -34,9 +35,10 @@ function HomeSlider() {
         "--swiper-pagination-bullet-width": "1px",
         "--swiper-pagination-bullet-horizontal-gap": "3px"
       }}
-      modules={[Navigation, Pagination]}
+      modules={[Navigation, Pagination, Autoplay]}
       className="relative group w-full h-full"
       spaceBetween={50}
+      centeredSlides={true}
       slidesPerView={1}
       pagination ={{
         clickable:true,
@@ -47,7 +49,8 @@ function HomeSlider() {
         prevEl: ".button-prev-slide",
       }}
       autoplay={{
-        delay: 2000
+        delay: 2500,
+        disableOnInteraction: false,
       }}
       >
       <SwiperSlide>

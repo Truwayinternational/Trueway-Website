@@ -37,19 +37,19 @@ export const links = [
         {
           Head:"MEA Attestation",
           subLink: [
-            {name:"", link:""}
+            {name:"Ministry of External Affairs", link:"#!"}
           ]
         },
         {
           Head:"MOFA Attestation",
           subLink: [
-            {name:"", link:""}
+            {name:"Ministry of Foreign Affairs", link:"#!"}
           ]
         },
         {
           Head:"HRD Attestation",
           subLink: [
-            {name:"", link:""}
+            {name:"Human Resource Development", link:"#!"}
           ]
         }
       ]

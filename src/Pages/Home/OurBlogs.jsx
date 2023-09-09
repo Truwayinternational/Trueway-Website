@@ -61,8 +61,8 @@ function OurBlogs(props) {
   return (
     <div className='relative '>
       <div className='my-10 '>
-        <h1 className='text-center font-bold text-gray-800 text-3xl md:text-4xl my-[100px]'>
-            Read<span className='text-green-500 font-bold'>Our Blogs</span>
+        <h1 className='text-center font-bold text-gray-800 text-3xl md:text-4xl my-[100px] font-Philosopher'>
+            Read<span className='text-green-500 font-bold '>Our Blogs</span>
         </h1>
       </div>
     <div>

@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Pagination } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
 
 //import slider images 
 import slider1 from '../../Assets/responsive:home/Banner1.png'
@@ -25,7 +25,7 @@ function HomeSliderMob() {
             "--swiper-pagination-color": "#43b54b",
             "--swiper-pagination-bullet-inactive-color": "#999999",
             "--swiper-pagination-bullet-inactive-opacity": ".3",
-            "--swiper-pagination-bullet-size": "5px",
+            "--swiper-pagination-bullet-size": "3px",
             "--swiper-pagination-bullet-width": "1px",
             "--swiper-pagination-bullet-horizontal-gap": "3px"
           }}
@@ -33,7 +33,12 @@ function HomeSliderMob() {
         dynamicBullets: true,
         clickable:true
         }}
-        modules={[Pagination]}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        centeredSlides={true}
+        modules={[Pagination, Autoplay]}
       >
         <SwiperSlide className='md:flex items-center object-center'>
         <div className="image relative">

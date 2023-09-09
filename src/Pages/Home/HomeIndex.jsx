@@ -15,7 +15,7 @@ import Procedure from "./Procedure";
 import ServicesSection from "./ServicesSection";
 import TopBar from "../../Components/Layout/TopBar";
 import WhyisTrueway from "./WhyisTrueway";
-import WhyTruewayCard from './WhyTruewayCard';
+import WhyTruewaycards from './WhyTruewaycards';
 import NavBar from '../../Components/Layout/NavBar/NavBar';
 
 
@@ -32,7 +32,7 @@ function HomeIndex() {
       <ServicesSection />
       <GetinTouch />
       <WhyisTrueway />
-      <WhyTruewayCard />
+      <WhyTruewaycards />
       <Procedure />
       <FromClients />
       <Form2 />

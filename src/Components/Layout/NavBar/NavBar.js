@@ -53,16 +53,6 @@ function NavBar() {
             </ul>
 
             {/* moblie Nav  */}
-        
-            {/* <ul className={`
-                lg:hidden bg-white absolute w-full h-full bottom-0 py-24 pl-4 duration-500 ${open ? "right-0" : "right-[100%]"}`}>
-                <li>
-                    <Link to="/" className=' text-xl inline-block '> 
-                        Home
-                    </Link>
-                </li>
-                <NavLinks />
-            </ul> */}
             
             <ul className={!open ? "hidden left-[100%] " : "absolute bg-green-500 w-full px-8 mt-[700px] "}>
                 <li className='border-b-2 border-zinc-300 w-full'>
