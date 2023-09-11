@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+
 import Certificate from '../../Assets/services/Certificate.png'
 import embassy from '../../Assets/services/Embassy.png'
 import MEA_MOFA from '../../Assets/services/MOFA-&-MEA.png'
@@ -55,7 +57,7 @@ const ServicesCardData = [
     {
         id:8,
         img: DataFlow,
-        title:"Data flow verification",
+        title:"Dataflow verification",
         description:"Data flow verification is a process that ensures the correct and secure data movement within a system or application."
     },
     {
@@ -93,13 +95,13 @@ const ServicesCardData = [
 
 function ServicesSection(props) {
   return (
-    <div className='w-full my-20'>
+    <div className='w-full lg:my-20 mt-20'>
         <div className='max-w-[1240px] mx-auto place-content-center'>
             <div className='text-center'>
                 <h2 className='text-4xl font-bold font-Philosopher'>Our<span className='text-green-500'>Services</span></h2>
             </div>
             <div className='mx-auto max-w-5xl px-6 lg:px-8 pt-20 '>
-                <div className=' grid grid-wrap grid-cols-1 lg:gap-x-8 lg:gap-y-10  text-center lg:grid-cols-4  grid-flow-row' >
+                <div className='hidden lg:grid grid-wrap grid-cols-1 lg:gap-x-8 lg:gap-y-10  text-center lg:grid-cols-4  grid-flow-row' >
                     {ServicesCardData.map((card, index) => (
                         <div key={index} className="mx-auto flex max-w-sm flex-col gap-y-4 bg-zinc-100 border border-green-500 px-3 py-3 rounded-3xl shadow-2xl hover:bg-green-100 cursor-pointer">
                                 <img className="order-first w-[150px] h-[135px] py-2 mx-auto " src={card.img}alt="Services_image" />
@@ -113,10 +115,6 @@ function ServicesSection(props) {
                         </div>
                     ))}
                 </div>
-
-                {/* mobile responsive */}
-
-                
             </div>
         </div>
     </div>

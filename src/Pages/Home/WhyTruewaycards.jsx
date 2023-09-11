@@ -34,9 +34,6 @@ function WhyTruewaycards() {
                 className="w-full h-full"
                 slidesPerView={1}
                 spaceBetween={10}
-                pagination={{
-                clickable: true,
-                }}
                 autoplay={{
                     delay: 2500,
                     disableOnInteraction: false,

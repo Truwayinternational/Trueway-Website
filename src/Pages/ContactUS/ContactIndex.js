@@ -1,14 +1,14 @@
 import React from 'react'
 
-function CertificateAttestation() {
+function ContactIndex() {
   return (
     <div>
       <div className='w-full h-screen bg-zinc-100 flex justify-center items-center'>
 
-        <h1> this is services page and content is Certificate attestation</h1>
+        <h1> Get in touch with us </h1>
       </div>
     </div>
   )
 }
 
-export default CertificateAttestation
+export default ContactIndex
