@@ -20,12 +20,14 @@ function NavLinks() {
                       <div className='bg-zinc-100  p-5 grid grid-cols-3 gap-10'>
                         {link.subLinks.map((mysublinks, index)=>(
                             <div key={index}>
-                              <h1 className='text-md font-semibold'> {mysublinks.Head} </h1>
+                              <h1 className='text-md font-semibold'>
+                                <Link to={mysublinks.headLink}>{mysublinks.Head}</Link>
+                              </h1>
                               {mysublinks.subLink.map((slink, index)=>(
                                 <li key={index} className='text-xs text-gray-600 py-1 px-1 '>
                                   <Link to={slink.link} className='hover:text-green-600 '> {slink.name} </Link>
                                 </li>
-                              ))}
+                              ))} 
                             </div>
                           ))}
                       </div>

@@ -5,6 +5,7 @@ export const links = [
       subLinks : [
         {
           Head: "Embassy Attestation",
+          headLink:"#!",
           subLink : [
             {name:"UAE", link:"#!"},
             {name:"Qatar", link:"#!"},
@@ -15,6 +16,7 @@ export const links = [
         },
         {
           Head: "Home Attestation",
+          headLink:"#!",
           subLink : [
             {name:"Birth Certificate", link:"#!"},
             {name:"Death Certificate", link:"#!"},
@@ -26,6 +28,7 @@ export const links = [
         },
         {
           Head: "Apostille Attestation",
+          headLink:"#!",
           subLink : [
             {name:"Saudi Arabia", link:"#!"},
             {name:"UAE", link:"#!"},
@@ -36,18 +39,21 @@ export const links = [
         },
         {
           Head:"MEA Attestation",
+          headLink:"#!",
           subLink: [
             {name:"Ministry of External Affairs", link:"#!"}
           ]
         },
         {
           Head:"MOFA Attestation",
+          headLink:"#!",
           subLink: [
             {name:"Ministry of Foreign Affairs", link:"#!"}
           ]
         },
         {
           Head:"HRD Attestation",
+          headLink:"#!",
           subLink: [
             {name:"Human Resource Development", link:"#!"}
           ]
@@ -60,48 +66,56 @@ export const links = [
       subLinks : [
         {
           Head: "Saudi Arabia",
+          headLink:"#!",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head: "Oman",
+          headLink:"#!",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head: "Bahrain",
+          headLink:"#!",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head:"Qatar",
+          headLink:"#!",
           subLink: [
             {name:"", link:""}
           ]
         },
         {
           Head:"Kuwait",
+          headLink:"#!",
           subLink: [
             {name:"", link:""}
           ]
         },
         {
           Head:"DHA",
+          headLink:"#!",
           subLink: [
             {name:"", link:""}
           ]
         },
         {
           Head:"HAAD",
+          headLink:"#!",
           subLink: [
             {name:"", link:""}
           ]
         },
         {
           Head:"MOH",
+          headLink:"#!",
           subLink: [
             {name:"", link:""}
           ]
@@ -114,24 +128,28 @@ export const links = [
         subLinks : [
         {
           Head: "OET",
+          headLink:"#!",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head: "IELTS",
+          headLink:"#!",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head: "ACLS/BLS",
+          headLink:"#!",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head:"Prometaic",
+          headLink:"#!",
           subLink: [
             {name:"", link:""}
           ]
@@ -144,48 +162,56 @@ export const links = [
         subLinks : [
         {
           Head: "Saudi Arabia",
+          headLink:"#!",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head: "Oman",
+          headLink:"#!",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head: "Bahrain",
+          headLink:"#!",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head:"Qatar",
+          headLink:"#!",
           subLink: [
             {name:"", link:""}
           ]
         },
         {
           Head:"Kuwait",
+          headLink:"#!",
           subLink: [
             {name:"", link:""}
           ]
         },
         {
           Head:"UAE",
+          headLink:"#!",
           subLink: [
             {name:"", link:""}
           ]
         },
         {
           Head:"SYRIA",
+          headLink:"#!",
           subLink: [
             {name:"", link:""}
           ]
         },
         {
           Head:"IRAQ",
+          headLink:"#!",
           subLink: [
             {name:"", link:""}
           ]
@@ -198,30 +224,35 @@ export const links = [
         subLinks : [
         {
           Head: "CANADA",
+          headlink:"#!",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head: "UK",
+          headLink:"#!",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head: "AUSTRALIA",
+          headLink:"#!",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head:"New Zealand",
+          headLink:"#!",
           subLink: [
             {name:"", link:""}
           ]
         },
         {
           Head:"IRELAND",
+          headLink:"#!",
           subLink: [
             {name:"", link:""}
           ]

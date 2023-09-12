@@ -1,5 +1,5 @@
 import React from 'react'
-import CertificateAttestation from './CertificateAttestation';
+import CertificateAttestation from './Certificate Attestation/CertificateAttestation';
 
 
 
