@@ -1,6 +1,7 @@
 import React from 'react'
 import CertificateAttestation from './CertificateAttestation'
 import WhatIsAttestation from './WhatIsAttestation'
+import WhatisCertificationAttestation from './WhatisCertificationAttestation'
 
 
 function CertificateAttestation_index() {
@@ -8,6 +9,7 @@ function CertificateAttestation_index() {
     <div>
         <CertificateAttestation />
         <WhatIsAttestation />
+        <WhatisCertificationAttestation  />
     </div>
   )
 }

@@ -15,6 +15,7 @@ import CertificateAttestation_index from "./Pages/OtherServices/Certificate Atte
 
 
 
+
 function App() {
   return (
     <div>
@@ -30,7 +31,7 @@ function App() {
           <Route path="/contact" element={<ContactIndex />} /> 
 
           {/* services router */}
-          <Route path="/certificateAttestation" element={<CertificateAttestation_index/>} />
+          <Route path="/certificateAttestation" element={<CertificateAttestation_index />} />
           
         </Routes>
       <Footer />
