@@ -1,12 +1,13 @@
 import React from 'react'
-import CertificateAttestation from './Certificate Attestation/CertificateAttestation';
+import CertificateAttestation_index from './Certificate Attestation/CertificateAttestation_index'
+
 
 
 
 function ServicesIndex() {
   return (
     <div>
-        <CertificateAttestation />
+      <CertificateAttestation_index />
     </div>
   )
 }

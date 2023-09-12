@@ -66,56 +66,56 @@ export const links = [
       subLinks : [
         {
           Head: "Saudi Arabia",
-          headLink:"#!",
+          headLink:"/df_saudiArabia",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head: "Oman",
-          headLink:"#!",
+          headLink:"/df_oman",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head: "Bahrain",
-          headLink:"#!",
+          headLink:"/df_bahrain",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head:"Qatar",
-          headLink:"#!",
+          headLink:"/df_qatar",
           subLink: [
             {name:"", link:""}
           ]
         },
         {
           Head:"Kuwait",
-          headLink:"#!",
+          headLink:"/df_kuwait",
           subLink: [
             {name:"", link:""}
           ]
         },
         {
           Head:"DHA",
-          headLink:"#!",
+          headLink:"/df_dha",
           subLink: [
             {name:"", link:""}
           ]
         },
         {
           Head:"HAAD",
-          headLink:"#!",
+          headLink:"/df_haad",
           subLink: [
             {name:"", link:""}
           ]
         },
         {
           Head:"MOH",
-          headLink:"#!",
+          headLink:"/df_moh",
           subLink: [
             {name:"", link:""}
           ]
@@ -128,28 +128,28 @@ export const links = [
         subLinks : [
         {
           Head: "OET",
-          headLink:"#!",
+          headLink:"/oet",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head: "IELTS",
-          headLink:"#!",
+          headLink:"/ielts",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head: "ACLS/BLS",
-          headLink:"#!",
+          headLink:"/acls_bls",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head:"Prometaic",
-          headLink:"#!",
+          headLink:"/prometaic",
           subLink: [
             {name:"", link:""}
           ]
@@ -162,56 +162,56 @@ export const links = [
         subLinks : [
         {
           Head: "Saudi Arabia",
-          headLink:"#!",
+          headLink:"/pcc_ksa",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head: "Oman",
-          headLink:"#!",
+          headLink:"/pcc_oman",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head: "Bahrain",
-          headLink:"#!",
+          headLink:"/pcc_bahrain",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head:"Qatar",
-          headLink:"#!",
+          headLink:"/pcc_qatar",
           subLink: [
             {name:"", link:""}
           ]
         },
         {
           Head:"Kuwait",
-          headLink:"#!",
+          headLink:"/pcc_kuwait",
           subLink: [
             {name:"", link:""}
           ]
         },
         {
           Head:"UAE",
-          headLink:"#!",
+          headLink:"/pcc_uae",
           subLink: [
             {name:"", link:""}
           ]
         },
         {
           Head:"SYRIA",
-          headLink:"#!",
+          headLink:"/pcc_syria",
           subLink: [
             {name:"", link:""}
           ]
         },
         {
           Head:"IRAQ",
-          headLink:"#!",
+          headLink:"/pcc_iraq",
           subLink: [
             {name:"", link:""}
           ]

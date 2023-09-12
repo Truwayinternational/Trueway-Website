@@ -10,7 +10,7 @@ function NavBar() {
 
     const [open, SetOpen] = useState(false)
 
-  return <nav className='bg-white sticky top-0 z-10 '>
+  return <nav className='bg-white sticky top-0 z-10 border border-b-1 border-gray-300'>
         <div className='flex items-center lg:text-md text-sm font-semibold  justify-around'>
             <div className='Z-50 p-6 lg:w-auto w-full flex justify-between'>
                 <img src={LogoMain} alt='logo' className='lg:ms-0  items-center  cursor-pointer h-12  '/>

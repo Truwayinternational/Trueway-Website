@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 
 
 import Certificate from '../../Assets/services/Certificate.png'
@@ -22,72 +22,84 @@ const ServicesCardData = [
         id:1,
         img: Certificate,
         title:"Certificate Attestation",
+        titleLink:"/certificateAttestation",
         description:"Certificate attestation is the process of verifying the authenticity of a document when a person heads out to another nation"
     },
     {
         id:2,
         img: embassy,
         title:"Embassy Attestation",
+        titleLink:"/embassyAttestation",
         description:"Embassy attestation is the process of legalizing official documents in order to be accepted in a foreign country."
     },
     {
         id:3,
         img: MEA_MOFA,
         title:" MEA / MOFA Attestation",
+        titleLink:"/mea_mofaAttestation",
         description:"MEA is the process of getting documents authenticated of a country.The MOFA is the Ministry of Foreign Affairs of the destination country verifies and certifies the authenticity of the documents."
     },
     {
         id:5,
         img: HRD,
         title:"HRD attestation",
+        titleLink:"/hrdAttestation",
         description:"The purpose of HRD attestation is to verify the authenticity of educational documents issued by educational institutions"
     },
     {
         id:6,
         img: apostille,
         title:"Apostille attestation",
+        titleLink:"/apostilleAttestation",
         description:"Apostille attestation verifies public document authenticity for international use, like birth certificates or diplomas, ensuring foreign recognition"
     },
     {
         id:7,
         img: Home,
         title:"Home attestation",
+        titleLink:"/homeAttestation",
         description:"It is the attestation of non-educational documents from home countries where the documents are issued"
     },
     {
         id:8,
         img: DataFlow,
         title:"Dataflow verification",
+        titleLink:"/dataflow",
         description:"Data flow verification is a process that ensures the correct and secure data movement within a system or application."
     },
     {
         id:9,
         img: ExamCoaching,
         title:"Exam coaching",
+        titleLink:"/examCoaching",
         description:"Expert coaching for OET, IELTS, and Prometric exams."
     },
     {
         id:10,
         img: ACLS,
         title:"ACLS/BLS",
+        titleLink:"/acls_bls",
         description:"Providing life-saving ACLS and BLS medical training and support as a valuable and responsive service"
     },
     {
         id:11,
         img: PCC,
         title:"Police clearance certificate",
+        titleLink:"/pcc",
         description:"PCC is an official document by police, confirming an individual's criminal record status within a jurisdiction."
     },
     {
         id:12,
         img: Migration,
         title:"Migration",
+        titleLink:"/migration",
         description:"Migration services guide and support individuals moving abroad, ensuring a smooth immigration process for countries like New Zealand, the UK, Ireland, Australia, and Canada."
     },
     {
         id:13,
         img: verification,
         title:"Verification & other services",
+        titleLink:"/verification_otherServices",
         description:"Validation & additional offerings for authentication and assistance, including immigration, documentation, and consultation services."
     }
 ]
@@ -107,9 +119,9 @@ function ServicesSection(props) {
                                 <img className="order-first w-[150px] h-[135px] py-2 mx-auto " src={card.img}alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
-                                <a href="/">
+                                <Link to={card.titleLink} >
                                     <h5 className="text-md font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">{card.title}</h5>
-                                </a>
+                                </Link>
                                 <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-sm"> {card.description}</p>
                             </div>
                         </div>
