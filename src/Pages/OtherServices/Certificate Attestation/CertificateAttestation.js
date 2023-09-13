@@ -41,7 +41,7 @@ function CertificateAttestation() {
             {/* readMore add in paragraph */}
             <div className='md:hidden flex'>
               <p  onClick={()=> {setReadMore (!readMore)}}>
-                <h2 className='text-green-500 ml-3 text-lg cursor-pointer'>{linkName}</h2>
+                <h2 className='text-green-500 ml-3 text-lg cursor-pointer font-poppins'>{linkName}</h2>
               </p>
               { readMore && extraContent }
             </div>

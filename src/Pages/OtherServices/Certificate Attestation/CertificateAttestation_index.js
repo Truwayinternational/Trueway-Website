@@ -2,6 +2,8 @@ import React from 'react'
 import CertificateAttestation from './CertificateAttestation'
 import WhatIsAttestation from './WhatIsAttestation'
 import WhatisCertificationAttestation from './WhatisCertificationAttestation'
+import PurposesOfCertificateAttestation from './PurposesOfCertificateAttestation'
+
 
 
 function CertificateAttestation_index() {
@@ -10,6 +12,7 @@ function CertificateAttestation_index() {
         <CertificateAttestation />
         <WhatIsAttestation />
         <WhatisCertificationAttestation  />
+        <PurposesOfCertificateAttestation />
     </div>
   )
 }

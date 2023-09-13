@@ -22,14 +22,14 @@ function WhatIsAttestation() {
               <img className='md:hidden grid  w-[100px]  mt-[-30px]' src={questionMark} alt="question_mark" />
             </div>
           <div className='flex '>
-            <div className='lg:w-2/3 w-full ml-3 lg:px-16 px-4 '>
+            <div className='w-full ml-3 lg:px-16 px-4 '>
               <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins pr-3 lg:p-0'>
               Attestation is the process of verifying documents when a person is going abroad. It is mainly used for legal, financial, and administrative contexts where the credibility of documents and claims is significant. This authentic process of affirming or validating the authenticity, and accuracy of documents, and information by providing a signature, seal, or other form of verification. A third-party organisation should confirm that the submitted information is genuine and reliable.
               </p>
               {/* readMore add in paragraph */}
               <div className='lg:hidden flex'>
               <p  onClick={()=> {setReadMore (!readMore)}}>
-                <h2 className='text-green-500 text-lg cursor-pointer'>{linkName}</h2>
+                <h2 className='text-green-500 text-lg cursor-pointer font-poppins'>{linkName}</h2>
               </p>
               { readMore && extraContent }
             </div>
@@ -37,7 +37,7 @@ function WhatIsAttestation() {
               Attestation often entails the signing of documents or confirming the data included in records, such as academic transcripts, contracts, legal agreements, and medical reports. The signature or seal of the attesting person indicates that they have reviewed the data and can certify its authenticity. By adding an additional layer of accountability and trust, attestation ensures that important documents are not fake or misleading. It is essential for verifying the reliability of various communications and transactions in both personal and professional contexts.
               </p>
             </div>    
-            <div className='hidden md:grid h-full mx-5 my-8'>
+            <div className='hidden md:grid h-full mr-5 lg:mr-10 xl:mt-[-50px] my-8'>
               <img src={questionMark} alt="question_mark" />
             </div>
           </div>                          
