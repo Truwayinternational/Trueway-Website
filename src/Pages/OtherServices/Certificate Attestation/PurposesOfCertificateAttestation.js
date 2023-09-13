@@ -6,7 +6,7 @@ import {
     AccordionBody,
   } from "@material-tailwind/react";
 
-import {ImPointRight} from 'react-icons/im'
+import {IoIosArrowDropdownCircle} from 'react-icons/io'
 
 function PurposesOfCertificateAttestation() {
 
@@ -23,40 +23,40 @@ function PurposesOfCertificateAttestation() {
               <h3 className='md:text-5xl text-3xl pb-5  font-Philosopher font-extrabold text-black  tracking-wide  '>What are the purposes of<br/><p className='text-green-500'>Certificate Attestation ?</p></h3>
               <img className='md:hidden grid  w-[100px]  mt-[-30px]' src={avatar_2} alt="avatar_2" />
             </div>
-          <div className='flex '>
+          <div className='flex'>
             <div className='lg:w-2/3 ml-3 lg:md-12 lg:px-20 px-4 '>
                 <div className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins pr-3 lg:p-0'>
                     <Accordion open={alwaysOpen}>
-                        <AccordionHeader className='text-green-500 cursor-pointer text-start' onClick={handleAlwaysOpen}> <ImPointRight /> International Recognition
+                        <AccordionHeader className='text-green-500 cursor-pointer ' onClick={handleAlwaysOpen}>  International Recognition <IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
-                        <AccordionBody className="text-lg lg:tex-2xl text-gray-500">
+                        <AccordionBody className="text-md lg:tex-2xl text-gray-500">
                         To gain international recognition and acceptance of your documents or certificates in foreign countries, certificate attestation is essential. Your credentials need to be validated to ensure they meet the standards of the host country's institutions and authorities.
                         </AccordionBody>
                     </Accordion>
                     {/* 2nd accordion */}
                     <Accordion open={open === 1}>
                         <AccordionHeader className='text-green-500 cursor-pointer text-start' onClick={() => handleOpen(1)}>
-                        <ImPointRight /> Employment Opportunities
+                         Employment Opportunities<IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
-                        <AccordionBody className="text-lg lg:tex-2xl text-gray-500">
+                        <AccordionBody className="text-md lg:tex-2xl text-gray-500">
                         Employers need to ensure that qualifications stated in their certificates are genuine for that certificate attestation is important. Only then can they apply for jobs there.
                         </AccordionBody>
                     </Accordion>
                     {/* 3rd accordion */}
                     <Accordion open={open === 2}>
                         <AccordionHeader className='text-green-500 cursor-pointer text-start' onClick={() => handleOpen(2)}>
-                        <ImPointRight />Exchange  Programs
+                        Exchange Programs<IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
-                        <AccordionBody className="text-lg lg:tex-2xl text-gray-500">
+                        <AccordionBody className="text-md lg:tex-2xl text-gray-500">
                         Those who want to participate in the collaboration or exchange programs between educational institutions require attested certificates to prove their eligibility for smooth transitions between institutions.
                         </AccordionBody>
                     </Accordion>
                     {/* 4th accordion */}
                     <Accordion open={open === 3}>
                         <AccordionHeader className='text-green-500 cursor-pointer text-start' onClick={() => handleOpen(3)}>
-                        <ImPointRight /> Social Security Benefits
+                        Social Security Benefits<IoIosArrowDropdownCircle className='ms-auto' />
                         </AccordionHeader>
-                        <AccordionBody className="text-lg lg:tex-2xl text-gray-500">
+                        <AccordionBody className="text-md lg:tex-2xl text-gray-500">
                         To get social security or any kind of benefits from the government you have to attest your documents to authenticate your identity, employment history and other eligibility.
                         </AccordionBody>
                     </Accordion>
