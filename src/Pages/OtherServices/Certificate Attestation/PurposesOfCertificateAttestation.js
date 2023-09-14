@@ -38,7 +38,7 @@ function PurposesOfCertificateAttestation() {
                         <AccordionHeader className='text-green-500 cursor-pointer text-start' onClick={() => handleOpen(1)}>
                          Employment Opportunities<IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
-                        <AccordionBody className="text-md lg:tex-2xl text-gray-500">
+                        <AccordionBody className="text-md text-gray-500">
                         Employers need to ensure that qualifications stated in their certificates are genuine for that certificate attestation is important. Only then can they apply for jobs there.
                         </AccordionBody>
                     </Accordion>
@@ -47,7 +47,7 @@ function PurposesOfCertificateAttestation() {
                         <AccordionHeader className='text-green-500 cursor-pointer text-start' onClick={() => handleOpen(2)}>
                         Exchange Programs<IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
-                        <AccordionBody className="text-md lg:tex-2xl text-gray-500">
+                        <AccordionBody className="text-md text-gray-500">
                         Those who want to participate in the collaboration or exchange programs between educational institutions require attested certificates to prove their eligibility for smooth transitions between institutions.
                         </AccordionBody>
                     </Accordion>
@@ -56,7 +56,7 @@ function PurposesOfCertificateAttestation() {
                         <AccordionHeader className='text-green-500 cursor-pointer text-start' onClick={() => handleOpen(3)}>
                         Social Security Benefits<IoIosArrowDropdownCircle className='ms-auto' />
                         </AccordionHeader>
-                        <AccordionBody className="text-md lg:tex-2xl text-gray-500">
+                        <AccordionBody className="text-md  text-gray-500">
                         To get social security or any kind of benefits from the government you have to attest your documents to authenticate your identity, employment history and other eligibility.
                         </AccordionBody>
                     </Accordion>
