@@ -21,3 +21,6 @@
     display: none;
 }
 
+.ReactCollapse--collapse {
+    transition: height 500ms;
+}

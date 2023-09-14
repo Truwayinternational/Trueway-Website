@@ -6,6 +6,7 @@ import PurposesOfCertificateAttestation from './PurposesOfCertificateAttestation
 import ProcedureOfCA from './ProcedureOfCA'
 import ProcedureAccordion from './ProcedureAccordion'
 import HelpYou from './HelpYou'
+import Faq from './Faq'
 
 
 
@@ -19,6 +20,7 @@ function CertificateAttestation_index() {
         <ProcedureOfCA />
         <ProcedureAccordion />
         <HelpYou />
+        <Faq />
     </div>
   )
 }
