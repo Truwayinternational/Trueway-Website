@@ -24,7 +24,7 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        Philosopher: ["Philosopher"]
+        "HeadingFont" : ["Bricolage Grotesque"]
       }
     }
   },

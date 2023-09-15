@@ -32,8 +32,8 @@ function Form2() {
         <div className='h-full my-10 '>
             <div className='flex justify-center' >
                 <div className='bg-no-repeat bg-cover bg-center px-20 md:rounded-3xl ' style={{backgroundImage: `url(${bgContact})`}}>
-                    <h2 className='text-center font-bold md:text-5xl text-4xl text-white pt-10 font-Philosopher'> No Delay ; </h2>
-                    <h3 className='text-center pt-5 font-semibold tracking-wider  md:text-3xl  text-xl font-Philosopher'>Put your details here</h3>
+                    <h2 className='text-center font-bold md:text-5xl text-4xl text-white pt-10 font-HeadingFont'> No Delay ; </h2>
+                    <h3 className='text-center pt-5 font-semibold tracking-wider  md:text-3xl  text-xl font-HeadingFont'>Put your details here</h3>
                     <div className='w-full mt-10'>
                         <form action="https://formspree.io/f/xjvqrzwz" method='POST' onSubmit={handleSubmit} >
                             <div className='lg:flex mb-5 w-full'>

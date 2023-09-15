@@ -19,7 +19,7 @@ function ProcedureAccordion() {
 
   return (
     <>
-      <div className='flex mb-10'>
+      <div className='flex justify-center items-center mb-10'>
             <div className='lg:w-2/3 ml-3 lg:md-12 lg:px-20 px-4 '>
                 <div className='text-md md:text-xl lg:text-lg text-gray-500 font-poppins pr-3 lg:p-0'>
                     <Accordion open={alwaysOpen}>

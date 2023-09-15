@@ -8,7 +8,7 @@ function Hero() {
     <div className='w-full h-full bg-zinc-100 flex flex-col justify-between'>
         <div className="grid lg:grid-cols-2 max-w-[1240px] m-auto">
             <div className='flex flex-col justify-center md:items-start w-full px-5 py-4 lg:pl-16'>
-                <h2 className='pt-12 pb-8 px-3 text-3xl md:text-5xl lg:text-4xl tracking-wider md:leading-snug text-center lg:text-start font-[Philosopher] md:px-[100px] lg:px-4'>
+                <h2 className='pt-12 pb-8 px-3 text-3xl md:text-5xl lg:text-4xl tracking-wider md:leading-snug text-center lg:text-start font-HeadingFont md:px-[100px] lg:px-4'>
                 The Prime partner for<b className='text-green-500 lg:text-black text-'> Certificate Attestation, Authentication,<br /> Verification services </b> in India
                 </h2>
                 <div className='md:flex  items-center lg:hidden'>

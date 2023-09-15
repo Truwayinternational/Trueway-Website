@@ -16,10 +16,10 @@ function ProcedureOfCA() {
 
   return (
     <div>
-      <div className='h-full w-max-1240px py-10'>
+      <div className='h-full py-10'>
           <div className='flex mx-4 lg:px-16 px-3'>
             <img className='md:hidden grid  w-[100px]  mt-[-30px]' src={Avatar_3} alt="Avatar_3" />
-            <h3 className='md:text-5xl lg:px-48 text-3xl pb-5  font-Philosopher font-extrabold text-black  tracking-wide  '>Procedures of<br/><p className='text-green-500'>Certificate Attestation ?</p></h3>
+            <h3 className='md:text-5xl lg:px-48 text-3xl pb-5 font-HeadingFont font-extrabold text-black  tracking-wide  '>Procedures of<br/><p className='text-green-500'>Certificate Attestation ?</p></h3>
           </div>
         <div className='flex '>
           <div className='hidden md:flex h-full lg:pl-10 xl:mt-[-120px] py-4'>
@@ -29,15 +29,9 @@ function ProcedureOfCA() {
             <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins pr-3 lg:p-0'>
             Getting your certificates attested is a must for getting a visa. Whether you're going abroad to work or study, this process is essential. In India, the attestation procedure is a series of steps. The most crucial one is the Ministry of Foreign Affairs attestation, which comes after getting attestations from all departments. This step holds extra significance. India offers attestation services of three types:
             <ol className='list-decimal text-green-500 font-semibold text-lg md:text-xl lg:px-10 pl-6'>
-                <a href='#!' >
-                    <li >Educational certificates</li> 
-                </a>
-                <a href='#!' >
-                    <li > Non-educational certificates </li> 
-                </a>
-                <a href='#!' >
-                    <li >Commercial certificates </li> 
-                </a>
+                    <li className='cursor-pointer'>Educational certificates</li> 
+                    <li className='cursor-pointer'> Non-educational certificates </li> 
+                    <li className='cursor-pointer'>Commercial certificates </li> 
             </ol>
             Certificate attestation requires the original certificates and passport copies. These documents are verified by relevant authorities based on the type of attestation needed. Certificate attestation is a way to prove that educational, non-educational, and commercial documents are genuine. It's crucial for people planning to work or study abroad.
             </p>

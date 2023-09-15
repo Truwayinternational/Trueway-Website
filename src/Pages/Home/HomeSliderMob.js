@@ -44,7 +44,7 @@ function HomeSliderMob() {
         <div className="image relative">
           <img src={slider1} alt="slider_1" className='object-center w-auto'/>
           <div className=" absolute top-[10px] px-5 ">
-            <h3 className='text-[32px] md:text-[48px] font-semibold leading-10 md:leading-normal py-3 md:px-5 font-Philosopher'> Hello From <br /><b className='md:text-[60px] tracking-wide'>Trueway International</b></h3>
+            <h3 className='text-[32px] md:text-[48px] font-semibold leading-10 md:leading-normal py-3 md:px-5 font-HeadingFont'> Hello From <br /><b className='md:text-[60px] tracking-wide'>Trueway International</b></h3>
             <p className='font-poppins md:text-[30px]  text-[14px] w-[100%] md:px-8 justify-center text-gray-600 '>
               Trueway International is an ISO-assured confirmation organisation providing UAE Attestation Services in Trivandrum and is affirmed by Ministries and government offices in India and abroad. Main services include Embassy Attestation, MEA, MOFA, HRD, Home, Apostille Attestation, etc.
             </p>
@@ -58,7 +58,7 @@ function HomeSliderMob() {
         <div className="image relative">
           <img src={slider2} alt="slider_2" className='object-center w-auto'/>
           <div className=" absolute top-[10px] px-5 ">
-            <h3 className='text-[32px] md:text-[48px] font-semibold leading-10 md:leading-normal py-3 md:px-5 font-Philosopher'> Make The Migration<br /><b className='md:text-[60px] tracking-wide'>Smooth With Dataflow</b></h3>
+            <h3 className='text-[32px] md:text-[48px] font-semibold leading-10 md:leading-normal py-3 md:px-5 font-HeadingFont'> Make The Migration<br /><b className='md:text-[60px] tracking-wide'>Smooth With Dataflow</b></h3>
             <p className='font-poppins md:text-[30px]  text-[14px] w-[100%] md:px-8 justify-center text-gray-600 '>
             For every migration, data flow is significant. The types of dataflow services we provide are DHA, HAAD, MOH, Saudi Arabia, Qatar, Bahrain, Kuwait, Oman, etc. In order to prove the authenticity of the documents you submitted, Dataflow is mandatory.
             </p>
@@ -72,7 +72,7 @@ function HomeSliderMob() {
         <div className="image relative">
           <img src={slider3} alt="slider_1" className='object-center w-auto'/>
           <div className=" absolute top-[10px] px-5 font-[poppins]">
-            <h3 className='text-[32px] md:text-[58px] font-bold leading-10 md:leading-normal py-3 md:px-5 font-Philosopher'>The Complete Option for Exam Coaching</h3>
+            <h3 className='text-[32px] md:text-[58px] font-bold leading-10 md:leading-normal py-3 md:px-5 font-HeadingFont'>The Complete Option for Exam Coaching</h3>
             <p className='font-poppins md:text-[32px]  text-[14px] w-[100%] md:px-8 justify-center text-gray-600 '>
             Trying to achieve the highest scores in the exams to go abroad? For that, you need a complete academic preparation course. We provide coaching for IELTS, OET, and Prometric exams. We teach you the key skills and give you a better understanding of the subject.
             </p>
@@ -86,7 +86,7 @@ function HomeSliderMob() {
         <div className="image relative">
           <img src={slider4} alt="slider_4" className='object-center w-auto'/>
           <div className=" absolute top-[10px] px-5 font-[poppins]">
-            <h3 className='text-[32px] md:text-[58px] font-bold leading-10 md:leading-normal py-3 md:px-5 font-Philosopher'> Employment Abroad is the Dream?</h3>
+            <h3 className='text-[32px] md:text-[58px] font-bold leading-10 md:leading-normal py-3 md:px-5 font-HeadingFont'> Employment Abroad is the Dream?</h3>
             <p className='font-poppins md:text-[32px]  text-[14px] w-[100%] md:px-8 justify-center text-gray-600 '>
             Verification, Attestation, data flow, and many more are needed to get visa approval to fly abroad. All this will make you mad, but with Trueway International, all of these are easy, quick, and trustworthy.
             </p>

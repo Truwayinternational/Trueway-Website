@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { React, useState } from 'react'
 import LogoMain from '../../../Assets/logo.png'
 import { Link } from 'react-router-dom'
 import NavLinks from './NavLinks'
@@ -6,10 +6,18 @@ import NavLinks from './NavLinks'
 import {TiThMenu} from 'react-icons/ti'
 import {GrClose} from 'react-icons/gr'
 
+// clicking to nav link and scroll to top section
+function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Add smooth scrolling behavior for a smoother transition
+    });
+}
+
 function NavBar() {
 
-    const [open, SetOpen] = useState(false)
-
+const [open, SetOpen] = useState(false)
+    
   return <nav className='bg-white sticky top-0 z-10 border border-b-1 border-gray-300'>
         <div className='flex items-center lg:text-md text-sm font-semibold  justify-around'>
             <div className='Z-50 p-6 lg:w-auto w-full flex justify-between'>
@@ -20,33 +28,33 @@ function NavBar() {
             </div>
             <ul className='lg:flex hidden Capitalize items-center gap-2 font-[poppins]'>
                 <li>
-                    <Link to="/" className='py-3  inline-block hover:text-green-500 '> 
+                    <Link to="/" className='py-3  inline-block hover:text-green-500' onClick={scrollToTop}> 
                         Home
                     </Link>
                 </li>
                 <li>
-                    <Link to="/about" className='py-3 inline-block hover:text-green-500 '> 
+                    <Link to="/about" className='py-3 inline-block hover:text-green-500 'onClick={scrollToTop}> 
                         About
                     </Link>
                 </li>
                 <NavLinks />
                 <li>
-                    <Link to="/wes" className='py-3 inline-block hover:text-green-500 '> 
+                    <Link to="/wes" className='py-3 inline-block hover:text-green-500 'onClick={scrollToTop}> 
                         WES
                     </Link>
                 </li>
                 <li>
-                    <Link to="/services" className='py-3 inline-block hover:text-green-500 '> 
+                    <Link to="/services" className='py-3 inline-block hover:text-green-500 'onClick={scrollToTop}> 
                         Services
                     </Link>
                 </li>
                 <li>
-                    <Link to="/blogs" className='py-3 inline-block hover:text-green-500 '> 
+                    <Link to="/blogs" className='py-3 inline-block hover:text-green-500 'onClick={scrollToTop}> 
                         Blogs 
                     </Link>
                 </li>
                 <li>
-                    <Link to="/contact" className='py-3 inline-block hover:text-green-500 '> 
+                    <Link to="/contact" className='py-3 inline-block hover:text-green-500 'onClick={scrollToTop}> 
                        Contact
                     </Link>
                 </li>

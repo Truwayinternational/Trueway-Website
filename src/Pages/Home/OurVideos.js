@@ -48,7 +48,7 @@ function OurVideos(props) {
   return (
       <div className='bg-zinc-600 py-6 '>
         <div>
-          <h1 className='text-center font-bold text-white text-3xl md:text-4xl mt-[100px] font-Philosopher'>
+          <h1 className='text-center font-bold text-white text-3xl md:text-4xl mt-[100px] font-HeadingFont'>
           Watch<span className='text-green-500 font-bold'>Our Videos</span>
           </h1>
         </div>
