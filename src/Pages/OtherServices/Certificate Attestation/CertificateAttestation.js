@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import CA_banner from '../../../Assets/certificate attestation/CA_banner.png'
 import banner_mob from '../../../Assets/certificate attestation/CA_mobile_banner.png'
-import HeroSidebar from './HeroSidebar';
+import HeroSidebar from '../HeroSidebar';
 
 
 
@@ -17,7 +17,7 @@ function CertificateAttestation() {
           </p>
   </div>
 
-  const linkName = readMore && 'Read More...'
+const linkName = readMore ? '' : 'Read More...'
 
   return (
     <div>

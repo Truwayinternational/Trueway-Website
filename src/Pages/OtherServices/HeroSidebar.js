@@ -6,19 +6,19 @@ import { Link }from 'react-router-dom'
 
 
 // images import for sidebar
-import Certificate_img from '../../../Assets/services_Sidebar/certificate.png';
-import embassy_img from '../../../Assets/services_Sidebar/embassy.png'
-import MEA_img from '../../../Assets/services_Sidebar/mea.png'
-import Mofa_img from '../../../Assets/services_Sidebar/mofa.png'
-import HRD_img from '../../../Assets/services_Sidebar/HRD.png'
-import Apostille_img from '../../../Assets/services_Sidebar/APOSTILLE.png'
-import HOME_img from '../../../Assets/services_Sidebar/HOME.png'
-import Dataflow_img from '../../../Assets/services_Sidebar/DATAFLOW.png'
-import Exam_img from '../../../Assets/services_Sidebar/EXAM.png'
-import ACLS_BLS_img from '../../../Assets/services_Sidebar/ACLS.png'
-import PCC_img from '../../../Assets/services_Sidebar/PCC.png'
-import migration_img from '../../../Assets/services_Sidebar/MIGRATION.png'
-import otherServices_img from '../../../Assets/services_Sidebar/OTHERSERVICS.png'
+import Certificate_img from '../../Assets/services_Sidebar/certificate.png';
+import embassy_img from '../../Assets/services_Sidebar/embassy.png'
+import MEA_img from '../../Assets/services_Sidebar/mea.png'
+import Mofa_img from '../../Assets/services_Sidebar/mofa.png'
+import HRD_img from '../../Assets/services_Sidebar/HRD.png'
+import Apostille_img from '../../Assets/services_Sidebar/APOSTILLE.png'
+import HOME_img from '../../Assets/services_Sidebar/HOME.png'
+import Dataflow_img from '../../Assets/services_Sidebar/DATAFLOW.png'
+import Exam_img from '../../Assets/services_Sidebar/EXAM.png'
+import ACLS_BLS_img from '../../Assets/services_Sidebar/ACLS.png'
+import PCC_img from '../../Assets/services_Sidebar/PCC.png'
+import migration_img from '../../Assets/services_Sidebar/MIGRATION.png'
+import otherServices_img from '../../Assets/services_Sidebar/OTHERSERVICS.png'
 
 
 
