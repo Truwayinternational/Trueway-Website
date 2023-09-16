@@ -12,7 +12,7 @@ function WhatIsAttestation() {
           </p>
   </div>
 
-  const linkName = readMore ? '' : 'Read More...'
+  const linkName = !readMore && 'Read More...'
 
   return (
     <div>

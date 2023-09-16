@@ -83,7 +83,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[200px] h-[200px] p-2 block object-cover " src={embassy} alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
-                                <Link to="#!">
+                                <Link to="/embassyAttestation">
                                     <h5 className="text-lg font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">Embassy Attestation</h5>
                                 </Link>
                                 <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-md">Embassy attestation is the process of legalizing official documents in order to be accepted in a foreign country. </p>
@@ -98,7 +98,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[200px] h-[200px] p-2 block object-cover " src={MEA_MOFA} alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
-                                <Link to="#!">
+                                <Link to="/meaAttestation">
                                     <h5 className="text-lg font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900"> MEA / MOFA Attestation</h5>
                                 </Link>
                                 <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-md">MEA is the process of getting documents authenticated of a country.The MOFA is the Ministry of Foreign Affairs of the destination country verifies and certifies the authenticity of the documents.</p>
@@ -113,7 +113,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[200px] h-[200px] p-2 block object-cover " src={HRD} alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
-                                <Link to="#!">
+                                <Link to="/hrdAttestation">
                                     <h5 className="text-lg font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">HRD attestation</h5>
                                 </Link>
                                 <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-md">The purpose of HRD attestation is to verify the authenticity of educational documents issued by educational institutions</p>
@@ -128,7 +128,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[200px] h-[200px] p-2 block object-cover " src={apostille} alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
-                                <Link to="#!">
+                                <Link to="/apostilleAttestation">
                                     <h5 className="text-lg font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">Apostille attestation</h5>
                                 </Link>
                                 <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-md">Apostille attestation verifies public document authenticity for international use, like birth certificates or diplomas, ensuring foreign recognition</p>
@@ -143,7 +143,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[200px] h-[200px] p-2 block object-cover " src={Home} alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
-                                <Link to="#!">
+                                <Link to="/homeAttestation">
                                     <h5 className="text-lg font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">Home attestation</h5>
                                 </Link>
                                 <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-md">It is the attestation of non-educational documents from home countries where the documents are issued</p>
@@ -158,7 +158,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[200px] h-[200px] p-2 block object-cover " src={DataFlow} alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
-                                <Link to="#!">
+                                <Link to="/dataflow">
                                     <h5 className="text-lg font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">Dataflow verification</h5>
                                 </Link>
                                 <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-md">Data flow verification is a process that ensures the correct and secure data movement within a system or application.</p>
@@ -173,7 +173,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[200px] h-[200px] p-2 block object-cover " src={ExamCoaching} alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
-                                <Link to="#!">
+                                <Link to="/examCoaching">
                                     <h5 className="text-lg font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">Exam coaching</h5>
                                 </Link>
                                 <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-md">Expert coaching for OET, IELTS, and Prometric exams.</p>
@@ -188,7 +188,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[200px] h-[200px] p-2 block object-cover " src={ACLS} alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
-                                <Link to="#!">
+                                <Link to="/acls_bls">
                                     <h5 className="text-lg font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">ACLS/BLS</h5>
                                 </Link>
                                 <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-md">Providing life-saving ACLS and BLS medical training and support as a valuable and responsive service</p>
@@ -203,7 +203,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[200px] h-[200px] p-2 block object-cover " src={PCC} alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
-                                <Link to="#!">
+                                <Link to="/pcc">
                                     <h5 className="text-lg font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">Police clearance certificate</h5>
                                 </Link>
                                 <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-md">PCC is an official document by police, confirming an individual's criminal record status within a jurisdiction.</p>
@@ -218,7 +218,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[200px] h-[200px] p-2 block object-cover " src={Migration} alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
-                                <Link to="#!">
+                                <Link to="/migration">
                                     <h5 className="text-lg font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">Migration</h5>
                                 </Link>
                                 <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-md">Migration services guide and support individuals moving abroad, ensuring a smooth immigration process for countries like New Zealand, the UK, Ireland, Australia, and Canada.</p>
@@ -233,7 +233,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[200px] h-[200px] p-2 block object-cover " src={verification} alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
-                                <Link to="#!">
+                                <Link to="/verification_otherServices">
                                     <h5 className="text-lg font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">Verification & other services</h5>
                                 </Link>
                                 <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-md">Migration services guide and support individuals moving abroad, ensuring a smooth immigration process for countries like New Zealand, the UK, Ireland, Australia, and Canada.</p>
