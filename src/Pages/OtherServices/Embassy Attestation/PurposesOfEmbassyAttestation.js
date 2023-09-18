@@ -47,7 +47,7 @@ function PurposesOfEmbassyAttestation() {
                     </Accordion>
                     {/* 3rd accordion */}
                     <Accordion open={open === 2}>
-                        <AccordionHeader className='text-green-500 cursor-pointer text-sm md:text-xl py-2' onClick={() => handleOpen(2)}>For migrating and establishing residency in a foreign country<IoIosArrowDropdownCircle className='ml-auto md:text-[35px] text-[25px]'/>
+                        <AccordionHeader className='text-green-500 cursor-pointer text-sm md:text-xl py-2' onClick={() => handleOpen(2)}>For migrating and establishing residency in a foreign country<IoIosArrowDropdownCircle className='ml-auto md:text-[35px] xl:text-[30px] text-[25px]'/>
                         </AccordionHeader>
                         <AccordionBody className="text-xs md:text-lg text-gray-500 pr-10 pl-2 py-0" >
                         Embassy attestation has a significant role when migrating and establishing residency abroad. By embassy attestation, it helps to establish the credibility of your personal and legal documents.
