@@ -3,6 +3,7 @@ import EmbassyAttestation from './EmbassyAttestation'
 import WhatIsEmbassy from './WhatIsEmbassy'
 import PurposesOfEmbassyAttestation from './PurposesOfEmbassyAttestation'
 import PopulerContries from './PopulerContries'
+import PopularContreisCardMob from './PopularContreisCardMob'
 
 function EmbassyAttestation_index() {
   return (
@@ -10,7 +11,8 @@ function EmbassyAttestation_index() {
         <EmbassyAttestation />
         <WhatIsEmbassy />
         <PurposesOfEmbassyAttestation />
-        <PopulerContries />
+        <PopulerContries />  {/*  countries in Large screen size */}
+        <PopularContreisCardMob /> {/*  countries in mobile screen size */}
     </div>
   )
 }
