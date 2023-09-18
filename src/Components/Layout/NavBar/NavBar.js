@@ -26,35 +26,35 @@ const [open, SetOpen] = useState(false)
                     { open ?  <GrClose/>: <TiThMenu />} 
                 </div>
             </div>
-            <ul className='lg:flex hidden Capitalize items-center gap-2 font-[poppins]'>
+            <ul className='lg:flex hidden Capitalize items-center gap-2 font-[poppins] cursor-pointer'>
                 <li>
-                    <Link to="/" className='py-3  inline-block hover:text-green-500' onClick={scrollToTop}> 
+                    <Link to="/" className=' py-3 cursor-pointer   inline-block hover:text-green-600 ' onClick={scrollToTop}> 
                         Home
                     </Link>
                 </li>
                 <li>
-                    <Link to="/about" className='py-3 inline-block hover:text-green-500 'onClick={scrollToTop}> 
+                    <Link to="/about" className='py-3 cursor-pointer  inline-block hover:text-green-600 'onClick={scrollToTop}> 
                         About
                     </Link>
                 </li>
                 <NavLinks />
                 <li>
-                    <Link to="/wes" className='py-3 inline-block hover:text-green-500 'onClick={scrollToTop}> 
+                    <Link to="/wes" className='py-3 cursor-pointer  inline-block hover:text-green-600 'onClick={scrollToTop}> 
                         WES
                     </Link>
                 </li>
                 <li>
-                    <Link to="/services" className='py-3 inline-block hover:text-green-500 'onClick={scrollToTop}> 
+                    <Link to="/services" className='py-3 cursor-pointer  inline-block hover:text-green-600 'onClick={scrollToTop}> 
                         Services
                     </Link>
                 </li>
                 <li>
-                    <Link to="/blogs" className='py-3 inline-block hover:text-green-500 'onClick={scrollToTop}> 
+                    <Link to="/blogs" className='py-3 cursor-pointer  inline-block hover:text-green-600 'onClick={scrollToTop}> 
                         Blogs 
                     </Link>
                 </li>
                 <li>
-                    <Link to="/contact" className='py-3 inline-block hover:text-green-500 'onClick={scrollToTop}> 
+                    <Link to="/contact" className='py-3 cursor-pointer  inline-block hover:text-green-600 'onClick={scrollToTop}> 
                        Contact
                     </Link>
                 </li>
@@ -62,7 +62,7 @@ const [open, SetOpen] = useState(false)
 
             {/* moblie Nav  */}
             
-            <ul className={!open ? "hidden left-[100%] " : "absolute bg-green-500 w-full px-8 mt-[700px] "}>
+            <ul className={!open ? "hidden left-[100%] " : "absolute bg-green-600 w-full px-8 mt-[700px] "}>
                 <li className='border-b-2 border-zinc-300 w-full'>
                     <Link to="/" className='text-xl text-white'> 
                     Home

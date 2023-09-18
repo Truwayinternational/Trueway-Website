@@ -121,7 +121,7 @@ function Footer() {
     ]
 
   return (
-    <section className="flex justify-center items-center flex-col py-6 sm:pt-16 bg-green-500">
+    <section className="flex justify-center items-center flex-col py-6 sm:pt-16 bg-green-600">
         <div className='flex justify-center items-start md:flex-row flex-col mb-8 w-full '>
             <div className='flex flex-1 flex-col justify-start mr-10 '>
                 <img 
