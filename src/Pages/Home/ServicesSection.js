@@ -120,7 +120,7 @@ function scrollToTop() {
     <div className='w-full lg:my-20 mt-20'>
         <div className='max-w-[1240px] mx-auto place-content-center'>
             <div className='text-center'>
-                <h2 className='text-4xl font-bold font-HeadingFont'>Our<span className='text-green-500'>Services</span></h2>
+                <h2 className='text-5xl font-bold font-HeadingFont'>Our  <b className='text-green-500'>  Services</b></h2>
             </div>
             <div className='mx-auto max-w-5xl px-6 lg:px-8 pt-20 '>
                 <div className='hidden lg:grid grid-wrap grid-cols-1 lg:gap-x-8 lg:gap-y-10  text-center lg:grid-cols-4  grid-flow-row' >

@@ -6,6 +6,9 @@ import PopulerContries from './PopulerContries'
 import PopularContreisCardMob from './PopularContreisCardMob'
 import HowDoIGet from './HowDoIGet'
 import YourBestChoice from './YourBestChoice'
+import OurClients from '../OurClients'
+import FaqEmbassy from './FaqEmbassy'
+
 
 function EmbassyAttestation_index() {
   return (
@@ -17,6 +20,8 @@ function EmbassyAttestation_index() {
         <PopularContreisCardMob /> {/*  countries in mobile screen size */}
         <HowDoIGet />
         <YourBestChoice />
+        <OurClients />
+        <FaqEmbassy/>
     </div>
   )
 }

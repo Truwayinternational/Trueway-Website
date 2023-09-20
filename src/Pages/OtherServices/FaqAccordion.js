@@ -7,7 +7,7 @@ function FaqAccordion({open, toggle, question, answer}) {
     <div className='pt-[10px]'>
         <div className='bg-zinc-100 flex justify-center items-center py-[18px] px-[30px] cursor-pointer rounded-xl' 
             onClick={toggle}>
-            <p className='text-[18px] font-semibold me-auto'>{question}</p>
+            <h6 className='text-[18px] font-semibold me-auto'>{question}</h6>
             <div className='text-[25px] font-bold ' >
                 {open ? <AiOutlineMinus className='ms-auto'/> : <AiOutlinePlus  className='ms-auto'/>}
             </div>

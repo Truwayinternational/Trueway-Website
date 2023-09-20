@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import FaqAccordion from './FaqAccordion'
+import FaqAccordion from '../FaqAccordion'
 
 
-function Faq() {
+function FaqCertification() {
 
     const [open, SetOpen] = useState(false)
 
@@ -56,9 +56,6 @@ function Faq() {
         <div className='w-full h-full flex flex-col justify-between bg-white'>
             <div className="max-w-[1240px] my-10 m-auto">
                 <div className='flex flex-col justify-center md:items-center w-full px-2 py-4'>
-                    <h2 className='text-3xl md:text-4xl lg:text-5xl  tracking-wide font-bold text-center font-HeadingFont'>Straight from the source:  <br/><span className='text-green-500 font-bold'> Our clients speak out</span>
-                    </h2>
-                    <br/>
                     <h2 className='text-3xl md:text-4xl lg:text-5xl  tracking-wide font-bold text-center font-HeadingFont py-3'>FAQ</h2>
                 </div>
                 <div className='flex justify-center items-center my-10 '>
@@ -71,7 +68,6 @@ function Faq() {
                                 answer={data.Answer}
                                 toggle={()=> toggle(index)}
                             />
-                            
                         })}
                     </div>
                 </div>
@@ -82,4 +78,4 @@ function Faq() {
   )
 }
 
-export default Faq
+export default FaqCertification;
