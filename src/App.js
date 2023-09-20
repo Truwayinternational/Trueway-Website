@@ -14,8 +14,9 @@ import ContactIndex from "./Pages/ContactUS/ContactIndex";
 
 
 // Services section router 
-import CertificateAttestation_index from "./Pages/OtherServices/Certificate Attestation/CertificateAttestation_index";
-import EmbassyAttestation_index from "./Pages/OtherServices/Embassy Attestation/EmbassyAttestation_index";
+import CertificateAttestationIndex from "./Pages/OtherServices/Certificate Attestation/CertificateAttestationIndex";
+import EmbassyAttestationIndex from "./Pages/OtherServices/Embassy Attestation/EmbassyAttestationIndex";
+import HRDIndex from "./Pages/OtherServices/HRD Attestation/HRDIndex";
 
 
 
@@ -35,8 +36,9 @@ function App() {
           <Route path="/contact" element={<ContactIndex />} /> 
 
           {/* services router */}
-          <Route path="/certificateAttestation" element={<CertificateAttestation_index />} />
-          <Route path="/embassyAttestation" element={ <EmbassyAttestation_index /> } />
+          <Route path="/certificateAttestation" element={ <CertificateAttestationIndex /> } />
+          <Route path="/embassyAttestation" element={ <EmbassyAttestationIndex /> } />
+          <Route path="/hrdAttestation" element={ <HRDIndex /> } />
 
         </Routes>
       <Footer />

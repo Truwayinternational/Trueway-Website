@@ -1,7 +1,11 @@
 import React from 'react'
 
-import CertificateAttestation_index from './Certificate Attestation/CertificateAttestation_index'
-import EmbassyAttestation_index from './Embassy Attestation/EmbassyAttestation_index'
+// added pages of other services
+
+import CertificateAttestationIndex from './Certificate Attestation/CertificateAttestationIndex'
+import EmbassyAttestationIndex from './Embassy Attestation/EmbassyAttestationIndex'
+import HRDIndex from './HRD Attestation/HRDIndex'
+
 
 
 
@@ -9,8 +13,11 @@ import EmbassyAttestation_index from './Embassy Attestation/EmbassyAttestation_i
 function ServicesIndex() {
   return (
     <div>
-      <CertificateAttestation_index />
-      <EmbassyAttestation_index />
+      <CertificateAttestationIndex />
+      <EmbassyAttestationIndex />
+      {/* MEA not completed */}
+      {/* MOFA not completed */}
+      <HRDIndex />
     </div>
   )
 }

@@ -16,8 +16,7 @@ function EmbassyAttestation() {
     const linkName = !readMore && 'Read More...'
 
   return (
-    <div>
-         <div>
+    <>
       <div className='flex  justify-center items-center w-full h-full bg-white'>
           <div className='lg:w-1/2 '>
             <div className='hidden lg:flex m-3 mt-[-72px] lg:ml-20 lg:relative'>
@@ -59,8 +58,7 @@ function EmbassyAttestation() {
             </div>
           </div>
       </div>
-    </div>
-    </div>
+    </>
   )
 }
 
