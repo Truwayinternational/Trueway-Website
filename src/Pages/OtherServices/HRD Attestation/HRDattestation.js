@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import CA_banner from '../../../Assets/certificate attestation/CA_banner.png'
-import banner_mob from '../../../Assets/certificate attestation/CA_mobile_banner.png'
+import HRD_banner from '../../../Assets/HRD Attestation/HRD banner.png'
+import banner_mob from '../../../Assets/HRD Attestation/HRd MOb.png'
 import HeroSidebar from '../HeroSidebar';
 
 function HRDattestation() {
@@ -20,7 +20,7 @@ function HRDattestation() {
         <div className='flex  justify-center items-center w-full h-full bg-white'>
           <div className='lg:w-1/2 '>
             <div className='hidden lg:flex mt-[-72px] m-3 lg:ml-20 lg:relative'>
-              <img className='object-cover ' src={CA_banner} alt="page_banner" />
+              <img className='object-cover ' src={HRD_banner} alt="page_banner" />
               <h3 className='absolute lg:text-4xl font-HeadingFont font-extrabold text-black pl-10 py-20 '>HRD <br/> Attestation</h3>
             </div>
 

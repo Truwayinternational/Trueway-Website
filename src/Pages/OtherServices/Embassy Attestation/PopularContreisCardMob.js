@@ -54,9 +54,9 @@ function PopularContreisCardMob() {
                         <img className="order-first p-2 block object-cover " src={uae_img} alt="Services_image" />
                             <hr />
                             <div className="text-center py-2 my-3">
-                                <h5 className="flex text-xl font-semibold text-green-500 font-HeadingFont pl-4  sm:ml-40">
-                                <span> <BiSolidChevronRightCircle 
-                                className='text-green-500 mt-[-8px]'/> </span>
+                                <h5 className="flex justify-center text-xl font-semibold text-green-500 font-HeadingFont">
+                                <b> <BiSolidChevronRightCircle 
+                                className='text-green-500 mx-2 mt-1'/> </b>
                                  UAE Embassy Attestation</h5>
                                 <p className="text-center font-light text-zinc-500 md:text-md px-8 py-4">If you want to migrate to the UAE for any purposes then UAE Embassy Attestation is required. Embassy attestation is mandatory for everything from education to starting a new business.</p>
                             </div>
@@ -69,9 +69,9 @@ function PopularContreisCardMob() {
                         <img className="order-first p-2 block object-cover " src={qatar_img} alt="Services_image" />
                             <hr />
                             <div className="text-center py-2 my-3">
-                                <h5 className="flex text-xl font-semibold text-green-500 font-HeadingFont pl-4  sm:ml-40">
-                                <span> <BiSolidChevronRightCircle 
-                                className='text-green-500 mt-[-8px]'/> </span>
+                                <h5 className="flex justify-center text-xl font-semibold text-green-500 font-HeadingFont">
+                                <b> <BiSolidChevronRightCircle 
+                                className='text-green-500 mx-2 mt-1'/> </b>
                                  Qatar Embassy Attestation</h5>
                                 <p className="text-center font-light text-zinc-500 md:text-md px-8 py-4">If Qatar is your dream place to settle then Qatar Embassy Attestation is important since the authorities need to check the authenticity of documents.</p>
                             </div>
@@ -84,9 +84,9 @@ function PopularContreisCardMob() {
                         <img className="order-first p-2 block object-cover " src={oman_img} alt="Services_image" />
                             <hr />
                             <div className="text-center py-2 my-3">
-                                <h5 className="flex text-xl font-semibold text-green-500 font-HeadingFont pl-4  sm:ml-40">
-                                <span> <BiSolidChevronRightCircle 
-                                className='text-green-500 mt-[-8px]'/> </span>
+                                <h5 className="flex justify-center text-xl font-semibold text-green-500 font-HeadingFont">
+                                <b> <BiSolidChevronRightCircle 
+                                className='text-green-500 mx-2 mt-1'/> </b>
                                  Oman Embassy Attestation</h5>
                                 <p className="text-center font-light text-zinc-500 md:text-md px-8 py-4">Oman Embassy Attestation is not needed to get a work permit, get a family visa or continue studies in Oman. This embassy attestation is not essential for documents. </p>
                             </div>
@@ -99,9 +99,9 @@ function PopularContreisCardMob() {
                         <img className="order-first p-2 block object-cover " src={kuwait_img} alt="Services_image" />
                             <hr />
                         <div className="text-center py-2 my-3">
-                            <h5 className="flex text-xl font-semibold text-green-500 font-HeadingFont pl-4  sm:ml-40">
-                            <span> <BiSolidChevronRightCircle 
-                            className='text-green-500 mt-[-8px]'/> </span>
+                            <h5 className="flex justify-center text-xl font-semibold text-green-500 font-HeadingFont">
+                            <b> <BiSolidChevronRightCircle 
+                            className='text-green-500 mx-2 mt-1'/> </b>
                             Kuwait Embassy Attestation</h5>
                             <p className="text-center font-light text-zinc-500 md:text-md px-8 py-4">
                             To verify the authenticity of documents to start employment or education Kuwait Embassy Attestation is highly needed. </p>
@@ -115,9 +115,9 @@ function PopularContreisCardMob() {
                         <img className="order-first p-2 block object-cover " src={bahrain_img} alt="Services_image" />
                             <hr />
                         <div className="text-center py-2 my-3">
-                            <h5 className="flex text-xl font-semibold text-green-500 font-HeadingFont pl-4  sm:ml-40">
-                            <span> <BiSolidChevronRightCircle 
-                            className='text-green-500 mt-[-8px]'/> </span>
+                            <h5 className="flex justify-center text-xl font-semibold text-green-500 font-HeadingFont">
+                            <b> <BiSolidChevronRightCircle 
+                            className='text-green-500 mx-2 mt-1'/> </b>
                             Bahrain embassy attestation</h5>
                             <p className="text-center font-light text-zinc-500 md:text-md px-8 py-4">
                             To get a Bahrain visa for any purpose, Bahrain embassy attestation is significant. All the papers you submit should be checked by the Bahrain embassy for migration. </p>
@@ -131,9 +131,9 @@ function PopularContreisCardMob() {
                         <img className="order-first p-2 block object-cover " src={malaysia_img} alt="Services_image" />
                             <hr />
                         <div className="text-center py-2 my-3 ">
-                            <h5 className="flex text-xl font-semibold text-green-500 font-HeadingFont sm:ml-40">
-                            <span> <BiSolidChevronRightCircle 
-                            className='text-green-500 mt-[-8px]'/> </span>
+                            <h5 className="flex justify-center text-xl font-semibold text-green-500 font-HeadingFont">
+                            <b> <BiSolidChevronRightCircle 
+                            className='text-green-500 mx-2 mt-1'/> </b>
                             Malaysia embassy attestation</h5>
                             <p className="text-center font-light text-zinc-500 md:text-md px-8 py-4">
                             Before getting a visa to Malaysia you have to prove the authenticity of your documents then only you can apply for a job, higher studies or a resident visa.</p>

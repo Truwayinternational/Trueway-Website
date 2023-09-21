@@ -13,7 +13,7 @@ import {BiSolidChevronRightCircle} from 'react-icons/bi'
 
 function PopularContriesCards() {
   return (
-    <div>
+    <>
       <div className='hidden md:flex flex-col justify-center items-center my-10'>
         {/* 1st card uae embassy */}
         <div className='flex m-3 md:relative px-8 my-5'>
@@ -64,7 +64,7 @@ function PopularContriesCards() {
             </p>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

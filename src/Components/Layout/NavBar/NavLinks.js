@@ -14,10 +14,11 @@ function NavLinks() {
                 {link.subMenu && (
                   <div className=''>
                     <div className='absolute top-20 hidden group-hover:lg:block hover:lg:block'>
-                      <div className='py-3'>
-                        <div className='w-4 h-4 left-3 absolute mt-1 bg-zinc-100 rotate-45'></div>
+                        {/* rotate a small div for navlinks */}
+                      <div className='py-3'>  
+                        <div className='w-4 h-4 left-3 absolute mt-1 bg-green-50 rotate-45'></div>
                       </div>
-                      <div className='bg-zinc-100  p-5 grid grid-cols-3 gap-10'>
+                      <div className='bg-green-50 rounded-xl p-5 grid grid-cols-3 gap-10'>
                         {link.subLinks.map((mysublinks, index)=>(
                             <div key={index}>
                               <h1 className='text-md font-semibold'>

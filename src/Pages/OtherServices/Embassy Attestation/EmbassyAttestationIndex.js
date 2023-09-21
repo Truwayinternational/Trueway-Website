@@ -16,7 +16,7 @@ function EmbassyAttestationIndex() {
         <EmbassyAttestation />
         <WhatIsEmbassy />
         <PurposesOfEmbassyAttestation />
-        <PopulerContries />  {/*  countries in Large screen size */}
+        <PopulerContries />  {/*  countries in Large screen size and countries added in large size hide in mobile screen */}
         <PopularContreisCardMob /> {/*  countries in mobile screen size */}
         <HowDoIGet />
         <YourBestChoice />
