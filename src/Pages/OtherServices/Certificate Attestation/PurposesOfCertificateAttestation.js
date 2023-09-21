@@ -17,7 +17,7 @@ function PurposesOfCertificateAttestation() {
     const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
   return (
-    <div>
+    <>
         <div className='h-full lg:pl-32 xl:pl-36 py-10'>
             <div className='flex mx-4  lg:px-16 px-3'>
               <h3 className='md:text-5xl text-3xl pb-5  font-HeadingFont font-extrabold text-black  tracking-wide  '>What are the purposes of<br/><p className='text-green-500'>Certificate Attestation ?</p></h3>
@@ -25,7 +25,7 @@ function PurposesOfCertificateAttestation() {
             </div>
           <div className='flex'>
             <div className='lg:w-2/3 ml-3 lg:md-12 lg:px-20 px-4 '>
-                <div className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins pr-3 lg:p-0'>
+                <div className='text-md md:text-xl lg:text-lg text-start text-gray-500 font-poppins pr-3 lg:p-0'>
                     <Accordion open={alwaysOpen}>
                         <AccordionHeader className='text-green-500 cursor-pointer ' onClick={handleAlwaysOpen}>  International Recognition <IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
@@ -65,9 +65,9 @@ function PurposesOfCertificateAttestation() {
             <div className='hidden md:flex md:w-full lg:w-1/3 h-full  lg:mr-10 xl:mt-[-50px] my-8'>
               <img src={avatar_2} alt="avatar_2" />
             </div>
-          </div>                          
+          </div>          
         </div>
-    </div>
+    </>
   )
 }
 
