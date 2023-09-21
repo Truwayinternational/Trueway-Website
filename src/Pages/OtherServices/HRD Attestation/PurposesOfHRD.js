@@ -18,11 +18,11 @@ function PurposesOfHRD() {
                         HRD attestation is mainly used for migration purposes. If you are planning to migrate to your dream country for education, employment, or such matters, then attestation of your documents is mandatory. 
                         </p>
                         <b>The following are the main purposes of HRD attestation:</b>
-                        <ol className='list-disc text-green-500 font-semibold text-lg md:text-xl lg:px-10 pl-6'>
-                            <li className='cursor-pointer'>For higher education in overseas nations.</li> 
-                            <li className='cursor-pointer'>To migrate abroad.   </li> 
-                            <li className='cursor-pointer'>To secure a job permit abroad. </li> 
-                            <li className='cursor-pointer'>To obtain a visa.</li> 
+                        <ol className='list-disc text-green-500 font-semibold text-lg md:text-xl lg:px-10 pl-6 py-3'>
+                            <li className='cursor-pointer py-2'>For higher education in overseas nations.</li> 
+                            <li className='cursor-pointer py-2'>To migrate abroad.   </li> 
+                            <li className='cursor-pointer py-2'>To secure a job permit abroad. </li> 
+                            <li className='cursor-pointer py-2'>To obtain a visa.</li> 
                         </ol>
                         <p>
                         HRD attestation is primarily used to attest educational certificates such as degree certificates, diploma certificates, SSLC certificates, and so on. To confirm the authenticity and legitimacy of your certificates, you should complete this. Then only you can enter foreign nations.
