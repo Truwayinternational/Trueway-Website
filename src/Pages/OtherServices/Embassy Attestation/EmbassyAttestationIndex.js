@@ -6,6 +6,10 @@ import PopulerContries from './PopulerContries'
 import PopularContreisCardMob from './PopularContreisCardMob'
 import HowDoIGet from './HowDoIGet'
 import YourBestChoice from './YourBestChoice'
+
+// trueway services import
+import WhyIsTrueway from '../../../Components/WhyisTrueway' 
+
 import OurClients from '../OurClients'
 import FaqEmbassy from './FaqEmbassy'
 
@@ -20,6 +24,7 @@ function EmbassyAttestationIndex() {
         <PopularContreisCardMob /> {/*  countries in mobile screen size */}
         <HowDoIGet />
         <YourBestChoice />
+        <WhyIsTrueway/>
         <OurClients />
         <FaqEmbassy/>
     </div>

@@ -12,8 +12,7 @@ import OurVideos from "./OurVideos";
 import Procedure from "./Procedure";
 import ServicesSection from "./ServicesSection";
 import ServicesSectionMob from './ServicesSectionMob'
-import WhyisTrueway from "./WhyisTrueway";
-import WhyTruewaycards from './WhyTruewaycards';
+import WhyisTrueway from "../../Components/WhyisTrueway";
 
 
 function HomeIndex() {
@@ -27,7 +26,6 @@ function HomeIndex() {
       <ServicesSectionMob />
       <GetinTouch />
       <WhyisTrueway />
-      <WhyTruewaycards />
       <Procedure />
       <FromClients />
       <Form2 />

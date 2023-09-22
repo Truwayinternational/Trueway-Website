@@ -2,9 +2,18 @@ import React from 'react'
 import whiteLogo from '../../Assets/Trueway_Wt.png'
 import FooterAccordian from './FooterAccordian'
 
+import { Link } from 'react-router-dom'
 
 // import {FaLocationDot} from 'react-icons/fa6'
 import {BsFacebook, BsInstagram, BsLinkedin, BsTwitter, BsWhatsapp, BsYoutube} from 'react-icons/bs'
+
+// clicking to nav link and scroll to top section
+function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Add smooth scrolling behavior for a smoother transition
+    });
+}
 
 
 const footerLinks = [  
@@ -13,26 +22,26 @@ const footerLinks = [
         links: [
             {
                 name:"Home",
-                link:""
+                link:"/"
             },
             {
                 name:"About us",
-                link:""
+                link:"/about"
             },
             {
                 name:"Sitemap",
-                link:""
+                link:"/sitemap"
             },
             {
                 name:"Terms & Conditions",
-                link:""
+                link:"/terms&conditions"
             },
             {
                 name:"Refund Policy",
                 link:""
             },{
                 name:"Privacy Policy",
-                link:""
+                link:"refundpolicy"
             },
         ]
     },
@@ -41,51 +50,55 @@ const footerLinks = [
         links: [
             {
                 name:"Certificate Attestation",
-                link:""
+                link:"/certificateAttestation"
             },
             {
                 name:"Embassy Attestation",
-                link:""
+                link:"/embassyAttestation"
             },
             {
-                name:"MEA/MOFA Attestation",
-                link:""
+                name:"MEA Attestation",
+                link:"/meaAttestation"
+            },
+            {
+                name:"MOFA Attestation",
+                link:"/mofaAttestation"
             },
             {
                 name:"HRD Attestation",
-                link:""
+                link:"/hrdAttestation"
             },
             {
                 name:"Apostille Attestation",
-                link:""
+                link:"/apostilleAttestation"
             },
             {
                 name:"Home Attestation",
-                link:""
+                link:"/homeAttestation"
             },
             {
                 name:"Data Flow Verification",
-                link:""
+                link:"/dataflow"
             },
             {
                 name:"Exam Coaching",
-                link:""
+                link:"/examCoaching"
             },
             {
                 name:"ACLS/BLS",
-                link:""
+                link:"/acls_bls"
             },
             {
                 name:"Police Clearance Certificate",
-                link:""
+                link:"/pcc"
             },
             {
                 name:"Migration",
-                link:""
+                link:"/migration"
             },
             {
                 name:"Verification & Other Services",
-                link:""
+                link:"/verification_otherServices"
             },
         ]
     }
@@ -153,10 +166,12 @@ function Footer() {
                             {footerLink.title}
                         </h4>
                         <ul className='list-none mt-4'>
-                            {footerLink.links.map((link, index) => (
-                                <li key={link.name}
+                            {footerLink.links.map((toFooterlink, index) => (
+                                <li key={toFooterlink.index}
                                 className="font-poppins font-normal text-[14px] leading-[24px] text-white hover:text-green-950 cursor-pointer px-3 py-1">
-                                 {link.name}  
+                                <Link to={toFooterlink.link} className='hover:text-black hover:font-semibold' onClick={scrollToTop}>
+                                 {toFooterlink.name}
+                                </Link>
                                 </li>
                             ))}
                         </ul>

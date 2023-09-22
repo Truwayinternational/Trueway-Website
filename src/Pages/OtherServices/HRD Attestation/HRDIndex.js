@@ -7,6 +7,7 @@ import HRDservices from './HRDservices';
 import ServicesMob from './ServicesMob';
 import PurposesOfHRD from './PurposesOfHRD';
 import ProcedureForHrd from './ProcedureForHrd';
+import DocumentsRequired from './DocumentsRequired';
 
 
 
@@ -21,6 +22,7 @@ function HRDIndex() {
         <ServicesMob /> {/*  countries in mobile screen size */}
         <PurposesOfHRD /> 
         <ProcedureForHrd />
+        <DocumentsRequired />
     </div>
   )
   

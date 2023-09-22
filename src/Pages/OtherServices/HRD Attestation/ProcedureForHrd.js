@@ -19,10 +19,10 @@ function ProcedureForHrd() {
 
   return (
     <>
-      <div className='h-full my-10'>
+      <div className='h-full my-10 '>
           <div className='flex mx-4 lg:px-16 px-3'>
             <img className='md:hidden grid  w-[100px] ' src={Avatar_3} alt="Avatar_3" />
-            <h4 className='md:text-5xl lg:px-52 text-3xl pb-5 font-HeadingFont font-extrabold text-black  md:tracking-wide '> The Procedure for <br/><p className='text-green-500'>Attesting HRD Documents </p></h4>
+            <h4 className='md:text-5xl lg:px-52 text-3xl pb-5 font-HeadingFont font-extrabold text-green-500  md:tracking-wide '> The Procedure for <br/><p className='text-black'>Attesting HRD Documents </p></h4>
           </div>
         <div className='flex '>
           <div className='hidden md:flex h-full lg:pl-10 xl:mt-[-120px] py-4'>

@@ -7,22 +7,22 @@ import 'swiper/css/navigation';
 import { Navigation, Autoplay} from 'swiper/modules';
 
 
-import slider1 from '../../Assets/Why Trueway/grp1.png'
-import slider2 from '../../Assets/Why Trueway/grp2.png'
-import slider3 from '../../Assets/Why Trueway/grp3.png'
-import slider4 from '../../Assets/Why Trueway/grp4.png'
-import slider5 from '../../Assets/Why Trueway/grp5.png'
-import slider6 from '../../Assets/Why Trueway/grp6.png'
-import slider7 from '../../Assets/Why Trueway/grp7.png'
-import slider8 from '../../Assets/Why Trueway/grp8.png'
-import slider9 from '../../Assets/Why Trueway/grp9.png'
-import slider10 from '../../Assets/Why Trueway/grp10.png'
-import slider11 from '../../Assets/Why Trueway/grp11.png'
-import slider12 from '../../Assets/Why Trueway/grp12.png'
-import slider13 from '../../Assets/Why Trueway/grp13.png'
-import slider14 from '../../Assets/Why Trueway/grp14.png'
-import slider15 from '../../Assets/Why Trueway/grp15.png'
-import slider16 from '../../Assets/Why Trueway/grp16.png'
+import slider1 from '../Assets/Why Trueway/grp1.png'
+import slider2 from '../Assets/Why Trueway/grp2.png'
+import slider3 from '../Assets/Why Trueway/grp3.png'
+import slider4 from '../Assets/Why Trueway/grp4.png'
+import slider5 from '../Assets/Why Trueway/grp5.png'
+import slider6 from '../Assets/Why Trueway/grp6.png'
+import slider7 from '../Assets/Why Trueway/grp7.png'
+import slider8 from '../Assets/Why Trueway/grp8.png'
+import slider9 from '../Assets/Why Trueway/grp9.png'
+import slider10 from '../Assets/Why Trueway/grp10.png'
+import slider11 from '../Assets/Why Trueway/grp11.png'
+import slider12 from '../Assets/Why Trueway/grp12.png'
+import slider13 from '../Assets/Why Trueway/grp13.png'
+import slider14 from '../Assets/Why Trueway/grp14.png'
+import slider15 from '../Assets/Why Trueway/grp15.png'
+import slider16 from '../Assets/Why Trueway/grp16.png'
 
 
 function WhyTruewaycards() {

@@ -13,7 +13,7 @@ function FooterAccordian(props) {
     return (
         <>
                     <div className="font-poppins font-normal text-[14px] leading-[24px] text-white hover:text-green-950 cursor-pointer p-2">
-                        <div className={`bg-green-600 p-3 w-[280px] duration-500 group ${item.active === 1 ? 'is-active bg-green-600 rounded-md': ''}`}>
+                        <div className={`bg-green-600 p-3 w-[250px] duration-500 group ${item.active === 1 ? 'is-active bg-green-600 rounded-md': ''}`}>
                             <div className='flex items-center '>
                                 <div className='w-full duration-500 group-[.is-active]:font-bold text-md'>
                                 {item.place}

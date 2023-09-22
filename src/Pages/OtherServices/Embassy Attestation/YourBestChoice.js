@@ -3,7 +3,7 @@ import thumb_img from '../../../Assets/ISO/thumb.png'
 
 function YourBestChoice() {
   return (
-    <div>
+    <>
         <div className='flex justify-center items-center bg-zinc-200 h-full w-full my-10'>
             <div className='grid md:grid-cols-2 max-w-[1280px] py-10 '>
                 <div className='md:pt-10 lg:pl-32'>
@@ -17,7 +17,7 @@ function YourBestChoice() {
                 </div>
             </div>
         </div>
-    </div>
+    </>
   )
 }
 
