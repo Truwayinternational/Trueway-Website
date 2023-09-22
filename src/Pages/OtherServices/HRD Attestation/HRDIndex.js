@@ -9,6 +9,11 @@ import PurposesOfHRD from './PurposesOfHRD';
 import ProcedureForHrd from './ProcedureForHrd';
 import DocumentsRequired from './DocumentsRequired';
 
+import WhyIsTrueway from '../../../Components/WhyisTrueway'
+import OurClients from '../OurClients'
+
+import FaqHRD from './FaqHRD';
+
 
 
 
@@ -23,6 +28,9 @@ function HRDIndex() {
         <PurposesOfHRD /> 
         <ProcedureForHrd />
         <DocumentsRequired />
+        <WhyIsTrueway />
+        <OurClients />
+        <FaqHRD/>
     </div>
   )
   

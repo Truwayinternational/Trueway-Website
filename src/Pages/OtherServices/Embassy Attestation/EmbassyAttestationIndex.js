@@ -7,8 +7,9 @@ import PopularContreisCardMob from './PopularContreisCardMob'
 import HowDoIGet from './HowDoIGet'
 import YourBestChoice from './YourBestChoice'
 
-// trueway services import
+// trueway services add from same home page
 import WhyIsTrueway from '../../../Components/WhyisTrueway' 
+
 
 import OurClients from '../OurClients'
 import FaqEmbassy from './FaqEmbassy'
