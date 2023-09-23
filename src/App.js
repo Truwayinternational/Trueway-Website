@@ -17,6 +17,7 @@ import ContactIndex from "./Pages/ContactUS/ContactIndex";
 import CertificateAttestationIndex from "./Pages/OtherServices/Certificate Attestation/CertificateAttestationIndex";
 import EmbassyAttestationIndex from "./Pages/OtherServices/Embassy Attestation/EmbassyAttestationIndex";
 import HRDIndex from "./Pages/OtherServices/HRD Attestation/HRDIndex";
+import MEAIndex from "./Pages/OtherServices/MEA Attestation/MEAIndex";
 
 
 
@@ -28,18 +29,18 @@ function App() {
       <NavBar/>
         <Routes>
           {/* Navbar menus  router*/}
-          <Route exact path="/" element={<HomeIndex />} /> 
-          <Route path="/about" element={<AboutIndex />} /> 
-          <Route path="/wes" element={<WesIndex />} /> 
+          <Route exact path="/" element={<HomeIndex/>} /> 
+          <Route path="/about" element={<AboutIndex/>} /> 
+          <Route path="/wes" element={<WesIndex/>} /> 
           {/* <Route path="/services" element={<ServicesIndex />} />  */}
-          <Route path="/blogs" element={<BlogsIndex />} /> 
-          <Route path="/contact" element={<ContactIndex />} /> 
+          <Route path="/blogs" element={<BlogsIndex/>} /> 
+          <Route path="/contact" element={<ContactIndex/>} /> 
 
           {/* services router */}
-          <Route path="/certificateAttestation" element={ <CertificateAttestationIndex /> } />
-          <Route path="/embassyAttestation" element={ <EmbassyAttestationIndex /> } />
-          <Route path="/hrdAttestation" element={ <HRDIndex /> } />
-
+          <Route path="/certificateAttestation" element={ <CertificateAttestationIndex/> } />
+          <Route path="/embassyAttestation" element={<EmbassyAttestationIndex/>} />
+          <Route path="/hrdAttestation" element={ <HRDIndex/> } />
+          <Route path="/meaAttestation" element={ <MEAIndex/> } />
         </Routes>
       <Footer />
     </div>

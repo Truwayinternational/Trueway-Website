@@ -20,7 +20,7 @@ function CertificateAttestation() {
 const linkName = readMore ? '' : 'Read More...'
 
   return (
-    <div>
+    <>
       <div className='flex  justify-center items-center w-full h-full bg-white'>
           <div className='lg:w-1/2 '>
             <div className='hidden lg:flex m-3 lg:ml-20 lg:relative'>
@@ -61,7 +61,7 @@ const linkName = readMore ? '' : 'Read More...'
             </div>
           </div>
       </div>
-    </div>
+    </>
   )
 }
 
