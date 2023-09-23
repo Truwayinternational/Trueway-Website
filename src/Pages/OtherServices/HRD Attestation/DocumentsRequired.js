@@ -7,9 +7,9 @@ import {BiSolidChevronRightCircle} from 'react-icons/bi'
 function DocumentsRequired() {
   return (
     <div className='bg-zinc-200 h-full w-full my-10'>
-        <div className='flex justify-center items-center '>
+        <div className='flex  max-w-[1240px] mx-auto place-content-center '>
             <div className='grid lg:grid-cols-2 max-w-[1280px] py-10 '>
-                <div className='flex flex-col lg:pl-16 md:px-10 lg:px-0  px-5'>
+                <div className='flex flex-col lg:pl-12 md:px-10 lg:px-0  px-5'>
                 <h1 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold '> <b className='text-green-500'> Documents Required For <br/> </b> HRD Attestation</h1>
                     <p className='text-gray-500 font-poppins md:text-xl lg:text-lg'>
                     To obtain attestation from the HRD office, you are required to submit the authentic original degree certificate, along with copies of the mark sheet, the offer letter, your passport, and two passport-size photos.<br/>

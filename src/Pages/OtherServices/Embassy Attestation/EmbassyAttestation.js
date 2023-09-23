@@ -17,9 +17,9 @@ function EmbassyAttestation() {
 
   return (
     <>
-      <div className='flex  justify-center items-center w-full h-full bg-white'>
+      <div className='flex  justify-center max-w-[1240px] mx-auto place-content-center'>
           <div className='lg:w-1/2 '>
-            <div className='hidden lg:flex m-3 mt-[-72px] lg:ml-20 lg:relative'>
+            <div className='hidden lg:flex m-3 lg:ml-20 lg:relative'>
               <img className='object-cover ' src={EA_banner} alt="page_banner" />
               <h3 className='absolute lg:text-4xl font-HeadingFont font-extrabold text-black pl-10 py-20 '> Embassy <br/> Attestation</h3>
             </div>

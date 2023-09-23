@@ -23,7 +23,7 @@ function MEAattestaion() {
 
   return (
     <>
-        <div className='flex  justify-center items-center w-full h-full bg-white'>
+        <div className='flex  justify-center max-w-[1240px] mx-auto place-content-center'>
           <div className='lg:w-1/2 '>
             <div className='hidden lg:flex m-3 lg:ml-20 lg:relative'>
               <img className='object-cover ' src={MEA_banner} alt="page_banner" />
@@ -80,7 +80,7 @@ function MEAattestaion() {
                     </AccordionBody>
                 </Accordion>
                     {/* 4th accordion */}
-                    <Accordion open={open === 4}>
+                <Accordion open={open === 4}>
                     <AccordionHeader className='text-green-500 cursor-pointer text-lg md:text-xl py-2' onClick={() => handleOpen(4)}>
                     Client-Centric Approach: <IoIosArrowDropdownCircle className='ms-auto'/>
                     </AccordionHeader>

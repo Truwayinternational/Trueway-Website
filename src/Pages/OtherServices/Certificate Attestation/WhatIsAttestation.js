@@ -16,7 +16,7 @@ function WhatIsAttestation() {
 
   return (
     <div>
-        <div className='h-full w-max-1240px py-10'>
+        <div className='max-w-[1240px] mx-auto place-content-center py-10'>
             <div className='flex mx-4 lg:px-16 px-3'>
               <h3 className='md:text-5xl text-3xl pb-5  font-HeadingFont font-extrabold text-black  tracking-wide  '>What is<br/><p className='text-green-500'>Attestation ?</p></h3>
               <img className='md:hidden grid  w-[100px]  mt-[-30px]' src={questionMark} alt="question_mark" />

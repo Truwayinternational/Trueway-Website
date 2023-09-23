@@ -21,7 +21,7 @@ const linkName = readMore ? '' : 'Read More...'
 
   return (
     <>
-      <div className='flex  justify-center items-center w-full h-full bg-white'>
+      <div className='flex  justify-center max-w-[1240px] mx-auto place-content-center'>
           <div className='lg:w-1/2 '>
             <div className='hidden lg:flex m-3 lg:ml-20 lg:relative'>
               <img className='object-cover ' src={CA_banner} alt="page_banner" />
