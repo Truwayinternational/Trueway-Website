@@ -28,9 +28,9 @@ function WhyTruewaycards() {
     
     
   return (
-        <div className="mx-auto px-10 md:px-20 my-10 max-w-[1240px]">
+        <div className="mx-auto px-10 md:px-20 my-10  max-w-[1240px]">
             <Swiper 
-                className="w-full h-full"
+                className="w-full h-full mb-20"
                 slidesPerView={1}
                 spaceBetween={10}
                 autoplay={{
