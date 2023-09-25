@@ -17,14 +17,14 @@ function HRDattestation() {
 
   return (
     <>
-        <div className='flex  justify-center max-w-[1240px] mx-auto place-content-center'>
+      <div className='flex  justify-center max-w-[1240px] mx-auto place-content-center'>
           <div className='lg:w-1/2 '>
             <div className='hidden lg:flex m-3 lg:ml-20 lg:relative'>
               <img className='object-cover ' src={HRD_banner} alt="page_banner" />
               <h3 className='absolute lg:text-4xl font-HeadingFont font-extrabold text-black pl-10 py-20 '>HRD <br/> Attestation</h3>
             </div>
 
-            {/* responsive banner of Certificate attestation */}
+            {/* responsive banner of HRD attestation */}
             <div className='w-full top-0 lg:ml-20 relative lg:hidden'>
               <img className='object-cover w-full ' src={banner_mob} alt="page_banner" />
               <h3 className='absolute text-3xl md:text-5xl font-HeadingFont font-extrabold text-black text-center  left-28 md:left-[34%] tracking-wider mt-[-100px] md:mt-[-150px]'>HRD <br/> Attestation</h3>
@@ -32,9 +32,9 @@ function HRDattestation() {
 
             {/* web content sections */}
             <div className='m-3 my-10 lg:ml-20'>
-              <h1 className='text-3xl px-4 text-start md:text-5xl font-HeadingFont font-extrabold tracking-wide'>Top  <br /><p className='text-green-500'>HRD Attestation</p> Services provider in India </h1>
+              <h1 className='text-3xl px-4 text-start md:text-5xl font-HeadingFont font-extrabold tracking-wide'>Top  <br/><b className='text-green-500'>HRD Attestation Services <br/> </b>Provider in India </h1>
               <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins mt-10 px-4 lg:p-0'>
-              <b>Certificate attestation</b> stands out as India's premier HRD attestation service provider, streamlining the often intricate and time-consuming process. With dedicated 24/7 support, we ensure tension-free document authentication through state-level HRD departments and subsequent embassy attestation. Our efficient services add to client convenience, allowing easy online submission and secure transactions for various document types. </p>
+              <b>Trueway International</b> stands out as India's premier HRD attestation service provider, streamlining the often intricate and time-consuming process. With dedicated 24/7 support, we ensure tension-free document authentication through state-level HRD departments and subsequent embassy attestation. Our efficient services add to client convenience, allowing easy online submission and secure transactions for various document types. </p>
               {/* readMore add in paragraph */}
               <div className='md:hidden flex'>
                 <p  onClick={()=> {setReadMore (!readMore)}}>

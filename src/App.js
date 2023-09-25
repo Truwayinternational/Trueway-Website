@@ -18,11 +18,13 @@ import CertificateAttestationIndex from "./Pages/OtherServices/Certificate Attes
 import EmbassyAttestationIndex from "./Pages/OtherServices/Embassy Attestation/EmbassyAttestationIndex";
 import HRDIndex from "./Pages/OtherServices/HRD Attestation/HRDIndex";
 import MEAIndex from "./Pages/OtherServices/MEA Attestation/MEAIndex";
+import MOFAindex from "./Pages/OtherServices/MOFA Attestation/MOFAindex";
 
 
 
 
 function App() {
+  
   return (
     <div>
       <TopBar />
@@ -41,6 +43,7 @@ function App() {
           <Route path="/embassyAttestation" element={<EmbassyAttestationIndex/>} />
           <Route path="/hrdAttestation" element={ <HRDIndex/> } />
           <Route path="/meaAttestation" element={ <MEAIndex/> } />
+          <Route path="/mofaAttestation" element={ <MOFAindex/> } />
         </Routes>
       <Footer />
     </div>
