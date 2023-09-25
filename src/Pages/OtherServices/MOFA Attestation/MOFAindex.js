@@ -3,6 +3,7 @@ import React from 'react'
 import MOFAattesttion from './MOFAattesttion'
 import WhatIsMofa from './WhatIsMofa'
 import AttestedCopyMofa from './AttestedCopyMofa'
+import PurposesOfMofa from './PurposesOfMofa'
 
 function MOFAindex() {
   return (
@@ -11,6 +12,7 @@ function MOFAindex() {
         <MOFAattesttion/>
         <WhatIsMofa/>
         <AttestedCopyMofa/>
+        <PurposesOfMofa/>
     </div>
   )
 }
