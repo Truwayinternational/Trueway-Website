@@ -46,7 +46,7 @@ function MEAattestaion() {
               {/* ACCORDION SECTION IN HERE */}
               <div className=' text-md lg:text-lg md:text-xltext-gray-500 font-poppins mb-10 px-4 pr-3 lg:p-0'>
                 <Accordion open={alwaysOpen}>
-                    <AccordionHeader className='text-green-500 cursor-pointer   text-lg md:text-xl py-2' onClick={handleAlwaysOpen}> Efficient and Reliable Assistance: <IoIosArrowDropdownCircle className='ms-auto'/>
+                    <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont   text-lg md:text-xl py-2' onClick={handleAlwaysOpen}> Efficient and Reliable Assistance: <IoIosArrowDropdownCircle className='ms-auto'/>
                     </AccordionHeader>
                      <AccordionBody className="text-sm md:text-lg text-gray-500 px-2 pt-1 pr-8">
                      Our facilities are dependable and verified, ensuring a swift document verification process.
@@ -54,7 +54,7 @@ function MEAattestaion() {
                 </Accordion>
                     {/* 2nd accordion */}
                 <Accordion open={open === 1}>
-                    <AccordionHeader className='text-green-500 cursor-pointer text-lg md:text-xl py-2' onClick={() => handleOpen(1)}>
+                    <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont text-lg md:text-xl py-2' onClick={() => handleOpen(1)}>
                     Free pick up & drop service: <IoIosArrowDropdownCircle className='ms-auto'/>
                     </AccordionHeader>
                     <AccordionBody className="text-sm md:text-lg text-gray-500 px-2 pt-1 pr-8">
@@ -63,7 +63,7 @@ function MEAattestaion() {
                 </Accordion>
                     {/* 3rd accordion */}
                 <Accordion open={open === 2}>
-                    <AccordionHeader className='text-green-500 cursor-pointer text-lg md:text-xl py-2' onClick={() => handleOpen(2)}>
+                    <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont text-lg md:text-xl py-2' onClick={() => handleOpen(2)}>
                     National Coverage: <IoIosArrowDropdownCircle className='ms-auto'/>
                     </AccordionHeader>
                     <AccordionBody className="text-sm md:text-lg text-gray-500 px-2 pt-1 pr-8">
@@ -72,7 +72,7 @@ function MEAattestaion() {
                 </Accordion>
                     {/* 4th accordion */}
                 <Accordion open={open === 3}>
-                    <AccordionHeader className='text-green-500 cursor-pointer text-lg md:text-xl py-2' onClick={() => handleOpen(3)}>
+                    <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont text-lg md:text-xl py-2' onClick={() => handleOpen(3)}>
                     24*7 Customer Support: <IoIosArrowDropdownCircle className='ms-auto'/>
                     </AccordionHeader>
                     <AccordionBody className="text-sm md:text-lg text-gray-500 px-2 pt-1 pr-8">
@@ -81,7 +81,7 @@ function MEAattestaion() {
                 </Accordion>
                     {/* 4th accordion */}
                 <Accordion open={open === 4}>
-                    <AccordionHeader className='text-green-500 cursor-pointer text-lg md:text-xl py-2' onClick={() => handleOpen(4)}>
+                    <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont text-lg md:text-xl py-2' onClick={() => handleOpen(4)}>
                     Client-Centric Approach: <IoIosArrowDropdownCircle className='ms-auto'/>
                     </AccordionHeader>
                     <AccordionBody className="text-sm md:text-lg text-gray-500 px-2 pt-1 pr-8">

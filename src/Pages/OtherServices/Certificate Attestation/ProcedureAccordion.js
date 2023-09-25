@@ -23,7 +23,7 @@ function ProcedureAccordion() {
             <div className='lg:w-2/3 ml-3 lg:md-12 lg:px-20 px-4 '>
                 <div className='text-md md:text-xl lg:text-lg text-gray-500 font-poppins pr-3 lg:p-0'>
                     <Accordion open={alwaysOpen}>
-                        <AccordionHeader className='text-green-500 cursor-pointer ' onClick={handleAlwaysOpen}>  Educational certificates <IoIosArrowDropdownCircle className='ms-auto'/>
+                        <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont ' onClick={handleAlwaysOpen}>  Educational certificates <IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
                         <AccordionBody className="text-md lg:text-[16px] text-gray-500">
                           <ol className='leading-5 font-semibold'>
@@ -36,7 +36,7 @@ function ProcedureAccordion() {
                     </Accordion>
                     {/* 2nd accordion */}
                     <Accordion open={open === 1}>
-                        <AccordionHeader className='text-green-500 cursor-pointer text-start' onClick={() => handleOpen(1)}>
+                        <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont text-start' onClick={() => handleOpen(1)}>
                         Non-educational certificates<IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
                         <AccordionBody className="text-md text-gray-500">
@@ -51,7 +51,7 @@ function ProcedureAccordion() {
                     </Accordion>
                     {/* 3rd accordion */}
                     <Accordion open={open === 2}>
-                        <AccordionHeader className='text-green-500 cursor-pointer text-start' onClick={() => handleOpen(2)}>
+                        <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont text-start' onClick={() => handleOpen(2)}>
                         Commercial certificates attestation<IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
                         <AccordionBody className="text-md lg:tex-2xl text-gray-500">

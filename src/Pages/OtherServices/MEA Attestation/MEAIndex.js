@@ -3,6 +3,7 @@ import MEAattestaion from './MEAattestaion'
 import WhatIsMEA from './WhatIsMEA'
 import AttestedCopy from './AttestedCopy'
 import PurposesOfMEA from './PurposesOfMEA'
+import ProcedureOfMEA from './ProcedureOfMEA'
 
 
 
@@ -13,6 +14,7 @@ function MEAIndex() {
         <WhatIsMEA />
         <AttestedCopy/>
         <PurposesOfMEA/>
+        <ProcedureOfMEA/>
     </div>
   )
 }

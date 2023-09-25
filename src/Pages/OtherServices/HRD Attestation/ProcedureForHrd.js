@@ -22,7 +22,7 @@ function ProcedureForHrd() {
       <div className='max-w-[1240px] mx-auto place-content-center my-10 '>
           <div className='flex mx-4 lg:px-16 px-3'>
             <img className='md:hidden grid  w-[100px] ' src={Avatar_3} alt="Avatar_3" />
-            <h4 className='md:text-5xl lg:px-52 text-3xl pb-5 font-HeadingFont font-extrabold text-green-500  md:tracking-wide '> The Procedure for <br/><p className='text-black'>Attesting HRD Documents </p></h4>
+            <h4 className='md:text-5xl lg:px-52 text-3xl pb-5 font-HeadingFont font-extrabold text-black  md:tracking-wide '> The Procedure for <br/><p className=' text-green-500'>Attesting HRD Documents </p></h4>
           </div>
         <div className='flex '>
           <div className='hidden md:flex h-full lg:pl-10 xl:mt-[-120px] py-4'>
@@ -34,7 +34,7 @@ function ProcedureForHrd() {
             </p>
             <div className='text-md md:text-xl lg:text-lg text-gray-500 font-poppins pr-3 lg:p-0 max-w-2xl '>
                 <Accordion open={alwaysOpen}>
-                    <AccordionHeader className='text-green-500 cursor-pointer text-lg md:text-xl py-2' onClick={handleAlwaysOpen}>  HRD Attestation <IoIosArrowDropdownCircle className='ms-auto'/>
+                    <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont text-lg md:text-xl py-2' onClick={handleAlwaysOpen}>  HRD Attestation <IoIosArrowDropdownCircle className='ms-auto'/>
                     </AccordionHeader>
                     <AccordionBody className="text-sm md:text-lg text-gray-500 px-2 pt-1 pr-8">
                     After they get the information that the candidate's educational certificate is genuine, the HRD department attests the documents with their signs and seals.
@@ -42,7 +42,7 @@ function ProcedureForHrd() {
                 </Accordion>
                             {/* 2nd accordion */}
                 <Accordion open={open === 1}>
-                    <AccordionHeader className='text-green-500 cursor-pointer text-lg md:text-xl py-2' onClick={() => handleOpen(1)}>
+                    <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont text-lg md:text-xl py-2' onClick={() => handleOpen(1)}>
                     Document Verification <IoIosArrowDropdownCircle className='ms-auto'/>
                     </AccordionHeader>
                     <AccordionBody className="text-sm md:text-lg text-gray-500 px-2 pt-1 pr-8">
