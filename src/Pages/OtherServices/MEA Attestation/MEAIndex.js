@@ -4,6 +4,7 @@ import WhatIsMEA from './WhatIsMEA'
 import AttestedCopy from './AttestedCopy'
 import PurposesOfMEA from './PurposesOfMEA'
 import ProcedureOfMEA from './ProcedureOfMEA'
+import DocumentRequired from './DocumentRequired'
 
 
 
@@ -15,6 +16,7 @@ function MEAIndex() {
         <AttestedCopy/>
         <PurposesOfMEA/>
         <ProcedureOfMEA/>
+        <DocumentRequired/>
     </div>
   )
 }
