@@ -106,8 +106,6 @@ const ServicesCardData = [
 ]
 
 
-function ServicesSection(props) {
-
 // clicking to nav link and scroll to top section
 function scrollToTop() {
     window.scrollTo({
@@ -115,6 +113,9 @@ function scrollToTop() {
       behavior: 'smooth' // Add smooth scrolling behavior for a smoother transition
     });
 }
+
+function ServicesSection(props) {
+
     
   return (
     <div className='w-full lg:my-20 mt-20'>
@@ -128,10 +129,10 @@ function scrollToTop() {
                         <div key={index} className="mx-auto flex max-w-sm flex-col gap-y-4 bg-zinc-100 border border-green-500 px-3 py-3 rounded-3xl shadow-2xl hover:bg-green-100 cursor-pointer">
                                 <img className="order-first w-[150px] h-[135px] py-2 mx-auto " src={card.img}alt="Services_image" />
                                 <hr />
-                            <div className=" h-full py-2" onClick={scrollToTop}>
-                                <Link to={card.titleLink}>
+                            <div className=" h-full py-2">
+                                <Link to={card.titleLink} onClick={scrollToTop}>
                                     <h5 className="text-md font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900" >
-                                    {card.title}</h5> 
+                                    {card.title}  </h5> 
                                 </Link>
                                 <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-sm"> {card.description}</p>
                             </div>

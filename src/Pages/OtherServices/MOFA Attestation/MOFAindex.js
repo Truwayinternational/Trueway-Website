@@ -4,6 +4,7 @@ import MOFAattesttion from './MOFAattesttion'
 import WhatIsMofa from './WhatIsMofa'
 import AttestedCopyMofa from './AttestedCopyMofa'
 import PurposesOfMofa from './PurposesOfMofa'
+import ProcedureForMofa from './ProcedureForMofa'
 
 function MOFAindex() {
   return (
@@ -13,6 +14,7 @@ function MOFAindex() {
         <WhatIsMofa/>
         <AttestedCopyMofa/>
         <PurposesOfMofa/>
+        <ProcedureForMofa/>
     </div>
   )
 }
