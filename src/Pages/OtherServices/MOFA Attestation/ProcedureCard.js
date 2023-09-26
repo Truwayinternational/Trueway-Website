@@ -24,6 +24,8 @@ import {BiSolidChevronRightCircle} from 'react-icons/bi'
 function ProcedureCard() {
   return (
     <>
+        {/*  md screen and lg screen view  */}
+        
         <div className='hidden md:flex '>
             <div className='hidden md:flex h-full lg:pl-20 lg:my-auto py-10'>
                 <img src={Avatar_3} alt="avatar_3" />

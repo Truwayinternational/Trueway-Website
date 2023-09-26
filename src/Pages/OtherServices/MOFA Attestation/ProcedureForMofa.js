@@ -10,7 +10,7 @@ function ProcedureForMofa() {
         <div className='max-w-[1240px] mx-auto place-content-center my-10 '>
             <div className='flex mx-4  lg:px-16 px-3'>
                 <img className='md:hidden grid  w-[100px] ' src={Avatar_3} alt="Avatar_3" />
-                <h4 className='md:text-5xl text-3xl pb-5 font-HeadingFont font-extrabold text-black  tracking-wide  '> The Procedure for <br/><b className='text-green-500'> MOFA attestation </b></h4>
+                <h4 className='md:text-5xl text-3xl pb-5 font-HeadingFont font-extrabold text-black  tracking-wide  '> The Procedure for <br/><b className='text-green-500'> MOFA Attestation </b></h4>
             </div>
             <div className='lg:w-full ml-3 lg:md-12 lg:px-20 px-4 '>
                 <p className='text-md md:text-xl lg:text-lg text-gray-500 font-poppins pr-3 lg:p-0  max-w-2xl'>
