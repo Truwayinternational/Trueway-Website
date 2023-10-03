@@ -27,6 +27,7 @@ function Hero() {
             <div className='hidden lg:block'>
                 <img className='w-full lg:p-5 lg:pt-48' src={heroImg} alt="MainImage..." />
             </div>
+            
         </div>
     </div>
   )
