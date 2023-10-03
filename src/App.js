@@ -19,6 +19,7 @@ import EmbassyAttestationIndex from "./Pages/OtherServices/Embassy Attestation/E
 import HRDIndex from "./Pages/OtherServices/HRD Attestation/HRDIndex";
 import MEAIndex from "./Pages/OtherServices/MEA Attestation/MEAIndex";
 import MOFAindex from "./Pages/OtherServices/MOFA Attestation/MOFAindex";
+import QuickAction from "./Components/Layout/QuickAction";
 
 
 
@@ -29,6 +30,7 @@ function App() {
     <div>
       <TopBar />
       <NavBar/>
+      <QuickAction/>
         <Routes>
           {/* Navbar menus  router*/}
           <Route exact path="/" element={<HomeIndex/>} /> 

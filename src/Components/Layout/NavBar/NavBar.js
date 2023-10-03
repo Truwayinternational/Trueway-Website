@@ -1,6 +1,6 @@
 import { React, useState } from 'react'
 import LogoMain from '../../../Assets/logo.png'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import NavLinks from './NavLinks'
 
 import {TiThMenu} from 'react-icons/ti'
@@ -23,40 +23,40 @@ const [open, SetOpen] = useState(false)
             <div className='Z-50 p-6 lg:w-auto w-full flex justify-between'>
                 <img src={LogoMain} alt='logo' className='lg:ms-0  items-center  cursor-pointer h-12  '/>
                 <div className='lg:hidden text-3xl' onClick={()=>SetOpen(!open)}>
-                    { open ?  <GrClose/>: <TiThMenu />} 
+                    { open ?  <GrClose/>: <TiThMenu /> } 
                 </div>
             </div>
             <ul className='lg:flex hidden Capitalize items-center gap-2 font-[poppins] cursor-pointer'>
                 <li>
-                    <Link to="/" className=' py-3 cursor-pointer   inline-block hover:text-green-600 ' onClick={scrollToTop}> 
+                    <NavLink to="/" className='py-3 cursor-pointer  inline-block hover:text-green-500 [&.active]:text-green-600 [&.active]:npm safont-bold' onClick={scrollToTop} > 
                         Home
-                    </Link>
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to="/about" className='py-3 cursor-pointer  inline-block hover:text-green-600 'onClick={scrollToTop}> 
+                    <NavLink to="/about" className='py-3 cursor-pointer  inline-block hover:text-green-500 [&.active]:text-green-600 [&.active]:font-bold' onClick={scrollToTop}> 
                         About
-                    </Link>
+                    </NavLink>
                 </li>
                 <NavLinks />
                 <li>
-                    <Link to="/wes" className='py-3 cursor-pointer  inline-block hover:text-green-600 'onClick={scrollToTop}> 
+                    <NavLink to="/wes" className='py-3 cursor-pointer  inline-block hover:text-green-500 [&.active]:text-green-600 [&.active]:font-bold' onClick={scrollToTop}> 
                         WES
-                    </Link>
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to="/services" className='py-3 cursor-pointer  inline-block hover:text-green-600 'onClick={scrollToTop}> 
+                    <NavLink to="/services" className='py-3 cursor-pointer  inline-block hover:text-green-500 [&.active]:text-green-600 [&.active]:font-bold' onClick={scrollToTop}> 
                         Services
-                    </Link>
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to="/blogs" className='py-3 cursor-pointer  inline-block hover:text-green-600 'onClick={scrollToTop}> 
+                    <NavLink to="/blogs" className='py-3 cursor-pointer  inline-block hover:text-green-500 [&.active]:text-green-600 [&.active]:font-bold' onClick={scrollToTop}> 
                         Blogs 
-                    </Link>
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to="/contact" className='py-3 cursor-pointer  inline-block hover:text-green-600 'onClick={scrollToTop}> 
+                    <NavLink to="/contact" className='py-3 cursor-pointer  inline-block hover:text-green-500 [&.active]:text-green-600 [&.active]:font-bold ' onClick={scrollToTop}> 
                        Contact
-                    </Link>
+                    </NavLink>
                 </li>
             </ul>
 
@@ -64,14 +64,14 @@ const [open, SetOpen] = useState(false)
             
             <ul className={!open ? "hidden left-[100%] " : "absolute bg-green-600 w-full px-8 mt-[700px] "}>
                 <li className='border-b-2 border-zinc-300 w-full'>
-                    <Link to="/" className='text-xl text-white'> 
+                    <NavLink to="/" className='text-xl text-white'> 
                     Home
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='border-b-2 border-zinc-300 w-full'>
-                    <Link to="/about" className='text-xl text-white'> 
+                    <NavLink to="/about" className='text-xl text-white'> 
                     About
-                    </Link>
+                    </NavLink>
                 </li>
                 <div>
                 <li className='border-b-2 border-zinc-300 w-full text-xl text-white'> 
@@ -79,39 +79,39 @@ const [open, SetOpen] = useState(false)
                 </li>
                 </div>
                 <li className='border-b-2 border-zinc-300 w-full'>
-                    <Link to="/#!" className=' text-xl text-white '> 
+                    <NavLink to="/#!" className=' text-xl text-white '> 
                         Dataflow
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='border-b-2 border-zinc-300 w-full'>
-                    <Link to="/#!" className=' text-xl text-white '> 
+                    <NavLink to="/#!" className=' text-xl text-white '> 
                         Exam Coaching
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='border-b-2 border-zinc-300 w-full'>
-                    <Link to="/pcc" className=' text-xl text-white '> 
+                    <NavLink to="/pcc" className=' text-xl text-white '> 
                         PCC
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='border-b-2 border-zinc-300 w-full'>
-                    <Link to="/migration" className=' text-xl text-white '> 
+                    <NavLink to="/migration" className=' text-xl text-white '> 
                         Migration
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='border-b-2 border-zinc-300 w-full'>
-                    <Link to="/wes" className=' text-xl text-white '> 
+                    <NavLink to="/wes" className=' text-xl text-white '> 
                         WES
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='border-b-2 border-zinc-300 w-full'>
-                    <Link to="/services" className=' text-xl text-white '> 
+                    <NavLink to="/services" className=' text-xl text-white '> 
                         Services
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='border-b-2 border-zinc-300 w-full'>
-                    <Link to="/contact" className=' text-xl text-white '> 
+                    <NavLink to="/contact" className=' text-xl text-white '> 
                         Contact
-                    </Link>
+                    </NavLink>
                 </li>
             </ul>
         </div>
