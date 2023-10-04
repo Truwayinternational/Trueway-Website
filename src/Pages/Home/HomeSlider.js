@@ -104,7 +104,6 @@ function HomeSlider() {
       <div className="image relative">
           <img src={slider4} alt="" />
           <div className="title_content absolute top-[20%] left-[6rem] space-y-5">
-            {/* <h3 className='text-[30px]'></h3> */}
             <h2 className='text-[40px] f-[700] font-HeadingFont'><b>Employment Abroad is the Dream?</b></h2>
             <p className='font-poppins text-[14px] w-[40%] justify-center text-gray-600'>
             Verification, Attestation, data flow, and many more are needed to get visa approval to fly abroad. All this will make you mad, but with Trueway International, all of these are easy, quick, and trustworthy.
