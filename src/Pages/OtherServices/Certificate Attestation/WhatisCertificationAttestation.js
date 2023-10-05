@@ -18,7 +18,7 @@ return (
       <div className='max-w-[1240px] mx-auto place-content-center py-10'>
           <div className='flex mx-4 lg:px-16 px-3'>
             <img className='md:hidden grid  w-[100px]  mt-[-30px]' src={Avatar_1} alt="Avatar_1" />
-            <h3 className='md:text-5xl lg:px-48 text-3xl pb-5  font-HeadingFont font-extrabold text-black  tracking-wide  '>What is<br/><p className='text-green-500'>Certificate Attestation ?</p></h3>
+            <h2 className='md:text-5xl lg:px-48 text-3xl pb-5  font-HeadingFont font-extrabold text-black  tracking-wide  '>What is<br/><p className='text-green-500'>Certificate Attestation ?</p></h2>
           </div>
         <div className='flex '>
           <div className='hidden md:flex h-full lg:pl-10 xl:mt-[-120px] py-4'>

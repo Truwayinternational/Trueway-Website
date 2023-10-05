@@ -24,7 +24,7 @@ const ServicesCardData = [
         img: Certificate,
         title:"Certificate Attestation",
         titleLink:"/certificateAttestation",
-        description:"Certificate attestation is the process of verifying the authenticity of a document when a person heads out to another nation"
+        description:"Certificate attestation is the process of verifying the authenticity of a document when a person heads out to another nation."
     },
     {
         id:2,
@@ -43,21 +43,21 @@ const ServicesCardData = [
     {
         id:5,
         img: HRD,
-        title:"HRD attestation",
+        title:"HRD Attestation",
         titleLink:"/hrdAttestation",
         description:"The purpose of HRD attestation is to verify the authenticity of educational documents issued by educational institutions"
     },
     {
         id:6,
         img: apostille,
-        title:"Apostille attestation",
+        title:"Apostille Attestation",
         titleLink:"/apostilleAttestation",
-        description:"Apostille attestation verifies public document authenticity for international use, like birth certificates or diplomas, ensuring foreign recognition"
+        description:"Apostille attestation verifies public document authenticity for international use, like birth certificates or diplomas, ensuring foreign recognition."
     },
     {
         id:7,
         img: Home,
-        title:"Home attestation",
+        title:"Home Attestation",
         titleLink:"/homeAttestation",
         description:"It is the attestation of non-educational documents from home countries where the documents are issued"
     },
@@ -99,8 +99,8 @@ const ServicesCardData = [
     {
         id:13,
         img: verification,
-        title:"Verification & other services",
-        titleLink:"/verification_otherServices",
+        title:"Goodstanding & Council Verification",
+        titleLink:"/Council_verification",
         description:"Validation & additional offerings for authentication and assistance, including immigration, documentation, and consultation services."
     }
 ]
@@ -126,13 +126,13 @@ function ServicesSection(props) {
             <div className='mx-auto max-w-5xl px-6 lg:px-8 pt-20 '>
                 <div className='hidden lg:grid grid-wrap grid-cols-1 lg:gap-x-8 lg:gap-y-10  text-center lg:grid-cols-4  grid-flow-row' >
                     {ServicesCardData.map((card, index) => (
-                        <div key={index} className="mx-auto flex max-w-sm flex-col gap-y-4 bg-zinc-100 border border-green-500 px-3 py-3 rounded-3xl shadow-2xl hover:bg-green-100 cursor-pointer">
+                        <div key={index} className="mx-auto flex max-w-sm flex-col gap-y-4 bg-zinc-100 border border-green-500 px-3 py-3 rounded-3xl hover:shadow-2xl hover:bg-green-100 cursor-pointer">
                                 <img className="order-first w-[150px] h-[135px] py-2 mx-auto " src={card.img}alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
-                                <Link to={card.titleLink} onClick={scrollToTop}>
-                                    <h5 className="text-md font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900" >
-                                    {card.title}  </h5> 
+                                <Link to={card.titleLink} >
+                                    <h5 className="text-md font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900" onClick={scrollToTop}>
+                                    {card.title} </h5> 
                                 </Link>
                                 <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-sm"> {card.description}</p>
                             </div>

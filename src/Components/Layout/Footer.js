@@ -38,10 +38,10 @@ const footerLinks = [
             },
             {
                 name:"Refund Policy",
-                link:""
+                link:"/refundpolicy"
             },{
                 name:"Privacy Policy",
-                link:"refundpolicy"
+                link:"/privacypolicy"
             },
         ]
     },
@@ -97,8 +97,8 @@ const footerLinks = [
                 link:"/migration"
             },
             {
-                name:"Verification & Other Services",
-                link:"/verification_otherServices"
+                name:"Goodstanding & Council Verification",
+                link:"/Council_verification"
             },
         ]
     }

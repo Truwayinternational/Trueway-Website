@@ -1,6 +1,6 @@
 import React from 'react'
 import CertificateAttestation from './CertificateAttestation'
-import WhatIsAttestation from './WhatIsAttestation'
+// import WhatIsAttestation from './WhatIsAttestation'
 import WhatisCertificationAttestation from './WhatisCertificationAttestation'
 import PurposesOfCertificateAttestation from './PurposesOfCertificateAttestation'
 import ProcedureOfCA from './ProcedureOfCA'
@@ -22,7 +22,7 @@ function CertificateAttestationIndex() {
   return (
     <div>
         <CertificateAttestation />
-        <WhatIsAttestation />
+        {/* <WhatIsAttestation /> */}
         <WhatisCertificationAttestation  />
         <PurposesOfCertificateAttestation />
         <ProcedureOfCA />

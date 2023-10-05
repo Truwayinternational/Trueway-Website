@@ -28,21 +28,21 @@ function ISO() {
                 <img src={thumb} alt="iso_icons" className='order-first w-[150px] h-[150px]'/>
                 <dd className="text-md font-semibold tracking-tight  text-gray-500 md:text-1xl">Happy Clients </dd> 
                 <dt className="text-2xl font-bold text-black">
-                  {countOn &&  <CountUp start={0} end={2500} duration={2} delay={0} />}+
+                  {countOn &&  <CountUp start={0} end={9500} duration={3} delay={0} />}+
                 </dt>
               </div>
               <div className="m-auto flex max-w-xs flex-col gap-y-4 bg-white p-4 rounded-3xl shadow-2xl ">
                 <img src={document} alt="iso_icons" className='order-first w-[150px] h-[150px]'/>
                 <dd className="text-md font-semibold tracking-tight  text-gray-500 md:text-1xl">Document Attested </dd>
                 <dt className="text-2xl font-bold text-black">
-                  {countOn &&  <CountUp start={0} end={3000} duration={2} delay={0} />}+
+                  {countOn &&  <CountUp start={0} end={10000} duration={3} delay={0} />}+
                 </dt>
               </div>
               <div className="m-auto flex max-w-xs flex-col gap-y-4 bg-white p-4 rounded-3xl shadow-2xl ">
                 <img src={Projects} alt="iso_icons" className='order-first w-[150px] h-[150px]'/>
                 <dd className="text-md font-semibold tracking-tight  text-gray-500 md:text-1xl">Ongoing Projects</dd>
                 <dt className="text-2xl font-bold text-black">
-                  {countOn &&  <CountUp start={0} end={1200} duration={2} delay={0} />}+
+                  {countOn &&  <CountUp start={0} end={8000} duration={3} delay={0} />}+
                 </dt>
               </div>
           </dl>
@@ -51,7 +51,7 @@ function ISO() {
     </ScrollTrigger>
   )
 }
-export default ISO
+export default ISO;
 
 
 

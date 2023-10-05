@@ -232,9 +232,9 @@ function ServicesSectionMob() {
                         <div className="flex justify-center items-center m-4 p-3 h-[330px] md:h-[350px]  bg-zinc-100 border border-green-500 px-3 rounded-3xl shadow-2xl hover:bg-green-100 cursor-pointer">
                                 <img className="order-first w-[200px] h-[200px] p-2 block object-cover " src={verification} alt="Services_image" />
                                 <hr />
-                            <div className=" h-full py-2">
-                                <Link to="/verification_otherServices">
-                                    <h5 className="text-lg font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">Verification & other services</h5>
+                            <div className=" h-full py-1">
+                                <Link to="/Council_verification">
+                                    <h5 className="text-lg font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900"> Council Verifications</h5>
                                 </Link>
                                 <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-md">Migration services guide and support individuals moving abroad, ensuring a smooth immigration process for countries like New Zealand, the UK, Ireland, Australia, and Canada.</p>
                             </div>

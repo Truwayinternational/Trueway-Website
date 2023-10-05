@@ -29,7 +29,7 @@ export function GetinTouch() {
   return (
     <>
         <div className='w-full h-full flex justify-center items-centre'>
-            <div className='m-auto bg-zinc-200  max-w-[1240px] lg:w-2/3 mx-10 p-10  rounded-2xl'>
+            <div className='m-auto bg-zinc-200  max-w-[768px] lg:w-2/3 mx-5 p-10  rounded-2xl'>
                 <h1 className='font-bold text-3xl subpixel-antialiased text-center font-HeadingFont'> Write to us </h1>
                 <div className='my-10 '>
                     <form className='m-auto' action="https://formspree.io/f/moqowbaw" method='POST' 
@@ -90,7 +90,7 @@ export function GetinTouch() {
                     <div className='text-center flex justify-center items-center '>
                         <div className='flex flex-row  mt-8'>
 
-                            <div className="px-2 ">
+                            <div className="px-3 ">
                                 <dl className="text-center ">
                                     <div className="mx-auto flex max-w-xs flex-col gap-y-1">
                                         <MdEmail className="text-4xl font-bold mx-2 text-green-500 hover:text-green-700"/>
@@ -108,10 +108,10 @@ export function GetinTouch() {
                                     </div>
                                 </dl>
                             </div>
-                            <div className="px-6">
+                            <div className="px-3">
                                 <dl className="text-center">
                                     <div className="mx-auto flex max-w-xs flex-col gap-y-1">
-                                        <dd className="text-4xl font-bold mx-2 text-green-500 hover:text-green-700">
+                                        <dd className="text-4xl font-bold mx-3 text-green-500 hover:text-green-700">
                                         <MdCall />
                                         </dd>
                                         <a href='tel:+918327626262' className="text-sm text-gray-600 font-bold"> Call</a>

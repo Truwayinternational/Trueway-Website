@@ -18,7 +18,7 @@ import Exam_img from '../../Assets/services_Sidebar/EXAM.png'
 import ACLS_BLS_img from '../../Assets/services_Sidebar/ACLS.png'
 import PCC_img from '../../Assets/services_Sidebar/PCC.png'
 import migration_img from '../../Assets/services_Sidebar/MIGRATION.png'
-import otherServices_img from '../../Assets/services_Sidebar/OTHERSERVICS.png'
+import verification_img from '../../Assets/services_Sidebar/verifications.png'
 
 
 
@@ -134,8 +134,8 @@ function HeroSidebar() {
                             </Link>
                         </li>
                         <li className='my-[-15px]'>
-                            <Link to="/verification_otherServices">
-                                <img src={otherServices_img} alt="otherServices_link" 
+                            <Link to="/Council_verification">
+                                <img src={verification_img} alt="otherServices_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </Link>
                         </li>

@@ -20,14 +20,14 @@ function PurposesOfCertificateAttestation() {
     <>
         <div className='max-w-[1240px] mx-auto place-content-center py-10'>
             <div className='flex mx-4  lg:px-16 px-3'>
-              <h3 className='md:text-5xl text-3xl pb-5  font-HeadingFont font-extrabold text-black  tracking-wide  '>What are the <b className='text-green-500'>purposes of</b> <br/><p className='text-green-500'>Certificate Attestation ?</p></h3>
+              <h3 className='md:text-5xl text-3xl pb-5  font-HeadingFont font-extrabold text-black  tracking-wide  '>What are the <b className='text-green-500'>Purposes of</b> <br/><p className='text-green-500'>Certificate Attestation ?</p></h3>
               <img className='md:hidden grid  w-[100px]  mt-[-30px]' src={avatar_2} alt="avatar_2" />
             </div>
           <div className='flex'>
             <div className='lg:w-2/3 ml-3 lg:md-12 lg:px-20 px-4 '>
                 <div className='text-md md:text-xl lg:text-lg text-start text-gray-500 font-poppins pr-3 lg:p-0'>
                     <Accordion open={alwaysOpen}>
-                        <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont ' onClick={handleAlwaysOpen}>  International Recognition <IoIosArrowDropdownCircle className='ms-auto'/>
+                        <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont py-2' onClick={handleAlwaysOpen}>  International Recognition <IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
                         <AccordionBody className="text-md lg:tex-2xl text-gray-500">
                         To gain international recognition and acceptance of your documents or certificates in foreign countries, certificate attestation is essential. Your credentials need to be validated to ensure they meet the standards of the host country's institutions and authorities.
@@ -35,7 +35,7 @@ function PurposesOfCertificateAttestation() {
                     </Accordion>
                     {/* 2nd accordion */}
                     <Accordion open={open === 1}>
-                        <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont text-start' onClick={() => handleOpen(1)}>
+                        <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont py-2' onClick={() => handleOpen(1)}>
                          Employment Opportunities<IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
                         <AccordionBody className="text-md text-gray-500">
@@ -44,7 +44,7 @@ function PurposesOfCertificateAttestation() {
                     </Accordion>
                     {/* 3rd accordion */}
                     <Accordion open={open === 2}>
-                        <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont text-start' onClick={() => handleOpen(2)}>
+                        <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont py-2' onClick={() => handleOpen(2)}>
                         Exchange Programs<IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
                         <AccordionBody className="text-md text-gray-500">
@@ -53,7 +53,7 @@ function PurposesOfCertificateAttestation() {
                     </Accordion>
                     {/* 4th accordion */}
                     <Accordion open={open === 3}>
-                        <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont text-start' onClick={() => handleOpen(3)}>
+                        <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont py-2' onClick={() => handleOpen(3)}>
                         Social Security Benefits<IoIosArrowDropdownCircle className='ms-auto' />
                         </AccordionHeader>
                         <AccordionBody className="text-md  text-gray-500">

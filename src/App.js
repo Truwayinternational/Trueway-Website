@@ -36,7 +36,7 @@ function App() {
           <Route exact path="/" element={<HomeIndex/>} /> 
           <Route path="/about" element={<AboutIndex/>} /> 
           <Route path="/wes" element={<WesIndex/>} /> 
-          {/* <Route path="/services" element={<ServicesIndex />} />  */}
+          <Route path="/services" element={<CertificateAttestationIndex />} /> 
           <Route path="/blogs" element={<BlogsIndex/>} /> 
           <Route path="/contact" element={<ContactIndex/>} /> 
 
