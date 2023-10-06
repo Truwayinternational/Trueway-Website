@@ -14,6 +14,8 @@ import WhyIsTrueway from '../../../Components/WhyisTrueway'
 import OurClients from '../OurClients'
 import FaqEmbassy from './FaqEmbassy'
 import DocumentRequired from './DocumentRequired'
+import EducationalDocuments from './EducationalDocuments'
+import NonEducational from './NonEducational'
 
 
 function EmbassyAttestationIndex() {
@@ -27,6 +29,8 @@ function EmbassyAttestationIndex() {
         <HowDoIGet />
         <DocumentRequired/>
         <YourBestChoice />
+        <EducationalDocuments/>
+        <NonEducational/>
         <WhyIsTrueway/>
         <OurClients />
         <FaqEmbassy/>

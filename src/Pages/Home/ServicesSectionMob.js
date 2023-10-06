@@ -51,13 +51,13 @@ function ServicesSectionMob() {
                     slidesPerView: 1,
                     spaceBetween: 10,
                 },
-                '@0.50': {
+                '@0.75': {
                     slidesPerView: 2,
                     spaceBetween: 10,
                 },
                 '@1.00': {
                     slidesPerView: 3,
-                    spaceBetween: 40,
+                    spaceBetween: 20,
                 }
                 }}
                 modules={[Pagination]}

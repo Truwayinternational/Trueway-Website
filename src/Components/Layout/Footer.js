@@ -149,7 +149,7 @@ function Footer() {
     
             <div className='flex-[1.5] w-full flex flex-row justify-between flex-wrap mt-10 md:mt-0'>
                 <div className='flex flex-col sm:my-0 my-4 '>
-                    <h4 className='font-md text-[18px] leading-[27px] text-zinc-100 font-bold px-3'> Our Branches </h4>
+                    <h4 className='text-[25px] leading-[30px] text-zinc-100 font-bold px-3'> Our Branches </h4>
                     <div className='list'>
                         {
                             OurBranches.map((item, index) => (
@@ -162,13 +162,13 @@ function Footer() {
                 </div>
                 {footerLinks.map((footerLink) => (
                     <div key={footerLink.key}  className='flex flex-col sm:my-0 my-4 min-w-[150px]'>
-                        <h4 className='font-md text-[18px] leading-[27px] text-zinc-100 font-bold px-3'>
+                        <h4 className='font-xl text-[26px] leading-[27px] text-zinc-100 font-bold px-3'>
                             {footerLink.title}
                         </h4>
                         <ul className='list-none mt-4'>
                             {footerLink.links.map((toFooterlink, index) => (
                                 <li key={toFooterlink.index}
-                                className="font-poppins font-normal text-[14px] leading-[24px] text-white hover:text-green-950 cursor-pointer px-3 py-1">
+                                className="font-poppins font-normal text-[18px] leading-[24px] text-white hover:text-green-950 cursor-pointer px-3 py-1">
                                 <Link to={toFooterlink.link} className='hover:text-black hover:font-semibold' onClick={scrollToTop}>
                                  {toFooterlink.name}
                                 </Link>
