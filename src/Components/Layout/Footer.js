@@ -136,18 +136,18 @@ function Footer() {
   return (
     <section className="flex justify-center items-center flex-col py-6 sm:pt-16 bg-green-600">
         <div className='flex justify-center items-start md:flex-row flex-col mb-8 w-full '>
-            <div className='flex flex-1 flex-col justify-start mr-10 '>
+            <div className='flex flex-1 flex-col justify-start mr-10 mx-auto '>
                 <img 
                 src={whiteLogo} 
                 alt="Trueway " 
                 className='w-[266px] h-[72px] object-contain'
                 />
-                <p className='font-poppins font-normal text-white text-[16px] leading-[30.8px] mt-4 max-w-[310px] md:pl-10 px-5 text-justify'>
+                <p className='font-poppins font-normal text-white text-[16px] leading-[30.8px] mt-4  md:pl-10 px-5 text-start'>
                     We are the Experts to make your dream migration seamless. The True way to your future can be paid by us. Trust us to help you take the leap towards a rewarding career abroad. 
                 </p>
             </div>
     
-            <div className='flex-[1.5] w-full flex flex-row justify-between flex-wrap mt-10 md:mt-0'>
+            <div className='flex-[3] text-center md:text-start w-full flex flex-row justify-between flex-wrap mt-10 md:mt-0'>
                 <div className='flex flex-col sm:my-0 my-4 '>
                     <h4 className='text-[25px] leading-[30px] text-zinc-100 font-bold px-3'> Our Branches </h4>
                     <div className='list'>
@@ -161,7 +161,7 @@ function Footer() {
                     </div>
                 </div>
                 {footerLinks.map((footerLink) => (
-                    <div key={footerLink.key}  className='flex flex-col sm:my-0 my-4 min-w-[150px]'>
+                    <div key={footerLink.key}  className='flex flex-col sm:my-0 my-4 min-w-[150px] mx-auto md:mx-0'>
                         <h4 className='font-xl text-[26px] leading-[27px] text-zinc-100 font-bold px-3'>
                             {footerLink.title}
                         </h4>
