@@ -28,6 +28,9 @@ function PurposesOfEmbassyAttestation() {
           <div className='flex'>
             <div className='lg:w-2/3 ml-3 lg:md-12 lg:px-20 px-4 '>
                 <div className='text-md md:text-xl lg:text-lg text-start text-gray-500 font-poppins pr-3 lg:p-0 mt-5'>
+                    <p className='font-poppins'>
+                    The essential need of embassy attestation is obtaining embassy authentication stamps on the necessary documents. It increases their credibility with the authorities and ensures their acceptance in the country.
+                    </p>
                     <Accordion open={alwaysOpen} >
                         <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont text-sm md:text-xl py-2' onClick={handleAlwaysOpen}> For pursuing higher education at foreign universities<IoIosArrowDropdownCircle className='ml-auto md:text-[30px] text-[20px]'/> 
                         </AccordionHeader>

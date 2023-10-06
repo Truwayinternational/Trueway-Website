@@ -26,13 +26,13 @@ function FaqMEA() {
         },
         {
             id:3,
-            question:"What is the validity of HRD attestation ?",
-            Answer:"HRD attestation validity varies; it is generally recognized for 6 months. Confirm with authorities and country-specific regulations for accurate information.",
+            question:"What is the fee for MEA attestation in India ?",
+            Answer:"MEA attestation fees in India depend on the document type, urgency, and the agency used. Costs range from approximately ₹600 to ₹5,000 or more per document. Trueway International is known for affordable rates, ensuring cost-effective MEA attestation services compared to others.",
         },
         {
             id:4,
-            question:"What is the fee for MEA attestation in India ?",
-            Answer:"MEA attestation fees in India depend on the document type, urgency, and the agency used. Costs range from approximately ₹600 to ₹5,000 or more per document. Trueway International is known for affordable rates, ensuring cost-effective MEA attestation services compared to others.",
+            question:"Which agencies are outsourced for MEA Apostille ?",
+            Answer:"MEA in India delegates apostille services to authorised agencies like VFS Global and BLS International. Trueway International is a reputed agency for efficient apostille assistance.",
         },
         {
             id:5,
