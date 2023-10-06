@@ -13,6 +13,7 @@ import WhyIsTrueway from '../../../Components/WhyisTrueway'
 
 import OurClients from '../OurClients'
 import FaqEmbassy from './FaqEmbassy'
+import DocumentRequired from './DocumentRequired'
 
 
 function EmbassyAttestationIndex() {
@@ -24,6 +25,7 @@ function EmbassyAttestationIndex() {
         <PopulerContries />  {/*  countries in Large screen size and countries added in large size hide in mobile screen */}
         <PopularContreisCardMob /> {/*  countries in mobile screen size */}
         <HowDoIGet />
+        <DocumentRequired/>
         <YourBestChoice />
         <WhyIsTrueway/>
         <OurClients />
