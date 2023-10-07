@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 import MOFA_banner from '../../../Assets/MOFA : HOME/MOFA_WEB.png'
-import banner_mob from '../../../Assets/HRD Attestation/HRd MOb.png'
+import banner_mob from '../../../Assets/MOFA : HOME/Mofa_mob.png'
 
 import HeroSidebar from '../HeroSidebar';
 
@@ -20,8 +20,8 @@ function MOFAattesttion() {
 
 
   return (
-    <div>
-        <div className='flex  justify-center max-w-[1240px] mx-auto place-content-center'>
+    <>
+      <div className='flex  justify-center max-w-[1240px] mx-auto place-content-center'>
           <div className='lg:w-1/2 '>
             <div className='hidden lg:flex m-3 lg:ml-20 lg:relative'>
               <img className='object-cover ' src={MOFA_banner} alt="page_banner" />
@@ -59,7 +59,7 @@ function MOFAattesttion() {
             </div>
           </div>
       </div>
-    </div>
+    </>
   )
 }
 
