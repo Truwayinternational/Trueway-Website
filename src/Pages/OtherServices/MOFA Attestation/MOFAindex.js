@@ -9,8 +9,8 @@ import DocoumentForMofa from './DocoumentForMofa'
 
 // services srolling cards added
 import OurCommitment from '../../../Components/OurCommitment'
-
 import OurClients from '../OurClients'
+import Form2 from '../../../Components/Forms/Form2'
 import FaqMofa from './FaqMofa'
 
 function MOFAindex() {
@@ -25,6 +25,7 @@ function MOFAindex() {
         <DocoumentForMofa/>
         <OurCommitment/>
         <OurClients/>
+        <Form2/>
         <FaqMofa/>
     </div>
   )
