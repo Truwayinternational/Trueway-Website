@@ -19,7 +19,7 @@ function DocumentRequired() {
                         </p>
                         <div className='max-w-2xl my-4 font-HeadingFont'>
                             <h6 className='md:text-2xl text-xl      font-semibold'>Main documents needed are:</h6>
-                            <ul className='md:text-xl  py-3 text-md  text-green-500 w-fit font-HeadingFont font-semibold cursor-pointer'>
+                            <ul className='md:text-xl  py-3 text-lg  text-green-500 w-fit font-HeadingFont font-semibold cursor-pointer'>
                                 <li className='bg-transparent rounded-full hover:bg-white py-2'>
                                 <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Original Certificates
                                 </li>

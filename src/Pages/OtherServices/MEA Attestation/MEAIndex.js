@@ -8,8 +8,8 @@ import DocumentRequired from './DocumentRequired'
 
 // import from component its needed all pages
 import OurCommitment from '../../../Components/OurCommitment'
-
 import OurClients from '../OurClients'
+import Form2 from '../../../Components/Forms/Form2'
 import FaqMEA from './FaqMEA'
 
 
@@ -25,6 +25,7 @@ function MEAIndex() {
         <DocumentRequired/>
         <OurCommitment/>
         <OurClients/>
+        <Form2/>
         <FaqMEA/>
     </div>
   )

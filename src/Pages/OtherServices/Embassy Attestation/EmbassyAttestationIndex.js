@@ -6,17 +6,16 @@ import PopulerContries from './PopulerContries'
 import PopularContreisCardMob from './PopularContreisCardMob'
 import HowDoIGet from './HowDoIGet'
 import YourBestChoice from './YourBestChoice'
+import DocumentRequired from './DocumentRequired'
+import EducationalDocuments from './EducationalDocuments'
+import NonEducational from './NonEducational'
 
 // trueway services add from same home page
 import OurCommitment from '../../../Components/OurCommitment'
 
-
-
 import OurClients from '../OurClients'
+import Form2 from '../../../Components/Forms/Form2'
 import FaqEmbassy from './FaqEmbassy'
-import DocumentRequired from './DocumentRequired'
-import EducationalDocuments from './EducationalDocuments'
-import NonEducational from './NonEducational'
 
 
 function EmbassyAttestationIndex() {
@@ -34,6 +33,7 @@ function EmbassyAttestationIndex() {
         <NonEducational/>
         <OurCommitment/>
         <OurClients />
+        <Form2/>
         <FaqEmbassy/>
     </div>
   )
