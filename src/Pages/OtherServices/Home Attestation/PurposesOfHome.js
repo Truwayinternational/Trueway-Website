@@ -72,7 +72,6 @@ function PurposesOfHome() {
                 </div>
             </div>
         </div>
-        
     </>
   )
 }
