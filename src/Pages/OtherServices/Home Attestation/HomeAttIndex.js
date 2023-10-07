@@ -4,6 +4,7 @@ import HomeAttestation from './HomeAttestation'
 import WhatisHome from './WhatisHome'
 import PurposesOfHome from './PurposesOfHome'
 import ProcedureForHome from './ProcedureForHome'
+import DocumetnsForHome from './DocumetnsForHome'
 
 
 
@@ -16,6 +17,8 @@ function HomeAttIndex() {
         <AttestedCopyHome/>
         <PurposesOfHome/>
         <ProcedureForHome/>
+        <DocumetnsForHome/>
+        
     </div>
   )
 }
