@@ -21,7 +21,7 @@ return (
             <h2 className='md:text-5xl lg:px-48 text-3xl pb-5  font-HeadingFont font-extrabold text-black  tracking-wide  '>What is<br/><p className='text-green-500'>Certificate Attestation ?</p></h2>
           </div>
         <div className='flex '>
-          <div className='hidden md:flex h-full lg:pl-10 xl:mt-[-120px] py-4'>
+          <div className='hidden md:flex h-full lg:pl-10 xl:mt-[-8rem] py-4'>
             <img src={Avatar_1} alt="avatar_1" />
           </div>
           <div className='w-full lg:px-12 lg:pr-16 px-4 pl-6 '>
