@@ -7,7 +7,8 @@ import ProcedureOfMEA from './ProcedureOfMEA'
 import DocumentRequired from './DocumentRequired'
 
 // import from component its needed all pages
-import WhyisTrueway from '../../../Components/WhyisTrueway'
+import OurCommitment from '../../../Components/OurCommitment'
+
 import OurClients from '../OurClients'
 import FaqMEA from './FaqMEA'
 
@@ -22,7 +23,7 @@ function MEAIndex() {
         <PurposesOfMEA/>
         <ProcedureOfMEA/>
         <DocumentRequired/>
-        <WhyisTrueway/>
+        <OurCommitment/>
         <OurClients/>
         <FaqMEA/>
     </div>

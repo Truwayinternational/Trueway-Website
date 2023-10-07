@@ -8,7 +8,8 @@ import HowDoIGet from './HowDoIGet'
 import YourBestChoice from './YourBestChoice'
 
 // trueway services add from same home page
-import WhyIsTrueway from '../../../Components/WhyisTrueway' 
+import OurCommitment from '../../../Components/OurCommitment'
+
 
 
 import OurClients from '../OurClients'
@@ -31,7 +32,7 @@ function EmbassyAttestationIndex() {
         <YourBestChoice />
         <EducationalDocuments/>
         <NonEducational/>
-        <WhyIsTrueway/>
+        <OurCommitment/>
         <OurClients />
         <FaqEmbassy/>
     </div>

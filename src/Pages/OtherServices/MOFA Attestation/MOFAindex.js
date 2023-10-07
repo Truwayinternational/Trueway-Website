@@ -6,7 +6,10 @@ import AttestedCopyMofa from './AttestedCopyMofa'
 import PurposesOfMofa from './PurposesOfMofa'
 import ProcedureForMofa from './ProcedureForMofa'
 import DocoumentForMofa from './DocoumentForMofa'
-import WhyisTrueway from '../../../Components/WhyisTrueway'
+
+// services srolling cards added
+import OurCommitment from '../../../Components/OurCommitment'
+
 import OurClients from '../OurClients'
 import FaqMofa from './FaqMofa'
 
@@ -20,7 +23,7 @@ function MOFAindex() {
         <PurposesOfMofa/>
         <ProcedureForMofa/>
         <DocoumentForMofa/>
-        <WhyisTrueway/>
+        <OurCommitment/>
         <OurClients/>
         <FaqMofa/>
     </div>

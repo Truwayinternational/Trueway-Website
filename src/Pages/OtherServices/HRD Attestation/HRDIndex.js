@@ -9,7 +9,8 @@ import PurposesOfHRD from './PurposesOfHRD';
 import ProcedureForHrd from './ProcedureForHrd';
 import DocumentsRequired from './DocumentsRequired';
 
-import WhyIsTrueway from '../../../Components/WhyisTrueway'
+// services card scrolling add 
+import OurCommitment from '../../../Components/OurCommitment';
 import OurClients from '../OurClients'
 
 import FaqHRD from './FaqHRD';
@@ -28,7 +29,7 @@ function HRDIndex() {
         <PurposesOfHRD /> 
         <ProcedureForHrd />
         <DocumentsRequired />
-        <WhyIsTrueway />
+        <OurCommitment/>
         <OurClients />
         <FaqHRD/>
     </div>

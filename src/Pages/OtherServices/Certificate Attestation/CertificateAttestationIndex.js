@@ -8,7 +8,8 @@ import ProcedureAccordion from './ProcedureAccordion'
 import HelpYou from './HelpYou'
 
 // trueway services add
-import WhyIsTrueway from '../../../Components/WhyisTrueway' 
+import OurCommitment from '../../../Components/OurCommitment'
+
 
 import OurClients from '../OurClients'
 import FaqCertification from './FaqCertification'
@@ -28,7 +29,7 @@ function CertificateAttestationIndex() {
         <ProcedureOfCA />
         <ProcedureAccordion />
         <HelpYou />
-        <WhyIsTrueway />
+        <OurCommitment/>
         <OurClients />
         <FaqCertification />
     </div>
