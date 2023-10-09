@@ -19,7 +19,7 @@ function HomeAttestation() {
 
   return (
     <>
-        <div className='flex  justify-center max-w-[1240px] mx-auto place-content-center'>
+      <div className='flex  justify-center max-w-[1240px] mx-auto place-content-center'>
           <div className='lg:w-1/2 '>
             <div className='hidden lg:flex m-3 lg:ml-20 lg:relative'>
               <img className='object-cover ' src={home_banner} alt="page_banner" />
@@ -29,12 +29,12 @@ function HomeAttestation() {
             {/* responsive banner of MOFA attestation */}
             <div className='w-full top-0 lg:ml-20 relative lg:hidden'>
               <img className='object-cover w-full ' src={banner_mob} alt="page_banner" />
-              <h3 className='absolute text-3xl md:text-5xl font-HeadingFont font-extrabold text-black text-center  left-28 md:left-[34%] tracking-wider mt-[-100px] md:mt-[-150px]'>Home <br/> Attestation</h3>
+              <h3 className='absolute text-3xl md:text-5xl font-HeadingFont font-extrabold text-black text-center  left-[100px] md:left-[32%] tracking-wider mt-[-100px] md:mt-[-150px]'>Home <br/> Attestation</h3>
             </div>
 
             {/* web content sections */}
             <div className='m-3 my-10 lg:ml-20'>
-              <h1 className='text-3xl px-4  text-start md:text-5xl font-HeadingFont font-extrabold tracking-wide'>Best <b className='text-green-500'>Home Department attestation Service agency in India</b></h1>
+              <h1 className='text-3xl px-4 lg:px-0  text-start md:text-5xl font-HeadingFont font-extrabold tracking-wide'>Best <b className='text-green-500'>Home Department attestation Service agency in India</b></h1>
               <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins mt-10 px-4 lg:p-0'>
               <b>At Trueway International, </b>  we are more than just a service provider; we are your trusted partner in securing your document authentication needs and building lasting connections with our valued clients. We ensure top service quality for the authentication of vital documents such as birth certificates and marriage certificates, guaranteeing the highest standards of accuracy and legitimacy. This commitment provides peace of mind to our clients.</p>
               {/* readMore add in paragraph */}

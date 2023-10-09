@@ -31,12 +31,12 @@ function MOFAattesttion() {
             {/* responsive banner of MOFA attestation */}
             <div className='w-full top-0 lg:ml-20 relative lg:hidden'>
               <img className='object-cover w-full ' src={banner_mob} alt="page_banner" />
-              <h3 className='absolute text-3xl md:text-5xl font-HeadingFont font-extrabold text-black text-center  left-28 md:left-[34%] tracking-wider mt-[-100px] md:mt-[-150px]'>MOFA <br/> Attestation</h3>
+              <h3 className='absolute text-3xl md:text-5xl font-HeadingFont font-extrabold text-black text-center  left-[100px] md:left-[32%] tracking-wider mt-[-100px] md:mt-[-150px]'>MOFA <br/> Attestation</h3>
             </div>
 
             {/* web content sections */}
             <div className='m-3 my-10 lg:ml-20'>
-              <h1 className='text-3xl px-4 text-start md:text-5xl font-HeadingFont font-extrabold tracking-wide'>Complete <br /><b className='text-green-500'>MOFA Attestation Services in India:</b> Fast, Trustworthy, and Secure </h1>
+              <h1 className='text-3xl px-4 lg:px-0 text-start md:text-5xl font-HeadingFont font-extrabold tracking-wide'>Complete <br /><b className='text-green-500'>MOFA Attestation Services in India:</b> Fast, Trustworthy, and Secure </h1>
               <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins mt-10 px-4 lg:p-0'>
               <b>At Trueway International, </b>  we take pride in offering fast and trustworthy MOFA attestation services. Our highly trained team is dedicated to resolving all your queries and ensuring a seamless document attestation procedure. Additionally, we provide professional document language translation services, ensuring your documents are accurately translated into the language of your destination country. </p>
               {/* readMore add in paragraph */}

@@ -31,12 +31,12 @@ const linkName = readMore ? '' : 'Read More...'
             {/* responsive banner of Certificate attestation */}
             <div className='w-full top-0 lg:ml-20 relative lg:hidden'>
               <img className='object-cover w-full ' src={banner_mob} alt="page_banner" />
-              <h3 className='absolute text-3xl md:text-5xl font-HeadingFont font-extrabold text-black text-center  left-28 md:left-[34%] tracking-wider mt-[-100px] md:mt-[-150px]'>Certificate <br/> Attestation</h3>
+              <h3 className='absolute text-3xl md:text-5xl font-HeadingFont font-extrabold text-black text-center  left-[100px] md:left-[32%] tracking-wider mt-[-100px] md:mt-[-150px]'>Certificate <br/> Attestation</h3>
             </div>
 
             {/* web content sections */}
             <div className='m-3 my-10 lg:ml-20'>
-              <h1 className='text-3xl px-4 text-start md:text-5xl font-HeadingFont font-extrabold tracking-wide'>Trustable <br /><p className='text-green-500'>Certificate Attestation</p> Services in India </h1>
+              <h1 className='text-3xl px-4 lg:px-0 text-start md:text-5xl font-HeadingFont font-extrabold tracking-wide'>Trustable <br /><p className='text-green-500'>Certificate Attestation</p> Services in India </h1>
               <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins mt-10 px-4 lg:p-0'>
               <b>Certificate attestation</b> is crucial if you are planning to migrate. Certificate attestation is the process of checking the authenticity of the certificates that you submit. Not only for immigration purposes, but certificate attestation is mandatory for legal, employment, and education purposes too. As a result of this attestation, your certificate's authenticity will be proved, and the same will be recognised by the destination country, organisation, or institution.</p>
               {/* readMore add in paragraph */}
