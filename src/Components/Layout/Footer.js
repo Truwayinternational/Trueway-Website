@@ -136,20 +136,20 @@ function Footer() {
   return (
     <section className="flex justify-center items-center flex-col py-6 sm:pt-16 bg-green-600">
         <div className='flex justify-center items-start md:flex-row flex-col mb-8 w-full '>
-            <div className='flex flex-1 flex-col justify-start mr-10 mx-auto '>
+            <div className='flex flex-1 flex-col justify-start mx-auto '>
                 <img 
                 src={whiteLogo} 
                 alt="Trueway " 
-                className='w-[266px] h-[72px] object-contain'
+                className='w-[266px] h-[72px] object-contain mx-2'
                 />
-                <p className='font-poppins font-normal text-white text-[16px] leading-[30.8px] mt-4  md:pl-10 px-5 text-start'>
+                <p className='font-poppins font-normal text-white text-md  md:text-lg  mt-4  md:pl-10 px-6 md:px-0 text-justify'>
                     We are the Experts to make your dream migration seamless. The True way to your future can be paid by us. Trust us to help you take the leap towards a rewarding career abroad. 
                 </p>
             </div>
     
-            <div className='flex-[3] text-center md:text-start w-full flex flex-row justify-between flex-wrap mt-10 md:mt-0'>
-                <div className='flex flex-col sm:my-0 my-4 '>
-                    <h4 className='text-[25px] leading-[30px] text-zinc-100 font-bold px-3'> Our Branches </h4>
+            <div className='flex-[2] lg:flex-[3] pl-4 text-start w-full flex flex-row justify-between flex-wrap mt-10 md:mt-0'>
+                <div className='flex flex-col sm:my-2 my-4 lg:ml-10 '>
+                    <h4 className='lg:text-2xl text-xl text-zinc-100 font-bold px-3'> Our Branches </h4>
                     <div className='list'>
                         {
                             OurBranches.map((item, index) => (
@@ -161,17 +161,17 @@ function Footer() {
                     </div>
                 </div>
                 {footerLinks.map((footerLink) => (
-                    <div key={footerLink.key}  className='flex flex-col sm:my-0 my-4 min-w-[150px] mx-auto md:mx-0'>
-                        <h4 className='font-xl text-[26px] leading-[27px] text-zinc-100 font-bold px-3'>
+                    <div key={footerLink.key}  className='flex flex-col sm:my-1 my-4 min-w-[150px] pl-4 md:mx-0'>
+                        <h4 className='lg:text-2xl text-xl text-zinc-100 font-bold px-3'>
                             {footerLink.title}
                         </h4>
                         <ul className='list-none mt-4'>
                             {footerLink.links.map((toFooterlink, index) => (
                                 <li key={toFooterlink.index}
                                 className="font-poppins font-normal text-[18px] leading-[24px] text-white hover:text-green-950 cursor-pointer px-3 py-1">
-                                <Link to={toFooterlink.link} className='hover:text-black hover:font-semibold' onClick={scrollToTop}>
-                                 {toFooterlink.name}
-                                </Link>
+                                    <Link to={toFooterlink.link} className='hover:text-black hover:font-semibold' onClick={scrollToTop}>
+                                    {toFooterlink.name}
+                                    </Link>
                                 </li>
                             ))}
                         </ul>
@@ -181,26 +181,26 @@ function Footer() {
         </div>
 
         <div className='w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-white'>
-            <p className='font-poppins font-normal text-center text-[14px] leading-[27px] text-white px-6'>
+            <p className='font-poppins font-normal text-center text-[16px] leading-[27px] text-white px-6'>
              &copy; Copyright 2023 Trueway International. All Rights Reserved 
             </p>
             <div className='flex flex-row md:mt-0 mt-6 px-6 '>
-                     <a href="https://www.facebook.com/truewayinternational" className='text-[14px] text-white hover:text-green-900 m-2'>
+                     <a href="https://www.facebook.com/truewayinternational" className='text-[20px] text-white hover:text-green-900 m-2'>
                         <BsFacebook />
                     </a>
-                    <a href="https://wa.link/c3ukjh" className='text-[14px] text-white hover:text-green-900 m-2'>
+                    <a href="https://wa.link/c3ukjh" className='text-[20px] text-white hover:text-green-900 m-2'>
                         <BsWhatsapp />
                     </a>
-                    <a href="https://www.instagram.com/truewayinternational/?hl=en" className='text-[14px] text-white hover:text-green-900 m-2'>
+                    <a href="https://www.instagram.com/truewayinternational/?hl=en" className='text-[20px] text-white hover:text-green-900 m-2'>
                         <BsInstagram />
                     </a>
-                    <a href="https://www.linkedin.com/company/trueway-international-tvm/" className='text-[14px] text-white hover:text-green-900 m-2'>
+                    <a href="https://www.linkedin.com/company/trueway-international-tvm/" className='text-[20px] text-white hover:text-green-900 m-2'>
                         <BsLinkedin />
                     </a>
-                    <a href="https://www.youtube.com/channel/UCRq22m2bbJ5AONWGQug9FpA" className='text-[14px] text-white hover:text-green-900 m-2'>
+                    <a href="https://www.youtube.com/channel/UCRq22m2bbJ5AONWGQug9FpA" className='text-[20px] text-white hover:text-green-900 m-2'>
                         <BsYoutube />
                     </a>
-                    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FTruewayinterna1" className='text-[14px] text-white hover:text-green-900 m-2'>
+                    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FTruewayinterna1" className='text-[20px] text-white hover:text-green-900 m-2'>
                         <BsTwitter />
                     </a>
             </div>
