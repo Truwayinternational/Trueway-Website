@@ -15,7 +15,7 @@ function WhatisDataflow() {
                     <img src={Avatar_1} alt="avatar_1" />
                 </div>
                 <div className='w-full lg:px-12 lg:pr-16 px-4 pl-6 '>
-                    <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins pr-3 lg:p-0'>
+                    <p className='text-md md:text-xl lg:text-lg text-start text-gray-500 font-poppins pr-3 lg:p-0'>
                     Dataflow is a mandatory step before you go abroad. It is the process of verifying the authenticity and accuracy of data related to a person's credentials, such as education, employment history, and professional qualifications. Employers, educational institutions, government agencies, and other organizations commonly utilize this verification process to make sure that the information provided by a person is reliable and accurate.
                     </p>
                 </div>    
