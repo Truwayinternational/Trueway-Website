@@ -23,7 +23,7 @@ function PurposesOfHome() {
                     <h6 className='font-bold md:text-2xl text-lg px-3 py-5 font-HeadingFont'> List of non-educational certificates</h6>
                     <div className='md:flex pb-5'>
                         <div className='grid'>
-                            <ul className='md:text-xl  text-md  text-green-500'>
+                            <ul className='lg:text-xl md:text-lg  text-md  text-green-500'>
                                 <li className='py-2 cursor-pointer font-HeadingFont '>
                                     <BiSolidChevronRightCircle className='inline-flex '/> Birth certificate
                                 </li>
@@ -42,7 +42,7 @@ function PurposesOfHome() {
                             </ul>
                         </div>
                         <div className='grid'>
-                            <ul className='text-sm md:text-xl text-green-500 '>
+                            <ul className='text-md lg:text-xl md:text-lg  text-green-500 '>
                                 <li className='py-2 cursor-pointer font-HeadingFont '>
                                     <BiSolidChevronRightCircle className='inline-flex'/> Police clearance certificate
                                 </li>
