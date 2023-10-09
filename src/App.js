@@ -23,6 +23,7 @@ import HRDIndex from "./Pages/OtherServices/HRD Attestation/HRDIndex";
 import MEAIndex from "./Pages/OtherServices/MEA Attestation/MEAIndex";
 import MOFAindex from "./Pages/OtherServices/MOFA Attestation/MOFAindex";
 import HomeAttIndex from "./Pages/OtherServices/Home Attestation/HomeAttIndex";
+import DataFlowIndex from "./Pages/OtherServices/Data Flow/DataFlowIndex";
 
 
 
@@ -43,6 +44,7 @@ function App() {
           <Route path="/blogs" element={<BlogsIndex/>} /> 
           <Route path="/contact" element={<ContactIndex/>} /> 
 
+
           {/* services router */}
           <Route path="/certificateAttestation" element={ <CertificateAttestationIndex/> } />
           <Route path="/embassyAttestation" element={<EmbassyAttestationIndex/>} />
@@ -50,6 +52,7 @@ function App() {
           <Route path="/meaAttestation" element={ <MEAIndex/> } />
           <Route path="/mofaAttestation" element={ <MOFAindex/> } />
           <Route path="/homeAttestation" element={ <HomeAttIndex/>} />
+          <Route path="/dataflow" element={ <DataFlowIndex/> } />
         </Routes>
       <Footer />
     </div>
