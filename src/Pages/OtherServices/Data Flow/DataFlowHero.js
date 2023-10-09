@@ -24,20 +24,20 @@ function DataFlowHero() {
                 </div>
 
             {/* web content sections */}
-            <div className='m-3 lg:my-20 my-10 lg:ml-20'>
+                <div className='m-3 lg:my-20 my-10 lg:ml-20'>
               <h1 className='text-3xl px-4 lg:px-0 text-start md:text-5xl font-HeadingFont font-extrabold tracking-wide'>Top <br/><b className='text-green-500'>Dataflow Verification <br/>Service in India</b></h1>
               <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins lg:mt-10 my-5 px-4 lg:p-0'>
               <b>Trueway International</b> is the most promising dataflow consultancy in India. Trueway is known for its trustworthiness and accuracy in credential verification services. We have a presence in India and offer services for verifying educational and professional credentials. We also offer a stress-free dataflow service with an online document tracking facility. We will assist you with the dataflow process for Abu Dhabi, Saudi Arabia, Qatar, Oman, Bahrain, and Kuwait.
               </p>
+                </div>
             </div>
-        </div>
 
           {/* side bar navigation component*/}
-          <div className='hidden lg:grid lg:w-1/2'>
-            <div className='flex flex-col justify-center items-center'>
-              <HeroSidebar/>
+            <div className='hidden lg:grid lg:w-1/2'>
+                <div className='flex flex-col justify-center items-center'>
+                    <HeroSidebar/>
+                </div>
             </div>
-          </div>
       </div>
     </>
   )
