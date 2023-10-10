@@ -15,7 +15,7 @@ function WhatIsMofa() {
             <img src={Avatar_1} alt="avatar_1" />
           </div>
           <div className='w-full lg:px-12 lg:pr-16 px-4 pl-6 '>
-            <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins pr-3 lg:p-0'>
+            <p className='text-md md:text-xl lg:text-lg text-gray-500 font-poppins pr-3 lg:p-0'>
             MOFA stands for <b>Ministry of Foreign Affairs,</b>  which is a government authorization responsible for overseeing all international matters. MOFA attestation is mandatory for a person who is going to travel abroad for various reasons. When you need to use your personal, educational, or commercial documents in another country, you frequently need to go through a legalisation or document authentication process.
             </p>
           </div>    
