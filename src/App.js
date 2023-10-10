@@ -26,6 +26,13 @@ import HomeAttIndex from "./Pages/OtherServices/Home Attestation/HomeAttIndex";
 import DataFlowIndex from "./Pages/OtherServices/Data Flow/DataFlowIndex";
 
 
+// clicking to nav link and scroll to top section
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth' // Add smooth scrolling behavior for a smoother transition
+  });
+}
 
 
 function App() {
@@ -37,22 +44,22 @@ function App() {
       <QuickAction/>
         <Routes>
           {/* Navbar menus  router*/}
-          <Route exact path="/" element={<HomeIndex/>} /> 
-          <Route path="/about" element={<AboutIndex/>} /> 
-          <Route path="/wes" element={<WesIndex/>} /> 
-          <Route path="/services" element={<CertificateAttestationIndex />} /> 
-          <Route path="/blogs" element={<BlogsIndex/>} /> 
-          <Route path="/contact" element={<ContactIndex/>} /> 
+          <Route exact path="/" element={<HomeIndex/>} onClick={scrollToTop}/> 
+          <Route path="/about" element={<AboutIndex/>} onClick={scrollToTop}/> 
+          <Route path="/wes" element={<WesIndex/>} onClick={scrollToTop}/> 
+          <Route path="/services" element={<CertificateAttestationIndex />} onClick={scrollToTop}/> 
+          <Route path="/blogs" element={<BlogsIndex/>} onClick={scrollToTop}/> 
+          <Route path="/contact" element={<ContactIndex/>} onClick={scrollToTop}/> 
 
 
           {/* services router */}
-          <Route path="/certificateAttestation" element={ <CertificateAttestationIndex/> } />
+          <Route path="/certificateAttestation" element={ <CertificateAttestationIndex/> } onClick={scrollToTop}/>
           <Route path="/embassyAttestation" element={<EmbassyAttestationIndex/>} />
-          <Route path="/hrdAttestation" element={ <HRDIndex/> } />
-          <Route path="/meaAttestation" element={ <MEAIndex/> } />
-          <Route path="/mofaAttestation" element={ <MOFAindex/> } />
-          <Route path="/homeAttestation" element={ <HomeAttIndex/>} />
-          <Route path="/dataflow" element={ <DataFlowIndex/> } />
+          <Route path="/hrdAttestation" element={ <HRDIndex/> } onClick={scrollToTop}/>
+          <Route path="/meaAttestation" element={ <MEAIndex/> } onClick={scrollToTop}/>
+          <Route path="/mofaAttestation" element={ <MOFAindex/> } onClick={scrollToTop}/>
+          <Route path="/homeAttestation" element={ <HomeAttIndex/>} onClick={scrollToTop}/>
+          <Route path="/dataflow" element={ <DataFlowIndex/> } onClick={scrollToTop}/>
         </Routes>
       <Footer />
     </div>
