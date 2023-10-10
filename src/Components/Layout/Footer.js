@@ -142,7 +142,7 @@ function Footer() {
                 alt="Trueway " 
                 className='w-[266px] h-[72px] object-contain mx-2'
                 />
-                <p className='font-poppins font-normal text-white text-md  md:text-lg  mt-4  md:pl-10 px-6 md:px-0 text-justify'>
+                <p className='font-poppins font-normal text-white text-md  md:text-lg  mt-4  md:pl-10 px-6 md:px-0 text-start'>
                     We are the Experts to make your dream migration seamless. The True way to your future can be paid by us. Trust us to help you take the leap towards a rewarding career abroad. 
                 </p>
             </div>
@@ -168,7 +168,7 @@ function Footer() {
                         <ul className='list-none mt-4'>
                             {footerLink.links.map((toFooterlink, index) => (
                                 <li key={toFooterlink.index}
-                                className="font-poppins font-normal text-[18px] leading-[24px] text-white hover:text-green-950 cursor-pointer px-3 py-1">
+                                className="font-poppins font-normal text-[16px] leading-[24px] text-white hover:text-green-950 cursor-pointer px-3 py-1">
                                     <Link to={toFooterlink.link} className='hover:text-black hover:font-semibold' onClick={scrollToTop}>
                                     {toFooterlink.name}
                                     </Link>
