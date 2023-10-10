@@ -4,6 +4,7 @@ import WhatisDataflow from './WhatisDataflow'
 import CopyDataflow from './CopyDataflow'
 import RelevenceOfDataflow from './RelevenceOfDataflow'
 import PrimarySourceDataflow from './PrimarySourceDataflow'
+import PSVnecessary from './PSVnecessary'
 
 
 
@@ -15,6 +16,7 @@ function DataFlowIndex() {
         <CopyDataflow/>
         <RelevenceOfDataflow/>
         <PrimarySourceDataflow/>
+        <PSVnecessary/>
     </div>
   )
 }
