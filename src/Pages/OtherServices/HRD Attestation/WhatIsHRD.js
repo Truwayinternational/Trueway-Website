@@ -15,7 +15,7 @@ function WhatIsHRD() {
             <img src={Avatar_1} alt="avatar_1" />
           </div>
           <div className='w-full lg:px-12 lg:pr-16 px-4 pl-6 '>
-            <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins pr-3 lg:p-0'>
+            <p className='text-md md:text-xl lg:text-lg text-gray-500 font-poppins pr-3 lg:p-0'>
             Human Resource Development (HRD) attestation is a crucial step in verifying the legitimacy of educational documents for overseas education or employment. The state's HRD department validates these papers to affirm their authenticity. This verification is a prerequisite for obtaining attestation from the Ministry of External Affairs and the embassy of the intended foreign nation. Essentially, HRD attestation confirms that the academic document is authentic, having been duly issued by the respective university and endorsed by the concerned state authority, paving the way for further international recognition.
             </p>
           </div>    

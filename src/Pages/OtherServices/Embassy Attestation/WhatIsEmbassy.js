@@ -14,7 +14,7 @@ function WhatIsEmbassy() {
             <img src={Avatar_1} alt="avatar_1" />
           </div>
           <div className='w-full lg:px-12 lg:pr-16 px-4 pl-6 '>
-            <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins pr-3 lg:p-0'>
+            <p className='text-md md:text-xl lg:text-lg text-gray-500 font-poppins pr-3 lg:p-0'>
             Embassy attestation is the ultimate and mandatory step to be done on the certificates of medical professionals who are going to migrate abroad. Embassy attestation is applicable in personal, educational, and commercial documents issued in your country. Primary certificate attestation or authentication and embassy attestation has to be done by the country from where the certificate is issued. In some cases, consulate attestation may be an alternative to embassy attestation, but not all countries accept consulate attestation for all types of documents.
             </p>
           </div>    

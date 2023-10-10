@@ -15,7 +15,7 @@ function WhatisHome() {
             <img src={Avatar_1} alt="avatar_1" />
           </div>
           <div className='w-full lg:px-12 lg:pr-16 px-4 pl-6 '>
-            <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins pr-3 lg:p-0'>
+            <p className='text-md md:text-xl lg:text-lg  text-gray-500 font-poppins pr-3 lg:p-0'>
             Home department attestation means state-level attestation. Home attestation is mainly done for non-educational documents such as birth certificates, marriage certificates, death certificates, experience certificates, etc.; it is the basic and primary procedure before any document attestation. That means only after getting your documents attested from the home department can you do further procedures.
             </p>
           </div>    

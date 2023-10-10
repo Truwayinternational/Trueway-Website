@@ -6,7 +6,7 @@ function WhatisCertificationAttestation() {
   const [readMore, setReadMore] = useState(false);
 
   const extraContent =<div>
-          <p className='md:hidden flex text-md md:text-xl text-justify text-gray-500 font-poppins mb-10 pr-3'>
+          <p className='md:hidden flex text-md md:text-xl text-gray-500 font-poppins mb-10 pr-3'>
           If you are planning to move to a foreign country for any purposes like employment, higher studies, or business setup then certificate attestation is so crucial. It involves obtaining sales and signatures from designated authorities and making them acceptable for use in foreign countries. This will help to prevent fraud activities and maintain the credibility of certificates across borders. This facilitates smooth international interactions in education, trade, and personal matters.
           </p>
   </div>
@@ -25,7 +25,7 @@ return (
             <img src={Avatar_1} alt="avatar_1" />
           </div>
           <div className='w-full lg:px-12 lg:pr-16 px-4 pl-6 '>
-            <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins pr-3 lg:p-0'>
+            <p className='text-md md:text-xl lg:text-lg text-gray-500 font-poppins pr-3 lg:p-0'>
             Certificate attestation is the process of validating the authenticity of your documents such as commercial, educational and personal for international recognition. Thus your certificate becomes valid in your destination country.
             </p>
             {/* readMore add in paragraph */}
@@ -35,7 +35,7 @@ return (
               </p>
               { readMore && extraContent }
             </div>
-            <p className='hidden md:flex text-md  lg:text-lg md:text-xl text-justify text-gray-500 font-poppins mb-10 pr-3 lg:p-0'>
+            <p className='hidden md:flex text-md  lg:text-lg md:text-xl text-gray-500 font-poppins mb-10 pr-3 lg:p-0'>
             If you are planning to move to a foreign country for any purposes like employment, higher studies, or business setup then certificate attestation is so crucial. It involves obtaining sales and signatures from designated authorities and making them acceptable for use in foreign countries. This will help to prevent fraud activities and maintain the credibility of certificates across borders. This facilitates smooth international interactions in education, trade, and personal matters.
             </p>
           </div>    

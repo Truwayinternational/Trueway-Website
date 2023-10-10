@@ -21,7 +21,7 @@ function HowDoIGet() {
                         <img src={Avatar_3} alt="avatar_3"/>
                     </div>
                     <div className='w-full lg:px-12 lg:pr-16 px-4 pl-6 '>
-                        <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins pr-3 lg:p-0'>
+                        <p className='text-md md:text-xl lg:text-lg  text-gray-500 font-poppins pr-3 lg:p-0'>
                         You must submit certain paperwork and follow certain steps to obtain an attestation from the Indian embassy. The process for attesting educational materials varies depending on whether they are business or personal documents. However, Trueway offers simple, quick, and secure document attestation services. Trueway will provide fast assistance and direction for all of these documents. At any point, you won't experience any pain. 24/7, Trueway will provide full assistance.
                         </p>
                     </div>
