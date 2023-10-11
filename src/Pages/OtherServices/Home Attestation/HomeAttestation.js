@@ -37,6 +37,7 @@ function HomeAttestation() {
               <h1 className='text-3xl px-4 lg:px-0  text-start md:text-5xl font-HeadingFont font-extrabold tracking-wide'>Best <b className='text-green-500'>Home Department attestation Service agency in India</b></h1>
               <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins mt-10 px-4 lg:p-0'>
               <b>At Trueway International, </b>  we are more than just a service provider; we are your trusted partner in securing your document authentication needs and building lasting connections with our valued clients. We ensure top service quality for the authentication of vital documents such as birth certificates and marriage certificates, guaranteeing the highest standards of accuracy and legitimacy. This commitment provides peace of mind to our clients.</p>
+              <br/>
               {/* readMore add in paragraph */}
               <div className='md:hidden flex'>
                 <p  onClick={()=> {setReadMore (!readMore)}}>

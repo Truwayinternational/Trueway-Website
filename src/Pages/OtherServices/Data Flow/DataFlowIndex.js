@@ -6,6 +6,8 @@ import RelevenceOfDataflow from './RelevenceOfDataflow'
 import PrimarySourceDataflow from './PrimarySourceDataflow'
 import PSVnecessary from './PSVnecessary'
 import ProcessInDataflow from './ProcessInDataflow'
+import DocumentsRequired from './DocumentsRequired'
+
 
 
 
@@ -19,6 +21,7 @@ function DataFlowIndex() {
         <PrimarySourceDataflow/>
         <PSVnecessary/>
         <ProcessInDataflow/>
+        <DocumentsRequired/>
     </div>
   )
 }
