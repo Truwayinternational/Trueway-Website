@@ -41,7 +41,7 @@ function DocumentsRequired() {
             </div>
             <div className='grid max-w-5xl mx-auto place-content-center '>
                 <p className='text-gray-500 font-poppins md:text-lg mb-10 px-6 md:px-8 lg:px-0'>
-                        It's important to note that the exact document requirements may vary depending on the specific purpose of the credentialing and the organisation conducting the verification. Applicants should check with DataFlow or the relevant authority for precise document requirements. 
+                    It's important to note that the exact document requirements may vary depending on the specific purpose of the credentialing and the organisation conducting the verification. Applicants should check with DataFlow or the relevant authority for precise document requirements. 
                 </p>
             </div>
         </div> 
