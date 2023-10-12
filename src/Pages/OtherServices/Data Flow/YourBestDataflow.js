@@ -6,7 +6,7 @@ function YourBestDataflow() {
 
   return (
     <>
-        <div className='flex justify-center items-center bg-zinc-200 h-full w-full mb-10'>
+        <div className='flex justify-center items-center bg-zinc-200 h-full w-full'>
             <div className='grid md:grid-cols-2 max-w-[1240px] py-10 '>
                 <div className='md:pt-10 lg:pl-[120px]'>
                     <img className='lg:w-[300px] w-[250px]  m-auto' src={thumb_img} alt="thumb_img" />
