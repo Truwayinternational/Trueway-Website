@@ -50,15 +50,15 @@ function YourBestDataflowCards() {
                             disableOnInteraction: false,
                         }}
                         breakpoints={{
-                        '@0.00': {
+                        '640': {
                             slidesPerView: 1,
                             spaceBetween: 10,
                         },
-                        '@0.75': {
+                        '768': {
                             slidesPerView: 2,
                             spaceBetween: 10,
                         },
-                        '@1.00': {
+                        '1024': {
                             slidesPerView: 3,
                             spaceBetween: 20,
                         }

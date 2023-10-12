@@ -8,11 +8,12 @@ import PSVnecessary from './PSVnecessary'
 import ProcessInDataflow from './ProcessInDataflow'
 import DocumentsRequired from './DocumentsRequired'
 import YourBestDataflow from './YourBestDataflow'
-import YourBestDataflowCards from './YourBestDataflowCards'
+
 import OurCommitment from '../../../Components/OurCommitment'
 import OurClients from '../OurClients'
 import Form2 from '../../../Components/Forms/Form2'
 import FaqDataFlow from './FaqDataFlow'
+import SrviecsofDataflow from './SrviecsofDataflow'
 
 
 
@@ -29,7 +30,7 @@ function DataFlowIndex() {
         <ProcessInDataflow/>
         <DocumentsRequired/>
         <YourBestDataflow/>
-        <YourBestDataflowCards/>
+        <SrviecsofDataflow/>
         <OurCommitment/>
         <OurClients/>
         <Form2/>

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 
 import Certificate from '../../Assets/services/Certificate.png'
@@ -130,10 +129,10 @@ function ServicesSection(props) {
                                 <img className="order-first w-[150px] h-[135px] py-2 mx-auto " src={card.img}alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
-                                <Link to={card.titleLink} >
+                                <a href={card.titleLink} >
                                     <h5 className="text-md font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900" onClick={scrollToTop}>
                                     {card.title} </h5> 
-                                </Link>
+                                </a>
                                 <p className=" font-light tracking-tighter text-zinc-500  md:text-sm"> {card.description}</p>
                             </div>
                         </div>

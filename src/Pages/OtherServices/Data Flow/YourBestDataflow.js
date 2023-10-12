@@ -1,5 +1,6 @@
 import React from 'react'
 import thumb_img from '../../../Assets/ISO/thumb.png'
+import YourBestDataflowCards from './YourBestDataflowCards'
 
 
 function YourBestDataflow() {
@@ -18,6 +19,14 @@ function YourBestDataflow() {
                     </p>
                 </div>
             </div>
+        </div>
+        {/* SOME CONTENT ADD LIKE COUROUSEL CARDS  */}
+        <YourBestDataflowCards/>
+
+        <div  className='flex  bg-zinc-200 mx-auto place-content-center'>
+            <p className='text-gray-500 font-poppins md:text-lg mb-10 px-6 md:px-8 lg:px-0 max-w-5xl'>
+                Several associated professionals, like anesthesiologists, audiologists, physical therapists, medical coders, radiographers, and more are supported by our full assistance. We help with the verification of their credentials and make sure they meet all organisational and governmental standards.
+            </p>
         </div>
     </>
   )
