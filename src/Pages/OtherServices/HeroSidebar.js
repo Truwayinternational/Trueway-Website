@@ -1,7 +1,4 @@
 import React from 'react'
-import { Link }from 'react-router-dom'
-
-
 
 // images import for sidebar
 import Certificate_img from '../../Assets/services_Sidebar/certificate.png';
@@ -34,82 +31,82 @@ function HeroSidebar() {
                 <div className=''>
                     <ul className='list-none mt-4'>
                         <li className='my-[-15px]'>
-                            <Link to="/certificateAttestation" onClick={scrollToTop}>
+                            <a href="/certificateAttestation" onClick={scrollToTop}>
                                 <img src={Certificate_img} alt="CertificateAttestation_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg'  />
-                            </Link>
+                            </a>
                         </li> 
                         <li className='my-[-15px]'>
-                            <Link to="/embassyAttestation" onClick={scrollToTop}>
+                            <a href="/embassyAttestation" onClick={scrollToTop}>
                                 <img src={embassy_img} alt="embassy_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
-                            </Link>
+                            </a>
                         </li>
                         <li className='my-[-15px]'>
-                            <Link to="/meaAttestation" onClick={scrollToTop}>
+                            <a href="/meaAttestation" onClick={scrollToTop}>
                                 <img src={MEA_img} alt="MEA_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
-                            </Link>
+                            </a>
                         </li>
                         <li className='my-[-15px]'>
-                            <Link to="/mofaAttestation" onClick={scrollToTop}>
+                            <a href="/mofaAttestation" onClick={scrollToTop}>
                                 <img src={Mofa_img} alt="Mofa_Attestation_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
-                            </Link>
+                            </a>
                         </li>
                         <li className='my-[-15px]'>
-                            <Link to="/hrdAttestation" onClick={scrollToTop}>
+                            <a href="/hrdAttestation" onClick={scrollToTop}>
                                 <img src={HRD_img} alt="HrdAttestation_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
-                            </Link>
+                            </a>
                         </li>
                         <li className='my-[-15px]'>
-                            <Link to="/apostilleAttestation" onClick={scrollToTop}>
+                            <a href="/apostilleAttestation" onClick={scrollToTop}>
                                 <img src={Apostille_img} alt="AppostilleAttestation_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/homeAttestation" onClick={scrollToTop}>
+                            <a href="/homeAttestation" onClick={scrollToTop}>
                                 <img src={HOME_img} alt="HomeAttestation_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
-                            </Link>
+                            </a>
                         </li>
                         <li className='my-[-15px]'>
-                            <Link to="/dataflow" onClick={scrollToTop}>
+                            <a href="/dataflow" onClick={scrollToTop}>
                                 <img src={Dataflow_img} alt="dataflow_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
-                            </Link>
+                            </a>
                         </li>
                         <li className='my-[-15px]'>
-                            <Link to="/examCoaching" onClick={scrollToTop}>
+                            <a href="/examCoaching" onClick={scrollToTop}>
                                 <img src={Exam_img} alt="examCoaching_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
-                            </Link>
+                            </a>
                         </li>
                         <li className='my-[-15px]' onClick={scrollToTop}>
-                            <Link to="/acls_bls">
+                            <a href="/acls_bls">
                                 <img src={ACLS_BLS_img} alt="ACLS_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
-                            </Link>
+                            </a>
                         </li>
                         <li className='my-[-15px]'>
-                            <Link to="/pcc" onClick={scrollToTop}>
+                            <a href="/pcc" onClick={scrollToTop}>
                                 <img src={PCC_img} alt="pcc_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
-                            </Link>
+                            </a>
                         </li>
                         <li className='my-[-15px]'>
-                            <Link to="/migration" onClick={scrollToTop}>
+                            <a href="/migration" onClick={scrollToTop}>
                                 <img src={migration_img} alt="migration_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
-                            </Link>
+                            </a>
                         </li>
                         <li className='my-[-15px]' onClick={scrollToTop}>
-                            <Link to="/Council_verification">
+                            <a href="/Council_verification">
                                 <img src={verification_img} alt="otherServices_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
-                            </Link>
+                            </a>
                         </li>
                     </ul>
                 </div>

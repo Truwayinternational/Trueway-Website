@@ -2,8 +2,6 @@ import React from 'react'
 import whiteLogo from '../../Assets/Trueway_Wt.png'
 import FooterAccordian from './FooterAccordian'
 
-import { Link } from 'react-router-dom'
-
 // import {FaLocationDot} from 'react-icons/fa6'
 import {BsFacebook, BsInstagram, BsLinkedin, BsTwitter, BsWhatsapp, BsYoutube} from 'react-icons/bs'
 
@@ -160,18 +158,18 @@ function Footer() {
                         }
                     </div>
                 </div>
-                {footerLinks.map((footerLink) => (
-                    <div key={footerLink.key}  className='flex flex-col sm:my-1 my-4 min-w-[150px] pl-4 md:mx-0'>
+                {footerLinks.map((footerLink, Index) => (
+                    <div key={Index}  className='flex flex-col sm:my-1 my-4 min-w-[150px] pl-4 md:mx-0'>
                         <h4 className='lg:text-2xl text-xl text-zinc-100 font-bold px-3'>
                             {footerLink.title}
                         </h4>
                         <ul className='list-none mt-4'>
                             {footerLink.links.map((toFooterlink, index) => (
-                                <li key={toFooterlink.index}
+                                <li key={index}
                                 className="font-poppins font-normal text-[16px] leading-[24px] text-white hover:text-green-950 cursor-pointer px-3 py-1">
-                                    <Link to={toFooterlink.link} className='hover:text-black hover:font-semibold' onClick={scrollToTop}>
+                                    <a href={toFooterlink.link} className='hover:text-black hover:font-semibold' onClick={scrollToTop}>
                                     {toFooterlink.name}
-                                    </Link>
+                                    </a>
                                 </li>
                             ))}
                         </ul>

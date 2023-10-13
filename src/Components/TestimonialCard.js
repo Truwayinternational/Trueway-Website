@@ -97,7 +97,7 @@ function TestimonialCard() {
         className="mySwiper"
       >
         { TestimonialData.map((Data, Index) => (
-          <SwiperSlide>
+          <SwiperSlide key={Index}>
             <div className='flex flex-col justify-center items-center mt-10 mb-14 mx-10 max-w-[1280px]'>
                   <div key={Index} className='bg-green-100 max-w-2xl md:p-10 p-4 rounded-3xl'>
                     <img className='block h-28 w-28 object-cover mx-auto my-3'  src={Data.img}  alt='avatar_img'/>

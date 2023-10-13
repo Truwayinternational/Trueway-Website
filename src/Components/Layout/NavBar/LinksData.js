@@ -5,7 +5,7 @@ export const links = [
       subLinks : [
         {
           Head: "Embassy Attestation",
-          headLink:"#!",
+          headLink:"/embassyAttestation",
           subLink : [
             {name:"UAE", link:"#!"},
             {name:"Qatar", link:"#!"},
@@ -16,7 +16,7 @@ export const links = [
         },
         {
           Head: "Home Attestation",
-          headLink:"#!",
+          headLink:"/homeAttestation",
           subLink : [
             {name:"Birth Certificate", link:"#!"},
             {name:"Death Certificate", link:"#!"},
@@ -28,7 +28,7 @@ export const links = [
         },
         {
           Head: "Apostille Attestation",
-          headLink:"#!",
+          headLink:"/apostilleAttestation",
           subLink : [
             {name:"Saudi Arabia", link:"#!"},
             {name:"UAE", link:"#!"},
@@ -39,23 +39,23 @@ export const links = [
         },
         {
           Head:"MEA Attestation",
-          headLink:"#!",
+          headLink:"/meaAttestation",
           subLink: [
-            {name:"Ministry of External Affairs", link:"#!"}
+            {name:"Ministry of External Affairs", link:"/meaAttestation"}
           ]
         },
         {
           Head:"MOFA Attestation",
-          headLink:"#!",
+          headLink:"/mofaAttestation",
           subLink: [
-            {name:"Ministry of Foreign Affairs", link:"#!"}
+            {name:"Ministry of Foreign Affairs", link:"/mofaAttestation"}
           ]
         },
         {
           Head:"HRD Attestation",
-          headLink:"#!",
+          headLink:"/hrdAttestation",
           subLink: [
-            {name:"Human Resource Development", link:"#!"}
+            {name:"Human Resource Development", link:"/hrdAttestation"}
           ]
         }
       ]
@@ -68,14 +68,14 @@ export const links = [
           Head: "Saudi Arabia",
           headLink:"/df_saudiArabia",
           subLink : [
-            {name:"", link:"#!"},
+            {name:false, link:"#!"},
           ]
         },
         {
           Head: "Oman",
           headLink:"/df_oman",
           subLink : [
-            {name:"", link:"#!"},
+            {name:false, link:"#!"},
           ]
         },
         {
