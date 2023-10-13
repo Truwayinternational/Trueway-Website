@@ -12,7 +12,7 @@ function PSVnecessary() {
               <img className='md:hidden grid  w-[100px]  mt-[-50px]' src={avatar_2} alt="avatar_2" />
             </div>
             <div className='flex'>
-                <div className='lg:w-2/3 ml-3 lg:md-12 lg:px-20 px-4 '>
+                <div className='lg:w-2/3 ml-3 lg:pl-20 px-4 '>
                     <div className='text-md md:text-xl lg:text-lg text-start text-gray-500  pr-3 lg:p-0 lg:mr-0'>
                         <p className='font-poppins'>
                         Dataflow's experienced team verifies the applicant's documents immediately at the source using its vast network of more than 100K Issuing Authorities. PSV is used to verify that the data provided by a person is accurate and that it was taken straight from the original, reliable source. PSV helps compliance with industry regulations and standards, protects against fraud, enhances safety and promotes trust.
