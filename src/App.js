@@ -6,7 +6,6 @@ import TopBar from "./Components/Layout/TopBar";
 import NavBar from "./Components/Layout/NavBar/NavBar";
 import HomeIndex from "./Pages/Home/HomeIndex";
 import Footer from './Components/Layout/Footer'
-
 import QuickAction from "./Components/Layout/QuickAction";
 
 // import ServicesIndex from "./Pages/OtherServices/ServicesIndex";
@@ -24,6 +23,16 @@ import MEAIndex from "./Pages/OtherServices/MEA Attestation/MEAIndex";
 import MOFAindex from "./Pages/OtherServices/MOFA Attestation/MOFAindex";
 import HomeAttIndex from "./Pages/OtherServices/Home Attestation/HomeAttIndex";
 import DataFlowIndex from "./Pages/OtherServices/Data Flow/DataFlowIndex";
+
+
+
+// We Provide Dataflow Services For different countries 
+import MohIndex from "./Pages/OtherServices/Data Flow/MOH/MohIndex";
+import BahrainDataflowIndex from "./Pages/OtherServices/Data Flow/BAHRAIN/BahrainDataflowIndex";
+import DHAindex from "./Pages/OtherServices/Data Flow/DHA/DHAindex";
+
+
+
 
 
 // clicking to nav link and scroll to top section
@@ -60,6 +69,12 @@ function App() {
           <Route path="/mofaAttestation" element={ <MOFAindex/> } onClick={scrollToTop}/>
           <Route path="/homeAttestation" element={ <HomeAttIndex/>} onClick={scrollToTop}/>
           <Route path="/dataflow" element={ <DataFlowIndex/> } onClick={scrollToTop}/>
+
+
+          {/* We Provide Dataflow Services For ---DATAFLOW VERIFICATIONS ---*/}
+          <Route path="/df_moh" element={ <MohIndex/> } />
+          <Route path="/df_bahrain" element={ <BahrainDataflowIndex/> } />
+          <Route path="/df_dha" element={ <DHAindex/> } />
         </Routes>
       <Footer />
     </div>

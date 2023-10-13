@@ -2,6 +2,14 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 import {links} from './LinksData'
 
+// clicking to nav link and scroll to top section
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth' // Add smooth scrolling behavior for a smoother transition
+  });
+}
+
 
 function NavLinks() {
   return (
@@ -22,11 +30,11 @@ function NavLinks() {
                         {link.subLinks.map((mysublinks, index)=>(
                             <div key={index}>
                               <h1 className='text-md font-semibold'>
-                                <Link to={mysublinks.headLink}>{mysublinks.Head}</Link>
+                                <Link to={mysublinks.headLink} onClick={scrollToTop} > {mysublinks.Head} </Link>
                               </h1>
                               {mysublinks.subLink.map((slink, index)=>(
-                                <li key={index} className='text-xs text-gray-600 py-1 px-1 '>
-                                  <Link to={slink.link} className='hover:text-green-600 '> {slink.name} </Link>
+                                <li key={index} className='text-xs onClick={scrollToTop}" text-gray-600 py-1 px-1 '>
+                                  <Link onClick={scrollToTop} to={slink.link} className='hover:text-green-600' > {slink.name} </Link>
                                 </li>
                               ))} 
                             </div>
