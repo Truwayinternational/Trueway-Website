@@ -21,13 +21,13 @@ function DocoumentForMofa() {
                     </p>
                     <div className='max-w-2xl my-4 font-HeadingFont'>
                         <ul className='md:text-xl  py-3 text-lg  text-green-500 w-fit font-HeadingFont font-semibold cursor-pointer'>
-                            <li className='bg-transparent rounded-full md:hover:bg-white py-2 w-fit'>
+                            <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 w-fit'>
                             <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Original copies of your education certificates
                             </li>
-                            <li className='bg-transparent rounded-full md:hover:bg-white py-2  w-fit'>
+                            <li className='bg-transparent rounded-full hover:bg-white py-2  w-fit'>
                             <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Copy of passport
                             </li>
-                            <li className='bg-transparent rounded-full md:hover:bg-white py-2 w-fit'>
+                            <li className='bg-transparent rounded-full hover:bg-white py-2 w-fit'>
                             <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Authentication Letter
                             </li>
                         </ul>

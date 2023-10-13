@@ -2,6 +2,7 @@ import React from 'react'
 import MOHhero from './MOHhero'
 import PrimarySourceVerification from './PrimarySourceVerification'
 import ProcessForMOH from './ProcessForMOH'
+import DocumentsRequiredMOH from './DocumentsRequiredMOH'
 
 function MohIndex() {
 
@@ -11,6 +12,7 @@ function MohIndex() {
         <MOHhero/>
         <PrimarySourceVerification/>
         <ProcessForMOH/>
+        <DocumentsRequiredMOH/>
     </div>
   )
 }
