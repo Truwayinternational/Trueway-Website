@@ -1,5 +1,6 @@
 import React from 'react'
 import MOHhero from './MOHhero'
+import PrimarySourceVerification from './PrimarySourceVerification'
 
 function MohIndex() {
 
@@ -7,6 +8,7 @@ function MohIndex() {
 
     <div>
         <MOHhero/>
+        <PrimarySourceVerification/>
     </div>
   )
 }
