@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import HRD_banner from '../../../Assets/HRD Attestation/HRD banner.png'
-import banner_mob from '../../../Assets/HRD Attestation/HRd MOb.png'
+import banner_mob from '../../../Assets/mobile banners/HRDattestation.png'
 import HeroSidebar from '../HeroSidebar';
 
 function HRDattestation() {
@@ -27,7 +27,6 @@ function HRDattestation() {
             {/* responsive banner of HRD attestation */}
             <div className='w-full top-0 lg:ml-20 relative lg:hidden'>
               <img className='object-cover w-full ' src={banner_mob} alt="page_banner" />
-              <h3 className='absolute text-3xl md:text-5xl font-HeadingFont font-extrabold text-black text-center  left-[100px] md:left-[34%] tracking-wider mt-[-100px] md:mt-[-150px]'>HRD <br/> Attestation </h3>
             </div>
 
             {/* web content sections */}

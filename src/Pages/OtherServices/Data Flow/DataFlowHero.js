@@ -2,7 +2,7 @@ import React from 'react'
 
 
 import Dataflow_banner from '../../../Assets/dataflow/dataflow_web.png'
-import banner_mob from '../../../Assets/dataflow/dataflow_mob.png'
+import banner_mob from '../../../Assets/mobile banners/dataflow.png'
 
 import HeroSidebar from '../HeroSidebar';
 
@@ -20,7 +20,6 @@ function DataFlowHero() {
                     {/* responsive banner of dataflow verification */}
                 <div className='w-full top-0 lg:ml-20 relative lg:hidden'>
                     <img className='object-cover w-full ' src={banner_mob} alt="page_banner" />
-                    <h3 className='absolute text-3xl md:text-5xl font-HeadingFont font-extrabold text-black text-center  left-[100px] md:left-[32%] tracking-wider mt-[-100px] md:mt-[-150px]'>Dataflow <br/> Verification</h3>
                 </div>
 
             {/* web content sections */}
