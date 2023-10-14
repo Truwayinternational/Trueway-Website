@@ -3,6 +3,7 @@ import SaudiDataflowHero from './SaudiDataflowHero'
 import ContactforDataflow from '../ContactforDataflow'
 import PSVinSaudi from './PSVinSaudi'
 import ProcessForSaudi from './ProcessForSaudi'
+import DocumentsForSaudiDataflow from './DocumentsForSaudiDataflow'
 
 
 
@@ -14,6 +15,7 @@ function SaudiDataflowIndex() {
         <ContactforDataflow/>
         <PSVinSaudi/>
         <ProcessForSaudi/>
+        <DocumentsForSaudiDataflow/>
     </div>
   )
 
