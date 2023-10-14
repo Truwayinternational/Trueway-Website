@@ -5,7 +5,7 @@ import avatar_2 from '../../../../Assets/certificate attestation/avatar_2.png'
 function PrimarySourceVerification() {
   return (
     <>
-        <div className='max-w-[1240px] mx-auto place-content-center py-10'>
+      <div className='max-w-[1240px] mx-auto place-content-center py-10'>
             <div className='flex mx-4  lg:px-16 px-1'>
               <h2 className='md:text-5xl lg:w-2/3 text-3xl pb-5  font-HeadingFont font-extrabold text-black  md:tracking-wide '> Why <b className='text-green-500'> Primary Source Verification ( PSV )</b> is important in  MOH?</h2>
               <img className='lg:hidden grid  w-[100px]  mt-[-50px] md:mr-10' src={avatar_2} alt="avatar_2" />
