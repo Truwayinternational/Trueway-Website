@@ -23,7 +23,7 @@ function MOHhero() {
                 Are you planning to study or work in the UAE? Then you must do the dataflow verification before moving. Dataflow is necessary for healthcare professionals, including doctors, nurses, pharmacists, dentists, allied health professionals, etc. MOH was formed to make sure that healthcare professionals are employed in the UAE to provide dependable, trustworthy, high-quality, and effective healthcare. Our professional and dedicated team members have 15 years of experience in this process, and they will make your dataflow work at high speed, accurately, and free of hassle.
                 </p>
             </div>    
-        </div>
+      </div>
     </>
   )
 }
