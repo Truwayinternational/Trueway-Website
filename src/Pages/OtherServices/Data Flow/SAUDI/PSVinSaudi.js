@@ -6,7 +6,7 @@ function PSVinSaudi() {
     <>
         <div className='max-w-[1240px] mx-auto place-content-center py-10'>
             <div className='flex mx-4  lg:px-16 px-1'>
-              <h2 className='md:text-5xl lg:w-2/3 text-3xl pb-5  font-HeadingFont font-extrabold text-black  md:tracking-wide '> Why is <b className='text-green-500'> Primary Source Verification ( PSV )</b> is important in Saudi?</h2>
+              <h2 className='md:text-5xl lg:px-5 lg:w-2/3 text-3xl pb-5  font-HeadingFont font-extrabold text-black  md:tracking-wide '> Why is<b className='text-green-500'> Primary Source Verification ( PSV )</b> important in Saudi?</h2>
               <img className='lg:hidden grid  w-[100px]  mt-[-50px] md:mr-10' src={avatar_2} alt="avatar_2" />
             </div>
             <div className='flex'>
