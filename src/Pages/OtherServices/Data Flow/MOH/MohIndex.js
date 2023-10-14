@@ -6,6 +6,9 @@ import DocumentsRequiredMOH from './DocumentsRequiredMOH'
 import Form2 from '../../../../Components/Forms/Form2'
 import FaqMOH from './FaqMOH'
 
+// add all dataflow inner pages
+import ContactforDataflow from '../ContactforDataflow'
+
 
 
 function MohIndex() {
@@ -14,6 +17,7 @@ function MohIndex() {
 
     <div>
         <MOHhero/>
+        <ContactforDataflow/>
         <PrimarySourceVerification/>
         <ProcessForMOH/>
         <DocumentsRequiredMOH/>
