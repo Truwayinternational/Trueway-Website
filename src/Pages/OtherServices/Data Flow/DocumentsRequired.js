@@ -13,22 +13,22 @@ function DocumentsRequired() {
                         <h1 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500'> <b className='text-black'> Documents Required For <br/> </b>  Credentialing in DataFlow typically include:</h1>
                         <div className='max-w-2xl font-HeadingFont'>
                             <ul className='md:text-xl  py-3 text-lg  text-green-500 w-fit font-HeadingFont font-semibold cursor-pointer'>
-                                <li className='bg-transparent rounded-full md:hover:bg-white py-2 w-fit'>
+                                <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 w-fit'>
                                     <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Dataflow Report
                                 </li>
-                                <li className='bg-transparent rounded-full md:hover:bg-white py-2  w-fit'>
+                                <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2  w-fit'>
                                     <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Copy of passport
                                 </li>
-                                <li className='bg-transparent rounded-full md:hover:bg-white py-2 w-fit'>
+                                <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 w-fit'>
                                     <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> USER ID and Password of Dataflow
                                 </li>
-                                <li className='bg-transparent rounded-full md:hover:bg-white py-2 w-fit'>
+                                <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 w-fit'>
                                     <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Registered Mail ID
                                 </li>
-                                <li className='bg-transparent rounded-full md:hover:bg-white py-2 w-fit'>
+                                <li className='bg-transparent rounded-3xl hover:bg-white py-2 w-fit'>
                                     <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> All the other Documents submitted at the time of Dataflow
                                 </li>
-                                <li className='bg-transparent rounded-full md:hover:bg-white py-2 w-fit'>
+                                <li className='bg-transparent rounded-3xl hover:bg-white py-2 w-fit'>
                                     <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> BLS Certificate<span> (Only for Nurses. This certificate is not required for Physicians.)</span>
                                 </li>
                             </ul>
