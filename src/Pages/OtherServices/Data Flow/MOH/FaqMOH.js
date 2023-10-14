@@ -62,7 +62,7 @@ function FaqMOH() {
 
 
   return (
-    <div>
+    <>
         <div className='w-full h-full flex flex-col justify-between bg-white'>
             <div className="max-w-[1240px] my-10 m-auto">
                 <div className='flex flex-col justify-center md:items-center w-full px-2 py-4'>
@@ -83,7 +83,7 @@ function FaqMOH() {
                 </div>
             </div>
         </div>
-    </div>
+    </>
   )
 }
 
