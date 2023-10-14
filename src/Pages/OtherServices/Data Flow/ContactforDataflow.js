@@ -6,7 +6,7 @@ import {PiPhoneCallFill} from 'react-icons/pi'
 function ContactforDataflow() {
   return (
     <>
-        <div className='max-w-4xl mx-auto place-content-center my-10'>
+        <div className='max-w-3xl mx-auto place-content-center my-10'>
             <div className='grid justify-center bg-zinc-100 rounded-3xl mx-5 py-3 px-5'>
                 <h6 className='md:text-2xl font-bold font-HeadingFont text-center text-xl  my-5'> 
                     Contact us to get your Dataflow verification done

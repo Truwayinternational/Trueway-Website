@@ -3,6 +3,7 @@ import OmanDataFlowHero from './OmanDataFlowHero'
 import ContactforDataflow from '../ContactforDataflow'
 import PSVinOman from './PSVinOman'
 import ProcessForOman from './ProcessForOman'
+import DocumentsForOman from './DocumentsForOman'
 
 function OmanDataflowIndex() {
   return (
@@ -11,6 +12,7 @@ function OmanDataflowIndex() {
         <ContactforDataflow/>
         <PSVinOman/>
         <ProcessForOman/>
+        <DocumentsForOman/>
     </div>
   )
 }
