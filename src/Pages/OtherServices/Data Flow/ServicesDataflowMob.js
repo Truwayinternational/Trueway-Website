@@ -85,7 +85,7 @@ function ServicesDataflowMob() {
                     <img className='px-3 w-[150px] mx-auto' src={kuwait} alt="kuwait_logo" />
                      <a href="/df_kuwait">
                         <h1 className='font-HeadingFont text-2xl font-bold text-center pb-4'>
-                            KUWAIT
+                            Kuwait
                         </h1>
                      </a>
                 </div>
@@ -94,7 +94,7 @@ function ServicesDataflowMob() {
                   <div className='flex flex-col  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                     <img className='px-3 w-[150px] mx-auto' src={uae} alt="HAAD_logo" />
                      <a href="/df_haad">
-                        <h1 className='font-HeadingFont text-3xl font-bold text-center pb-4'>
+                        <h1 className='font-HeadingFont text-2xl font-bold text-center pb-4'>
                             HAAD
                         </h1>
                      </a>
@@ -105,7 +105,7 @@ function ServicesDataflowMob() {
                   <div className='flex flex-col  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                     <img className='px-3 w-[150px] mx-auto' src={bahrain} alt="bahrain_logo" />
                      <a href="/df_bahrain">
-                        <h1 className='font-HeadingFont text-3xl font-bold text-center pb-4'>
+                        <h1 className='font-HeadingFont text-2xl font-bold text-center pb-4'>
                             Bahrain
                         </h1>
                      </a>
