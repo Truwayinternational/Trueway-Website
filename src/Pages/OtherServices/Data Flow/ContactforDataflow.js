@@ -12,12 +12,12 @@ function ContactforDataflow() {
                     Contact us to get your Dataflow verification done
                 </h6>
                 <div className='flex items-center my-3 mx-auto'>
-                    <div className='bg-white rounded-full mx-5 p-3'>
+                    <div className='bg-white rounded-full mx-5 p-3 hover:shadow-xl'>
                          <a href='tel:+918327626262' target='_blank' rel="noopener noreferrer">
                             <PiPhoneCallFill className='text-green-500 text-5xl w-fit' />
                          </a>
                     </div>
-                    <div className='bg-white rounded-full mx-5 p-3'>
+                    <div className='bg-white rounded-full mx-5 p-3 hover:shadow-xl'>
                          <a href='https://wa.link/c3ukjh' target='_blank' rel="noopener noreferrer">
                             <IoLogoWhatsapp className='text-green-500 text-5xl w-fit' />
                          </a>
