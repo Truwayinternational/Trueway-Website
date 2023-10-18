@@ -37,7 +37,7 @@ function Branches() {
                         </a>
                     </div>
                 </div>
-                <div className='hidden md:flex mx-60 flex-row  mb-14 gap-5'>
+                <div className='hidden md:flex lg:mx-60 mx-40 flex-row  mb-14 gap-5'>
                     {/* bangalore location */}
                     <div className='mx-5'>
                         <a href="https://www.google.com/maps/place/Trueway+international/@12.9772634,77.5763505,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae195748ea8e0f:0x4bea4f115b98dc9b!8m2!3d12.9772634!4d77.5763505!16s%2Fg%2F11p5hvkrgk?entry=ttu" target='_blank' rel="noopener noreferrer">
