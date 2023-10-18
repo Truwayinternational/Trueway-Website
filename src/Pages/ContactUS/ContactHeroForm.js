@@ -156,7 +156,7 @@ function ContactHeroForm() {
                                         errors={state.errors}/>
                                     </div>
                                 <div className='flex justify-center'>
-                                    <button className="flex justify-center bg-white mt-8 mb-12 items-center text-black py-3 px-8 text-xl rounded-xl shadow-2xl hover:text-white hover:bg-green-700 " type="submit" disabled={state.submitting} > Submit </button>
+                                    <button className="flex justify-center bg-green-600 text-white mt-8 mb-12 items-center font-HeadingFont  py-3 px-8 text-xl rounded-xl shadow-2xl hover:bg-green-800 " type="submit" disabled={state.submitting} > Submit </button>
                                 </div>
                                 </form>
                             </div>

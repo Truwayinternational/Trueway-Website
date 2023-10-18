@@ -28,7 +28,7 @@ const [open, SetOpen] = useState(false)
             </div>
             <ul className='lg:flex hidden Capitalize items-center gap-2 font-[poppins] cursor-pointer'>
                 <li>
-                    <NavLink to="/" className='py-3 cursor-pointer  inline-block hover:text-green-500 [&.active]:text-green-600 [&.active]:npm safont-bold' onClick={scrollToTop} > 
+                    <NavLink to="/" className='py-3 cursor-pointer  inline-block hover:text-green-500 [&.active]:text-green-600 [&.active]:font-bold' onClick={scrollToTop} > 
                         Home
                     </NavLink>
                 </li>

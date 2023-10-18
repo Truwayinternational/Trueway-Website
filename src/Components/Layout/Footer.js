@@ -108,26 +108,34 @@ function Footer() {
 
     const OurBranches = [
         {
-            place:"Trivandrum",
-            location: <a href="https://www.google.com/maps/place/Trueway+international/@8.5682433,76.868242,16z/data=!4m6!3m5!1s0x3b05bb83a7f4081b:0xefc31dbc16018dff!8m2!3d8.5648563!4d76.8757937!16s%2Fg%2F11pdw9prh1?authuser=0&entry=ttu">Logtech Tower, Bypass Junction, Kazhakkoottam, Thiruvananthapuram, Kerala 695582</a>
+            place:"Kazhakkoottam",
+            location: <a href="https://www.google.com/maps/place/Trueway+international/@8.5682433,76.868242,16z/data=!4m6!3m5!1s0x3b05bb83a7f4081b:0xefc31dbc16018dff!8m2!3d8.5648563!4d76.8757937!16s%2Fg%2F11pdw9prh1?authuser=0&entry=ttu" target='_blank' rel="noopener noreferrer">
+                Logtech Tower, Bypass Junction, Kazhakkoottam, Thiruvananthapuram, Kerala 695582
+                </a>
         },
         {
             place:"Attingal",
-            location: <a href="https://www.google.com/maps/place/Adsomia+india+pvt+ltd/@8.6936387,76.8197565,20.43z/data=!4m14!1m7!3m6!1s0x3b05e9a0e100813f:0xffd7aae933928cfc!2sAdsomia+india+pvt+ltd!8m2!3d8.6934554!4d76.8199276!16s%2Fg%2F11sbd0j9fk!3m5!1s0x3b05e9a0e100813f:0xffd7aae933928cfc!8m2!3d8.6934554!4d76.8199276!16s%2Fg%2F11sbd0j9fk?authuser=0&entry=ttu">opp. CSI Road, hsopital, Attingal, Kerala 695101</a> 
+            location: <a href="https://www.google.com/maps/place/Adsomia+india+pvt+ltd/@8.6936387,76.8197565,20.43z/data=!4m14!1m7!3m6!1s0x3b05e9a0e100813f:0xffd7aae933928cfc!2sAdsomia+india+pvt+ltd!8m2!3d8.6934554!4d76.8199276!16s%2Fg%2F11sbd0j9fk!3m5!1s0x3b05e9a0e100813f:0xffd7aae933928cfc!8m2!3d8.6934554!4d76.8199276!16s%2Fg%2F11sbd0j9fk?authuser=0&entry=ttu" target='_blank' rel="noopener noreferrer">
+                opp. CSI Road, hsopital, Attingal, Kerala 695101
+                </a> 
         },
         {
             place:"Kochi",
-            location: <a href="https://www.google.com/maps/place/Trueway+Attestation/@9.9723527,76.2831195,17z/data=!3m1!4b1!4m6!3m5!1s0x3b0873a7cd8c8ddb:0xd5318173f12c4809!8m2!3d9.9723474!4d76.2856944!16s%2Fg%2F11rr5z000x?authuser=0&entry=ttu">
+            location: <a href="https://www.google.com/maps/place/Trueway+Attestation/@9.9723527,76.2831195,17z/data=!3m1!4b1!4m6!3m5!1s0x3b0873a7cd8c8ddb:0xd5318173f12c4809!8m2!3d9.9723474!4d76.2856944!16s%2Fg%2F11rr5z000x?authuser=0&entry=ttu" target='_blank' rel="noopener noreferrer">
                 G08 Wolfpack work spaces, Iyyattil Ln, near maharajas metro station, jn, Kochi, Kerala 682011
             </a> 
         },
         {
-            place:"Chennai",
-            location: <a href="#!">Chennai</a>
+            place:"Bangalore",
+            location: <a href="https://www.google.com/maps/place/Trueway+international/@12.9772634,77.5763505,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae195748ea8e0f:0x4bea4f115b98dc9b!8m2!3d12.9772634!4d77.5763505!16s%2Fg%2F11p5hvkrgk?entry=ttu" target='_blank' rel="noopener noreferrer">
+                3rd Floor Grand Majestic Mall, 2nd Cross Rd, opposite Gubbi Veeranna Ranga mandira, Bengaluru, Karnataka 560009
+            </a>
         },
         {
-            place:"Bangalore",
-            location: <a href="#!">Bangalore</a>
+            place:"Chennai",
+            location: <a href="https://www.google.com/maps/place/Adsomia+India+Pvt+ltd/@13.0613,80.2611,17z/data=!3m1!4b1!4m6!3m5!1s0x3a52671d995dccb1:0x3e422a5d1d2dac8a!8m2!3d13.0613!4d80.2611!16s%2Fg%2F11scpvln6y?entry=ttu" target='_blank' rel="noopener noreferrer">
+                G135 B Phase 3 Ground Floor, Spencer Plaza Mall, Anna Salai, Chennai, Tamil Nadu 600002
+            </a>
         }
     ]
 
