@@ -28,7 +28,7 @@ function Form2() {
         }
 
   return (
-    <div>
+    <>
         <div className='h-full my-10 '>
             <div className='flex justify-center' >
                 <div className='bg-no-repeat bg-cover bg-center px-12 md:rounded-3xl ' style={{backgroundImage: `url(${bgContact})`}}>
@@ -93,7 +93,7 @@ function Form2() {
                 </div>
             </div>
         </div>
-    </div>
+    </>
   )
 }
 

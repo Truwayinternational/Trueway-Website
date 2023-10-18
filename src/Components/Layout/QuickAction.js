@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-import whatsappMain from '../../Assets/whatsappmain.png'
+import supportIcon from '../../Assets/24:7 supportIcon.png'
 import quickEnguiry from '../../Assets/Q.png'
 
 import whatsapp from '../../Assets/whatsapp.png'
@@ -14,7 +14,7 @@ function QuickAction() {
 
   return (
     <div className=''>
-        <div className='flex fixed max-w-[1240px] place-content-center left-0 z-10 top-[48%]'>
+        <div className='flex fixed max-w-[1240px] place-content-center left-0 z-10 top-[45%]'>
           <img className='md:w-12 w-10  cursor-pointer' src={quickEnguiry} alt="quick enquiry toggle" onClick={ ()=> setShow (!show) }/>
 
             {/* show and hide quick enquiry */}
@@ -31,9 +31,9 @@ function QuickAction() {
             }
         </div>
         {/* whatsapp enquiry icon  right side */}
-        <div className='flex fixed max-w-[1240px] place-content-center md:right-10 right-4  z-10 top-1/2'>
+        <div className='flex fixed max-w-[1240px] place-content-center md:right-5 right-4  z-10 top-1/2'>
             <a  href='https://wa.link/c3ukjh' target='_blank' rel="noopener noreferrer"> 
-                <img className='md:w-20 w-12 shadow-2xl rounded-full ' src={whatsappMain} alt="whatsapp_chatting"/> 
+                <img className='md:w-24 w-14' src={supportIcon} alt="whatsapp_chatting"/>
             </a>
         </div>
     </div>

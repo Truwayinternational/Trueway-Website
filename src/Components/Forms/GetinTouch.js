@@ -94,7 +94,7 @@ export function GetinTouch() {
                                 <dl className="text-center ">
                                     <div className="mx-auto flex max-w-xs flex-col gap-y-1">
                                         <MdEmail className="text-4xl font-bold mx-2 text-green-500 hover:text-green-700"/>
-                                        <a href='mailto:social@truewayinternational.com' className="text-sm font-bold text-gray-600"> Email</a>
+                                        <a href='mailto:tvm@truewayinternational.com' className="text-md font-bold text-gray-600" target='_blank' rel="noopener noreferrer"> Email</a>
                                     </div>
                                 </dl>
                             </div>
@@ -104,7 +104,7 @@ export function GetinTouch() {
                                         <dd className="text-4xl font-bold mx-3 text-green-500 hover:text-green-700">
                                         <MdWhatsapp />
                                         </dd>
-                                        <a href='https://wa.link/c3ukjh' className="text-sm font-bold  text-gray-600"> Contact</a>
+                                        <a href='https://wa.link/c3ukjh' className="text-md font-bold  text-gray-600" target='_blank' rel="noopener noreferrer"> Contact</a>
                                     </div>
                                 </dl>
                             </div>
@@ -114,7 +114,7 @@ export function GetinTouch() {
                                         <dd className="text-4xl font-bold mx-3 text-green-500 hover:text-green-700">
                                         <MdCall />
                                         </dd>
-                                        <a href='tel:+918327626262' className="text-sm text-gray-600 font-bold"> Call</a>
+                                        <a href='tel:+918327626262' className="text-md text-gray-600 font-bold" target='_blank' rel="noopener noreferrer"> Call</a>
                                     </div>
                                 </dl>
                             </div>
