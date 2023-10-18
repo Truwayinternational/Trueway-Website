@@ -33,6 +33,7 @@ import DHAindex from "./Pages/OtherServices/Data Flow/DHA/DHAindex";
 import SaudiDataflowIndex from "./Pages/OtherServices/Data Flow/SAUDI/SaudiDataflowIndex";
 import OmanDataflowIndex from "./Pages/OtherServices/Data Flow/OMAN/OmanDataflowIndex";
 import QatarDataflowIndex from "./Pages/OtherServices/Data Flow/QATAR/QatarDataflowIndex";
+import HAADdataflowIndex from "./Pages/OtherServices/Data Flow/HAAD/HAADdataflowIndex";
 
 
 
@@ -81,6 +82,8 @@ function App() {
           <Route path="/df_bahrain" element={ <BahrainDataflowIndex/> } />
           <Route path="/df_qatar" element={ <QatarDataflowIndex/> } />
           <Route path="/df_dha" element={ <DHAindex/> } />
+          <Route path="/df_haad" element={ <HAADdataflowIndex/> } />
+          
         </Routes>
       <Footer />
     </div>
