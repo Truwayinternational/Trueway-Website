@@ -7,6 +7,7 @@ import attingal from '../../Assets/contactUs/attingal_web.png'
 import kochi from '../../Assets/contactUs/kochi_web.png'
 import chennai from '../../Assets/contactUs/chennai_web.png'
 import bangalore from '../../Assets/contactUs/Bangalure_web.png'
+import BranchesMob from './BranchesMob'
 
 
 function Branches() {
@@ -51,6 +52,9 @@ function Branches() {
                         </a>
                     </div>
                 </div>
+                
+                {/* responsive cards */}
+                <BranchesMob/>
             </div>
         </div>
     </>
