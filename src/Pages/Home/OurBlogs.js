@@ -47,6 +47,7 @@ const BlogData = [
     details:"A police clearance certificate is a confirmation issued by the country of origin, in which a designated police specialist in the country of origin issues a police clearance certificate with their official seal or signature.Getting a PCC is very complicated if you have criminal records in the name of a person."
   },
 ]
+
 function OurBlogs(props) {
 
 
