@@ -2,6 +2,7 @@ import React from 'react'
 import AboutBanner from './AboutBanner'
 import OurMission from './OurMission'
 import OurVision from './OurVision'
+import OurTeam from './OurTeam'
 
 function AboutIndex() {
   return (
@@ -9,6 +10,7 @@ function AboutIndex() {
       <AboutBanner/>
       <OurMission/>
       <OurVision/>
+      <OurTeam/>
     </>
   )
 }
