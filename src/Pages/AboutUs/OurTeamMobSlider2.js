@@ -201,21 +201,6 @@ function OurTeamMobSlider2() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                   {/* Revathy Krishnan */}
-                   <div className='flex flex-col justify-center  mx-auto'>
-                        <img className='w-[180px] mx-auto' src={revatni} alt="team member "/>
-                        <div className='flex flex-col justify-center px-2 mx-auto'>
-                            <h6 className='text-sm font-bold font-HeadingFont text-green-500 text-center'>
-                            Revathy Krishnan
-                            </h6>
-                            <p className='text-gray-500 text-xs font-poppins text-center'>
-                            (Document Control Manager)
-                            </p>
-                        </div>
-                    </div>
-                </SwiperSlide>
-
-                <SwiperSlide>
                    {/* Shimna Hameed */}
                    <div className='flex flex-col justify-center  mx-auto'>
                         <img className='w-[180px] mx-auto' src={shimna} alt="team member "/>
