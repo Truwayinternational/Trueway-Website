@@ -17,7 +17,6 @@ function OurBlogsCards() {
     const BlogDatas = [
         {
           id:1,
-          img:"",
           date:"02 Jun 2022",
           title:"HRD Attestation - What, Why & How",
           details:"HRD stands for Human Resources Development. While applying for jobs certain documents needed to be attested by the HRD Department of the state. This process is called HRD Attestation. In this article we are looking at some of the mostly asked doubts and questions related to HRD Attestation"
@@ -25,14 +24,12 @@ function OurBlogsCards() {
         },
         {
           id:2,
-          img:"",
           date:"22 Sep 2022",
           title:"College Certificate Verifications",
           details:"No Objection Certificate or NOC Letter Format for Students for obtaining college degree or diploma, for college migration. This certificate is issued as per request of person for his specific need. NOC shows no objection upon the particular person and purpose.This article provides a discussion on NOC. "
         },
         {
           id:3,
-          img:"",
           date:"01 Jun 2023",
           title:"Nursing Council KNC",
           details:"Trueway Tours & Travels is one of the foremost companies in India with an array of gratified clients. Being proficient in the line of work, we are proud to declare that we have kept a substantial track record since our start. Our happy customers who had known our dedication and experience in the field and satisfied with the Excellency of our assistance. "
@@ -40,14 +37,12 @@ function OurBlogsCards() {
       
         {
           id:4,
-          img: "",
           date:"19 Feb 2021",
           title:"Understanding IELTS",
           details:"The biggest mistake candidates make while preparing for IELTS is that they prepare on their language skills alone ignoring the more important aspect, communication. we need to differentiate language from communication. Planning a short talk in English for improving your pronunciation.Exam techniques to help you tackle all types of test questions."
         },
         {
           id:5,
-          img: "",
           date:"29 Oct 2021",
           title:"What is Police Clearance Certificate?",
           details:"A police clearance certificate is a confirmation issued by the country of origin, in which a designated police specialist in the country of origin issues a police clearance certificate with their official seal or signature.Getting a PCC is very complicated if you have criminal records in the name of a person."
@@ -105,8 +100,7 @@ function OurBlogsCards() {
 
                         { BlogDatas.map((BlogData, index) => (
                             <SwiperSlide>
-                                <div className="mb-16 h-fit py-10  justify-center px-auto m-4 p-3 bg-zinc-100 px-4 rounded-3xl hover:shadow-lg hover:bg-green-50 cursor-pointer">
-                                    <img src={BlogData.img} alt="BlogImages" />
+                                <div className="mb-16 h-fit py-5  justify-center px-auto m-4 p-3 bg-zinc-100 px-4 rounded-3xl hover:shadow-lg hover:bg-green-50 cursor-pointer">
                                     <div className='flex   text-green-800 px-4'>
                                         <SlCalender className='mt-3 text-lg'/> <span className='font-bold'>{BlogData.date}</span>
                                     </div>
@@ -115,6 +109,9 @@ function OurBlogsCards() {
                                         <p className=" font-light tracking-normal text-zinc-500 text-center md:text-lg">
                                             {BlogData.details}
                                         </p>
+                                        <a href="#!" className='pt-8 font-bold text-green-600 hover:text-green-900 px-20 md:px-28 text-center mx-auto'>
+                                            Read More..
+                                        </a>
                                     </div>
                                 </div>
                         </SwiperSlide>

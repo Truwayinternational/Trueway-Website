@@ -9,7 +9,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 
-import vishnuSir from '../../Assets/AboutUs/Hassan Rawther.png'
+import vishnuSir from '../../Assets/AboutUs/Vishnu s kumar.png'
 import Lazitha from '../../Assets/AboutUs/Lezitha M S.png'
 import Vishnu from '../../Assets/AboutUs/Vishnu V S.png'
 import Anusha from '../../Assets/AboutUs/Anusha.png'

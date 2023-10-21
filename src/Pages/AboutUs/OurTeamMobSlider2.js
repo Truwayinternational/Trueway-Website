@@ -8,7 +8,7 @@ import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-import Kiran from '../../Assets/AboutUs/Hassan Rawther.png'
+import Kiran from '../../Assets/AboutUs/Kiran.png'
 import Archana from '../../Assets/AboutUs/Archana S S.png'
 import veena from '../../Assets/AboutUs/Veena.png'
 import karthika from '../../Assets/AboutUs/Karthika.png'
@@ -19,10 +19,10 @@ import SAJINI from '../../Assets/AboutUs/Sajini.png'
 import revatni from '../../Assets/AboutUs/Ravathy.png'
 import shimna from '../../Assets/AboutUs/Shimna.png'
 import sony from '../../Assets/AboutUs/Sony.png'
-import ramya from '../../Assets/AboutUs/Hassan Rawther.png'
+import ramya from '../../Assets/AboutUs/Ramya.png'
 import febin from '../../Assets/AboutUs/Febin.png'
-import Rijil from '../../Assets/AboutUs/Hassan Rawther.png'
-import karthikeyan from '../../Assets/AboutUs/Hassan Rawther.png'
+import Rijil from '../../Assets/AboutUs/Rijil.png'
+import karthikeyan from '../../Assets/AboutUs/Karthikeyan.png'
 import saheena from '../../Assets/AboutUs/Shaheeena.png'
 import jibin  from '../../Assets/AboutUs/Jibin.png'
 
