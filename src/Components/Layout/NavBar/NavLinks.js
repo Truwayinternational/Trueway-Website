@@ -4,7 +4,7 @@ import {links} from './LinksData'
 
 // clicking to nav link and scroll to top section
 function scrollToTop() {
-  window.scrollTo({
+  window.scrollTo ({
     top: 0,
     behavior: 'smooth' // Add smooth scrolling behavior for a smoother transition
   });
