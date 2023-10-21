@@ -24,45 +24,45 @@ function DocumentsRequired() {
         </div>
         <div className='flex justify-center md:px-20  pl-1 md:mx-auto  max-w-[1280px] pb-10 '>
                 <div className='flex md:w-1/2 '>
-                    <ul className='md:text-xl  text-sm  text-green-500'>
-                        <li className='bg-transparent rounded-full md:hover:bg-white py-2 cursor-pointer font-HeadingFont '>
+                    <ul className='lg:text-xl md:text-lg text-sm  text-green-500'>
+                        <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
                             <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Degree Certificate
                         </li>
-                        <li className='bg-transparent rounded-full md:hover:bg-white py-2 cursor-pointer font-HeadingFont '>
+                        <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
                             <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> PG Degree Certificate
                         </li>
-                        <li className='bg-transparent rounded-full md:hover:bg-white py-2 cursor-pointer font-HeadingFont '>
+                        <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
                             <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> BE Certificate
                         </li>
-                        <li className='bg-transparent rounded-full md:hover:bg-white py-2 cursor-pointer font-HeadingFont '>
+                        <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
                             <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Diploma Certificate
                         </li>
-                        <li className='bg-transparent rounded-full md:hover:bg-white py-2 cursor-pointer font-HeadingFont '>
+                        <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
                             <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Nursing Certificate
                         </li>
-                        <li className='bg-transparent rounded-full md:hover:bg-white py-2 cursor-pointer font-HeadingFont '>
+                        <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
                             <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> SSC Certificate
                         </li>
                     </ul>
                 </div>
                 <div className='flex  md:w-1/2  md:pl-10 pl-0'>
-                    <ul className='text-sm md:text-xl text-green-500 '>
-                        <li className='bg-transparent rounded-full md:md:hover:bg-white py-2 cursor-pointer font-HeadingFont '>
+                    <ul className='text-sm lg:text-xl md:text-lg text-green-500 '>
+                        <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
                             <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> HSC Certificate
                         </li>
-                        <li className='bg-transparent rounded-full md:hover:bg-white py-2 cursor-pointer font-HeadingFont '>
+                        <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
                             <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> MBBS Certificate
                         </li>
-                        <li className='bg-transparent rounded-full md:hover:bg-white py-2 cursor-pointer font-HeadingFont '>
+                        <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
                             <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Inter Certificate
                         </li>
-                        <li className='bg-transparent rounded-full md:hover:bg-white py-2 cursor-pointer font-HeadingFont '>
+                        <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
                             <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Pharmacy Certificate
                         </li>
-                        <li className='bg-transparent rounded-full md:hover:bg-white py-2 cursor-pointer font-HeadingFont '>
+                        <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
                             <BiSolidChevronRightCircle className='inline-flex  md:mx-2'/> Engineering Certificate
                         </li>
-                        <li className='bg-transparent rounded-full md:hover:bg-white py-2 cursor-pointer font-HeadingFont '>
+                        <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
                             <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Mark Certificate
                         </li>
                     </ul>

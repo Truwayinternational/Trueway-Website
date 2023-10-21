@@ -60,7 +60,7 @@ function HomeSlider() {
             <h2 className='text-[30px] font-HeadingFont'> Hello From <br />
              <b className='text-[40px] f-[700]'> Trueway International </b></h2>
             <p className='font-poppins text-[14px] w-[40%] justify-center text-gray-600'>
-            Trueway International is an ISO-assured confirmation organisation providing UAE Attestation Services in India and is affirmed by Ministries and government offices in India and abroad. Main services include Attestation, Dataflow Verification, Good Standing and Council Verifications, College & Hospital Verifications and other.
+            Trueway International is an ISO-assured confirmation organisation providing UAE Attestation Services in India and is affirmed by Ministries and government offices in India and abroad. Main services include Attestation, Dataflow Verification, Good Standing and Council Verifications, College & Hospital Verifications, PCC, BLS & ACLS, Coaching.
             </p>
             <button className='flex rounded-lg p-2 px-4  bg-transparent border-solid border-2 border-green-600'>
              <IoLogoWhatsapp className='text-green-700 text-2xl mx-2 '/> <a href="https://wa.link/c3ukjh">Free Consulting Now</a>
@@ -104,7 +104,7 @@ function HomeSlider() {
       <div className="image relative">
           <img src={slider4} alt="" />
           <div className="title_content absolute top-[20%] left-[6rem] space-y-5">
-            <h2 className='text-[40px] f-[700] font-HeadingFont'><b>Employment Abroad is the Dream?</b></h2>
+            <h2 className='text-[40px] f-[700] font-HeadingFont'><b>Is Employment Abroad your dream?</b></h2>
             <p className='font-poppins text-[14px] w-[40%] justify-center text-gray-600'>
             Verification, Attestation, data flow, and many more are needed to get visa approval to fly abroad. All this will make you mad, but with Trueway International, all of these are easy, quick, and trustworthy.
             </p>

@@ -5,8 +5,8 @@ import avatar_2 from '../../../Assets/certificate attestation/avatar_2.png'
 
 function PurposesOfMofa() {
   return (
-    <div>
-         <div className='max-w-[1240px] mx-auto place-content-center py-10'>
+    <>
+      <div className='max-w-[1240px] mx-auto place-content-center py-10'>
             <div className='flex mx-4  lg:px-16 px-3'>
               <h3 className='md:text-5xl text-3xl pb-5  font-HeadingFont font-extrabold text-black  tracking-wide  '>What is the <b className='text-green-500'>purpose of</b> <br/><p className='text-green-500'>MOFA Attestation ?</p></h3>
               <img className='md:hidden grid  w-[100px]  mt-[-30px]' src={avatar_2} alt="avatar_2" />
@@ -23,8 +23,8 @@ function PurposesOfMofa() {
                     <img className='md:mt-[-100px] lg:mt-[-50px]' src={avatar_2} alt="avatar_2" />
                 </div>
             </div>
-        </div>
-    </div>
+      </div>
+    </>
   )
 }
 

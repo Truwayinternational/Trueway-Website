@@ -6,7 +6,7 @@ import ProcedureCard from './ProcedureCard'
 
 function ProcedureForMofa() {
   return (
-    <div>
+    <>
         <div className='max-w-[1240px] mx-auto place-content-center my-10 '>
             <div className='flex mx-4  lg:px-16 px-3'>
                 <img className='md:hidden grid  w-[100px] ' src={Avatar_3} alt="Avatar_3" />
@@ -23,7 +23,7 @@ function ProcedureForMofa() {
             </div>
             <ProcedureCard/>
         </div> 
-    </div>
+    </>
   )
 }
 

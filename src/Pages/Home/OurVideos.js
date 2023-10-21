@@ -31,24 +31,11 @@ function OurVideos(props) {
       url: "https://www.youtube.com/embed/YuXe4CaOAmM"
     }
   ]
-// const [currentIndex, setCurrentIndex] = useState(0)
-
-//   const prevSlide = () => { 
-//     const isFirstSlide = currentIndex === 0
-//     const newIndex = isFirstSlide ? youtubeSlides.length -1 : currentIndex -1
-//     setCurrentIndex (newIndex);
-//   }
-
-//   const nextSlide = () => { 
-//     const lastSlide = currentIndex === youtubeSlides.length -1
-//     const newIndex = lastSlide ? 0 : currentIndex + 1
-//     setCurrentIndex (newIndex);
-//   }
 
   return (
       <div className='bg-zinc-600 py-6 '>
         <div>
-          <h1 className='text-center font-bold text-white text-3xl md:text-4xl mt-[100px] font-HeadingFont'>
+          <h1 className='text-center font-bold text-white text-3xl md:text-5xl mt-[100px] font-HeadingFont'>
           Watch<span className='text-green-500 font-bold'>Our Videos</span>
           </h1>
         </div>

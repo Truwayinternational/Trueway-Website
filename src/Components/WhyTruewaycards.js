@@ -42,12 +42,16 @@ function WhyTruewaycards() {
                     slidesPerView: 2,
                     spaceBetween: 10,
                 },
-                '@0.75': {
-                    slidesPerView: 4,
-                    spaceBetween: 20,
+                '@0.30': {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                '@0.60': {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
                 },
                 '@1.00': {
-                    slidesPerView: 5,
+                    slidesPerView: 4,
                     spaceBetween: 20,
                 },
                 '@1.50': {

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import HRD_banner from '../../../Assets/HRD Attestation/HRD banner.png'
-import banner_mob from '../../../Assets/HRD Attestation/HRd MOb.png'
+import banner_mob from '../../../Assets/mobile banners/HRDattestation.png'
 import HeroSidebar from '../HeroSidebar';
 
 function HRDattestation() {
@@ -27,18 +27,17 @@ function HRDattestation() {
             {/* responsive banner of HRD attestation */}
             <div className='w-full top-0 lg:ml-20 relative lg:hidden'>
               <img className='object-cover w-full ' src={banner_mob} alt="page_banner" />
-              <h3 className='absolute text-3xl md:text-5xl font-HeadingFont font-extrabold text-black text-center  left-28 md:left-[34%] tracking-wider mt-[-100px] md:mt-[-150px]'>HRD <br/> Attestation</h3>
             </div>
 
             {/* web content sections */}
             <div className='m-3 my-10 lg:ml-20'>
-              <h1 className='text-3xl px-4 text-start md:text-5xl font-HeadingFont font-extrabold tracking-wide'>Top  <br/><b className='text-green-500'>HRD Attestation Services <br/> </b>Provider in India </h1>
+              <h1 className='text-3xl px-4 lg:px-0 text-start md:text-5xl font-HeadingFont font-extrabold tracking-wide'>Top  <br/><b className='text-green-500'>HRD Attestation Services <br/> </b>Provider in India </h1>
               <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins mt-10 px-4 lg:p-0'>
               <b>Trueway International</b> stands out as India's premier HRD attestation service provider, streamlining the often intricate and time-consuming process. With dedicated 24/7 support, we ensure tension-free document authentication through state-level HRD departments and subsequent embassy attestation. Our efficient services add to client convenience, allowing easy online submission and secure transactions for various document types. </p>
               {/* readMore add in paragraph */}
               <div className='md:hidden flex'>
                 <p  onClick={()=> {setReadMore (!readMore)}}>
-                  <h2 className='text-green-500 ml-3 text-lg cursor-pointer font-poppins'>{linkName}</h2>
+                  <span className='text-green-500 ml-3 text-lg cursor-pointer font-poppins'>{linkName} </span>
                 </p>
                 { readMore && extraContent }
               </div>

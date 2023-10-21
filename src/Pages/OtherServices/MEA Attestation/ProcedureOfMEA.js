@@ -18,7 +18,7 @@ function ProcedureOfMEA() {
             <img src={Avatar_3} alt="avatar_3" />
           </div>
           <div className='lg:px-12 lg:pr-16 px-4 pl-6 '>
-            <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins pr-3 lg:p-0  max-w-2xl'>
+            <p className='text-md md:text-xl lg:text-lg  text-gray-500 font-poppins pr-3 lg:p-0  max-w-2xl'>
             The original certificate is the only one that can be considered for every attestation, including MEA attestation. MEA attestation is the second step of the attestation process. It is necessary that the applicant properly completes all attestation procedures. The applicant must provide each and every document which is required for the MEA attestation without fail. The country's foreign relations are dealt with by the Ministry of External Affairs. When travelling internationally, a person's documents have to be verified and recognized as their own, demanding MEA attestation. MEA attestation verifies the authenticity of the documents.
             </p>
             <div className='max-w-2xl py-4 font-HeadingFont'>

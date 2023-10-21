@@ -7,7 +7,7 @@ import Hero from "./Hero";
 import HomeSlider from "./HomeSlider";
 import HomeSliderMob from './HomeSliderMob'
 import ISO from "./ISO";
-import OurBlogs from "./OurBlogs";
+import OurBlogsCards from './OurBlogsCards';
 import OurVideos from "./OurVideos";
 import Procedure from "./Procedure";
 import ServicesSection from "./ServicesSection";
@@ -29,7 +29,7 @@ function HomeIndex() {
       <Procedure />
       <FromClients />
       <Form2 />
-      <OurBlogs />
+      <OurBlogsCards/>
       <OurVideos />
     </div>
   )

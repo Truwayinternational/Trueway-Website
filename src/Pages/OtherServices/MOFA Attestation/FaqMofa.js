@@ -48,7 +48,7 @@ function FaqMofa() {
 
   return (
     <>
-         <div className='w-full h-full flex flex-col justify-between bg-white'>
+        <div className='w-full h-full flex flex-col justify-between bg-white'>
             <div className="max-w-[1240px] my-10 m-auto">
                 <div className='flex flex-col justify-center md:items-center w-full px-2 py-4'>
                     <h2 className='text-4xl lg:text-5xl  tracking-wide font-bold text-center font-HeadingFont py-3'>FAQ</h2>

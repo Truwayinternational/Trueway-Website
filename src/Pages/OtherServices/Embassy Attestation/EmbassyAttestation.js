@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import EA_banner from '../../../Assets/embassy attestation/Embassy.png'
-import banner_mob from '../../../Assets/embassy attestation/Embassy Mob.png'
+import banner_mob from '../../../Assets/mobile banners/EMBASSY.png'
+
 import HeroSidebar from '../HeroSidebar';
 
 function EmbassyAttestation() {
@@ -27,12 +28,11 @@ function EmbassyAttestation() {
             {/* responsive banner of Certificate attestation */}
             <div className='w-full top-0 lg:ml-20 relative lg:hidden'>
               <img className='object-cover w-full ' src={banner_mob} alt="page_banner" />
-              <h3 className='absolute text-3xl md:text-5xl font-HeadingFont font-extrabold text-black text-center  left-28 md:left-[34%] tracking-wider mt-[-100px] md:mt-[-150px]'> Embassy <br/> Attestation</h3>
             </div>
 
             {/* web content sections */}
             <div className='m-3 my-10 lg:ml-20'>
-              <h1 className='text-3xl px-4 text-start md:text-5xl font-HeadingFont font-extrabold tracking-wide text-green-500'>Embassy Attestation in India: <br /><p className='text-black'>Quick Attestation Services</p></h1>
+              <h1 className='text-3xl px-4 lg:px-0 text-start md:text-5xl font-HeadingFont font-extrabold tracking-wide text-green-500'>Embassy Attestation in India: <br /><p className='text-black'>Quick Attestation Services</p></h1>
               <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins mt-10 px-4 lg:p-0'>
               <b> Trueway International</b> is the leading Embassy attestation agency in India. The company manages the authentication of documents that are mandatory for various purposes. This verification is required by different authorities, from self-attestation to government bodies and even foreign countries.</p>
               <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins px-4 lg:p-0'>

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import MEA_banner from '../../../Assets/MEA/webBanner.png'
-import banner_mob from '../../../Assets/MEA/MobBanner.png'
+import banner_mob from '../../../Assets/mobile banners/MEA.png'
 import HeroSidebar from '../HeroSidebar';
 
 import {
@@ -33,12 +33,11 @@ function MEAattestaion() {
             {/* responsive banner of Certificate attestation */}
             <div className='w-full top-0 lg:ml-20 relative lg:hidden'>
               <img className='object-cover w-full ' src={banner_mob} alt="page_banner" />
-              <h3 className='absolute text-3xl md:text-5xl font-HeadingFont font-extrabold text-black text-center  left-28 md:left-[34%] tracking-wider mt-[-100px] md:mt-[-150px]'>MEA <br/> Attestation</h3>
             </div>
 
             {/* web content sections */}
             <div className='m-3 md:my-10 my-5 lg:ml-20'>
-              <h1 className='text-3xl px-3 text-start md:text-5xl font-HeadingFont font-extrabold tracking-wide'>Why Choose <br/>
+              <h1 className='text-3xl px-4 lg:px-0 text-start md:text-5xl font-HeadingFont font-extrabold tracking-wide'>Why Choose <br/>
               <p className='text-green-500'>Trueway International's MEA Attestation </p> Services in India ?</h1>
               <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins mt-5 px-4 lg:p-0'>
               <b>Trueway International</b>  has been functioning for more than 15 years now and earned a well-deserved reputation as the best MEA Attestation service in India. We prioritise customer satisfaction and employ advanced technology for an effortless experience. Let us demonstrate how we can assist you with the best services:</p>

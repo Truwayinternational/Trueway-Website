@@ -148,9 +148,8 @@ function ProcedureCard() {
                         </p>
                     </div>
                 </div>
-                </SwiperSlide>
-
-            </Swiper>
+            </SwiperSlide>
+        </Swiper>
         </div>
 
     </>
