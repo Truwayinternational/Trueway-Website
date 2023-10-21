@@ -55,7 +55,7 @@ function OurBlogsCards() {
     <>
         <div className='max-w-[1240px] mx-auto place-content-center mb-10'>
                 <div className='my-10 '>
-                    <h1 className='text-center font-bold text-gray-800 text-3xl md:text-5xl my-[100px] font-HeadingFont'>
+                    <h1 className='text-center font-bold text-gray-800 text-3xl md:text-5xl lg:my-[100px] font-HeadingFont'>
                         Read<span className='text-green-500 font-bold '>Our Blogs</span>
                     </h1>
                 </div>
@@ -106,10 +106,10 @@ function OurBlogsCards() {
                                     </div>
                                     <div className=" h-full py-2">
                                         <h5 className="text-2xl font-bold tracking-wide font-HeadingFont  text-black py-2 text-center"> {BlogData.title} </h5>
-                                        <p className=" font-light tracking-normal text-zinc-500 text-center md:text-lg">
+                                        <p className=" font-light tracking-normal text-zinc-500 text-justify md:text-lg">
                                             {BlogData.details}
                                         </p>
-                                        <a href="#!" className='pt-8 font-bold text-green-600 hover:text-green-900 px-20 md:px-28 text-center mx-auto'>
+                                        <a href="#!" className='pt-8 font-bold text-green-600 hover:text-green-900 px-3 text-center mx-auto'>
                                             Read More..
                                         </a>
                                     </div>

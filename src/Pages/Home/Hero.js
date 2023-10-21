@@ -14,7 +14,7 @@ function Hero() {
                 <div className='md:flex  items-center lg:hidden'>
                   <img className='w-full md:px-12 lg:p-5 lg:pt-48' src={heroImg} alt="MainImage..." />
                 </div>
-                <p className='font-poppins text-1xl text-justify px-3 text-gray-500'>
+                <p className='font-poppins md:text-lg text-md text-justify px-1 text-gray-500'>
                 <strong className='text-black'>Trueway International</strong> is the best Dataflow verification, WES & other college verification, Good standing verification, Admission Guidance and certificate attestation consultancy in  India. We will help you in the journey of these processes with our fast, easy, secure and  trustworthy services.<br />
                 We provide various services in addition to attestation and Apostille offerings, such as document translation, Educational consultancy, Registration renewals, PCC from GCC countries, coaching etc. We are a one-stop shop for all of your document attestation requirements.
                 <br/>
