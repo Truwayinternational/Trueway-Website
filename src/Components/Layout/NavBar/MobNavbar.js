@@ -2,15 +2,18 @@ import React, { useState } from "react";
 
 import {IoLogoWhatsapp} from 'react-icons/io'
 import {BsFillTelephoneFill, BsSearch} from 'react-icons/bs'
+import {AiOutlineCaretDown, AiOutlineCaretUp} from 'react-icons/ai'
 
 function MobNavbar() {
 
     const [isOpen, setIsOpen] = useState(false);
 
-  const toggleNavbar = () => {
-    setIsOpen(!isOpen);
-  };
+    const toggleNavbar = () => {
+        setIsOpen(!isOpen);
+    };
 
+    const [DropdownBlogs, setDropdownBlogs] = useState (false)
+    const [DropdownServices, setDropdownServices] = useState (false)
 
   return (
     <>
@@ -69,37 +72,145 @@ function MobNavbar() {
 
                 {/* Mobile menu */}
                 {isOpen && (
-                <div className="lg:hidden mt-4 py-2">
-                    <a
-                        href="/"
-                        className="block text-white py-4 mx-10 text-xl md:text-2xl  font-bold font-HeadingFont">
-                        Home
-                    </a>
-                    <a
-                        href="/about"
-                        className="block text-white py-4 mx-10 text-xl md:text-2xl  font-bold font-HeadingFont">
-                        About
-                    </a>
-                    <a
-                        href="/services"
-                        className="block text-white py-4 mx-10 text-xl md:text-2xl  font-bold font-HeadingFont">
-                        Our Services
-                    </a>
-                    <a
-                        href="/wes"
-                        className="block text-white py-4 mx-10 text-xl md:text-2xl  font-bold font-HeadingFont">
-                        WES
-                    </a>
-                    <a
-                        href="/blogs"
-                        className="block text-white py-4 mx-10 text-xl md:text-2xl  font-bold font-HeadingFont">
+                <div className="lg:hidden mt-4 my-10 max-h-[500px] overflow-auto">
+                    <ul>
+                        <li className="ml-5 py-5">
+                            <a href="/"
+                            className="block text-white text-2xl md:text-3xl  font-bold font-HeadingFont">
+                            Home </a>
+                        </li>
+                        <li className="ml-5 py-5">
+                            <a href="/about"
+                            className="block text-white text-2xl md:text-3xl  font-bold font-HeadingFont">
+                            About </a>
+                        </li>
+                        {/* our services dropdown added here */}
+                        <li className="ml-5 py-5 block text-white text-2xl md:text-3xl  font-bold font-HeadingFont"
+                        onClick={()=> setDropdownServices ((prev) => !prev)} >
+                         Our Services 
+
+                            { !DropdownServices ? (
+                                <AiOutlineCaretDown className='h-8 inline-block justify-between ml-16' />
+                            ):(
+                                <AiOutlineCaretUp className="h-8 inline-block justify-between ml-16" />
+                            )}
+
+                            { DropdownServices && (
+                                <div className="pt-5">
+                                    <ul className="mb-[-10px]">
+                                        <li className="py-3 border-b-[1px] border-b-zinc-100 ">
+                                            <a href="/certificateAttestation"
+                                            className="block text-white text-xl md:text-2xl font-medium font-poppins ">
+                                            Certificate Attestation </a>
+                                        </li>
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                            <a href="/embassyAttestation"
+                                            className="block text-white text-xl md:text-2xl font-medium  font-poppins">
+                                            Embassy Attestation </a>
+                                        </li>
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                            <a href="/meaAttestation"
+                                            className="block text-white text-xl md:text-2xl font-medium  font-poppins">
+                                            MEA Attestation </a>
+                                        </li>
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                            <a href="/mofaAttestation"
+                                            className="block text-white text-xl md:text-2xl font-medium  font-poppins">
+                                            MOFA Attestation </a>
+                                        </li>
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                            <a href="/hrdAttestation"
+                                            className="block text-white text-xl md:text-2xl font-medium  font-poppins">
+                                            HRD Attestation </a>
+                                        </li>
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                            <a href="/apostilleAttestation"
+                                            className="block text-white text-xl md:text-2xl font-medium  font-poppins">
+                                            Apostille Attestation </a>
+                                        </li>
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                            <a href="/homeAttestation"
+                                            className="block text-white text-xl md:text-2xl font-medium  font-poppins">
+                                            Home Attestation </a>
+                                        </li>
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                            <a href="/dataflow"
+                                            className="block text-white text-xl md:text-2xl font-medium  font-poppins">
+                                            Dataflow Verification </a>
+                                        </li>
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                            <a href="/examCoaching"
+                                            className="block text-white text-xl md:text-2xl font-medium  font-poppins">
+                                            Exam Coaching </a>
+                                        </li>
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                            <a href="/acls_bls"
+                                            className="block text-white text-xl md:text-2xl font-medium  font-poppins">
+                                            ACLS/BLS </a>
+                                        </li>
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                            <a href="/pcc"
+                                            className="block text-white text-xl md:text-2xl font-medium  font-poppins">
+                                            Police Clearance Certificate </a>
+                                        </li>
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                            <a href="/migration"
+                                            className="block text-white text-xl md:text-2xl font-medium  font-poppins">
+                                            Migration </a>
+                                        </li>
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                            <a href="/Council_verification"
+                                            className="block text-white text-xl md:text-2xl font-medium  font-poppins">
+                                            Goodstanding & Council Verification </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            )}
+
+
+                        </li>
+
+                        <li className="ml-5 py-5">
+                            <a href="/wes"
+                            className="block text-white text-2xl md:text-3xl  font-bold font-HeadingFont">
+                            WES </a>
+                        </li>
+
+                        {/* blogs and vlogs added here */}
+                        <li className="ml-5 py-5 block text-white  text-2xl    md:text-3xl font-bold font-HeadingFont"
+                        onClick={()=> setDropdownBlogs ((prev) => !prev)} >
                         Blogs & Videos
-                    </a>
-                    <a
-                        href="/contact"
-                        className="block text-white py-4 mx-10 text-xl md:text-2xl  font-bold font-HeadingFont">
-                        Contact
-                    </a>
+
+                            { !DropdownBlogs ? (
+                                <AiOutlineCaretDown className='h-8 inline-block justify-between ml-10' />
+                            ):(
+                                <AiOutlineCaretUp className="h-8 inline-block justify-between ml-10" />
+                            )}
+
+                            { DropdownBlogs && (
+                                <div className="pt-5">
+                                    <ul className="mb-[-10px]">
+                                        <li className="py-3 border-b-[1px] border-b-zinc-100 ">
+                                            <a href="#!"
+                                            className="block text-white text-xl md:text-2xl font-medium font-poppins ">
+                                            Blogs </a>
+                                        </li>
+                                        <li className="pt-3">
+                                            <a href="#!"
+                                            className="block text-white text-xl md:text-2xl font-medium  font-poppins">
+                                            Videos </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            )}
+                            
+                        </li>
+                        <li className="ml-5 py-5">
+                            <a href="/contact"
+                            className="block text-white  text-2xl md:text-3xl  font-bold font-HeadingFont">
+                            Contact</a>
+                        </li>
+                    </ul>
                 </div>
                 )}
             </div>

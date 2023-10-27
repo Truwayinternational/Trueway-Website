@@ -58,7 +58,7 @@ function App() {
       <QuickAction/>
         <Routes>
           {/* Navbar menus  router*/}
-          <Route exact path="/" element={<HomeIndex/>} onClick={scrollToTop}/> 
+          <Route exact path="/" element={ <HomeIndex/> } onClick={scrollToTop}/>
           <Route path="/about" element={<AboutIndex/>} onClick={scrollToTop}/> 
           <Route path="/wes" element={<WesIndex/>} onClick={scrollToTop}/> 
           <Route path="/services" element={<CertificateAttestationIndex />} onClick={scrollToTop}/> 
