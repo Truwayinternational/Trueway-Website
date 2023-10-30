@@ -130,7 +130,7 @@ function ServicesSection(props) {
                                 <hr />
                             <div className=" h-full py-2">
                                 <a href={card.titleLink} >
-                                    <h5 className="text-md font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900" onClick={scrollToTop}>
+                                    <h5 className="text-md font-semibold tracking-tight  text-gray-900 md:text-1xl py-1 hover:font-bold font-HeadingFont  hover:text-gray-700" onClick={scrollToTop}>
                                     {card.title} </h5> 
                                 </a>
                                 <p className=" font-light tracking-tighter text-zinc-500  md:text-sm"> {card.description}</p>
