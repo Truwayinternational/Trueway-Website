@@ -8,7 +8,7 @@ function HRDattestation() {
     const [readMore, setReadMore] = useState(false);
 
     const extraContent =<div>
-            <p className='md:hidden text-md md:text-xl text-justify text-gray-500 font-poppins mb-10 pr-3'>
+            <p className='md:hidden text-md md:text-xl text-justify text-gray-500 font-poppins mb-10 pr-3 pt-2'>
             TrueWay's commitment to genuine and efficient services, including timely delivery of stamped and translated certificates, marks us as the optimal choice for HRD attestation, ensuring client satisfaction while simplifying complex procedures for global academic and professional recognition.
             </p>
     </div>
@@ -37,7 +37,7 @@ function HRDattestation() {
               {/* readMore add in paragraph */}
               <div className='md:hidden flex'>
                 <p  onClick={()=> {setReadMore (!readMore)}}>
-                  <span className='text-green-500 ml-3 text-lg cursor-pointer font-poppins'>{linkName} </span>
+                  <h2 className='text-green-500 pl-4 text-lg cursor-pointer font-poppins'>{linkName} </h2>
                 </p>
                 { readMore && extraContent }
               </div>
