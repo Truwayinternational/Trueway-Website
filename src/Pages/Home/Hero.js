@@ -22,7 +22,11 @@ function Hero() {
                 <br/>
                 We offer a hassle-free and efficient method for document attestation, valuing your time and money. With access to cutting-edge resources and equipment, we ensure the highest level of service. If you want to know more about us reach us at <a href="mailto:tvm@truewayinternational.com" className='font-bold text-black'>tvm@truewayinternational.com</a>
                 </p>
-                <button className='mx-4 my-6 py-3 sm:w-[25%]  border-2 bg-green-500 hover:bg-green-700 text-white rounded-lg'> Read More </button>
+                <a href="/about">
+                  <button className='my-5 mx-auto py-3 px-5 md:text-xl font-semibold bg-green-500 hover:bg-green-700 text-white rounded-lg'>
+                   Read More 
+                  </button>
+                </a>
             </div>
             <div className='hidden lg:block my-auto'>
                 <img className='w-full lg:p-5 py-auto' src={heroImg} alt="MainImage..." />
