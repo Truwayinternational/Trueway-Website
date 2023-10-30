@@ -11,7 +11,7 @@ function CertificateAttestation() {
   const [readMore, setReadMore] = useState(false);
 
   const extraContent = <div>
-          <p className='md:hidden text-md md:text-xl text-justify text-gray-500 font-poppins mb-10 pr-3'>
+          <p className='md:hidden text-md md:text-xl text-justify text-gray-500 font-poppins mb-10 pr-3 pt-2'>
             With Trueway International, the certificate attestation procedures are smooth. We have a full-fledged team solely for certificate attestation. Doing attestation with an agency's aid is always a good way to be tension-free. You can feel relaxed with our procedures because once we begin the procedure, you will get real-time updates, and we also give you a tracking ID with which you can track the current status of your procedures.
             <br />
             You can completely trust us with this procedure. We are synonyms for fast and trust. Within a minimum amount of time and at a pocket-friendly rate, we can complete your procedures and get your certificate attested.
@@ -42,7 +42,7 @@ const linkName = readMore ? '' : 'Read More...'
               {/* readMore add in paragraph */}
               <div className='md:hidden flex'>
                 <p  onClick={()=> {setReadMore (!readMore)}}>
-                  <h2 className='text-green-500 ml-3 text-lg cursor-pointer font-poppins'>{linkName}</h2>
+                  <h2 className='text-green-500 pl-4 text-lg cursor-pointer font-poppins'>{linkName}</h2>
                 </p>
                 { readMore && extraContent }
               </div>

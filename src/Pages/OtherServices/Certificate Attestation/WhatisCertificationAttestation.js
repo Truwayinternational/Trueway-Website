@@ -6,7 +6,7 @@ function WhatisCertificationAttestation() {
   const [readMore, setReadMore] = useState(false);
 
   const extraContent =<div>
-          <p className='md:hidden flex text-md md:text-xl text-gray-500 font-poppins mb-10 pr-3'>
+          <p className='md:hidden flex text-md md:text-xl text-gray-500 font-poppins mb-10 pr-3 pt-2'>
           If you are planning to move to a foreign country for any purposes like employment, higher studies, or business setup then certificate attestation is so crucial. It involves obtaining sales and signatures from designated authorities and making them acceptable for use in foreign countries. This will help to prevent fraud activities and maintain the credibility of certificates across borders. This facilitates smooth international interactions in education, trade, and personal matters.
           </p>
   </div>

@@ -9,7 +9,7 @@ function ProcedureOfCA() {
     const [readMore, setReadMore] = useState(false)
 
     const extraContent =<div>
-          <p className='lg:hidden flex text-md md:text-xltext-gray-500 font-poppins mb-10 pr-3'>
+          <p className='lg:hidden flex text-md md:text-xltext-gray-500 font-poppins mb-10 pr-3 pt-2 text-gray-500'>
           For educational documents like degrees and certificates, the process starts with notarization, followed by checks by departments and authorities in Mumbai and Delhi. Then, the embassy verifies them. For non-educational documents like birth, marriage, and employment certificates, the steps are similar, but embassy verification is replaced by consulate verification. For commercial documents, like certificates of origin or incorporation, it involves verification by the Chamber of Commerce, Ministry of External Affairs, and embassy.
           <br/>
           Attestation is important to show documents are real and valid as per Indian rules. Certificate attestation ensures the documents are legal and helps individuals when travelling abroad. It also prevents the use of fake documents by immigrants in destination countries.
