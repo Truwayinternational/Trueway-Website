@@ -85,18 +85,18 @@ function MobNavbar() {
                             About </a>
                         </li>
                         {/* our services dropdown added here */}
-                        <li className="ml-5 py-5 block text-white text-2xl md:text-3xl  font-bold font-HeadingFont"
+                        <li className="ml-5 py-5 block text-white text-2xl md:text-3xl  font-bold font-HeadingFont "
                         onClick={()=> setDropdownServices ((prev) => !prev)} >
                          Our Services 
 
                             { !DropdownServices ? (
-                                <AiOutlineCaretDown className='h-8 inline-block justify-between ml-16' />
+                                <AiOutlineCaretDown className='h-8 inline-block justify-between ml-16 ' />
                             ):(
-                                <AiOutlineCaretUp className="h-8 inline-block justify-between ml-16" />
+                                <AiOutlineCaretUp className="h-8 inline-block justify-between ml-16 " />
                             )}
 
                             { DropdownServices && (
-                                <div className="pt-5">
+                                <div className="pt-5 duration-500">
                                     <ul className="mb-[-10px]">
                                         <li className="py-3 border-b-[1px] border-b-zinc-100 ">
                                             <a href="/certificateAttestation"
