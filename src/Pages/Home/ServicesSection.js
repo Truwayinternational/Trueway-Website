@@ -35,7 +35,7 @@ const ServicesCardData = [
     {
         id:3,
         img: MEA_MOFA,
-        title:" MEA / MOFA Attestation",
+        title:" MEA & MOFA Attestation",
         titleLink:"/meaAttestation",
         description:"MEA is the process of getting documents authenticated of a country.The MOFA is the Ministry of Foreign Affairs of the destination country verifies and certifies the authenticity of the documents."
     },
