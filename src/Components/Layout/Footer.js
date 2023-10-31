@@ -4,7 +4,7 @@ import FooterAccordian from './FooterAccordian'
 
 // import {FaLocationDot} from 'react-icons/fa6'
 import {BsFacebook, BsInstagram, BsLinkedin, BsTwitter, BsWhatsapp, BsYoutube} from 'react-icons/bs'
-import { Link } from 'react-router-dom';
+
 
 // clicking to nav link and scroll to top section
 function scrollToTop() {
@@ -176,9 +176,9 @@ function Footer() {
                             {footerLink.links.map((toFooterlink, index) => (
                                 <li key={index}
                                 className="font-poppins font-normal text-[16px] leading-[24px] text-white hover:text-green-950 cursor-pointer px-3 py-1">
-                                    <Link to={toFooterlink.link} className='hover:text-black hover:font-semibold' onClick={scrollToTop}>
+                                    <a href={toFooterlink.link} className='hover:text-black hover:font-semibold' onClick={scrollToTop}>
                                     {toFooterlink.name}
-                                    </Link>
+                                    </a>
                                 </li>
                             ))}
                         </ul>
