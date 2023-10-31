@@ -94,7 +94,7 @@ function ServicesSectionMob() {
                                 <hr />
                             <div className=" h-full py-2">
                                 <a href="/meaAttestation">
-                                    <h5 className="text-lg font-semibold tracking-tight font-HeadingFont  text-gray-900 md:text-1xl hover:font-bold hover:text-gray-900"> MEA / MOFA Attestation</h5>
+                                    <h5 className="text-lg font-semibold tracking-tight font-HeadingFont  text-gray-900 md:text-1xl hover:font-bold hover:text-gray-900"> MEA & MOFA Attestation</h5>
                                 </a>
                                 <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-md">MEA is the process of getting documents authenticated of a country.The MOFA is the Ministry of Foreign Affairs of the destination country verifies and certifies the authenticity of the documents.</p>
                             </div>
