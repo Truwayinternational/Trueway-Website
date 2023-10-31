@@ -90,7 +90,7 @@ function ServicesSectionMob() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                        <div className="flex justify-center items-center m-4 p-3 h-1/2  bg-zinc-100 border border-green-500 px-3 rounded-3xl shadow-2xl hover:bg-green-100 cursor-pointer">
+                        <div className="flex justify-center items-center m-4 p-3 h-[250px]  bg-zinc-100 border border-green-500 px-3 rounded-3xl shadow-2xl hover:bg-green-100 cursor-pointer">
                                 <img className="order-first w-[150px]  py-2 block object-cover" src={MEA} alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
@@ -103,7 +103,7 @@ function ServicesSectionMob() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                        <div className="flex justify-center items-center m-4 p-3 h-1/2  bg-zinc-100 border border-green-500 px-3 rounded-3xl shadow-2xl hover:bg-green-100 cursor-pointer">
+                        <div className="flex justify-center items-center m-4 p-3 h-[250px]  bg-zinc-100 border border-green-500 px-3 rounded-3xl shadow-2xl hover:bg-green-100 cursor-pointer">
                                 <img className="order-first w-[150px]  py-2 block object-cover" src={MOFA} alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
