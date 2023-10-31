@@ -94,7 +94,7 @@ function ServicesSectionMob() {
                                 <hr />
                             <div className=" h-full py-2">
                                 <a href="/meaAttestation">
-                                    <h5 className="text-lg font-semibold tracking-tight font-HeadingFont  text-gray-900 md:text-1xl hover:font-bold hover:text-gray-900"> MEA / MOFA Attestation</h5>
+                                    <h5 className="text-lg font-semibold tracking-tight font-HeadingFont  text-gray-900 md:text-1xl hover:font-bold hover:text-gray-900"> MEA & MOFA Attestation</h5>
                                 </a>
                                 <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-md">MEA is the process of getting documents authenticated of a country.The MOFA is the Ministry of Foreign Affairs of the destination country verifies and certifies the authenticity of the documents.</p>
                             </div>
@@ -193,7 +193,7 @@ function ServicesSectionMob() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                        <div className="flex justify-center items-center m-4 p-3 h-[250px] bg-zinc-100 border border-green-500 px-3 rounded-3xl shadow-2xl hover:bg-green-100 cursor-pointer">
+                        <div className="flex justify-center items-center m-4 p-2 h-[250px] bg-zinc-100 border border-green-500 px-3 rounded-3xl shadow-2xl hover:bg-green-100 cursor-pointer">
                                 <img className="order-first w-[150px] p-2 block object-cover " src={Migration} alt="Services_image" />
                                 <hr />
                             <div className=" h-full">
@@ -206,14 +206,14 @@ function ServicesSectionMob() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                        <div className="flex justify-center items-center m-4 p-3 h-[250px]  bg-zinc-100 border border-green-500 px-3 rounded-3xl shadow-2xl hover:bg-green-100 cursor-pointer">
+                        <div className="flex justify-center items-center m-4 p-2 h-[250px]  bg-zinc-100 border border-green-500 px-3 rounded-3xl shadow-2xl hover:bg-green-100 cursor-pointer">
                                 <img className="order-first w-[150px] p-2 block object-cover " src={verification} alt="Services_image" />
                                 <hr />
                             <div className=" h-full">
                                 <a href="/Council_verification">
-                                    <h5 className="text-lg font-semibold tracking-tight font-HeadingFont  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900"> Council Verifications</h5>
+                                    <h5 className="text-lg font-semibold tracking-tight font-HeadingFont  text-gray-900 md:text-1xl pt-1 hover:font-bold hover:text-gray-900"> Goodstanding & Council Verification</h5>
                                 </a>
-                                <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-md">Migration services guide and support individuals moving abroad, ensuring a smooth immigration process for countries like New Zealand, the UK, Ireland, Australia, and Canada.</p>
+                                <p className=" font-light tracking-normal text-zinc-500 text-justify md:text-md">Validation & additional offerings for authentication and assistance, including immigration, documentation, and consultation services.</p>
                             </div>
                         </div>
                 </SwiperSlide>
