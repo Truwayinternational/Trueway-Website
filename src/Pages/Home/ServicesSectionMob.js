@@ -13,7 +13,8 @@ import 'swiper/css/pagination';
 
 import Certificate from '../../Assets/services/Certificate.png'
 import embassy from '../../Assets/services/Embassy.png'
-import MEA_MOFA from '../../Assets/services/MOFA-&-MEA.png'
+import MEA from '../../Assets/services/MEA-Attestation.png'
+import MOFA from '../../Assets/services/MOFA-Attestation.png'
 import HRD from '../../Assets/services/HRD-Attestation.png'
 import apostille from '../../Assets/services/Apostille.png'
 import Home from '../../Assets/services/Home-attestation.png'
@@ -90,13 +91,26 @@ function ServicesSectionMob() {
 
                 <SwiperSlide>
                         <div className="flex justify-center items-center m-4 p-3 h-1/2  bg-zinc-100 border border-green-500 px-3 rounded-3xl shadow-2xl hover:bg-green-100 cursor-pointer">
-                                <img className="order-first w-[150px]  py-2 block object-cover" src={MEA_MOFA} alt="Services_image" />
+                                <img className="order-first w-[150px]  py-2 block object-cover" src={MEA} alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
                                 <a href="/meaAttestation">
-                                    <h5 className="text-lg font-semibold tracking-tight font-HeadingFont  text-gray-900 md:text-1xl hover:font-bold hover:text-gray-900"> MEA & MOFA Attestation</h5>
+                                    <h5 className="text-lg font-semibold tracking-tight font-HeadingFont  text-gray-900 md:text-1xl hover:font-bold hover:text-gray-900"> MEA Attestation</h5>
                                 </a>
-                                <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-md">MEA is the process of getting documents authenticated of a country.The MOFA is the Ministry of Foreign Affairs of the destination country verifies and certifies the authenticity of the documents.</p>
+                                <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-md">MEA attestation refers to the process of getting documents authenticated by the Ministry of External Affairs (MEA) of a country.</p>
+                            </div>
+                        </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                        <div className="flex justify-center items-center m-4 p-3 h-1/2  bg-zinc-100 border border-green-500 px-3 rounded-3xl shadow-2xl hover:bg-green-100 cursor-pointer">
+                                <img className="order-first w-[150px]  py-2 block object-cover" src={MOFA} alt="Services_image" />
+                                <hr />
+                            <div className=" h-full py-2">
+                                <a href="/mofaAttestation">
+                                    <h5 className="text-lg font-semibold tracking-tight font-HeadingFont  text-gray-900 md:text-1xl hover:font-bold hover:text-gray-900"> MOFA Attestation</h5>
+                                </a>
+                                <p className=" font-light tracking-tighter text-zinc-500 text-justify md:text-md">The MOFA attestation is the final step in this process, where the Ministry of Foreign Affairs of the destination country verifies and certifies the authenticity of the documents.</p>
                             </div>
                         </div>
                 </SwiperSlide>
