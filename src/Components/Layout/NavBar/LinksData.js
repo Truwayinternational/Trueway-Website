@@ -7,11 +7,11 @@ export const links = [
           Head: "Embassy Attestation",
           headLink:"/embassyAttestation",
           subLink : [
-            {name:"UAE", link:"#!"},
-            {name:"Qatar", link:"#!"},
-            {name:"Kuwait", link:"#!"},
-            {name:"Bahrain", link:"#!"},
-            {name:"Malaysia", link:"#!"}
+            {name:"UAE", link:"/uaeembassy"},
+            {name:"Qatar", link:"/qatarembassy"},
+            {name:"Kuwait", link:"/kuwaitembassy"},
+            {name:"Bahrain", link:"/bahrainembassy"},
+            {name:"Malaysia", link:"/malaysiaembassy"}
           ]
         },
         {

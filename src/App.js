@@ -37,6 +37,9 @@ import HAADdataflowIndex from "./Pages/OtherServices/Data Flow/HAAD/HAADdataflow
 import KuwaitDataflowIndex from "./Pages/OtherServices/Data Flow/KUWAIT/KuwaitDataflowIndex";
 
 
+// We Provide embassy attestation services For different countries 
+import QatarEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Qatar/QatarEmbassyIndex";
+
 
 
 
@@ -57,6 +60,7 @@ function App() {
       <NavBar/>
       <QuickAction/>
         <Routes>
+
           {/* Navbar menus  router*/}
           <Route exact path="/" element={ <HomeIndex/> } onClick={scrollToTop}/>
           <Route path="/about" element={<AboutIndex/>} onClick={scrollToTop}/> 
@@ -78,14 +82,19 @@ function App() {
 
           {/* We Provide Dataflow Services For ---DATAFLOW VERIFICATIONS ---*/}
           <Route path="/df_moh" element={ <MohIndex/> } />
-          <Route path="df_saudiArabia" element = { <SaudiDataflowIndex/> } />
-          <Route path="df_oman" element = { <OmanDataflowIndex/> } />
+          <Route path="/df_saudiArabia" element = { <SaudiDataflowIndex/> } />
+          <Route path="/df_oman" element = { <OmanDataflowIndex/> } />
           <Route path="/df_bahrain" element={ <BahrainDataflowIndex/> } />
           <Route path="/df_qatar" element={ <QatarDataflowIndex/> } />
           <Route path="/df_dha" element={ <DHAindex/> } />
           <Route path="/df_haad" element={ <HAADdataflowIndex/> } />
           <Route path="/df_kuwait" element={ <KuwaitDataflowIndex/> } />
           
+
+          {/* We Provide Embassy attestation For --- embassy attestation ---*/}
+          <Route path="/qatarembassy" element={ <QatarEmbassyIndex/> } />
+
+
         </Routes>
       <Footer />
     </div>
