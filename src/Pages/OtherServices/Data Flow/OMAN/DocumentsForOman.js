@@ -53,7 +53,7 @@ function DocumentsForOman() {
             </div>
             <div className='grid max-w-5xl mx-auto place-content-center '>
                 <p className='text-gray-600 font-poppins md:text-lg mb-10 px-6 md:px-8 lg:px-0'>
-                    <b>Please note: </b> Only scanned copies of documents are required.
+                    Only scanned copies of documents are required.
                 </p>
             </div>
         </div>
