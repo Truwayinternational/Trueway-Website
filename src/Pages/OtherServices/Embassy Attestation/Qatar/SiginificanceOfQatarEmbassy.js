@@ -28,14 +28,14 @@ function SiginificanceOfQatarEmbassy() {
                 <div className='flex flex-col justify-center my-10'>
                     <h2 className='font-HeadingFont text-2xl md:text-3xl  font-bold  text-center '>Need of Personal<br/> Certificates Attestation </h2>
                     <hr className=' w-3/4 rounded bg-green-500 mx-auto h-[2px] my-3'/> 
-                    <img className='w-[330px] md:w-[600px] mx-auto py-5' src={personalCertificate} alt="pie chart of Educational certificate attestation" />
+                    <img className='w-[330px] md:w-[600px] mx-auto py-5' src={personalCertificate} alt="pie chart of Personal Certificates Attestation " />
                 </div>
 
                 {/* Need of Commercial Documents Attestation pie chart format */}
                 <div className='flex flex-col justify-center my-10'>
                     <h2 className='font-HeadingFont text-2xl md:text-3xl  font-bold  text-center '>Need of Commercial <br/> Documents Attestation</h2>
                     <hr className=' w-3/4 rounded bg-green-500 mx-auto h-[2px] my-3'/> 
-                    <img className='w-[330px] md:w-[600px] mx-auto py-5' src={commercialDocument} alt="pie chart of Educational certificate attestation" />
+                    <img className='w-[330px] md:w-[600px] mx-auto py-5' src={commercialDocument} alt="pie chart of Need of Commercial Documents Attestation" />
                 </div>
             </div>
         </div>
