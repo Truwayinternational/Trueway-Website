@@ -60,7 +60,7 @@ function OurTeamMobSlider1() {
                                 Vishnu S Kumar
                             </h6>
                             <p className='text-gray-500 text-sm font-poppins text-center'>
-                                (Managing Director)
+                                Managing Director
                             </p>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ function OurTeamMobSlider1() {
                             Lezitha M S
                             </h6>
                             <p className='text-gray-500 text-sm font-poppins mx-auto'>
-                            (CEO)
+                            CEO
                             </p>
                         </div>
                     </div>
@@ -90,7 +90,7 @@ function OurTeamMobSlider1() {
                             Vishnu V S
                             </h6>
                             <p className='text-gray-500 text-sm font-poppins text-center'>
-                            (Managing Partner)
+                            Managing Partner
                             </p>
                         </div>
                     </div>
@@ -105,7 +105,7 @@ function OurTeamMobSlider1() {
                             Anusha Sarath
                             </h6>
                             <p className='text-gray-500 text-sm font-poppins mx-auto'>
-                            (HR Manager)
+                            HR Manager
                             </p>
                         </div>
                     </div>

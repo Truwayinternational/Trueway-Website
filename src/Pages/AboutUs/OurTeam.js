@@ -42,7 +42,7 @@ function OurTeam() {
                             Hassan Rawther
                         </h6>
                         <p className='text-gray-500 md:text-2xl text-xl font-poppins'>
-                        (Founder & Managing Director)
+                        Founder & Managing Director
                         </p>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ function OurTeam() {
                                 Vishnu S Kumar
                             </h6>
                             <p className='text-gray-500 lg:text-xl text-md font-poppins'>
-                                (Managing Director)
+                                Managing Director
                             </p>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ function OurTeam() {
                                 Lezitha M S
                             </h6>
                             <p className='text-gray-500 lg:text-xl text-md font-poppins'>
-                                (CEO)
+                                CEO
                             </p>
                         </div>
                     </div>
@@ -82,7 +82,7 @@ function OurTeam() {
                                 Vishnu V S
                             </h6>
                             <p className='text-gray-500 lg:text-xl text-md font-poppins'>
-                                (Managing Partner)
+                                Managing Partner
                             </p>
                         </div>
                     </div>
@@ -94,7 +94,7 @@ function OurTeam() {
                                 Anusha Sarath
                             </h6>
                             <p className='text-gray-500 text-md lg:text-xl font-poppins'>
-                                (HR Manager)
+                                HR Manager
                             </p>
                         </div>
                     </div>
@@ -111,7 +111,7 @@ function OurTeam() {
                                 Kiran G S
                             </h6>
                             <p className='text-gray-500 lg:text-lg text-sm font-poppins'>
-                                (Finance Manager)
+                                Finance Manager
                             </p>
                         </div>
                     </div>
@@ -123,7 +123,7 @@ function OurTeam() {
                                 Archana S S
                             </h6>
                             <p className='text-gray-500 lg:text-lg text-sm font-poppins'>
-                                (General Manager)
+                                General Manager
                             </p>
                         </div>
                     </div>
@@ -135,7 +135,7 @@ function OurTeam() {
                                 Veena V H
                             </h6>
                             <p className='text-gray-500 lg:text-lg text-sm font-poppins'>
-                                (Senior Manager)
+                                Senior Manager
                             </p>
                         </div>
                     </div>
@@ -147,19 +147,19 @@ function OurTeam() {
                                 Karthika Krishnan
                             </h6>
                             <p className='text-gray-500 lg:text-lg text-sm  font-poppins'>
-                                (Branch Manager)
+                                Branch Manager
                             </p>
                         </div>
                     </div>
                     {/* Rineesha R */}
                     <div>
-                        <img className='w-[250px] mt-5' src={rineesha} alt="team member"/>
+                        <img className='w-[250px]' src={rineesha} alt="team member"/>
                         <div className='flex flex-col justify-center text-center'>
-                            <h6 className='lg:text-[22px] text-md font-bold font-HeadingFont text-green-500 pt-3'>
+                            <h6 className='lg:text-[22px] text-md font-bold font-HeadingFont text-green-500 pt-2'>
                                 Rineesha R
                             </h6>
                             <p className='text-gray-500 lg:text-lg text-sm  font-poppins'>
-                                (Senior Document Analyst)
+                                Senior Document Analyst
                             </p>
                         </div>
                     </div>
@@ -171,7 +171,7 @@ function OurTeam() {
                                 Mary Jemy
                             </h6>
                             <p className='text-gray-500 lg:lg:text-lg text-sm  font-poppins'>
-                                (Senior CRM)
+                                Senior CRM
                             </p>
                         </div>
                     </div>
@@ -183,7 +183,7 @@ function OurTeam() {
                                 Athira C
                             </h6>
                             <p className='text-gray-500 lg:text-lg text-sm font-poppins'>
-                            (Document Analyst)
+                            Document Analyst
                             </p>
                         </div>
                     </div>
@@ -195,7 +195,7 @@ function OurTeam() {
                             Sajini Jayan
                             </h6>
                             <p className='text-gray-500 lg:text-lg text-sm font-poppins'>
-                            (Document Analyst)
+                            Document Analyst
                             </p>
                         </div>
                     </div>
@@ -207,7 +207,7 @@ function OurTeam() {
                             Revathy Krishnan
                             </h6>
                             <p className='text-gray-500 lg:text-lg text-sm font-poppins'>
-                            (Document Control Manager)
+                            Document Control Manager
                             </p>
                         </div>
                     </div>
@@ -219,7 +219,7 @@ function OurTeam() {
                             Shimna Hameed
                             </h6>
                             <p className='text-gray-500 lg:text-lg text-sm font-poppins'>
-                            (Customer Relation Manager)
+                            Customer Relation Manager
                             </p>
                         </div>
                     </div>
@@ -231,7 +231,7 @@ function OurTeam() {
                             Sony Joseph
                             </h6>
                             <p className='text-gray-500 lg:text-lg text-sm font-poppins'>
-                            (Customer Relation Manager)
+                            Customer Relation Manager
                             </p>
                         </div>
                     </div>
@@ -243,7 +243,7 @@ function OurTeam() {
                             Ramya R
                             </h6>
                             <p className='text-gray-500 lg:text-lg text-sm font-poppins'>
-                            (Customer Relation Manager)
+                            Customer Relation Manager
                             </p>
                         </div>
                     </div>
@@ -255,7 +255,7 @@ function OurTeam() {
                             Febin M P
                             </h6>
                             <p className='text-gray-500 lg:text-lg text-sm font-poppins'>
-                            (Background Verification Officer)
+                            Background Verification Officer
                             </p>
                         </div>
                     </div>
@@ -267,7 +267,7 @@ function OurTeam() {
                             Rijil C
                             </h6>
                             <p className='text-gray-500 lg:text-lg text-sm font-poppins'>
-                            (Document Verification Officer)
+                            Document Verification Officer
                             </p>
                         </div>
                     </div>
@@ -279,7 +279,7 @@ function OurTeam() {
                             Karthikeyan
                             </h6>
                             <p className='text-gray-500 lg:text-lg text-sm font-poppins'>
-                            (Document Verification Officer)
+                            Document Verification Officer
                             </p>
                         </div>
                     </div>
@@ -295,7 +295,7 @@ function OurTeam() {
                                 Saheena A S
                                 </h6>
                                 <p className='text-gray-500 lg:text-lg text-sm font-poppins'>
-                                (Office Assistant)
+                                Office Assistant
                                 </p>
                             </div>
                         </div>
@@ -307,7 +307,7 @@ function OurTeam() {
                                 Jibin George
                                 </h6>
                                 <p className='text-gray-500 lg:text-lg text-sm font-poppins'>
-                                (Office Assistant)
+                                Office Assistant
                                 </p>
                             </div>
                         </div>

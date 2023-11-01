@@ -48,7 +48,7 @@ function DocumentsForSaudiDataflow() {
             </div>
             <div className='grid max-w-5xl mx-auto place-content-center '>
             <p className='text-gray-600 font-poppins md:text-lg mb-10 px-6 md:px-8 lg:px-0'>
-                <b>P.S: </b> "Scanned copies of the above documents are needed. No need to submit originals."
+                Scanned copies of the above documents are needed. No need to submit originals.
                 </p>
             </div>
         </div>

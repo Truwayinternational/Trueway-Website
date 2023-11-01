@@ -1,6 +1,6 @@
 import React from 'react'
 
-// Import Swiper React components (for responsive design )
+// Import Swiper React components for responsive design )
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 
@@ -74,7 +74,7 @@ function OurTeamMobSlider2() {
                             Kiran G S
                             </h6>
                             <p className='text-gray-500 text-xs font-poppins text-center'>
-                            (Finance Manager)
+                            Finance Manager
                             </p>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ function OurTeamMobSlider2() {
                             Archana S S
                             </h6>
                             <p className='text-gray-500 text-xs font-poppins text-center'>
-                            (General Manager)
+                            General Manager
                             </p>
                         </div>
                     </div>
@@ -104,7 +104,7 @@ function OurTeamMobSlider2() {
                             Veena V H
                             </h6>
                             <p className='text-gray-500 text-xs font-poppins text-center'>
-                            (Senior Manager)
+                            Senior Manager
                             </p>
                         </div>
                     </div>
@@ -119,7 +119,7 @@ function OurTeamMobSlider2() {
                             Karthika Krishnan
                             </h6>
                             <p className='text-gray-500 text-xs font-poppins text-center'>
-                            (Branch Manager)
+                            Branch Manager
                             </p>
                         </div>
                     </div>
@@ -134,7 +134,7 @@ function OurTeamMobSlider2() {
                             Rineesha R
                             </h6>
                             <p className='text-gray-500 text-xs font-poppins text-center'>
-                            (Senior Document Analyst)
+                            Senior Document Analyst
                             </p>
                         </div>
                     </div>
@@ -149,7 +149,7 @@ function OurTeamMobSlider2() {
                             Mary Jemy
                             </h6>
                             <p className='text-gray-500 text-xs font-poppins text-center'>
-                            (Senior CRM)
+                            Senior CRM
                             </p>
                         </div>
                     </div>
@@ -164,7 +164,7 @@ function OurTeamMobSlider2() {
                             Athira C
                             </h6>
                             <p className='text-gray-500 text-xs font-poppins text-center'>
-                            (Document Analyst)
+                            Document Analyst
                             </p>
                         </div>
                     </div>
@@ -179,7 +179,7 @@ function OurTeamMobSlider2() {
                             Sajini Jayan
                             </h6>
                             <p className='text-gray-500 text-xs font-poppins text-center'>
-                            (Document Analyst)
+                            Document Analyst
                             </p>
                         </div>
                     </div>
@@ -194,7 +194,7 @@ function OurTeamMobSlider2() {
                             Revathy Krishnan
                             </h6>
                             <p className='text-gray-500 text-xs font-poppins text-center'>
-                            (Document Control Manager)
+                            Document Control Manager
                             </p>
                         </div>
                     </div>
@@ -209,7 +209,7 @@ function OurTeamMobSlider2() {
                             Shimna Hameed
                             </h6>
                             <p className='text-gray-500 text-xs font-poppins text-center'>
-                            (Customer Relation Manager)
+                            Customer Relation Manager
                             </p>
                         </div>
                     </div>
@@ -224,7 +224,7 @@ function OurTeamMobSlider2() {
                             Sony Joseph
                             </h6>
                             <p className='text-gray-500 text-xs font-poppins text-center'>
-                            (Customer Relation Manager)
+                            Customer Relation Manager
                             </p>
                         </div>
                     </div>
@@ -239,7 +239,7 @@ function OurTeamMobSlider2() {
                             Ramya R
                             </h6>
                             <p className='text-gray-500 text-xs font-poppins text-center'>
-                            (Customer Relation Manager)
+                            Customer Relation Manager
                             </p>
                         </div>
                     </div>
@@ -254,7 +254,7 @@ function OurTeamMobSlider2() {
                             Febin M P
                             </h6>
                             <p className='text-gray-500 text-xs font-poppins text-center'>
-                            (Background Verification Officer)
+                            Background Verification Officer
                             </p>
                         </div>
                     </div>
@@ -269,7 +269,7 @@ function OurTeamMobSlider2() {
                             Rijil C
                             </h6>
                             <p className='text-gray-500 text-xs font-poppins text-center'>
-                            (Document Verification Officer)
+                            Document Verification Officer
                             </p>
                         </div>
                     </div>
@@ -284,7 +284,7 @@ function OurTeamMobSlider2() {
                             Karthikeyan
                             </h6>
                             <p className='text-gray-500 text-xs font-poppins text-center'>
-                            (Document Verification Officer)
+                            Document Verification Officer
                             </p>
                         </div>
                     </div>
@@ -299,7 +299,7 @@ function OurTeamMobSlider2() {
                             Saheena A S
                             </h6>
                             <p className='text-gray-500 text-xs font-poppins text-center'>
-                            (Office Assistant)
+                            Office Assistant
                             </p>
                         </div>
                     </div>
@@ -314,7 +314,7 @@ function OurTeamMobSlider2() {
                             Jibin George 
                             </h6>
                             <p className='text-gray-500 text-xs font-poppins text-center'>
-                            (Office Assistant)
+                            Office Assistant
                             </p>
                         </div>
                     </div>

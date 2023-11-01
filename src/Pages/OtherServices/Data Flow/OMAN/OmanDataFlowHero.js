@@ -6,7 +6,7 @@ import oman_MobileBanner from '../../../../Assets/mobile banners/omanMobbanner.p
 function OmanDataFlowHero() {
   return (
     <>
-        <div className='max-w-4xl mx-auto place-content-center mb-10'>
+      <div className='max-w-4xl mx-auto place-content-center mb-10'>
             <div className='flex flex-col lg:mx-4 lg:px-8'>
                 <img className='hidden lg:flex mx-3 mt-10' src={oman_Banner} alt="dataflow-MOH bannner" />
                 {/* mobile banner here */}
