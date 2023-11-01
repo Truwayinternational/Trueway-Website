@@ -25,7 +25,7 @@ function ProcessForKuwait() {
                 </ol>
             </div>    
         </div>     
-      </div>
+        </div>
     </>
   )
 }

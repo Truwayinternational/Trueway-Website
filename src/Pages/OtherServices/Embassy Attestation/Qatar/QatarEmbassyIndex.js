@@ -1,6 +1,7 @@
 import React from 'react'
 import QatarEmbassyHero from './QatarEmbassyHero'
 import SiginificanceOfQatarEmbassy from './SiginificanceOfQatarEmbassy'
+import HowDoIGetQatar from './HowDoIGetQatar'
 
 
 
@@ -9,6 +10,7 @@ function qatarEmbassyIndex() {
     <div>
         <QatarEmbassyHero/>
         <SiginificanceOfQatarEmbassy/>
+        <HowDoIGetQatar/>
     </div>
   )
 }
