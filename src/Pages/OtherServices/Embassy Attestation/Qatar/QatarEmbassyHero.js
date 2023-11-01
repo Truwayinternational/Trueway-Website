@@ -1,6 +1,6 @@
 import React from 'react'
 
-import oman_Banner from '../../../../Assets/dataflow/oman Banner.png'
+import qatarEmbassyBanner from '../../../../Assets/embassy attestation/qatar/QATAR Embassy Banner.png'
 import oman_MobileBanner from '../../../../Assets/mobile banners/omanMobbanner.png'
 
 function QatarEmbassyHero() {
@@ -8,7 +8,7 @@ function QatarEmbassyHero() {
     <>
         <div className='max-w-4xl mx-auto place-content-center mb-10'>
             <div className='flex flex-col lg:mx-4 lg:px-8'>
-                <img className='hidden lg:flex mx-3 mt-10' src={oman_Banner} alt="dataflow-MOH bannner" />
+                <img className='hidden lg:flex mx-3 mt-10' src={qatarEmbassyBanner} alt="dataflow-MOH bannner" />
                 {/* mobile banner here */}
                 <img className='lg:hidden ' src={oman_MobileBanner} alt="dataFlow Mobile banner" />
                 {/* content here */}
