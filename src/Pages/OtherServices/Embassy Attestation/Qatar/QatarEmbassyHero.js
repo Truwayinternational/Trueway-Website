@@ -6,11 +6,11 @@ import MobQatarEmbassy from '../../../../Assets/mobile banners/MOB QATAR Embassy
 function QatarEmbassyHero() {
   return (
     <>
-        <div className='max-w-4xl mx-auto place-content-center mb-10'>
+      <div className='max-w-4xl mx-auto place-content-center mb-10'>
             <div className='flex flex-col lg:mx-4 lg:px-8'>
-                <img className='hidden lg:flex mx-3 mt-10' src={qatarEmbassyBanner} alt="dataflow-MOH bannner" />
+                <img className='hidden lg:flex mx-3 mt-10' src={qatarEmbassyBanner} alt="qatar embassy banner" />
                 {/* mobile banner here */}
-                <img className='lg:hidden ' src={MobQatarEmbassy} alt="dataFlow Mobile banner" />
+                <img className='lg:hidden ' src={MobQatarEmbassy} alt="qatar embassy Mobile " />
                 {/* content here */}
                 <h1 className='md:text-5xl text-4xl py-10  font-HeadingFont font-extrabold text-black  tracking-normal text-center px-4'>Choose us for<b className='text-green-500'> Qatar Embassy Attestation in India </b>
                 </h1>
