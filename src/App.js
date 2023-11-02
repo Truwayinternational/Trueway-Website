@@ -40,6 +40,7 @@ import KuwaitDataflowIndex from "./Pages/OtherServices/Data Flow/KUWAIT/KuwaitDa
 // We Provide embassy attestation services For different countries 
 import QatarEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Qatar/QatarEmbassyIndex";
 import KuwaitEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Kuwait/KuwaitEmbassyIndex";
+import UaeEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Uae/UaeEmbassyIndex";
 
 
 
@@ -96,6 +97,7 @@ function App() {
           {/* We Provide Embassy attestation For --- embassy attestation ---*/}
           <Route path="/qatarembassy" element={ <QatarEmbassyIndex/> } />
           <Route path="/kuwaitembassy" element={ <KuwaitEmbassyIndex/> } />
+          <Route path="/uaeembassy" element={ <UaeEmbassyIndex/> } />
 
 
         </Routes>
