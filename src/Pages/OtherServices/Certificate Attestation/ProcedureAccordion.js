@@ -21,12 +21,12 @@ function ProcedureAccordion() {
     <>
       <div className='flex justify-center items-center mb-10'>
             <div className='lg:w-2/3 ml-3 lg:md-12 lg:px-20 px-4 '>
-                <div className='text-md md:text-xl lg:text-lg text-gray-500 font-poppins pr-3 lg:p-0'>
+                <div className='text-md  lg:text-lg text-gray-500 font-poppins pr-3 lg:p-0'>
                     <Accordion open={alwaysOpen}>
                         <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont py-2' onClick={handleAlwaysOpen}>  Educational certificates <IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
                         <AccordionBody className="text-md lg:text-[16px] text-gray-500">
-                          <ol className='leading-5 font-semibold'>
+                          <ol className='leading-3 font-semibold '>
                             <li>SDM (sub-divisional magistrate)/ HRD (human resource development).</li>
                             <li> MEA (Ministry of External Affairs)</li>
                             <li>Embassy attestation / Apostille</li>
@@ -40,7 +40,7 @@ function ProcedureAccordion() {
                         Non-educational certificates<IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
                         <AccordionBody className="text-md text-gray-500">
-                          <ol className='leading-5 font-semibold'>
+                          <ol className='leading-3 font-semibold'>
                             <li>Notary Attestation</li>
                             <li> Home department</li>
                             <li>Embassy attestation / Apostille</li>
@@ -55,7 +55,7 @@ function ProcedureAccordion() {
                         Commercial certificates attestation<IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
                         <AccordionBody className="text-md lg:tex-2xl text-gray-500">
-                          <ol className='leading-5 font-semibold'>
+                          <ol className='leading-3 font-semibold'>
                             <li>Chamber of Commerce attestation</li>
                             <li>Embassy attestation / Apostille</li>
                             <li>MEA (Ministry of External Affairs)</li>
@@ -65,7 +65,7 @@ function ProcedureAccordion() {
                     </Accordion>
                 </div>
             </div>
-          </div> 
+      </div> 
     </>
   )
 }
