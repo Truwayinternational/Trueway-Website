@@ -1,6 +1,7 @@
 import React from 'react'
 import UaeEmbassyHero from './UaeEmbassyHero'
 import PurposeOfUaeEmbassy from './PurposeOfUaeEmbassy'
+import HowDoIGetUae from './HowDoIGetUae'
 
 
 function UaeEmbassyIndex() {
@@ -8,6 +9,7 @@ function UaeEmbassyIndex() {
     <div>
         <UaeEmbassyHero/>
         <PurposeOfUaeEmbassy/>
+        <HowDoIGetUae/>
     </div>
   )
 }
