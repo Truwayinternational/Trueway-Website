@@ -9,10 +9,10 @@ import YourBestChoice from './YourBestChoice'
 import DocumentRequired from './DocumentRequired'
 import EducationalDocuments from './EducationalDocuments'
 import NonEducational from './NonEducational'
+import WeProvideAttestaionFor from './WeProvideAttestaionFor'
 
 // trueway services add from same home page
 import OurCommitment from '../../../Components/OurCommitment'
-
 import OurClients from '../OurClients'
 import Form2 from '../../../Components/Forms/Form2'
 import FaqEmbassy from './FaqEmbassy'
@@ -31,6 +31,7 @@ function EmbassyAttestationIndex() {
         <YourBestChoice />
         <EducationalDocuments/>
         <NonEducational/>
+        <WeProvideAttestaionFor />
         <OurCommitment/>
         <OurClients />
         <Form2/>

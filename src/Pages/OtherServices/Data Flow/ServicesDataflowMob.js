@@ -15,7 +15,7 @@ import kuwait from '../../../Assets/dataflow/kuwait.png'
 
 function ServicesDataflowMob() {
   return (
-    <div className="lg:hidden flex mx-auto px-10  max-w-[1240px]">
+      <div className="lg:hidden flex mx-auto px-10  max-w-[1240px]">
             <Swiper 
                 className="w-full h-full "
                 slidesPerView={1}
@@ -25,17 +25,21 @@ function ServicesDataflowMob() {
                     disableOnInteraction: false,
                 }}
                 breakpoints={{
-                '@0.00': {
+                '250': {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                '320': {
                     slidesPerView: 2,
                     spaceBetween: 10,
                 },
-                '@0.40': {
-                    slidesPerView: 2,
-                    spaceBetween: 10,
-                },
-                '@0.60': {
+                '480': {
                     slidesPerView: 3,
                     spaceBetween: 10,
+                },
+                '1020': {
+                  slidesPerView: 3,
+                  spaceBetween: 10,
                 }
                 }}
                 modules={[ Autoplay]}>
@@ -123,7 +127,7 @@ function ServicesDataflowMob() {
                   </div>
                 </SwiperSlide>
             </Swiper>
-        </div>
+      </div>
   )
 }
 
