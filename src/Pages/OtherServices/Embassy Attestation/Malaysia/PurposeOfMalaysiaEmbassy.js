@@ -24,7 +24,7 @@ function PurposeOfMalaysiaEmbassy() {
                         </p>
                     </div>
                 </div>
-                <div className='hidden lg:grid lg:w-[15%] xl:mt-[-100px] my-10'>
+                <div className='hidden lg:grid lg:w-[15%] xl:mt-[-160px] my-10'>
                     <img src={avatar_2} alt="avatar_2" />
                 </div>
             </div>
