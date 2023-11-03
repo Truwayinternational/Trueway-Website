@@ -4,6 +4,7 @@ import Avatar_3 from '../../../../Assets/certificate attestation/avatar_3.png'
 
 import EducationalAttestation from '../../../../Assets/embassy attestation/uae/Educational embassy.png'
 import personalAttestation from '../../../../Assets/embassy attestation/uae/Personal embassy.png'
+import CommercialAttestation from '../../../../Assets/embassy attestation/uae/commercial attestation.png'
 
 
 function HowDoIGetUae() {
@@ -47,6 +48,15 @@ function HowDoIGetUae() {
                     <img className='w-[350px] md:w-[700px] mx-auto py-5' src={personalAttestation} alt="flow chart of Steps in Personal embassy attestation" />
                 </div>
 
+                {/* Steps in Commercial Attestation  flow chart format */}
+                <div className='flex flex-col justify-center mt-10 mx-2'>
+                    <h2 className='font-HeadingFont text-2xl md:text-3xl  font-bold  text-center'>Steps in <br/> Commercial Attestation</h2>
+                    <hr className=' w-2/4 rounded bg-green-500 mx-auto h-[2px] my-3'/> 
+                    <p className='text-md md:text-xl lg:text-lg text-center text-gray-500 font-poppins px-4 py-1 md:px-8   lg:px-20'>
+                    To obtain business document attestation from the UAE Embassy, a three-step procedure is followed. The commercial documents are initially certified by and attested to by the Chamber of Commerce. After that, the Ministry of External Affairs (MEA) issues the attestation. The UAE Embassy eventually completes the attestation process. For dependable and efficient attestation services, think about getting in touch with a knowledgeable group like Trueway International.
+                    </p>
+                    <img className='w-[350px] md:w-[750px] mx-auto py-5' src={CommercialAttestation} alt="flow chart of Steps in Personal embassy attestation" />
+                </div>
             </div>
         </div>
     </>
