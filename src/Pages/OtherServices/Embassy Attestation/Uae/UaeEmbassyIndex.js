@@ -3,6 +3,7 @@ import UaeEmbassyHero from './UaeEmbassyHero'
 import PurposeOfUaeEmbassy from './PurposeOfUaeEmbassy'
 import HowDoIGetUae from './HowDoIGetUae'
 import DocumentsRequiredForUae from './DocumentsRequiredForUae'
+import TruewayBetterForUae from './TruewayBetterForUae'
 
 
 function UaeEmbassyIndex() {
@@ -12,6 +13,7 @@ function UaeEmbassyIndex() {
         <PurposeOfUaeEmbassy/>
         <HowDoIGetUae/>
         <DocumentsRequiredForUae/>
+        <TruewayBetterForUae/>
     </div>
   )
 }
