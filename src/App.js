@@ -41,6 +41,7 @@ import KuwaitDataflowIndex from "./Pages/OtherServices/Data Flow/KUWAIT/KuwaitDa
 import QatarEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Qatar/QatarEmbassyIndex";
 import KuwaitEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Kuwait/KuwaitEmbassyIndex";
 import UaeEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Uae/UaeEmbassyIndex";
+import MalaysiaEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Malaysia/MalaysiaEmbassyIndex";
 
 
 
@@ -98,7 +99,7 @@ function App() {
           <Route path="/qatarembassy" element={ <QatarEmbassyIndex/> } />
           <Route path="/kuwaitembassy" element={ <KuwaitEmbassyIndex/> } />
           <Route path="/uaeembassy" element={ <UaeEmbassyIndex/> } />
-
+          <Route path="/malaysiaembassy" element={ <MalaysiaEmbassyIndex/> } />
 
         </Routes>
       <Footer />
