@@ -2,6 +2,7 @@ import React from 'react'
 import MalaysiaEmbassyHero from './MalaysiaEmbassyHero'
 import PurposeOfMalaysiaEmbassy from './PurposeOfMalaysiaEmbassy'
 import HowDoIGetMalaysian from './HowDoIGetMalaysian'
+import DocumentRequiredforMalaysia from './DocumentRequiredforMalaysia'
 
 function MalaysiaEmbassyIndex() {
   return (
@@ -9,6 +10,7 @@ function MalaysiaEmbassyIndex() {
         <MalaysiaEmbassyHero/>
         <PurposeOfMalaysiaEmbassy/>
         <HowDoIGetMalaysian/>
+        <DocumentRequiredforMalaysia/>
     </div>
   )
 }
