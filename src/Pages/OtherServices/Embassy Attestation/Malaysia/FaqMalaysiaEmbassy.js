@@ -20,10 +20,6 @@ function FaqMalaysiaEmbassy() {
             Answer:"For the safety and accuracy of your document, getting Bahrain Embassy Attestation through Trueway International is always a wise choice.",
         },
         {
-            question:"How many days will it take for the Malaysia Embassy attestation in India?",
-            Answer:"------",
-        },
-        {
             question:"How much does it cost to attest to the Malaysia Embassy in India?",
             Answer:"With the service of Trueway International, you can complete your embassy attestation at an affordable price compared to other agencies.",
         },
