@@ -44,6 +44,7 @@ function FaqKuwaitEmbassy() {
             Answer:"The cost of visa stamping at the Kuwait Embassy may vary depending on the type of visa and specific requirements, so it is recommended to contact the embassy directly for the most up-to-date pricing information.",
         }
     ]
+    
   return (
 
     <>
