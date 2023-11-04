@@ -10,16 +10,25 @@ function NonEducational() {
   const extraContent =
   <div className='grid'>
       <div className='text-green-500'>
-          <ol className='list-none font-semibold text-lg md:text-xl py-3'>
-            <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Foreign Affairs (FA) Attestation/Legalization</li> 
-            <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Transfer Certificate (TC) Attestation</li> 
-            <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Experience/ Employment Certificate Attestation</li> 
-            <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Medical Certificate Attestation</li>
-            <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Ministry of health department attestation</li>
-            <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Ministry of Justice attestation</li>
-            <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Chamber of commerce attestation</li>
-            <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Labour department attestation</li>
-            <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Death Certificate Attestation</li>
+          <ol className='list-none font-semibold text-lg md:text-xl py-3 ml-4'>
+                <BiSolidChevronRightCircle />
+                <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Foreign Affairs (FA) Attestation/Legalization</li> 
+                <BiSolidChevronRightCircle />
+                <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Transfer Certificate (TC) Attestation</li> 
+                <BiSolidChevronRightCircle />
+                <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Experience/ Employment Certificate Attestation</li> 
+                <BiSolidChevronRightCircle />
+                <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Medical Certificate Attestation</li>
+                <BiSolidChevronRightCircle />
+                <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Ministry of health department attestation</li>
+                <BiSolidChevronRightCircle />
+                <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Ministry of Justice attestation</li>
+                <BiSolidChevronRightCircle />
+                <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Chamber of commerce attestation</li>
+                <BiSolidChevronRightCircle />
+                <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Labour department attestation</li>
+                <BiSolidChevronRightCircle />
+                <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Death Certificate Attestation</li>
           </ol>
       </div>
   </div>
@@ -37,13 +46,19 @@ function NonEducational() {
                 <div className='grid md:flex '>
                     <img src={attestation_img} className='md:h-[250px] object-cover mx-auto md:mx-2' alt="educational document we provide certificate attestation for" />
                     <div className='text-green-500'>
-                        <ol className='list-none font-semibold text-lg md:text-xl py-3'>
-                        <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Birth Certificate Attestation</li> 
-                        <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Marriage Certificate Attestation</li> 
-                        <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Salary Certificate Attestation</li> 
-                        <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Equivalence Certificate</li>
-                        <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Single Status Certificate Attestation</li>
-                        <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Ministry of education department attestation</li>
+                        <ol className='list-none font-semibold text-lg md:text-xl py-3 ml-4'>
+                            <BiSolidChevronRightCircle />
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'> Birth Certificate Attestation</li> 
+                            <BiSolidChevronRightCircle />
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Marriage Certificate    Attestation</li> 
+                            <BiSolidChevronRightCircle />
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Salary Certificate Attestation</li> 
+                            <BiSolidChevronRightCircle />
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Equivalence Certificate</li>
+                            <BiSolidChevronRightCircle />
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Single Status Certificate Attestation</li>
+                            <BiSolidChevronRightCircle />
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Ministry of education department attestation</li>
                         </ol>
                     </div>
                 </div>
@@ -57,15 +72,24 @@ function NonEducational() {
                 <div className='hidden md:grid md:mx-32 mx-4'>
                     <div className='text-green-500'>
                     <ol className='list-none font-semibold text-lg md:text-xl py-3'>
-                        <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Foreign Affairs (FA) Attestation/Legalization</li> 
-                        <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Transfer Certificate (TC) Attestation</li> 
-                        <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Experience/ Employment Certificate Attestation</li> 
-                        <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Medical Certificate Attestation</li>
-                        <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Ministry of health department attestation</li>
-                        <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Ministry of Justice attestation</li>
-                        <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Chamber of commerce attestation</li>
-                        <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Labour department attestation</li>
-                        <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Death Certificate Attestation</li>
+                        <BiSolidChevronRightCircle />
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Foreign Affairs (FA) Attestation/Legalization</li> 
+                        <BiSolidChevronRightCircle />
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Transfer Certificate (TC) Attestation</li> 
+                        <BiSolidChevronRightCircle />
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Experience/ Employment Certificate Attestation</li> 
+                        <BiSolidChevronRightCircle />
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Medical Certificate Attestation</li>
+                        <BiSolidChevronRightCircle />
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Ministry of health department attestation</li>
+                        <BiSolidChevronRightCircle />
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Ministry of Justice attestation</li>
+                        <BiSolidChevronRightCircle />
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Chamber of commerce attestation</li>
+                        <BiSolidChevronRightCircle />
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Labour department attestation</li>
+                        <BiSolidChevronRightCircle />
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Death Certificate Attestation</li>
                     </ol>
                     </div>
                 </div>
