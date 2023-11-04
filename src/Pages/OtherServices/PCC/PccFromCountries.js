@@ -15,7 +15,7 @@ import PccFromCountriesMob from './PccFromCountriesMob'
 function PccFromCountries() {
   return (
     <>
-        <div className=' w-full my-20'>
+        <div className=' w-full my-10 lg:mt-20'>
         <div className='max-w-[1240px] mx-auto place-content-center'>
             <div className='text-center px-2'>
                 <h2 className='md:text-5xl text-3xl font-bold font-HeadingFont pb-10'>Get PCC from<br/> <b className='text-green-500'> GCC countries swiftly </b> </h2>
