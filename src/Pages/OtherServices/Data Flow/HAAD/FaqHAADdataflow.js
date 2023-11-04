@@ -18,21 +18,7 @@ function FaqHAADdataflow() {
             question: "Which is the best dataflow verification service for Abu Dhabi consultancy in India?",
             Answer:"Trueway International is known as the best dataflow verification service for Abu Dhabi consultancy in India because of their fast, secure and affordable service."
         },
-        {
-            id:2,
-            question:" Who is eligible for HAAD?",
-            Answer:"---------"
-        },
-        {
-            id:3,
-            question:"How can I get a HAAD licence in Abu Dhabi?",
-            Answer:"-----------"
-        },
-        {
-            id:4,
-            question:" What is the minimum qualification for the HAAD exam?",
-            Answer:"-------------"
-        },
+        // answers not found so some FAQ delete from here 
         {
             id:5,
             question:"What is the difference between HAAD and DHA?",
@@ -48,16 +34,7 @@ function FaqHAADdataflow() {
             question:"What is the passing score for the HAAD exam?",
             Answer:"The passing score for the HAAD examination is usually around 60-65%."
         },
-        {
-            id:8,
-            question:"What is the validity of DataFlow Abu Dhabi?",
-            Answer:"----------"
-        },
-        {
-            id:9,
-            question:"What are the procedures for HAAD Prometric?",
-            Answer:"----------"
-        },
+        // answers not found so some FAQ delete from here 
         {
             id:10,
             question:"s it possible for a candidate to do HAAD dataflow again when she has a report of discrepancy with her?",
@@ -73,16 +50,7 @@ function FaqHAADdataflow() {
             question:"Is it possible for a candidate to pursue the HAAD Dataflow process with Saudi experience?",
             Answer:"Yes, If the candidate has a valid Saudi licence along with the experience he/she is able to do HAAD dataflow with that experience."
         },
-        {
-            id:13,
-            question:"What is the validity of DataFlow Abu Dhabi?",
-            Answer:"-------------"
-        },
-        {
-            id:14,
-            question:"What are the procedures for HAAD Prometric?",
-            Answer:"----------"
-        },
+        // some faq delete from here
         {
             id:15,
             question:"Is it possible for a candidate to do HAAD dataflow again when she has a report of discrepancy with her?",

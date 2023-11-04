@@ -42,6 +42,7 @@ import QatarEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Qatar/Q
 import KuwaitEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Kuwait/KuwaitEmbassyIndex";
 import UaeEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Uae/UaeEmbassyIndex";
 import MalaysiaEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Malaysia/MalaysiaEmbassyIndex";
+import BahrainEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Bahrain/BahrainEmbassyIndex";
 
 
 
@@ -100,7 +101,9 @@ function App() {
           <Route path="/kuwaitembassy" element={ <KuwaitEmbassyIndex/> } />
           <Route path="/uaeembassy" element={ <UaeEmbassyIndex/> } />
           <Route path="/malaysiaembassy" element={ <MalaysiaEmbassyIndex/> } />
+          <Route path="/bahrainembassy" element={ <BahrainEmbassyIndex/> } />
 
+          
         </Routes>
       <Footer />
     </div>

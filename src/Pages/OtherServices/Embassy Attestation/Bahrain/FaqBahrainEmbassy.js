@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 import FaqAccordion from '../../FaqAccordion'
 
 
-
-function FaqMalaysiaEmbassy() {
+function FaqBahrainEmbassy() {
 
     const [open, SetOpen] = useState(false)
 
@@ -16,20 +15,24 @@ function FaqMalaysiaEmbassy() {
 
     const AccordionData = [
         {
-            question:"Which agency is best for Malaysia  Embassy attestation in India?",
-            Answer:"For the safety and accuracy of your document, getting Bahrain Embassy Attestation through Trueway International is always a wise choice.",
+            question:"Which agency is best for Bahrain Embassy attestation in India?",
+            Answer:"Trueway International is a leading agency which has branches all over India. This agency will do embassy attestation in a better way possible.",
         },
         {
-            question:"How much does it cost to attest to the Malaysia Embassy in India?",
-            Answer:"With the service of Trueway International, you can complete your embassy attestation at an affordable price compared to other agencies.",
+            question:"How many days will it take for Bahrain Embassy attestation in India?",
+            Answer:"Generally it will take 12 working days.",
         },
         {
-            question:"Is attestation mandatory in Malaysia ?",
-            Answer:"Attestation of documents is required for various purposes such as higher education, employment, immigration, visa, etc. in Malaysia or any other country.",
+            question:"How much does it cost to attest to the Bahrain Embassy in India?",
+            Answer:"In trueway international they offer the services at an affordable rate.",
         },
         {
-            question:"How can I get certificate attestation in Malaysia?",
-            Answer:"To get your document attestation from the most reliable document attestation company, visit us at truewayinternational.com  Write to us at tvm@truewayinternational.com or call us at 8327626262.",
+            question:"Is attestation mandatory in Bahrain?",
+            Answer:"Definitely yes. Without attestation you can’t fly to bahrain.",
+        },
+        {
+            question:"How can I get certificate attestation in Bahrain?",
+            Answer:"Contact the Trueway agency consultant and they will help you with the processes.",
         }
     ]
 
@@ -60,4 +63,4 @@ function FaqMalaysiaEmbassy() {
   )
 }
 
-export default FaqMalaysiaEmbassy
+export default FaqBahrainEmbassy
