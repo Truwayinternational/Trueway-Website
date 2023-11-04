@@ -9,7 +9,7 @@ function EmbassyAttestation() {
     const [readMore, setReadMore] = useState(false);
 
     const extraContent =<div>
-            <p className='md:hidden text-md md:text-xl text-justify text-gray-500 font-poppins mb-10 pr-3'>
+            <p className='md:hidden text-md md:text-xl text-justify text-gray-500 font-poppins mb-10 pr-3 pt-2 '>
             Getting embassy attestation for your documents can be a complex and time-consuming process. It can be quite challenging for ordinary individuals to handle and understand. To make things easier for you, Trueway International offers stress-free embassy certificate attestation services with an online document tracking facility.
             </p>
     </div>
@@ -41,7 +41,7 @@ function EmbassyAttestation() {
                 {/* readMore add in paragraph */}
                 <div className='md:hidden flex'>
                     <p  onClick={()=> {setReadMore (!readMore)}}>
-                    <h2 className='text-green-500 ml-3 text-lg cursor-pointer font-poppins'>{linkName}</h2>
+                    <h2 className='text-green-500 pl-4 text-lg cursor-pointer font-poppins'>{linkName}</h2>
                     </p>
                     { readMore && extraContent }
                 </div>

@@ -4,11 +4,11 @@ import { Route, Routes} from "react-router-dom";
 // Navbar router in web page
 import TopBar from "./Components/Layout/TopBar";
 import NavBar from "./Components/Layout/NavBar/NavBar";
-import HomeIndex from "./Pages/Home/HomeIndex";
 import Footer from './Components/Layout/Footer'
 import QuickAction from "./Components/Layout/QuickAction";
 
-// import ServicesIndex from "./Pages/OtherServices/ServicesIndex";
+// all pages from navbar router
+import HomeIndex from "./Pages/Home/HomeIndex";
 import AboutIndex from "./Pages/AboutUs/AboutIndex";
 import WesIndex from "./Pages/WES/WesIndex";
 import BlogsIndex from "./Pages/Blog&Video/BlogsIndex";
@@ -23,6 +23,7 @@ import MEAIndex from "./Pages/OtherServices/MEA Attestation/MEAIndex";
 import MOFAindex from "./Pages/OtherServices/MOFA Attestation/MOFAindex";
 import HomeAttIndex from "./Pages/OtherServices/Home Attestation/HomeAttIndex";
 import DataFlowIndex from "./Pages/OtherServices/Data Flow/DataFlowIndex";
+import PccIndex from "./Pages/OtherServices/PCC/PccIndex";
 
 
 
@@ -45,6 +46,8 @@ import MalaysiaEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Mala
 import BahrainEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Bahrain/BahrainEmbassyIndex";
 
 
+// We Provide PCC services For different countries 
+import UaePccIndex from "./Pages/OtherServices/PCC/UAE/UaePccIndex";
 
 
 
@@ -83,6 +86,8 @@ function App() {
           <Route path="/mofaAttestation" element={ <MOFAindex/> } onClick={scrollToTop}/>
           <Route path="/homeAttestation" element={ <HomeAttIndex/>} onClick={scrollToTop}/>
           <Route path="/dataflow" element={ <DataFlowIndex/> } onClick={scrollToTop}/>
+          <Route path="/pcc" element={<PccIndex/>} onClick={scrollToTop} />
+
 
 
           {/* We Provide Dataflow Services For ---DATAFLOW VERIFICATIONS ---*/}
@@ -104,6 +109,11 @@ function App() {
           <Route path="/bahrainembassy" element={ <BahrainEmbassyIndex/> } />
 
           
+          {/* We Provide PCC For --- POLICE CLEARANCE CERTIFICATE ---*/}
+          <Route path="/pcc_uae" element={ <UaePccIndex/> } />
+          
+
+
         </Routes>
       <Footer />
     </div>
