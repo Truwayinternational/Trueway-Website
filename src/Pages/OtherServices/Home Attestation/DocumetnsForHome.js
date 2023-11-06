@@ -24,29 +24,29 @@ function DocumetnsForHome() {
             <div className='flex justify-start max-w-3xl md:mx-auto md:px-20 lg:px-0 pb-10'>
                     <div className='grid grid-cols-1'>
                         <ul className='lg:text-xl md:text-lg text-sm  text-green-500'>
-                            <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
+                            <li className='bg-transparent md:rounded-full rounded-2xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
                                 <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Birth certificate
                             </li>
-                            <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
+                            <li className='bg-transparent md:rounded-full rounded-2xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
                                 <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Marriage certificate
                             </li>
-                            <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
+                            <li className='bg-transparent md:rounded-full rounded-2xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
                                 <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Death certificate
                             </li>
-                            <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
+                            <li className='bg-transparent md:rounded-full rounded-2xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
                                 <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Transfer certificate
                             </li>
                         </ul>
                     </div>
                     <div className='flex  md:pl-16 pl-0'>
                         <ul className='text-sm lg:text-xl md:text-lg text-green-500 '>
-                            <li className='bg-transparent roumd:nded-full md rounded-3xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
+                            <li className='bg-transparent roumd:nded-full md rounded-2xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
                                 <BiSolidChevronRightCircle className='inline-flex'/> Experience certificate
                             </li>
-                            <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
+                            <li className='bg-transparent md:rounded-full rounded-2xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
                                 <BiSolidChevronRightCircle className='inline-flex '/> Single status certificate
                             </li>
-                            <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
+                            <li className='bg-transparent md:rounded-full rounded-2xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
                                 <BiSolidChevronRightCircle className='inline-flex '/> Divorce certificate, etc.
                             </li>
                         </ul>

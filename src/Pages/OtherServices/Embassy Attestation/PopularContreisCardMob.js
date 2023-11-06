@@ -53,8 +53,8 @@ function PopularContreisCardMob() {
                     <div className="flex flex-col justify-center items-center m-5 p-2  px-3  cursor-pointer">
                         <img className="order-first p-2 block object-cover " src={uae_img} alt="Services_image" />
                             <hr />
-                            <div className="text-center py-2 my-3">
-                                <h5 className="flex justify-center text-xl font-semibold text-green-500 font-HeadingFont">
+                            <div className="text-start py-2 my-3">
+                                <h5 className="flex text-start text-xl font-semibold text-green-500 font-HeadingFont">
                                 <b> <BiSolidChevronRightCircle 
                                 className='text-green-500 mx-2 mt-1'/> </b>
                                  UAE Embassy Attestation</h5>
@@ -68,8 +68,8 @@ function PopularContreisCardMob() {
                     <div className="flex flex-col justify-center items-center m-5 p-2  px-3  cursor-pointer">
                         <img className="order-first p-2 block object-cover " src={qatar_img} alt="Services_image" />
                             <hr />
-                            <div className="text-center py-2 my-3">
-                                <h5 className="flex justify-center text-xl font-semibold text-green-500 font-HeadingFont">
+                            <div className="text-start py-2 my-3">
+                                <h5 className="flex justify-start text-xl font-semibold text-green-500 font-HeadingFont">
                                 <b> <BiSolidChevronRightCircle 
                                 className='text-green-500 mx-2 mt-1'/> </b>
                                  Qatar Embassy Attestation</h5>
@@ -86,7 +86,7 @@ function PopularContreisCardMob() {
                             <div className="text-center py-2 my-3">
                                 <h5 className="flex justify-center text-xl font-semibold text-green-500 font-HeadingFont">
                                 <b> <BiSolidChevronRightCircle 
-                                className='text-green-500 mx-2 mt-1'/> </b>
+                                className='text-green-500 mx-2 ms-auto mt-1'/> </b>
                                  Oman Embassy Attestation</h5>
                                 <p className="text-center font-light text-zinc-500 md:text-md px-8 py-4">Oman Embassy Attestation is not needed to get a work permit, get a family visa or continue studies in Oman. This embassy attestation is not essential for documents. </p>
                             </div>
@@ -101,7 +101,7 @@ function PopularContreisCardMob() {
                         <div className="text-center py-2 my-3">
                             <h5 className="flex justify-center text-xl font-semibold text-green-500 font-HeadingFont">
                             <b> <BiSolidChevronRightCircle 
-                            className='text-green-500 mx-2 mt-1'/> </b>
+                            className='text-green-500 mx-2 ms-auto mt-1'/> </b>
                             Kuwait Embassy Attestation</h5>
                             <p className="text-center font-light text-zinc-500 md:text-md px-8 py-4">
                             To verify the authenticity of documents to start employment or education Kuwait Embassy Attestation is highly needed. </p>
@@ -117,7 +117,7 @@ function PopularContreisCardMob() {
                         <div className="text-center py-2 my-3">
                             <h5 className="flex justify-center text-xl font-semibold text-green-500 font-HeadingFont">
                             <b> <BiSolidChevronRightCircle 
-                            className='text-green-500 mx-2 mt-1'/> </b>
+                            className='text-green-500 ms-auto mt-1'/> </b>
                             Bahrain embassy attestation</h5>
                             <p className="text-center font-light text-zinc-500 md:text-md px-8 py-4">
                             To get a Bahrain visa for any purpose, Bahrain embassy attestation is significant. All the papers you submit should be checked by the Bahrain embassy for migration. </p>

@@ -25,8 +25,8 @@ function ProcedureAccordion() {
                     <Accordion open={alwaysOpen}>
                         <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont py-2' onClick={handleAlwaysOpen}>  Educational certificates <IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
-                        <AccordionBody className="text-md lg:text-[16px] text-gray-500">
-                          <ol className='lg:leading-3 leading-6 font-semibold'>
+                        <AccordionBody className="text-[16px] text-gray-500">
+                          <ol className='lg:leading-3'>
                             <li >SDM (sub-divisional magistrate)/ HRD (human resource development).</li>
                             <li> MEA (Ministry of External Affairs)</li>
                             <li>Embassy attestation / Apostille</li>
@@ -39,8 +39,8 @@ function ProcedureAccordion() {
                         <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont text-start py-2' onClick={() => handleOpen(1)}>
                         Non-educational certificates<IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
-                        <AccordionBody className="text-md text-gray-500">
-                          <ol className='lg:leading-3 leading-6 font-semibold'>
+                        <AccordionBody className="text-[16px] text-gray-500">
+                          <ol className='lg:leading-3 '>
                             <li>Notary Attestation</li>
                             <li> Home department</li>
                             <li>Embassy attestation / Apostille</li>
@@ -52,10 +52,10 @@ function ProcedureAccordion() {
                     {/* 3rd accordion */}
                     <Accordion open={open === 2}>
                         <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont text-start py-2' onClick={() => handleOpen(2)}>
-                        Commercial certificates attestation<IoIosArrowDropdownCircle className='ms-auto'/>
+                        Commercial certificates attestation<IoIosArrowDropdownCircle className='ms-auto text-2xl md:text-xl'/>
                         </AccordionHeader>
-                        <AccordionBody className="text-md lg:tex-2xl text-gray-500">
-                          <ol className='lg:leading-3 leading-6 font-semibold'>
+                        <AccordionBody className="text-[16px]  text-gray-500">
+                          <ol className='lg:leading-3'>
                             <li>Chamber of Commerce attestation</li>
                             <li>Embassy attestation / Apostille</li>
                             <li>MEA (Ministry of External Affairs)</li>
