@@ -5,7 +5,7 @@ function HowDoObtain() {
     const [readMore, setReadMore] = useState(false);
 
     const extraContent =<div>
-            <p className='md:hidden text-md md:text-xl text-start text-gray-500 font-poppins mb-10 pr-3 pt-2 '>
+            <p className='md:hidden text-md md:text-xl text-start text-gray-500 font-poppins pr-3 pt-2 '>
             To obtain police clearance in the UAE, the relevant documents are   A valid Emirates ID card, a letter from the recipient stating that they have no plans to commit any crimes in the near future, a duplicate of the candidate's identification, plus a photo in identification size.
             </p>
     </div>
