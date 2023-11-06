@@ -48,6 +48,7 @@ import BahrainEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Bahra
 
 // We Provide PCC services For different countries 
 import UaePccIndex from "./Pages/OtherServices/PCC/UAE/UaePccIndex";
+import SaudiPccIndex from "./Pages/OtherServices/PCC/SAUDI/SaudiPccIndex";
 
 
 
@@ -111,7 +112,7 @@ function App() {
           
           {/* We Provide PCC For --- POLICE CLEARANCE CERTIFICATE ---*/}
           <Route path="/pcc_uae" element={ <UaePccIndex/> } />
-          
+          <Route path="/pcc_ksa" element={<SaudiPccIndex/>} />
 
 
         </Routes>
