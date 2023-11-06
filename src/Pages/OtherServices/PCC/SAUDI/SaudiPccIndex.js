@@ -1,6 +1,7 @@
 import React from 'react'
 import SaudiPccHero from './SaudiPccHero'
 import PorposeOfSaudiPcc from './PorposeOfSaudiPcc'
+import HowToApplySaudiPcc from './HowToApplySaudiPcc'
 
 
 function SaudiPccIndex() {
@@ -8,6 +9,7 @@ function SaudiPccIndex() {
     <div>
         <SaudiPccHero/>
         <PorposeOfSaudiPcc/>
+        <HowToApplySaudiPcc/>
     </div>
   )
 }
