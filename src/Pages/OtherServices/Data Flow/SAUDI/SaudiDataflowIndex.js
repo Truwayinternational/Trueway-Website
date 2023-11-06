@@ -6,6 +6,8 @@ import ProcessForSaudi from './ProcessForSaudi'
 import DocumentsForSaudiDataflow from './DocumentsForSaudiDataflow'
 import Form2 from '../../../../Components/Forms/Form2'
 import FaqSaudiDataflow from './FaqSaudiDataflow'
+import OurCommitment from '../../../../Components/OurCommitment'
+import OurClients from '../../OurClients'
 
 
 
@@ -18,6 +20,8 @@ function SaudiDataflowIndex() {
         <PSVinSaudi/>
         <ProcessForSaudi/>
         <DocumentsForSaudiDataflow/>
+        <OurCommitment/>
+        <OurClients/>
         <Form2/>
         <FaqSaudiDataflow/>
     </div>

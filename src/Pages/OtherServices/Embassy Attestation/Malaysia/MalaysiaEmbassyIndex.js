@@ -17,9 +17,9 @@ function MalaysiaEmbassyIndex() {
         <HowDoIGetMalaysian/>
         <DocumentRequiredforMalaysia/>
         <TruewayBestForMalaysia/>
-        <Form2/>
         <OurCommitment/>
         <OurClients/>
+        <Form2/>
         <FaqMalaysiaEmbassy/>
     </div>
   )

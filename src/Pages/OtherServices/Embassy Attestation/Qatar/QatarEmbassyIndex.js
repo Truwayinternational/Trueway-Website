@@ -17,9 +17,9 @@ function qatarEmbassyIndex() {
         <SiginificanceOfQatarEmbassy/>
         <HowDoIGetQatar/>
         <DocumentsRequired/>
-        <Form2/>
         <OurCommitment/>
         <OurClients/>
+        <Form2/>
         <FaqQatar/>
     </div>
   )

@@ -20,9 +20,9 @@ function UaeEmbassyIndex() {
         <HowDoIGetUae/>
         <DocumentsRequiredForUae/>
         <TruewayBetterForUae/>
-        <Form2/>
         <OurCommitment/>
         <OurClients/>
+        <Form2/>
         <FaqUaeEmbassy/>
     </div>
   )

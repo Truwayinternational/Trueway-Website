@@ -8,6 +8,8 @@ import FaqMOH from './FaqMOH'
 
 // add all dataflow inner pages
 import ContactforDataflow from '../ContactforDataflow'
+import OurCommitment from '../../../../Components/OurCommitment'
+import OurClients from '../../OurClients'
 
 
 
@@ -21,6 +23,8 @@ function MohIndex() {
         <PrimarySourceVerification/>
         <ProcessForMOH/>
         <DocumentsRequiredMOH/>
+        <OurCommitment/>
+        <OurClients/>
         <Form2/>
         <FaqMOH/>
     </div>
