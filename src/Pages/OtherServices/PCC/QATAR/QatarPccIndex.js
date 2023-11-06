@@ -1,6 +1,7 @@
 import React from 'react'
 import QatarPccHero from './QatarPccHero'
 import PurposeOfQatarPcc from './PurposeOfQatarPcc'
+import HowToApplyQatarPcc from './HowToApplyQatarPcc'
 
 
 function QatarPccIndex() {
@@ -8,6 +9,7 @@ function QatarPccIndex() {
     <div>
         <QatarPccHero/>
         <PurposeOfQatarPcc/>
+        <HowToApplyQatarPcc/>
     </div>
   )
 }
