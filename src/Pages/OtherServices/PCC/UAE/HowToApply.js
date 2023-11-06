@@ -6,7 +6,7 @@ import {BiSolidChevronRightCircle} from 'react-icons/bi'
 function HowToApply() {
   return (
     <>
-        <div className='max-w-[1240px] mx-auto place-content-center py-10'>
+        <div className='max-w-[1240px] mx-auto place-content-center pt-10'>
             <div className='flex mx-4  lg:px-16 px-3'>
               <h2 className='md:text-5xl text-3xl pb-5  font-HeadingFont font-extrabold text-black  tracking-wide  '>How to apply for<br/><b className='text-green-500'> UAE Police Clearance <br/> Certificate?</b></h2>
               <img className='md:hidden grid  w-[100px]  mt-[-30px]' src={avatar_1} alt="avatar_1" />
