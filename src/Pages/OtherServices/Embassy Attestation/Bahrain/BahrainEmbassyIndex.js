@@ -17,9 +17,9 @@ function BahrainEmbassyIndex() {
         <PurposeOfBahrainEmbassy/>
         <HowDoIGetBahrain/>
         <DocumentRequiredForBahrain/>
-        <Form2/>
         <OurCommitment/>
         <OurClients/>
+        <Form2/>
         <FaqBahrainEmbassy/>
     </>
   )

@@ -19,9 +19,9 @@ function KuwaitEmbassyIndex() {
         <HowDoIGetKuwait/>
         <DocumentRequiredKuwait/>
         <TheBenifits/>
-        <Form2/>
         <OurCommitment/>
         <OurClients/>
+        <Form2/>
         <FaqKuwaitEmbassy/>
     </div>
   )

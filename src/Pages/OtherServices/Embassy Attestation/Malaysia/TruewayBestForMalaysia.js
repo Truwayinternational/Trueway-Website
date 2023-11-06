@@ -20,13 +20,18 @@ function TruewayBestForMalaysia() {
                     <p className='text-md md:text-xl lg:text-lg text-gray-500 font-poppins lg:p-0 '>
                     With years of experience, Trueway has been known for having the highest client satisfaction rate. With a professional and expert team, we are ready to help you out in the following ways:
                     </p>
-                    <ol className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-xl py-3 font-HeadingFont'>
-                        <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Trustworthy and Tension-free Services</li> 
-                        <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Speedy and accurate process</li>
-                        <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Services Available for PAN India</li> 
-                        <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/> 24*7 Assistance</li>
-                        <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Affordable price</li>
-                    </ol>
+                    <ul className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-xl py-3 font-HeadingFont mt-3'>
+                            <BiSolidChevronRightCircle />
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Trustworthy and Tension-free Services</li> 
+                            <BiSolidChevronRightCircle />
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Speedy and accurate process</li>
+                            <BiSolidChevronRightCircle />
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Services Available for PAN India</li> 
+                            <BiSolidChevronRightCircle />
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'> 24*7 Assistance</li>
+                            <BiSolidChevronRightCircle />
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'> Affordable price</li>
+                    </ul>
                     <p className='text-md md:text-xl lg:text-lg text-gray-500 font-poppins lg:p-0 '>
                     To get your document attestation from the most reliable document attestation company,<br/>
                     visit us

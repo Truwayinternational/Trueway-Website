@@ -6,6 +6,8 @@ import ProcessForKuwait from './ProcessForKuwait'
 import DocumentsForKuwait from './DocumentsForKuwait'
 import Form2 from '../../../../Components/Forms/Form2'
 import FaqKuwaitDataflow from './FaqKuwaitDataflow'
+import OurCommitment from '../../../../Components/OurCommitment'
+import OurClients from '../../OurClients'
 
 
 function KuwaitDataflowIndex() {
@@ -16,6 +18,8 @@ function KuwaitDataflowIndex() {
         <PSVinKuwait/>
         <ProcessForKuwait/>
         <DocumentsForKuwait/>
+        <OurCommitment/>
+        <OurClients/>
         <Form2/>
         <FaqKuwaitDataflow/>
     </div>

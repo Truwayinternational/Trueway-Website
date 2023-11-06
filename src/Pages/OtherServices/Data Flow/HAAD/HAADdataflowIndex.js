@@ -6,6 +6,8 @@ import ProcessInHAAD from './ProcessInHAAD'
 import DocumentsForHAAD from './DocumentsForHAAD'
 import Form2 from '../../../../Components/Forms/Form2'
 import FaqHAADdataflow from './FaqHAADdataflow'
+import OurCommitment from '../../../../Components/OurCommitment'
+import OurClients from '../../OurClients'
 
 
 
@@ -19,6 +21,8 @@ function HAADdataflowIndex() {
         <PSVinAbudhabi/>
         <ProcessInHAAD/>
         <DocumentsForHAAD/>
+        <OurCommitment/>
+        <OurClients/>
         <Form2/>
         <FaqHAADdataflow/>
     </div>

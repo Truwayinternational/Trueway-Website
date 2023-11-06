@@ -9,7 +9,7 @@ function PurposesOfHRD() {
     <>
         <div className='max-w-[1240px] mx-auto place-content-center py-10'>
             <div className='flex mx-4  lg:px-16 px-3'>
-              <h3 className='md:text-5xl text-3xl pb-5  font-HeadingFont font-extrabold text-black  tracking-wide  '>What is the <b className='text-green-500'>purpose of</b><br/><p className='text-green-500'>HRD Attestation ?</p></h3>
+              <h3 className='md:text-5xl text-3xl pb-5  font-HeadingFont font-extrabold text-black  tracking-wide  '>What is the <b className='text-green-500'> Purpose of</b><br/><p className='text-green-500'> HRD Attestation ?</p></h3>
               <img className='md:hidden grid  w-[100px]  mt-[-30px]' src={avatar_2} alt="avatar_2" />
             </div>
             <div className='flex'>
@@ -19,11 +19,15 @@ function PurposesOfHRD() {
                         HRD attestation is mainly used for migration purposes. If you are planning to migrate to your dream country for education, employment, or such matters, then attestation of your documents is mandatory. 
                         </p>
                         <b>The following are the main purposes of HRD attestation:</b>
-                        <ol className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-5  py-3'>
-                            <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>For higher education in overseas nations.</li> 
-                            <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>To migrate abroad.   </li> 
-                            <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>To secure a job permit abroad. </li> 
-                            <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>To obtain a visa.</li> 
+                        <ol className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-5  py-3 mt-3'>
+                            <BiSolidChevronRightCircle />
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>For higher education in overseas nations.</li> 
+                            <BiSolidChevronRightCircle />
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>To migrate abroad.   </li> 
+                            <BiSolidChevronRightCircle />
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>To secure a job permit abroad. </li> 
+                            <BiSolidChevronRightCircle />
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>To obtain a visa.</li> 
                         </ol>
                         <p>
                         HRD attestation is primarily used to attest educational certificates such as degree certificates, diploma certificates, SSLC certificates, and so on. To confirm the authenticity and legitimacy of your certificates, you should complete this. Then only you can enter foreign nations.

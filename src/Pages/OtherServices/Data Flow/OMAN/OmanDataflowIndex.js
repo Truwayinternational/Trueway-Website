@@ -6,6 +6,8 @@ import ProcessForOman from './ProcessForOman'
 import DocumentsForOman from './DocumentsForOman'
 import Form2 from '../../../../Components/Forms/Form2'
 import FaqOmanDataflow from './FaqOmanDataflow'
+import OurCommitment from '../../../../Components/OurCommitment'
+import OurClients from '../../OurClients'
 
 function OmanDataflowIndex() {
   return (
@@ -15,6 +17,8 @@ function OmanDataflowIndex() {
         <PSVinOman/>
         <ProcessForOman/>
         <DocumentsForOman/>
+        <OurCommitment/>
+        <OurClients/>
         <Form2/>
         <FaqOmanDataflow/>
     </div>
