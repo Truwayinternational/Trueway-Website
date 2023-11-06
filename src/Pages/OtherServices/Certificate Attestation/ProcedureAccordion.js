@@ -26,8 +26,8 @@ function ProcedureAccordion() {
                         <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont py-2' onClick={handleAlwaysOpen}>  Educational certificates <IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
                         <AccordionBody className="text-md lg:text-[16px] text-gray-500">
-                          <ol className='leading-3 font-semibold '>
-                            <li>SDM (sub-divisional magistrate)/ HRD (human resource development).</li>
+                          <ol className='lg:leading-3 leading-6 font-semibold'>
+                            <li >SDM (sub-divisional magistrate)/ HRD (human resource development).</li>
                             <li> MEA (Ministry of External Affairs)</li>
                             <li>Embassy attestation / Apostille</li>
                             <li>MOFA (Ministry of Foreign Affairs)</li>
@@ -40,7 +40,7 @@ function ProcedureAccordion() {
                         Non-educational certificates<IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
                         <AccordionBody className="text-md text-gray-500">
-                          <ol className='leading-3 font-semibold'>
+                          <ol className='lg:leading-3 leading-6 font-semibold'>
                             <li>Notary Attestation</li>
                             <li> Home department</li>
                             <li>Embassy attestation / Apostille</li>
@@ -55,7 +55,7 @@ function ProcedureAccordion() {
                         Commercial certificates attestation<IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
                         <AccordionBody className="text-md lg:tex-2xl text-gray-500">
-                          <ol className='leading-3 font-semibold'>
+                          <ol className='lg:leading-3 leading-6 font-semibold'>
                             <li>Chamber of Commerce attestation</li>
                             <li>Embassy attestation / Apostille</li>
                             <li>MEA (Ministry of External Affairs)</li>
