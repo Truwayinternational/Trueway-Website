@@ -6,7 +6,7 @@ import {BiSolidChevronRightCircle} from 'react-icons/bi'
 function HowToApplyKuwaitPcc() {
   return (
     <>
-        <div className='max-w-[1240px] mx-auto place-content-center py-10'>
+        <div className='max-w-[1240px] mx-auto place-content-center pt-10'>
             <div className='flex mx-4  lg:px-16 px-3'>
               <h3 className='md:text-5xl text-3xl pb-5  font-HeadingFont font-extrabold text-black  tracking-wide  '>How to apply for<br/> <b className='text-green-500'>Kuwait Police Clearance Certificate? </b></h3>
               <img className='md:hidden grid  w-[100px]  mt-[-30px]' src={avatar_1} alt="avatar_1" />
@@ -20,7 +20,7 @@ function HowToApplyKuwaitPcc() {
                         <p>
                         To get a Kuwait police clearance certificate the candidate should present some obligatory documents.
                         </p>
-                        <ul className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-5  py-5'>
+                        <ul className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-5  pt-5'>
                             <BiSolidChevronRightCircle />
                             <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Passport</li> 
                             <BiSolidChevronRightCircle />
