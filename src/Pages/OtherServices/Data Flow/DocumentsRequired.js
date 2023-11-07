@@ -13,24 +13,41 @@ function DocumentsRequired() {
                         <h1 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500'> <b className='text-black'> Documents Required For <br/> </b>  Credentialing in DataFlow typically include:</h1>
                         <div className='max-w-2xl font-HeadingFont'>
                             <ul className='md:text-xl  py-3 text-lg  text-green-500 w-fit font-HeadingFont font-semibold cursor-pointer'>
-                                <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 w-fit'>
-                                    <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Dataflow Report
-                                </li>
-                                <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2  w-fit'>
-                                    <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Copy of passport
-                                </li>
-                                <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 w-fit'>
-                                    <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> USER ID and Password of Dataflow
-                                </li>
-                                <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 w-fit'>
-                                    <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Registered Mail ID
-                                </li>
-                                <li className='bg-transparent rounded-3xl hover:bg-white py-2 w-fit'>
-                                    <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> All the other Documents submitted at the time of Dataflow
-                                </li>
-                                <li className='bg-transparent rounded-3xl hover:bg-white py-2 w-fit'>
-                                    <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> BLS Certificate<span> (Only for Nurses. This certificate is not required for Physicians.)</span>
-                                </li>
+                                <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                    <BiSolidChevronRightCircle />
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Dataflow Report
+                                    </li>
+                                </div>
+
+                                <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                    <BiSolidChevronRightCircle />
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Copy of passport
+                                    </li>
+                                </div>
+
+                                <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                    <BiSolidChevronRightCircle />
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> USER ID and Password of Dataflow
+                                    </li>
+                                </div>
+
+                                <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                    <BiSolidChevronRightCircle />
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Registered Mail ID
+                                    </li>
+                                </div>
+
+                                <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                    <BiSolidChevronRightCircle />
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> All the other Documents submitted at the time of Dataflow
+                                    </li>
+                                </div>
+
+                                <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                    <BiSolidChevronRightCircle />
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> BLS Certificate<span> (Only for Nurses. This certificate is not required for Physicians.)</span>
+                                    </li>
+                                </div>
                             </ul>
                         </div>
                     </div>

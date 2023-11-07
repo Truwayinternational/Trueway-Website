@@ -24,31 +24,51 @@ function DocumetnsForHome() {
             <div className='flex justify-start max-w-3xl md:mx-auto md:px-20 lg:px-0 pb-10'>
                     <div className='grid grid-cols-1'>
                         <ul className='lg:text-xl md:text-lg text-sm  text-green-500'>
-                            <li className='bg-transparent md:rounded-full rounded-2xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
-                                <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Birth certificate
+                            <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                <BiSolidChevronRightCircle />
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'> Birth certificate
                             </li>
-                            <li className='bg-transparent md:rounded-full rounded-2xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
-                                <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Marriage certificate
+                            </div>
+
+                            <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                <BiSolidChevronRightCircle />
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'> Marriage certificate
                             </li>
-                            <li className='bg-transparent md:rounded-full rounded-2xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
-                                <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Death certificate
+                            </div>
+
+                            <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                <BiSolidChevronRightCircle />
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'> Death certificate
                             </li>
-                            <li className='bg-transparent md:rounded-full rounded-2xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
-                                <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Transfer certificate
+                            </div>
+
+                            <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                <BiSolidChevronRightCircle />
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'> Transfer certificate
                             </li>
+                            </div>
+
                         </ul>
                     </div>
                     <div className='flex  md:pl-16 pl-0'>
                         <ul className='text-sm lg:text-xl md:text-lg text-green-500 '>
-                            <li className='bg-transparent roumd:nded-full md rounded-2xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
-                                <BiSolidChevronRightCircle className='inline-flex'/> Experience certificate
+                            <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                <BiSolidChevronRightCircle />
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'> Experience certificate
                             </li>
-                            <li className='bg-transparent md:rounded-full rounded-2xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
-                                <BiSolidChevronRightCircle className='inline-flex '/> Single status certificate
+                            </div>
+
+                            <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                <BiSolidChevronRightCircle />
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'> Single status certificate
                             </li>
-                            <li className='bg-transparent md:rounded-full rounded-2xl hover:bg-white py-2 cursor-pointer font-HeadingFont '>
-                                <BiSolidChevronRightCircle className='inline-flex '/> Divorce certificate, etc.
+                            </div>
+
+                            <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                <BiSolidChevronRightCircle />
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'> Divorce certificate, etc.
                             </li>
+                            </div>
                         </ul>
                     </div>
             </div>
