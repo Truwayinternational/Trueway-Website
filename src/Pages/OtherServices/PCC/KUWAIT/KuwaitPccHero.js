@@ -41,7 +41,7 @@ function KuwaitPccHero() {
                         </p>
                         { readMore && extraContent }
                     </div>
-                    <p className='hidden md:flex text-md lg:text-lg md:text-xl text-center text-gray-500 font-poppins mb-10 px-4 pr-3 lg:pt-1'>
+                    <p className='hidden md:flex md:text-lg lg:text-center text-justify text-gray-500 font-poppins mb-10 lg:pt-1'>
                     The PCC will be issued by the Kuwaiti government to residents who have lived in Kuwait for at least two years. The police authority won't provide them with Kuwait PCC if they participate in any illegal demonstrations. The main purpose of this declaration is to vouch for his lack of any prior arrests, convictions, legal proceedings, etc. A police freedom certificate essentially serves as a travel authorization to other foreign countries.
                     <br/>
                     Choosing the best agency to handle all the necessary processes and paperwork for the Police Clearance Certificate (PCC) from Kuwait will greatly simplify and expedite the entire application process. Trueway International ensures a smoother and more efficient experience for the applicant.
