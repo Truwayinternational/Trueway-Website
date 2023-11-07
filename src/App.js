@@ -51,6 +51,7 @@ import UaePccIndex from "./Pages/OtherServices/PCC/UAE/UaePccIndex";
 import SaudiPccIndex from "./Pages/OtherServices/PCC/SAUDI/SaudiPccIndex";
 import QatarPccIndex from "./Pages/OtherServices/PCC/QATAR/QatarPccIndex";
 import OmanPccIndex from "./Pages/OtherServices/PCC/OMAN/OmanPccIndex";
+import KuwaitPccIndex from "./Pages/OtherServices/PCC/KUWAIT/KuwaitPccIndex";
 
 
 
@@ -117,7 +118,7 @@ function App() {
           <Route path="/pcc_ksa" element={<SaudiPccIndex/>} />
           <Route path="/pcc_qatar" element={<QatarPccIndex/>} />
           <Route path="/pcc_oman" element={<OmanPccIndex/>} />
-
+          <Route path="/pcc_kuwait" element={<KuwaitPccIndex/>} />
 
         </Routes>
       <Footer />
