@@ -6,7 +6,7 @@ import {BiSolidChevronRightCircle} from 'react-icons/bi'
 function HowToApplyQatarPcc() {
   return (
     <>
-        <div className='max-w-[1240px] mx-auto place-content-center py-10'>
+        <div className='max-w-[1240px] mx-auto place-content-center pt-10'>
             <div className='flex mx-4 lg:px-16 md:px-3 px-1'>
                 <img className='md:hidden grid  w-[100px]  mt-[-30px]' src={Avatar_1} alt="Avatar_1"/>
                 <h3 className='md:text-5xl lg:pl-48 text-3xl pb-5 font-HeadingFont font-extrabold text-black tracking-wide'>How to apply for<br/> <b className='text-green-500'> Qatar Police Clearance Certificate?</b></h3>
@@ -21,7 +21,7 @@ function HowToApplyQatarPcc() {
                     </p>
                     <div className='py-2'>
                     <b className='text-lg md:text-xl font-HeadingFont'>Documents needed are:</b>
-                        <ul className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-5  py-5'>
+                        <ul className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-5  pt-5'>
                             <BiSolidChevronRightCircle />
                             <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Visa page</li> 
                             <BiSolidChevronRightCircle />
