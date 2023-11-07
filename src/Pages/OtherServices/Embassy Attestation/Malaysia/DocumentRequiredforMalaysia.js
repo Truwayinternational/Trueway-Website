@@ -17,12 +17,18 @@ function DocumentRequiredforMalaysia() {
                     <div className='max-w-2xl my-4 font-HeadingFont'>
                         <h4 className='md:text-2xl text-xl  font-semibold'>Main documents needed are:</h4>
                         <ul className='md:text-xl  py-3 text-lg  text-green-500 w-fit font-HeadingFont font-semibold cursor-pointer'>
-                            <li className='bg-transparent rounded-full hover:bg-white py-2 w-fit'>
-                            <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Original Certificate
+                            <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                    <BiSolidChevronRightCircle />
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Original Certificate
                             </li>
-                            <li className='bg-transparent rounded-full hover:bg-white py-2 w-fit'>
-                            <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Copy of Passport
+                            </div>
+                            
+                            <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                    <BiSolidChevronRightCircle />
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Copy of Passport
                             </li>
+                            </div>
+                            
                         </ul>
                     </div>
                 </div>

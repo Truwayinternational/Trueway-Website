@@ -16,33 +16,60 @@ function DocumentsForQatar() {
                         </p>
                         <div className='max-w-2xl my-4 font-HeadingFont'>
                             <ul className='md:text-xl  py-3 text-lg  text-green-500 w-fit font-HeadingFont font-bold cursor-pointer'>
-                                <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 w-fit'>
-                                    <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Degree / Diploma certificate
+                                <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                    <BiSolidChevronRightCircle />
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Degree / Diploma certificate
                                 </li>
-                                <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 w-fit'>
-                                    <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Registration Certificate
+                                </div>
+                                
+                                <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                    <BiSolidChevronRightCircle />
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Registration Certificate
                                 </li>
-                                <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 w-fit'>
-                                    <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Experience Certificate<span className='font-normal'>(Min 2 years)</span>
+                                </div>
+                                
+                                <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                    <BiSolidChevronRightCircle />
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Experience Certificate<span className='font-normal'>(Min 2 years)</span>
                                 </li>
-                                <li className='bg-transparent rounded-3xl hover:bg-white py-2 w-fit'>
-                                    <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> All year Mark sheets & Course Completion Certificate
+                                </div>
+
+                                <div className='bg-transparent md:rounded-2xl md:hover:bg-white md:w-max w-fit p-2 my-1 cursor-pointer'>
+                                    <BiSolidChevronRightCircle />
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> All year Mark sheets & Course Completion Certificate
                                 </li>
-                                <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 w-fit'>
-                                    <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Transcript & Updated Resume
+                                </div>
+
+                                <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                    <BiSolidChevronRightCircle />
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Transcript & Updated Resume
                                 </li>
-                                <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 w-fit'>
-                                    <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Passport size Photo
+                                </div>
+
+                                <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                    <BiSolidChevronRightCircle />
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Passport size Photo
                                 </li>
-                                <li className='bg-transparent md:rounded-full rounded-3xl hover:bg-white py-2 w-fit'>
-                                    <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Passport copy
+                                </div>
+
+                                <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                    <BiSolidChevronRightCircle />
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Passport copy
                                 </li>
-                                <li className='bg-transparent rounded-3xl hover:bg-white py-2 w-fit'>
-                                    <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Mail id & Mobile Number 
+                                </div>
+
+                                <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                    <BiSolidChevronRightCircle />
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Mail id & Mobile Number 
                                 </li>
-                                <li className='bg-transparent rounded-3xl hover:bg-white py-2 w-fit'>
-                                    <BiSolidChevronRightCircle className='inline-flex md:mx-2'/> Address 
+                                </div>
+
+                                <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
+                                    <BiSolidChevronRightCircle />
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Address 
                                 </li>
+                                </div>
+
                             </ul>
                         </div>
                     </div>
@@ -53,7 +80,7 @@ function DocumentsForQatar() {
             </div>
             <div className='grid max-w-5xl mx-auto place-content-center '>
                 <p className='text-gray-600 font-poppins md:text-lg mb-10 px-6 md:px-8 lg:px-0'>
-                    <b>Please note: </b> Only scanned copies of documents are required.
+                     Only scanned copies of documents are required.
                 </p>
             </div>
         </div>

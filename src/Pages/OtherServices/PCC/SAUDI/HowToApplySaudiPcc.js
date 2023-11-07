@@ -7,7 +7,7 @@ function HowToApplySaudiPcc() {
 
   return (
     <>
-        <div className='max-w-[1240px] mx-auto place-content-center py-10'>
+        <div className='max-w-[1240px] mx-auto place-content-center pt-10'>
             <div className='flex mx-4 lg:px-16 md:px-3 px-1'>
                 <img className='md:hidden grid  w-[100px]  mt-[-30px]' src={Avatar_1} alt="Avatar_1"/>
                 <h3 className='md:text-5xl lg:pl-48 text-3xl pb-5 font-HeadingFont font-extrabold text-black tracking-wide'>How to apply for<br/> <b className='text-green-500'>Saudi Police Clearance Certificate?</b></h3>

@@ -55,7 +55,7 @@ function HomeSlider() {
       >
       <SwiperSlide>
         <div className="image relative">
-          <img src={slider1} alt="" />
+          <img src={slider1} alt="slider1" />
           <div className="title_content absolute top-[20%] left-[6rem] space-y-5">
             <h2 className='text-[30px] font-HeadingFont'> Hello From <br />
              <b className='text-[40px] f-[700]'> Trueway International </b></h2>
