@@ -148,8 +148,8 @@ export const links = [
           ]
         },
         {
-          Head:"Prometaic",
-          headLink:"/prometaic",
+          Head:"PROMETRICS",
+          headLink:"/prometrics",
           subLink: [
             {name:"", link:"#!"}
           ]
