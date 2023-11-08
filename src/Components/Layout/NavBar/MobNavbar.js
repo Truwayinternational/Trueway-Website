@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import {IoLogoWhatsapp} from 'react-icons/io'
-import {BsFillTelephoneFill, BsSearch} from 'react-icons/bs'
+import {BsFillTelephoneFill,} from 'react-icons/bs'
 import {AiOutlineCaretDown, AiOutlineCaretUp} from 'react-icons/ai'
 
 function MobNavbar() {
