@@ -10,9 +10,7 @@ function ExamCoachingHero() {
 
   const extraContent = <div>
           <p className='md:hidden text-md md:text-xl text-justify text-gray-500 font-poppins mb-5 pr-3 pt-2'>
-            With Trueway International, the certificate attestation procedures are smooth. We have a full-fledged team solely for certificate attestation. Doing attestation with an agency's aid is always a good way to be tension-free. You can feel relaxed with our procedures because once we begin the procedure, you will get real-time updates, and we also give you a tracking ID with which you can track the current status of your procedures.
-            <br />
-            You can completely trust us with this procedure. We are synonyms for fast and trust. Within a minimum amount of time and at a pocket-friendly rate, we can complete your procedures and get your certificate attested.
+          The greatest syllabus is provided by Trueway International to ensure your success. Over 1500 questions are available for practice sessions. Our coaching is mostly exam-focused, and we are committed to your success. With our 100% success guarantee, we can confidently offer you the support and resources you need to ace your tests.
           </p>
         </div>
 
