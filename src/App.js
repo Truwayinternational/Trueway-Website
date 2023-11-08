@@ -24,6 +24,7 @@ import MOFAindex from "./Pages/OtherServices/MOFA Attestation/MOFAindex";
 import HomeAttIndex from "./Pages/OtherServices/Home Attestation/HomeAttIndex";
 import DataFlowIndex from "./Pages/OtherServices/Data Flow/DataFlowIndex";
 import PccIndex from "./Pages/OtherServices/PCC/PccIndex";
+import ExamCoachingIndex from "./Pages/OtherServices/Exam Coaching/ExamCoachingIndex";
 
 
 
@@ -91,6 +92,7 @@ function App() {
           <Route path="/homeAttestation" element={ <HomeAttIndex/>} onClick={scrollToTop}/>
           <Route path="/dataflow" element={ <DataFlowIndex/> } onClick={scrollToTop}/>
           <Route path="/pcc" element={<PccIndex/>} onClick={scrollToTop} />
+          <Route path="/examCoaching" element={<ExamCoachingIndex/>} onClick={scrollToTop}/>
 
 
 
@@ -119,6 +121,8 @@ function App() {
           <Route path="/pcc_qatar" element={<QatarPccIndex/>} />
           <Route path="/pcc_oman" element={<OmanPccIndex/>} />
           <Route path="/pcc_kuwait" element={<KuwaitPccIndex/>} />
+
+
 
         </Routes>
       <Footer />
