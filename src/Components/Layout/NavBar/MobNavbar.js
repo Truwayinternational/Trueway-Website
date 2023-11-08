@@ -33,10 +33,10 @@ function MobNavbar() {
 
                         {/* search bar */}
 
-                        <div className='relative md:ml-[-150px] ml-0'>
+                        {/* <div className='relative md:ml-[-150px] ml-0'>
                             <input type="text" className='p-2 bg-gray-100 rounded-lg md:w-50 w-48 mx-auto pl-10 align-middle  focus:outline-0 placeholder:font-light' placeholder='Tracking Number'/>
                             <BsSearch  className='absolute left-3 top-3 text-gray-500 cursor-pointer'/>
-                        </div>
+                        </div> */}
 
                     <div className="lg:hidden">
                     <button
