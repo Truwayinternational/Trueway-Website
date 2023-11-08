@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import AboutWeb from '../../Assets/AboutUs/AboutWeb.png'
-import AboutMob from '../../Assets/AboutUs/aboutMob.png'
+import AboutMob from '../../Assets/mobile banners/Mob About Us.png'
 
 
 function AboutBanner() {
