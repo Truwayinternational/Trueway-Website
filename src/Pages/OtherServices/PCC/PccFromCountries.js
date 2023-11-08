@@ -75,7 +75,7 @@ function PccFromCountries() {
             {/*SCREEN MOBOILE & TAB VIEW IN CARDS slider */}
             <PccFromCountriesMob/>
         </div>
-    </div>
+        </div>
     </>
   )
 }

@@ -9,7 +9,7 @@ function ExamCoachingHero() {
     const [readMore, setReadMore] = useState(false);
 
   const extraContent = <div>
-          <p className='md:hidden text-md md:text-xl text-justify text-gray-500 font-poppins mb-5 pr-3 pt-2'>
+          <p className='md:hidden text-md md:text-xl text-justify text-gray-500 font-poppins pr-3 pt-2'>
           The greatest syllabus is provided by Trueway International to ensure your success. Over 1500 questions are available for practice sessions. Our coaching is mostly exam-focused, and we are committed to your success. With our 100% success guarantee, we can confidently offer you the support and resources you need to ace your tests.
           </p>
         </div>
