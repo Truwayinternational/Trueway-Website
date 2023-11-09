@@ -4,6 +4,7 @@ import WhatIsOet from './WhatIsOet'
 import WhoAndWhy from './WhoAndWhy'
 import FormatOetTest from './FormatOetTest'
 import ServicesWeProvide from './ServicesWeProvide'
+import OurFeatures from './OurFeatures'
 
 function OetIndex() {
   return (
@@ -13,6 +14,7 @@ function OetIndex() {
         <WhoAndWhy/>
         <FormatOetTest/>
         <ServicesWeProvide/>
+        <OurFeatures/>
     </div>
   )
 }

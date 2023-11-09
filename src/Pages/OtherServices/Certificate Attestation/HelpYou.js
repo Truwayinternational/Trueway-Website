@@ -5,8 +5,8 @@ import Helpyou_mob from '../../../Assets/certificate attestation/helpyou2.png'
 
 function HelpYou() {
   return (
-    <div>
-         <div className='w-full h-full flex flex-col justify-between bg-zinc-200'>
+    <>
+         <div className='w-full h-full flex flex-col justify-between bg-zinc-100'>
             <div className="grid max-w-[1240px] mt-10 mx-auto ">
                 <div className='flex flex-col justify-center lg:items-center w-full py-4'>
                     <h2 className=' text-4xl md:text-5xl tracking-wide font-bold text-center font-HeadingFont px-8'> We are here to<b className='text-green-500'> help you!</b></h2>
@@ -19,7 +19,7 @@ function HelpYou() {
                 </div>
             </div>
         </div>
-    </div>
+    </>
   )
 }
 

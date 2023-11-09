@@ -4,7 +4,7 @@ import OurVisionImg from '../../Assets/AboutUs/Our Vision.png'
 function OurVision() {
   return (
     <>
-      <div className='flex justify-center items-center bg-zinc-200 h-full w-full mb-10'>
+      <div className='flex justify-center items-center bg-zinc-100 h-full w-full mb-10'>
         <div className='grid lg:grid-cols-2 max-w-[1240px] py-10 md:pb-20 pb-10'>
           <div className='md:my-auto'>
             <img className='lg:w-[400px] w-[300px] px-10 mx-auto my-auto' src={OurVisionImg} alt="thumb_img" />

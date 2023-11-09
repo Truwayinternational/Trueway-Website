@@ -7,7 +7,7 @@ function YourBestDataflow() {
 
   return (
     <>
-        <div className='flex justify-center items-center bg-zinc-200 h-full w-full'>
+        <div className='flex justify-center items-center bg-zinc-100 h-full w-full'>
             <div className='grid md:grid-cols-2 max-w-[1240px] py-10 '>
                 <div className='md:pt-10 lg:pl-[120px]'>
                     <img className='lg:w-[300px] w-[250px]  m-auto' src={thumb_img} alt="thumb_img" />
@@ -23,7 +23,7 @@ function YourBestDataflow() {
         {/* SOME CONTENT ADD LIKE COUROUSEL CARDS  */}
         <YourBestDataflowCards/>
 
-        <div  className='flex  bg-zinc-200 mx-auto place-content-center'>
+        <div  className='flex  bg-zinc-100 mx-auto place-content-center'>
             <p className='text-gray-500 font-poppins md:text-lg mb-10 px-6 md:px-8 lg:px-0 max-w-5xl'>
                 Several associated professionals, like anesthesiologists, audiologists, physical therapists, medical coders, radiographers, and more are supported by our full assistance. We help with the verification of their credentials and make sure they meet all organisational and governmental standards.
             </p>
