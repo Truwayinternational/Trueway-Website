@@ -5,6 +5,10 @@ import WhoAndWhy from './WhoAndWhy'
 import FormatOetTest from './FormatOetTest'
 import ServicesWeProvide from './ServicesWeProvide'
 import OurFeatures from './OurFeatures'
+import OurCommitment from '../../../../Components/OurCommitment'
+import OurClients from '../../OurClients'
+import Form2 from '../../../../Components/Forms/Form2'
+import FaqOetCoaching from './FaqOetCoaching'
 
 function OetIndex() {
   return (
@@ -15,6 +19,10 @@ function OetIndex() {
         <FormatOetTest/>
         <ServicesWeProvide/>
         <OurFeatures/>
+        <OurCommitment/>
+        <OurClients/>
+        <Form2/>
+        <FaqOetCoaching/>
     </div>
   )
 }
