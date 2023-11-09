@@ -25,7 +25,7 @@ function YourBestDataflowCards() {
   return (
 
     <>
-       <div className='bg-zinc-200 h-full w-full'>
+       <div className='bg-zinc-100 h-full w-full'>
             <div className='flex  max-w-[1240px] mx-auto place-content-center '>
                 <div className='grid grid-cols-1 pb-10 mx-5'>
                     <Swiper

@@ -23,11 +23,11 @@ function MobNavbar() {
 
                     {/* top bar content added here */}
                         <div className='md:me-32 lg:hidden flex flex-row justify-between items-start'>
-                            <div className='bg-white p-2 rounded-full mx-1  my-2'>
-                                <a href="https://wa.link/c3ukjh" className='text-lg md:text-lg text-green-700'><IoLogoWhatsapp /></a>
+                            <div className='bg-white p-2 rounded-full mx-2  my-2'>
+                                <a href="https://wa.link/c3ukjh" className='text-xl text-green-700'><IoLogoWhatsapp /></a>
                             </div>
-                            <div className='bg-white p-2 rounded-full mx-1 md:ml-3 my-2'>
-                                <a href="tel:+918327626262" className='text-lg md:text-lg  text-green-700'><BsFillTelephoneFill /></a>
+                            <div className='bg-white p-2 rounded-full mx-2 md:ml-3 my-2'>
+                                <a href="tel:+918327626262" className='text-xl  text-green-700'><BsFillTelephoneFill /></a>
                             </div>
                         </div>
 

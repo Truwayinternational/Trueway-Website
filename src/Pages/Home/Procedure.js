@@ -6,7 +6,7 @@ import Procedure_sm from '../../Assets/prosedures 2.png'
 function Procedure() {
   return (
     <div>
-        <div className='w-full h-full flex flex-col justify-between bg-zinc-200'>
+        <div className='w-full h-full flex flex-col justify-between bg-zinc-100'>
             <div className="grid max-w-[1240px] my-10 m-auto">
                 <div className='flex flex-col justify-center lg:items-center w-full px-2 py-4'>
                     <h2 className='text-4xl md:text-5xl tracking-wide font-extrabold text-center font-HeadingFont'> Our<span className='text-green-500'>Procedure </span> </h2>

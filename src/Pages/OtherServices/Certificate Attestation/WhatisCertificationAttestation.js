@@ -14,7 +14,7 @@ function WhatisCertificationAttestation() {
 const linkName = !readMore && 'Read More...'
 
 return (
-  <div>
+  <>
       <div className='max-w-[1240px] mx-auto place-content-center py-10'>
           <div className='flex mx-4 lg:px-16 px-3'>
             <img className='md:hidden grid  w-[100px]  mt-[-30px]' src={Avatar_1} alt="Avatar_1" />
@@ -41,7 +41,7 @@ return (
           </div>    
         </div>                          
       </div>
-  </div>
+  </>
 )
 }
 

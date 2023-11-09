@@ -6,7 +6,7 @@ import {BiSolidChevronRightCircle} from 'react-icons/bi'
 
 function DocumentsRequired() {
   return (
-    <div className='bg-zinc-200 h-full w-full my-10'>
+    <div className='bg-zinc-100 h-full w-full my-10'>
         <div className='flex  max-w-[1240px] mx-auto place-content-center '>
             <div className='grid lg:grid-cols-2 max-w-[1280px] py-10 '>
                 <div className='flex flex-col lg:pl-12 md:px-10 lg:px-0  px-5'>

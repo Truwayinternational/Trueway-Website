@@ -1,4 +1,4 @@
-import AttestedCopyHome from './AttestedCopyHome'
+
 import React from 'react'
 import HomeAttestation from './HomeAttestation'
 import WhatisHome from './WhatisHome'
@@ -17,7 +17,6 @@ function HomeAttIndex() {
     <div>
         <HomeAttestation/>
         <WhatisHome/>
-        <AttestedCopyHome/>
         <PurposesOfHome/>
         <ProcedureForHome/>
         <DocumetnsForHome/>

@@ -4,7 +4,7 @@ import thumb_img from '../../../Assets/ISO/thumb.png'
 function YourBestChoice() {
   return (
     <>
-        <div className='flex justify-center items-center bg-zinc-200 h-full w-full mb-10'>
+        <div className='flex justify-center items-center bg-zinc-100 h-full w-full mb-10'>
             <div className='grid md:grid-cols-2 max-w-[1280px] py-10 '>
                 <div className='md:pt-10 lg:pl-32'>
                     <img className='lg:w-[400px] px-10' src={thumb_img} alt="thumb_img" />
