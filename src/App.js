@@ -54,6 +54,9 @@ import QatarPccIndex from "./Pages/OtherServices/PCC/QATAR/QatarPccIndex";
 import OmanPccIndex from "./Pages/OtherServices/PCC/OMAN/OmanPccIndex";
 import KuwaitPccIndex from "./Pages/OtherServices/PCC/KUWAIT/KuwaitPccIndex";
 
+// we provide -- exam coaching -- for
+import OetIndex from "./Pages/OtherServices/Exam Coaching/OET/OetIndex";
+
 
 
 // clicking to nav link and scroll to top section
@@ -122,6 +125,8 @@ function App() {
           <Route path="/pcc_oman" element={<OmanPccIndex/>} />
           <Route path="/pcc_kuwait" element={<KuwaitPccIndex/>} />
 
+          {/* We Provide --- EXAMS COACHING --- FOR */}
+          <Route path="/oet" element={<OetIndex/>}/>
 
 
         </Routes>
