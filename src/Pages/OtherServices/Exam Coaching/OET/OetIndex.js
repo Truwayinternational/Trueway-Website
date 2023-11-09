@@ -2,6 +2,7 @@ import React from 'react'
 import OetHero from './OetHero'
 import WhatIsOet from './WhatIsOet'
 import WhoAndWhy from './WhoAndWhy'
+import FormatOetTest from './FormatOetTest'
 
 function OetIndex() {
   return (
@@ -9,6 +10,7 @@ function OetIndex() {
         <OetHero/>
         <WhatIsOet/>
         <WhoAndWhy/>
+        <FormatOetTest/>
     </div>
   )
 }
