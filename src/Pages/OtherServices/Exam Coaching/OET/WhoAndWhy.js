@@ -13,6 +13,9 @@ import pharmacists from '../../../../Assets/examCoaching/Attendcoaching/pharmaci
 import podiatrists from '../../../../Assets/examCoaching/Attendcoaching/podiatrists.png'
 
 
+import WhoAndWhyCardsMob from './WhoAndWhyCardsMob'
+
+
 function WhoAndWhy() {
   return (
     <>
@@ -70,7 +73,7 @@ function WhoAndWhy() {
             </div>
 
             {/* mobile cards slider added here */}
-            
+            <WhoAndWhyCardsMob/>
       </div>
     </>
   )

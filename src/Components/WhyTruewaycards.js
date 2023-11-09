@@ -38,23 +38,27 @@ function WhyTruewaycards() {
                     disableOnInteraction: false,
                 }}
                 breakpoints={{
-                '@0.00': {
+                '0': {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                '280': {
                     slidesPerView: 2,
                     spaceBetween: 10,
                 },
-                '@0.30': {
-                    slidesPerView: 2,
-                    spaceBetween: 10,
-                },
-                '@0.60': {
+                '480': {
                     slidesPerView: 3,
                     spaceBetween: 10,
                 },
-                '@1.00': {
+                '720': {
                     slidesPerView: 4,
                     spaceBetween: 20,
                 },
-                '@1.50': {
+                '1024': {
+                    slidesPerView: 5,
+                    spaceBetween: 20,
+                },
+                '1240': {
                     slidesPerView: 6,
                     spaceBetween: 20,
                 },
