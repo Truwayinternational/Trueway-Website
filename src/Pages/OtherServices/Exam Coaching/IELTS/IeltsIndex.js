@@ -2,6 +2,7 @@ import React from 'react'
 import IeltsHero from './IeltsHero'
 import WhatIsIELTS from './WhatIsIELTS'
 import WhoandWhyIelts from './WhoandWhyIelts'
+import UnderstandIELTS from './UnderstandIELTS'
 
 function IeltsIndex() {
   return (
@@ -9,6 +10,7 @@ function IeltsIndex() {
         <IeltsHero/>
         <WhatIsIELTS/>
         <WhoandWhyIelts/>
+        <UnderstandIELTS/>
     </div>
   )
 }
