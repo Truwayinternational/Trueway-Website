@@ -3,7 +3,7 @@ import {SlCalender} from 'react-icons/sl'
 
 // Import Swiper React components (for responsive design )
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
+import { Mousewheel, Pagination } from 'swiper/modules';
 import { Autoplay} from 'swiper/modules';
 
 
@@ -81,6 +81,9 @@ function OurBlogsCards() {
                             delay: 5000,
                             disableOnInteraction: false,
                         }}
+                        mousewheel= {{
+                            releaseOnEdges: true,
+                          }}
                         breakpoints={{
                         '640': {
                             slidesPerView: 1,
@@ -95,12 +98,12 @@ function OurBlogsCards() {
                             spaceBetween: 20,
                         }
                         }}
-                        modules={[Pagination, Autoplay]}
+                        modules={[Pagination, Autoplay, Mousewheel]}
                     >
 
                         { BlogDatas.map((BlogData, index) => (
                             <SwiperSlide>
-                                <div className="mb-16 h-fit py-5  justify-center px-auto m-4 p-3 bg-zinc-100 px-4 rounded-3xl hover:shadow-lg hover:bg-green-50 cursor-pointer">
+                                <div key={index} className="mb-16 h-fit py-5  justify-center px-auto m-4 p-3 bg-zinc-100 px-4 rounded-3xl hover:shadow-lg hover:bg-green-50 cursor-pointer">
                                     <div className='flex   text-green-800 px-4'>
                                         <SlCalender className='mt-3 text-lg'/> <span className='font-bold'>{BlogData.date}</span>
                                     </div>
