@@ -56,6 +56,8 @@ import KuwaitPccIndex from "./Pages/OtherServices/PCC/KUWAIT/KuwaitPccIndex";
 
 // we provide -- exam coaching -- for
 import OetIndex from "./Pages/OtherServices/Exam Coaching/OET/OetIndex";
+import IeltsIndex from "./Pages/OtherServices/Exam Coaching/IELTS/IeltsIndex";
+
 
 
 
@@ -127,6 +129,7 @@ function App() {
 
           {/* We Provide --- EXAMS COACHING --- FOR */}
           <Route path="/oet" element={<OetIndex/>}/>
+          <Route path="/ielts" element={<IeltsIndex/>}/>
 
 
         </Routes>

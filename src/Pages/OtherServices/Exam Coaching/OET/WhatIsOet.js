@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Avatar_1 from '../../../../Assets/certificate attestation/avatar_1.png'
 
 const WhatIsOet = () => {
@@ -7,7 +7,7 @@ const WhatIsOet = () => {
         <div className='max-w-[1240px] mx-auto place-content-center py-10'>
           <div className='flex mx-4 lg:px-16 px-3 pt-10 md:pt-0'>
             <img className='md:hidden grid  w-[100px]  mt-[-5rem]' src={Avatar_1} alt="Avatar_1" />
-            <h2 className='md:text-5xl lg:px-48 text-3xl pb-5  font-HeadingFont font-extrabold text-black  tracking-wide pr-10 '>What is <b className='text-green-500'> OET ?</b></h2>
+            <h2 className='md:text-5xl lg:px-48 text-3xl pb-5  font-HeadingFont font-extrabold text-black  tracking-wide pr-10 '>What is <b className='text-green-500'> OET?</b></h2>
           </div>
         <div className='flex '>
           <div className='hidden md:flex h-full lg:pl-10 mt-[-30px] lg:mt-[-10rem] py-4'>
