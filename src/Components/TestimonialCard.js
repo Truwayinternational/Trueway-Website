@@ -8,7 +8,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Pagination, Autoplay } from 'swiper/modules';
+import { Pagination, Autoplay, Mousewheel } from 'swiper/modules';
 
 
 import starRating from '../Assets/googleStar.png'
@@ -100,7 +100,6 @@ function TestimonialCard() {
             }}
         slidesPerView={1}
         spaceBetween={10}
-        loop={true}
         pagination={{
           clickable: true,
           dynamicBullets: true,
@@ -108,6 +107,9 @@ function TestimonialCard() {
         autoplay={{
           delay: 5000,
           disableOnInteraction: false,
+        }}
+        mousewheel= {{
+          releaseOnEdges: true,
         }}
         breakpoints={{
           '640': {
@@ -123,7 +125,7 @@ function TestimonialCard() {
               spaceBetween: 10,
           }
           }}
-        modules={[Pagination, Autoplay]}
+        modules={[Pagination, Autoplay, Mousewheel]}
         className="mySwiper"
       >
         { TestimonialData.map((Data, Index) => (
