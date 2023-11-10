@@ -1,6 +1,7 @@
 import React from 'react'
 import PrometricsHero from './PrometricsHero'
 import WhatisPrometric from './WhatisPrometric'
+import DifferentCountries from './DifferentCountries'
 
 
 function PrometricsIndex() {
@@ -8,6 +9,7 @@ function PrometricsIndex() {
     <div>
         <PrometricsHero/>
         <WhatisPrometric/>
+        <DifferentCountries/>
     </div>
   )
 }
