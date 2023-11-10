@@ -3,6 +3,7 @@ import IeltsHero from './IeltsHero'
 import WhatIsIELTS from './WhatIsIELTS'
 import WhoandWhyIelts from './WhoandWhyIelts'
 import UnderstandIELTS from './UnderstandIELTS'
+import CharacteristicsIELTS from './CharacteristicsIELTS'
 
 function IeltsIndex() {
   return (
@@ -11,6 +12,7 @@ function IeltsIndex() {
         <WhatIsIELTS/>
         <WhoandWhyIelts/>
         <UnderstandIELTS/>
+        <CharacteristicsIELTS/>
     </div>
   )
 }
