@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import {IoLogoWhatsapp} from 'react-icons/io'
-import {BsFillTelephoneFill,} from 'react-icons/bs'
+import {BsFacebook, BsFillTelephoneFill, BsInstagram, BsYoutube,} from 'react-icons/bs'
 import {AiOutlineCaretDown, AiOutlineCaretUp} from 'react-icons/ai'
 
 function MobNavbar() {
@@ -23,11 +23,25 @@ function MobNavbar() {
 
                     {/* top bar content added here */}
                         <div className='md:me-32 lg:hidden flex flex-row justify-between items-start'>
-                            <div className='bg-white p-2 rounded-full mx-2  my-2'>
-                                <a href="https://wa.link/c3ukjh" className='text-xl text-green-700'><IoLogoWhatsapp /></a>
-                            </div>
+                            
                             <div className='bg-white p-2 rounded-full mx-2 md:ml-3 my-2'>
-                                <a href="tel:+918327626262" className='text-xl  text-green-700'><BsFillTelephoneFill /></a>
+                                <a href="tel:+918327626262" className='text-xl  text-green-700' target='_blank' rel="noopener noreferrer"><BsFillTelephoneFill /></a>
+                            </div>
+
+                            <div className='bg-white p-2 rounded-full mx-2  my-2'>
+                                <a href="https://wa.link/c3ukjh" className='text-xl text-green-700' target='_blank' rel="noopener noreferrer"><IoLogoWhatsapp /></a>
+                            </div>
+
+                            <div className='bg-white p-2 rounded-full mx-2 md:ml-3 my-2'>
+                                <a href="https://www.facebook.com/truewayinternational" className='text-xl  text-green-700' target='_blank' rel="noopener noreferrer"><BsFacebook /></a>
+                            </div>
+
+                            <div className='bg-white p-2 rounded-full mx-2 md:ml-3 my-2'>
+                                <a href="https://www.instagram.com/truewayinternational/?hl=en" className='text-xl  text-green-700' target='_blank' rel="noopener noreferrer"><BsInstagram /></a>
+                            </div>
+
+                            <div className='bg-white p-2 rounded-full mx-2 md:ml-3 my-2'>
+                                <a href="https://www.youtube.com/channel/UCRq22m2bbJ5AONWGQug9FpA" className='text-xl  text-green-700' target='_blank' rel="noopener noreferrer"><BsYoutube /></a>
                             </div>
                         </div>
 
