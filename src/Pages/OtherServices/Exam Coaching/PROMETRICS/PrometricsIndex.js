@@ -2,6 +2,7 @@ import React from 'react'
 import PrometricsHero from './PrometricsHero'
 import WhatisPrometric from './WhatisPrometric'
 import DifferentCountries from './DifferentCountries'
+import YourPathToGuaranteed from './YourPathToGuaranteed'
 
 
 function PrometricsIndex() {
@@ -10,6 +11,7 @@ function PrometricsIndex() {
         <PrometricsHero/>
         <WhatisPrometric/>
         <DifferentCountries/>
+        <YourPathToGuaranteed/>
     </div>
   )
 }
