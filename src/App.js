@@ -1,4 +1,4 @@
-import React from "react";
+import React, {lazy , Suspense} from "react";
 import { Route, Routes} from "react-router-dom";
  
 // Navbar router in web page
@@ -8,56 +8,56 @@ import Footer from './Components/Layout/Footer'
 import QuickAction from "./Components/Layout/QuickAction";
 
 // all pages from navbar router
-import HomeIndex from "./Pages/Home/HomeIndex";
-import AboutIndex from "./Pages/AboutUs/AboutIndex";
-import WesIndex from "./Pages/WES/WesIndex";
-import BlogsIndex from "./Pages/Blog&Video/BlogsIndex";
-import ContactIndex from "./Pages/ContactUS/ContactIndex";
+const HomeIndex = lazy(() => import("./Pages/Home/HomeIndex"));
+const AboutIndex = lazy(() => import("./Pages/AboutUs/AboutIndex"));
+const WesIndex = lazy(() => import("./Pages/WES/WesIndex"));
+const BlogsIndex = lazy(() => import("./Pages/Blog&Video/BlogsIndex"));
+const ContactIndex = lazy(() => import("./Pages/ContactUS/ContactIndex"));
 
 
 // Services section router 
-import CertificateAttestationIndex from "./Pages/OtherServices/Certificate Attestation/CertificateAttestationIndex";
-import EmbassyAttestationIndex from "./Pages/OtherServices/Embassy Attestation/EmbassyAttestationIndex";
-import HRDIndex from "./Pages/OtherServices/HRD Attestation/HRDIndex";
-import MEAIndex from "./Pages/OtherServices/MEA Attestation/MEAIndex";
-import MOFAindex from "./Pages/OtherServices/MOFA Attestation/MOFAindex";
-import HomeAttIndex from "./Pages/OtherServices/Home Attestation/HomeAttIndex";
-import DataFlowIndex from "./Pages/OtherServices/Data Flow/DataFlowIndex";
-import PccIndex from "./Pages/OtherServices/PCC/PccIndex";
-import ExamCoachingIndex from "./Pages/OtherServices/Exam Coaching/ExamCoachingIndex";
-
+const CertificateAttestationIndex = lazy(() => import("./Pages/OtherServices/Certificate Attestation/CertificateAttestationIndex"));
+const EmbassyAttestationIndex = lazy(() => import("./Pages/OtherServices/Embassy Attestation/EmbassyAttestationIndex"));
+const HRDIndex = lazy(() => import("./Pages/OtherServices/HRD Attestation/HRDIndex"));
+const MOFAindex = lazy(() => import("./Pages/OtherServices/MOFA Attestation/MOFAindex"));
+const MEAIndex = lazy(() => import("./Pages/OtherServices/MEA Attestation/MEAIndex"));
+const HomeAttIndex = lazy(() => import("./Pages/OtherServices/Home Attestation/HomeAttIndex"));
+const DataFlowIndex = lazy(() => import("./Pages/OtherServices/Data Flow/DataFlowIndex"));
+const PccIndex = lazy(() => import("./Pages/OtherServices/PCC/PccIndex"));
+const ExamCoachingIndex = lazy(() => import("./Pages/OtherServices/Exam Coaching/ExamCoachingIndex"));
 
 
 // We Provide Dataflow Services For different countries 
-import MohIndex from "./Pages/OtherServices/Data Flow/MOH/MohIndex";
-import BahrainDataflowIndex from "./Pages/OtherServices/Data Flow/BAHRAIN/BahrainDataflowIndex";
-import DHAindex from "./Pages/OtherServices/Data Flow/DHA/DHAindex";
-import SaudiDataflowIndex from "./Pages/OtherServices/Data Flow/SAUDI/SaudiDataflowIndex";
-import OmanDataflowIndex from "./Pages/OtherServices/Data Flow/OMAN/OmanDataflowIndex";
-import QatarDataflowIndex from "./Pages/OtherServices/Data Flow/QATAR/QatarDataflowIndex";
-import HAADdataflowIndex from "./Pages/OtherServices/Data Flow/HAAD/HAADdataflowIndex";
-import KuwaitDataflowIndex from "./Pages/OtherServices/Data Flow/KUWAIT/KuwaitDataflowIndex";
+const MohIndex = lazy(() => import("./Pages/OtherServices/Data Flow/MOH/MohIndex"));
+const BahrainDataflowIndex = lazy(() => import("./Pages/OtherServices/Data Flow/BAHRAIN/BahrainDataflowIndex"));
+const DHAindex = lazy(() => import("./Pages/OtherServices/Data Flow/DHA/DHAindex"));
+const SaudiDataflowIndex = lazy(() => import("./Pages/OtherServices/Data Flow/SAUDI/SaudiDataflowIndex"));
+const OmanDataflowIndex = lazy(() => import("./Pages/OtherServices/Data Flow/OMAN/OmanDataflowIndex"));
+const QatarDataflowIndex = lazy(() => import("./Pages/OtherServices/Data Flow/QATAR/QatarDataflowIndex"));
+const HAADdataflowIndex = lazy(() => import("./Pages/OtherServices/Data Flow/HAAD/HAADdataflowIndex"));
+const KuwaitDataflowIndex = lazy(() => import("./Pages/OtherServices/Data Flow/KUWAIT/KuwaitDataflowIndex"));
 
 
 // We Provide embassy attestation services For different countries 
-import QatarEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Qatar/QatarEmbassyIndex";
-import KuwaitEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Kuwait/KuwaitEmbassyIndex";
-import UaeEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Uae/UaeEmbassyIndex";
-import MalaysiaEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Malaysia/MalaysiaEmbassyIndex";
-import BahrainEmbassyIndex from "./Pages/OtherServices/Embassy Attestation/Bahrain/BahrainEmbassyIndex";
+const QatarEmbassyIndex = lazy(() => import("./Pages/OtherServices/Embassy Attestation/Qatar/QatarEmbassyIndex"));
+const KuwaitEmbassyIndex = lazy(() => import("./Pages/OtherServices/Embassy Attestation/Kuwait/KuwaitEmbassyIndex"));
+const UaeEmbassyIndex = lazy(() => import("./Pages/OtherServices/Embassy Attestation/Uae/UaeEmbassyIndex"));
+const MalaysiaEmbassyIndex = lazy(() => import("./Pages/OtherServices/Embassy Attestation/Malaysia/MalaysiaEmbassyIndex"));
+const BahrainEmbassyIndex = lazy(() => import("./Pages/OtherServices/Embassy Attestation/Bahrain/BahrainEmbassyIndex"));
 
 
 // We Provide PCC services For different countries 
-import UaePccIndex from "./Pages/OtherServices/PCC/UAE/UaePccIndex";
-import SaudiPccIndex from "./Pages/OtherServices/PCC/SAUDI/SaudiPccIndex";
-import QatarPccIndex from "./Pages/OtherServices/PCC/QATAR/QatarPccIndex";
-import OmanPccIndex from "./Pages/OtherServices/PCC/OMAN/OmanPccIndex";
-import KuwaitPccIndex from "./Pages/OtherServices/PCC/KUWAIT/KuwaitPccIndex";
+const UaePccIndex = lazy(() => import("./Pages/OtherServices/PCC/UAE/UaePccIndex"));
+const SaudiPccIndex = lazy(() => import("./Pages/OtherServices/PCC/SAUDI/SaudiPccIndex"));
+const QatarPccIndex = lazy(() => import("./Pages/OtherServices/PCC/QATAR/QatarPccIndex"));
+const OmanPccIndex = lazy(() => import("./Pages/OtherServices/PCC/OMAN/OmanPccIndex"));
+const KuwaitPccIndex = lazy(() => import("./Pages/OtherServices/PCC/KUWAIT/KuwaitPccIndex"));
+
 
 // we provide -- exam coaching -- for
-import OetIndex from "./Pages/OtherServices/Exam Coaching/OET/OetIndex";
-import IeltsIndex from "./Pages/OtherServices/Exam Coaching/IELTS/IeltsIndex";
-import PrometricsIndex from "./Pages/OtherServices/Exam Coaching/PROMETRICS/PrometricsIndex";
+const OetIndex = lazy(() => import("./Pages/OtherServices/Exam Coaching/OET/OetIndex"));
+const IeltsIndex = lazy(() => import("./Pages/OtherServices/Exam Coaching/IELTS/IeltsIndex"));
+const PrometricsIndex = lazy(() => import("./Pages/OtherServices/Exam Coaching/PROMETRICS/PrometricsIndex"));
 
 
 
@@ -78,6 +78,7 @@ function App() {
       <TopBar />
       <NavBar/>
       <QuickAction/>
+      <Suspense fallback={ <h1 className="flex justify-center items-center text-xl"> Loading... </h1>}>
         <Routes>
 
           {/* Navbar menus  router*/}
@@ -87,7 +88,6 @@ function App() {
           <Route path="/services" element={<CertificateAttestationIndex />} onClick={scrollToTop}/> 
           <Route path="/blogs" element={<BlogsIndex/>} onClick={scrollToTop}/> 
           <Route path="/contact" element={<ContactIndex/>} onClick={scrollToTop}/> 
-
 
           {/* services router */}
           <Route path="/certificateAttestation" element={ <CertificateAttestationIndex/> } onClick={scrollToTop}/>
@@ -100,8 +100,6 @@ function App() {
           <Route path="/pcc" element={<PccIndex/>} onClick={scrollToTop} />
           <Route path="/examCoaching" element={<ExamCoachingIndex/>} onClick={scrollToTop}/>
 
-
-
           {/* We Provide Dataflow Services For ---DATAFLOW VERIFICATIONS ---*/}
           <Route path="/df_moh" element={ <MohIndex/> } />
           <Route path="/df_saudiArabia" element = { <SaudiDataflowIndex/> } />
@@ -111,7 +109,6 @@ function App() {
           <Route path="/df_dha" element={ <DHAindex/> } />
           <Route path="/df_haad" element={ <HAADdataflowIndex/> } />
           <Route path="/df_kuwait" element={ <KuwaitDataflowIndex/> } />
-          
 
           {/* We Provide Embassy attestation For --- embassy attestation ---*/}
           <Route path="/qatarembassy" element={ <QatarEmbassyIndex/> } />
@@ -120,7 +117,6 @@ function App() {
           <Route path="/malaysiaembassy" element={ <MalaysiaEmbassyIndex/> } />
           <Route path="/bahrainembassy" element={ <BahrainEmbassyIndex/> } />
 
-          
           {/* We Provide PCC For --- POLICE CLEARANCE CERTIFICATE ---*/}
           <Route path="/pcc_uae" element={ <UaePccIndex/> } />
           <Route path="/pcc_ksa" element={<SaudiPccIndex/>} />
@@ -134,6 +130,7 @@ function App() {
           <Route path="/prometric" element={<PrometricsIndex/>}/>
 
         </Routes>
+      </Suspense>
       <Footer />
     </div>
   );

@@ -5,7 +5,7 @@ function BlogsIndex() {
     <div>
       <div className='w-full h-screen bg-zinc-100 flex justify-center items-center'>
 
-        <h1> Blogs and Our videos  </h1>
+        <h1> Blogs will added soon....  </h1>
       </div>
     </div>
   )

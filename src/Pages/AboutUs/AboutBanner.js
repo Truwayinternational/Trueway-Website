@@ -8,7 +8,7 @@ function AboutBanner() {
     const [readMore, setReadMore] = useState(false);
 
   const extraContent = <div>
-          <p className='md:hidden text-md md:text-xl text-justify text-gray-500 font-poppins mb-10'>
+          <p className='md:hidden text-md md:text-xl text-justify text-gray-500 font-poppins mb-10 pt-1'>
           The prime services we provide include Embassy Attestations, HRD Verifications, Apostille Attestation, Dataflow Verifications, Prometric Coaching and Bookings, College, Hospital, and Council Verifications for NMBI, CGFNS, NNAS, NCLEX, etc., Registration Renewals, Good Standing Certificates, Nursing Council, Pharmacy Council, Paramedical Council, Dental Council, and Medical Council service guidance, Admission Guidances, BLS and ACLS, PCC from GCC countries, Saudi Nursing Council Verification, Oman Nursing Council Verification, WES Verification, and others.
           </p>
         </div>
@@ -33,9 +33,9 @@ const linkName = readMore ? '' : 'Read More...'
                 </p>
                 {/* readMore add in paragraph */}
                 <div className='md:hidden flex'>
-                    <p  onClick={()=> {setReadMore (!readMore)}}>
-                    <h2 className='text-green-500 text-lg cursor-pointer font-poppins'>{linkName}</h2>
-                    </p>
+                    <h6  onClick={()=> {setReadMore (!readMore)}}>
+                    <p className='text-green-500 text-lg cursor-pointer font-poppins pt-1'>{linkName}</p>
+                    </h6>
                     { readMore && extraContent }
                   </div>
                   <p className='hidden md:flex text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
