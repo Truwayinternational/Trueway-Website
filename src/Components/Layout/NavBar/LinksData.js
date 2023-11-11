@@ -149,7 +149,7 @@ export const links = [
         },
         {
           Head:"PROMETRICS",
-          headLink:"/prometrics",
+          headLink:"/prometric",
           subLink: [
             {name:"", link:"#!"}
           ]
@@ -193,13 +193,6 @@ export const links = [
           headLink:"/pcc_uae",
           subLink: [
             {name:"", link:"#!"}
-          ]
-        },
-        {
-          Head: "Bahrain",
-          headLink:"#!",
-          subLink : [
-            {name:"", link:"#!"},
           ]
         },
         {

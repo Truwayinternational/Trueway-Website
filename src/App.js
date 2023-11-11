@@ -131,7 +131,7 @@ function App() {
           {/* We Provide --- EXAMS COACHING --- FOR */}
           <Route path="/oet" element={<OetIndex/>}/>
           <Route path="/ielts" element={<IeltsIndex/>}/>
-          <Route path="/prometrics" element={<PrometricsIndex/>}/>
+          <Route path="/prometric" element={<PrometricsIndex/>}/>
 
         </Routes>
       <Footer />
