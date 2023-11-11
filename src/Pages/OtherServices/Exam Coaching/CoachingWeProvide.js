@@ -30,7 +30,7 @@ function CoachingWeProvide() {
                 </div>
 
                 <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer py-16'>
-                    <a href="/prometaic">
+                    <a href="/prometric">
                         <h3 className='font-HeadingFont lg:text-2xl font-bold text-center '>
                             PROMETRICS  
                         </h3>
