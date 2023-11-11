@@ -3,7 +3,7 @@ import React from 'react'
 function YourPathToGuaranteed() {
   return (
     <>
-         <div className='max-w-4xl mx-auto place-content-center mb-10'>
+         <div className='max-w-4xl mx-auto place-content-center mt-5'>
             <div className='flex flex-col lg:mx-4 lg:px-8'>
                 <h5 className='md:text-5xl text-4xl py-10  font-HeadingFont font-extrabold text-black  tracking-normal text-center px-4'>Your Path to Guaranteed Achievement with <b className='text-green-500'> Our Coaching Program </b>
                 </h5>
