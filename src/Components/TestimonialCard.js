@@ -8,7 +8,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Pagination, Autoplay } from 'swiper/modules';
+import { Pagination, Mousewheel } from 'swiper/modules';
 
 
 import starRating from '../Assets/googleStar.png'
@@ -104,9 +104,8 @@ function TestimonialCard() {
           clickable: true,
           dynamicBullets: true,
         }}
-        autoplay={{
-          delay: 5000,
-          disableOnInteraction: false,
+        mousewheel= {{
+          releaseOnEdges: true,
         }}
         breakpoints={{
           '640': {
@@ -122,12 +121,12 @@ function TestimonialCard() {
               spaceBetween: 10,
           }
           }}
-        modules={[Pagination, Autoplay]}
+        modules={[Pagination, Mousewheel]}
         className="mySwiper"
       >
         { TestimonialData.map((Data, Index) => (
           <SwiperSlide key={Index}>
-             <div className="mb-16 h-[400px] overflow-scroll py-5  justify-center px-auto m-4 p-3 bg-green-50 px-4 rounded-3xl hover:shadow-lg hover:bg-zinc-100 cursor-pointer">
+             <div className="mb-16 h-[400px] overflow-y-scroll py-5  justify-center px-auto m-4 p-3 bg-green-50 px-4 rounded-3xl hover:shadow-lg hover:bg-zinc-100 cursor-pointer">
                 <div>
                   <h2 className='font-bold  text-md tracking-wider text-center mt-3'> {Data.name} </h2>
                   <p className='text-gray-400 text-center my-1'> {Data.relation} </p>

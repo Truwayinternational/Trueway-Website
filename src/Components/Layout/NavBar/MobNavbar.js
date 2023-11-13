@@ -210,7 +210,7 @@ function MobNavbar() {
                                             Blogs </a>
                                         </li>
                                         <li className="pt-3">
-                                            <a href="#!"
+                                            <a href="https://www.youtube.com/channel/UCRq22m2bbJ5AONWGQug9FpA"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             Videos </a>
                                         </li>
