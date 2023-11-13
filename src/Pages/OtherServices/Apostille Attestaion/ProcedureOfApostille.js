@@ -48,11 +48,11 @@ function ProcedureOfApostille() {
                 </p>
                 <ul className='inline-flex list-none text-green-500 font-semibold text-lg md:text-xl lg:px-xl mt-3 font-HeadingFont'>
                     <BiSolidChevronRightCircle />
-                    <li className='cursor-pointer mt-[-20px] font-HeadingFont md:ml-3 md:mr-20'> SDM </li>
+                    <li className='cursor-pointer mt-[-20px] font-HeadingFont  md:mr-20'> SDM </li>
                     <BiSolidChevronRightCircle />
-                    <li className='cursor-pointer mt-[-20px] font-HeadingFont md:ml-3 md:mr-20'> MEA </li>
+                    <li className='cursor-pointer mt-[-20px] font-HeadingFont md:mr-20'> MEA </li>
                     <BiSolidChevronRightCircle />
-                    <li className='cursor-pointer mt-[-20px] font-HeadingFont md:ml-3 md:mr-10'> Apostille </li>
+                    <li className='cursor-pointer mt-[-20px] font-HeadingFont md:mr-10'> Apostille </li>
                 </ul>
             </div>
         </div> 
