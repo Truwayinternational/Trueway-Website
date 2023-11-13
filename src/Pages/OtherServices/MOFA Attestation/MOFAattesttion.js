@@ -25,7 +25,6 @@ function MOFAattesttion() {
           <div className='lg:w-1/2 '>
             <div className='hidden lg:flex m-3 lg:ml-20 lg:relative'>
               <img className='object-cover ' src={MOFA_banner} alt="page_banner" />
-              <h3 className='absolute lg:text-4xl font-HeadingFont font-extrabold text-black pl-10 py-20 '>MOFA<br/> Attestation</h3>
             </div>
 
             {/* responsive banner of MOFA attestation */}
