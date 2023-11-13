@@ -33,7 +33,7 @@ function PurposeOfApostille() {
                         </p>
                     </div>
                 </div>
-                <div className='hidden md:grid md:w-[100rem] lg:w-1/3 h-full md:mr-10 xl:mt-[-50px] my-8'>
+                <div className='hidden md:grid md:w-[100rem] lg:w-1/3 h-full md:mr-10 xl:mt-[-10px] my-8'>
                     <img className='' src={avatar_2} alt="avatar_2" />
                 </div>
             </div>
