@@ -25,6 +25,7 @@ const HomeAttIndex = lazy(() => import("./Pages/OtherServices/Home Attestation/H
 const DataFlowIndex = lazy(() => import("./Pages/OtherServices/Data Flow/DataFlowIndex"));
 const PccIndex = lazy(() => import("./Pages/OtherServices/PCC/PccIndex"));
 const ExamCoachingIndex = lazy(() => import("./Pages/OtherServices/Exam Coaching/ExamCoachingIndex"));
+const ApostilleIndex = lazy(()=> import("./Pages/OtherServices/Apostille Attestaion/ApostilleIndex"));
 
 
 // We Provide Dataflow Services For different countries 
@@ -99,6 +100,7 @@ function App() {
           <Route path="/dataflow" element={ <DataFlowIndex/> } onClick={scrollToTop}/>
           <Route path="/pcc" element={<PccIndex/>} onClick={scrollToTop} />
           <Route path="/examCoaching" element={<ExamCoachingIndex/>} onClick={scrollToTop}/>
+          <Route path="/apostilleAttestation" element={<ApostilleIndex/>} onClick={scrollToTop}/>
 
           {/* We Provide Dataflow Services For ---DATAFLOW VERIFICATIONS ---*/}
           <Route path="/df_moh" element={ <MohIndex/> } />
