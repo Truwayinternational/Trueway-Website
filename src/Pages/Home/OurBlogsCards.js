@@ -4,7 +4,6 @@ import {SlCalender} from 'react-icons/sl'
 // Import Swiper React components (for responsive design )
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Mousewheel, Pagination } from 'swiper/modules';
-import { Autoplay} from 'swiper/modules';
 
 
 // Import Swiper styles
@@ -77,13 +76,9 @@ function OurBlogsCards() {
                             dynamicBullets: true,
                             clickable: true,
                         }}
-                        autoplay={{
-                            delay: 5000,
-                            disableOnInteraction: false,
-                        }}
                         mousewheel= {{
                             releaseOnEdges: true,
-                          }}
+                        }}
                         breakpoints={{
                         '640': {
                             slidesPerView: 1,
@@ -98,7 +93,7 @@ function OurBlogsCards() {
                             spaceBetween: 20,
                         }
                         }}
-                        modules={[Pagination, Autoplay, Mousewheel]}
+                        modules={[Pagination, Mousewheel]}
                     >
 
                         { BlogDatas.map((BlogData, index) => (
