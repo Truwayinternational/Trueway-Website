@@ -8,7 +8,7 @@ function ProcedureOfApostille() {
 
   return (
     <>
-        <div className='max-w-[1240px] mx-auto place-content-center my-10 '>
+        <div className='max-w-[1240px] mx-auto place-content-center mt-10 '>
             <div className='flex mx-4  lg:px-16 px-3'>
                 <img className='md:hidden grid  w-[100px] ' src={Avatar_3} alt="Avatar_3" />
                 <h3 className='md:text-5xl text-3xl pb-5 font-HeadingFont font-extrabold text-black  tracking-normal  '> The procedure for attesting <br/><b className='text-green-500'> Apostille documents </b> is as follows:</h3>
@@ -21,7 +21,7 @@ function ProcedureOfApostille() {
 
             {/* middle content */}
             <div className='flex '>
-                <div className='hidden md:flex h-full lg:pl-20 lg:my-auto py-10'>
+                <div className='hidden md:flex h-full lg:pl-20 lg:my-auto pt-10'>
                     <img src={Avatar_3} alt="avatar_3" />
                 </div>
                 <div className='w-full lg:px-12 lg:pr-16 px-4 pl-6 py-5'>
@@ -46,7 +46,7 @@ function ProcedureOfApostille() {
             <div className='lg:w-full ml-3 lg:pl-20 px-4 '>
                 <p className='md:text-2xl text-xl font-HeadingFont  font-semibold py-3'>Some of the common processes required for an Apostille:
                 </p>
-                <ul className='inline-flex list-none text-green-500 font-semibold text-lg md:text-xl lg:px-xl my-3 font-HeadingFont'>
+                <ul className='inline-flex list-none text-green-500 font-semibold text-lg md:text-xl lg:px-xl mt-3 font-HeadingFont'>
                     <BiSolidChevronRightCircle />
                     <li className='cursor-pointer mt-[-20px] font-HeadingFont md:ml-3 md:mr-20'> SDM </li>
                     <BiSolidChevronRightCircle />
