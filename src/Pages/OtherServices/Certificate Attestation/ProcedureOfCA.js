@@ -33,7 +33,7 @@ function ProcedureOfCA() {
             <p className='text-md md:text-xl lg:text-lg text-gray-500 font-poppins pr-3 lg:p-0'>
             Getting your certificates attested is a must for getting a visa. Whether you're going abroad to work or study, this process is essential. In India, the attestation procedure is a series of steps. The most crucial one is the Ministry of Foreign Affairs attestation, which comes after getting attestations from all departments. This step holds extra significance. India offers attestation services of three types:
                   <ol className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-xl my-5  ml-3 font-HeadingFont'>
-                  <BiSolidChevronRightCircle />
+                    <BiSolidChevronRightCircle />
                     <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Educational certificates</li> 
                     <BiSolidChevronRightCircle />
                     <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'> Non-educational certificates</li>
