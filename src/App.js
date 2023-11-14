@@ -26,6 +26,7 @@ const DataFlowIndex = lazy(() => import("./Pages/OtherServices/Data Flow/DataFlo
 const PccIndex = lazy(() => import("./Pages/OtherServices/PCC/PccIndex"));
 const ExamCoachingIndex = lazy(() => import("./Pages/OtherServices/Exam Coaching/ExamCoachingIndex"));
 const ApostilleIndex = lazy(()=> import("./Pages/OtherServices/Apostille Attestaion/ApostilleIndex"));
+const GoodStandingIndex = lazy(()=>import("./Pages/OtherServices/Good Standing & Verification/GoodStandingIndex"));
 
 
 
@@ -103,7 +104,7 @@ function App() {
           <Route path="/pcc" element={<PccIndex/>} onClick={scrollToTop} />
           <Route path="/exam-coaching" element={<ExamCoachingIndex/>} onClick={scrollToTop}/>
           <Route path="/apostille-attestation" element={<ApostilleIndex/>} onClick={scrollToTop}/>
-          {/* <Route path="" */}
+          <Route path="/goodstanding-council-verification" element={<GoodStandingIndex/>} onClick={scrollToTop} />
 
 
           {/* We Provide Dataflow Services For ---DATAFLOW VERIFICATIONS ---*/}
