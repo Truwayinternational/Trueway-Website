@@ -22,42 +22,42 @@ const ServicesCardData = [
         id:1,
         img: Certificate,
         title:"Certificate Attestation",
-        titleLink:"/certificateAttestation",
+        titleLink:"/certificate-attestation",
         description:"Certificate attestation is the process of verifying the authenticity of a document when a person heads out to another nation."
     },
     {
         id:2,
         img: embassy,
         title:"Embassy Attestation",
-        titleLink:"/embassyAttestation",
+        titleLink:"/embassy-attestation",
         description:"Embassy attestation is the process of legalizing official documents in order to be accepted in a foreign country."
     },
     {
         id:3,
         img: MEA_MOFA,
         title:" MEA & MOFA Attestation",
-        titleLink:"/meaAttestation",
+        titleLink:"/mea-attestation",
         description:"MEA is the process of getting documents authenticated of a country.The MOFA is the Ministry of Foreign Affairs of the destination country verifies and certifies the authenticity of the documents."
     },
     {
         id:5,
         img: HRD,
         title:"HRD Attestation",
-        titleLink:"/hrdAttestation",
+        titleLink:"/hrd-attestation",
         description:"The purpose of HRD attestation is to verify the authenticity of educational documents issued by educational institutions"
     },
     {
         id:6,
         img: apostille,
         title:"Apostille Attestation",
-        titleLink:"/apostilleAttestation",
+        titleLink:"/apostille-attestation",
         description:"Apostille attestation verifies public document authenticity for international use, like birth certificates or diplomas, ensuring foreign recognition."
     },
     {
         id:7,
         img: Home,
         title:"Home Attestation",
-        titleLink:"/homeAttestation",
+        titleLink:"/home-attestation",
         description:"It is the attestation of non-educational documents from home countries where the documents are issued"
     },
     {
@@ -71,14 +71,14 @@ const ServicesCardData = [
         id:9,
         img: ExamCoaching,
         title:"Exam coaching",
-        titleLink:"/examCoaching",
+        titleLink:"/exam-coaching",
         description:"Expert coaching for OET, IELTS, and Prometric exams."
     },
     {
         id:10,
         img: ACLS,
         title:"ACLS/BLS",
-        titleLink:"/acls_bls",
+        titleLink:"/acls-bls",
         description:"Providing life-saving ACLS and BLS medical training and support as a valuable and responsive service"
     },
     {
@@ -99,7 +99,7 @@ const ServicesCardData = [
         id:13,
         img: verification,
         title:"Goodstanding & Council Verification",
-        titleLink:"/Council_verification",
+        titleLink:"/goodstanding-council-verification",
         description:"Validation & additional offerings for authentication and assistance, including immigration, documentation, and consultation services."
     }
 ]

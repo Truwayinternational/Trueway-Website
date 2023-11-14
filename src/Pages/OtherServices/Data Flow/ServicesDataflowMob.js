@@ -47,7 +47,7 @@ function ServicesDataflowMob() {
                 <SwiperSlide>
                   <div className='flex flex-col w-full  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                       <img className='px-3 w-[150px] mx-auto' src={uae} alt="uae_logo" />
-                      <a href="/df_moh">
+                      <a href="/dataflow-moh">
                           <h1 className='font-HeadingFont text-2xl font-bold text-center pb-4 '>
                               MOH
                           </h1>
@@ -57,7 +57,7 @@ function ServicesDataflowMob() {
                 <SwiperSlide>
                   <div className='flex flex-col  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                       <img className='px-3 w-[150px] mx-auto' src={ksa} alt="ksa_logo" />
-                      <a href="/df_saudiArabia">
+                      <a href="/dataflow-saudiArabia">
                           <h1 className='font-HeadingFont text-2xl font-bold text-center pb-4 '>
                               Saudi
                           </h1>
@@ -67,7 +67,7 @@ function ServicesDataflowMob() {
                 <SwiperSlide>
                   <div className='flex flex-col  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                     <img className='px-3 w-[150px] mx-auto' src={oman} alt="oman_logo" />
-                     <a href="/df_oman">
+                     <a href="/dataflow-oman">
                         <h1 className='font-HeadingFont text-2xl font-bold text-center pb-4 '>
                             Oman
                         </h1>
@@ -77,7 +77,7 @@ function ServicesDataflowMob() {
                 <SwiperSlide>
                   <div className='flex flex-col  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                     <img className='px-3 w-[150px] mx-auto' src={uae} alt="DHA_logo" />
-                     <a href="/df_dha">
+                     <a href="/dataflow-dha">
                         <h1 className='font-HeadingFont text-2xl font-bold text-center pb-4'>
                             DHA
                         </h1>
@@ -87,7 +87,7 @@ function ServicesDataflowMob() {
                 <SwiperSlide>
                 <div className='flex flex-col  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                     <img className='px-3 w-[150px] mx-auto' src={kuwait} alt="kuwait_logo" />
-                     <a href="/df_kuwait">
+                     <a href="/dataflow-kuwait">
                         <h1 className='font-HeadingFont text-2xl font-bold text-center pb-4'>
                             Kuwait
                         </h1>
@@ -97,7 +97,7 @@ function ServicesDataflowMob() {
                 <SwiperSlide>
                   <div className='flex flex-col  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                     <img className='px-3 w-[150px] mx-auto' src={uae} alt="HAAD_logo" />
-                     <a href="/df_haad">
+                     <a href="/dataflow-haad">
                         <h1 className='font-HeadingFont text-2xl font-bold text-center pb-4'>
                             HAAD
                         </h1>
@@ -108,7 +108,7 @@ function ServicesDataflowMob() {
                 <SwiperSlide>
                   <div className='flex flex-col  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                     <img className='px-3 w-[150px] mx-auto' src={bahrain} alt="bahrain_logo" />
-                     <a href="/df_bahrain">
+                     <a href="/dataflow-bahrain">
                         <h1 className='font-HeadingFont text-2xl font-bold text-center pb-4'>
                             Bahrain
                         </h1>
@@ -119,7 +119,7 @@ function ServicesDataflowMob() {
                 <SwiperSlide>
                   <div className='flex flex-col  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                     <img className='px-3 w-[150px] mx-auto' src={qatar} alt="qatar_logo" />
-                     <a href="/df_qatar">
+                     <a href="/dataflow-qatar">
                         <h1 className='font-HeadingFont text-2xl font-bold text-center pb-4'>
                             Qatar
                         </h1>

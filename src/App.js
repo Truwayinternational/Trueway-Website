@@ -26,6 +26,9 @@ const DataFlowIndex = lazy(() => import("./Pages/OtherServices/Data Flow/DataFlo
 const PccIndex = lazy(() => import("./Pages/OtherServices/PCC/PccIndex"));
 const ExamCoachingIndex = lazy(() => import("./Pages/OtherServices/Exam Coaching/ExamCoachingIndex"));
 const ApostilleIndex = lazy(()=> import("./Pages/OtherServices/Apostille Attestaion/ApostilleIndex"));
+const GoodStandingIndex = lazy(()=>import("./Pages/OtherServices/Good Standing & Verification/GoodStandingIndex"));
+
+
 
 
 // We Provide Dataflow Services For different countries 
@@ -91,40 +94,42 @@ function App() {
           <Route path="/contact" element={<ContactIndex/>} onClick={scrollToTop}/> 
 
           {/* services router */}
-          <Route path="/certificateAttestation" element={ <CertificateAttestationIndex/> } onClick={scrollToTop}/>
-          <Route path="/embassyAttestation" element={<EmbassyAttestationIndex/>} />
-          <Route path="/hrdAttestation" element={ <HRDIndex/> } onClick={scrollToTop}/>
-          <Route path="/meaAttestation" element={ <MEAIndex/> } onClick={scrollToTop}/>
-          <Route path="/mofaAttestation" element={ <MOFAindex/> } onClick={scrollToTop}/>
-          <Route path="/homeAttestation" element={ <HomeAttIndex/>} onClick={scrollToTop}/>
+          <Route path="/certificate-attestation" element={ <CertificateAttestationIndex/> } onClick={scrollToTop}/>
+          <Route path="/embassy-attestation" element={<EmbassyAttestationIndex/>} />
+          <Route path="/hrd-attestation" element={ <HRDIndex/> } onClick={scrollToTop}/>
+          <Route path="/mea-attestation" element={ <MEAIndex/> } onClick={scrollToTop}/>
+          <Route path="/mofa-attestation" element={ <MOFAindex/> } onClick={scrollToTop}/>
+          <Route path="/home-attestation" element={ <HomeAttIndex/>} onClick={scrollToTop}/>
           <Route path="/dataflow" element={ <DataFlowIndex/> } onClick={scrollToTop}/>
           <Route path="/pcc" element={<PccIndex/>} onClick={scrollToTop} />
-          <Route path="/examCoaching" element={<ExamCoachingIndex/>} onClick={scrollToTop}/>
-          <Route path="/apostilleAttestation" element={<ApostilleIndex/>} onClick={scrollToTop}/>
+          <Route path="/exam-coaching" element={<ExamCoachingIndex/>} onClick={scrollToTop}/>
+          <Route path="/apostille-attestation" element={<ApostilleIndex/>} onClick={scrollToTop}/>
+          <Route path="/goodstanding-council-verification" element={<GoodStandingIndex/>} onClick={scrollToTop} />
+
 
           {/* We Provide Dataflow Services For ---DATAFLOW VERIFICATIONS ---*/}
-          <Route path="/df_moh" element={ <MohIndex/> } />
-          <Route path="/df_saudiArabia" element = { <SaudiDataflowIndex/> } />
-          <Route path="/df_oman" element = { <OmanDataflowIndex/> } />
-          <Route path="/df_bahrain" element={ <BahrainDataflowIndex/> } />
-          <Route path="/df_qatar" element={ <QatarDataflowIndex/> } />
-          <Route path="/df_dha" element={ <DHAindex/> } />
-          <Route path="/df_haad" element={ <HAADdataflowIndex/> } />
-          <Route path="/df_kuwait" element={ <KuwaitDataflowIndex/> } />
+          <Route path="/dataflow-moh" element={ <MohIndex/> } />
+          <Route path="/dataflow-saudiArabia" element = { <SaudiDataflowIndex/> } />
+          <Route path="/dataflow-oman" element = { <OmanDataflowIndex/> } />
+          <Route path="/dataflow-bahrain" element={ <BahrainDataflowIndex/> } />
+          <Route path="/dataflow-qatar" element={ <QatarDataflowIndex/> } />
+          <Route path="/dataflow-dha" element={ <DHAindex/> } />
+          <Route path="/dataflow-haad" element={ <HAADdataflowIndex/> } />
+          <Route path="/dataflow-kuwait" element={ <KuwaitDataflowIndex/> } />
 
           {/* We Provide Embassy attestation For --- embassy attestation ---*/}
-          <Route path="/qatarembassy" element={ <QatarEmbassyIndex/> } />
-          <Route path="/kuwaitembassy" element={ <KuwaitEmbassyIndex/> } />
-          <Route path="/uaeembassy" element={ <UaeEmbassyIndex/> } />
-          <Route path="/malaysiaembassy" element={ <MalaysiaEmbassyIndex/> } />
-          <Route path="/bahrainembassy" element={ <BahrainEmbassyIndex/> } />
+          <Route path="/qatar-embassy" element={ <QatarEmbassyIndex/> } />
+          <Route path="/kuwait-embassy" element={ <KuwaitEmbassyIndex/> } />
+          <Route path="/uae-embassy" element={ <UaeEmbassyIndex/> } />
+          <Route path="/malaysia-embassy" element={ <MalaysiaEmbassyIndex/> } />
+          <Route path="/bahrain-embassy" element={ <BahrainEmbassyIndex/> } />
 
           {/* We Provide PCC For --- POLICE CLEARANCE CERTIFICATE ---*/}
-          <Route path="/pcc_uae" element={ <UaePccIndex/> } />
-          <Route path="/pcc_ksa" element={<SaudiPccIndex/>} />
-          <Route path="/pcc_qatar" element={<QatarPccIndex/>} />
-          <Route path="/pcc_oman" element={<OmanPccIndex/>} />
-          <Route path="/pcc_kuwait" element={<KuwaitPccIndex/>} />
+          <Route path="/pcc-uae" element={ <UaePccIndex/> } />
+          <Route path="/pcc-saudiArabia" element={<SaudiPccIndex/>} />
+          <Route path="/pcc-qatar" element={<QatarPccIndex/>} />
+          <Route path="/pcc-oman" element={<OmanPccIndex/>} />
+          <Route path="/pcc-kuwait" element={<KuwaitPccIndex/>} />
 
           {/* We Provide --- EXAMS COACHING --- FOR */}
           <Route path="/oet" element={<OetIndex/>}/>
