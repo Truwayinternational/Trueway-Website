@@ -68,7 +68,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[150px] p-2 block object-cover " src={Certificate} alt="Services_image" />
                                 <hr />
                             <div className=" h-full">
-                                <a href="/certificateAttestation">
+                                <a href="/certificate-attestation">
                                     <h5 className="text-lg font-semibold tracking-tight font-HeadingFont  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">Certificate Attestation</h5>
                                 </a>
                                 <p className=" font-light tracking-normal text-zinc-500 text-justify md:text-md text-[15px]">Certificate attestation is the process of verifying the authenticity of a document when a person heads out to another nation </p>
@@ -81,7 +81,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[150px] p-2 block object-cover " src={embassy} alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
-                                <a href="/embassyAttestation">
+                                <a href="/embassy-attestation">
                                     <h5 className="text-lg font-semibold tracking-tight font-HeadingFont  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">Embassy Attestation</h5>
                                 </a>
                                 <p className=" font-light tracking-normal text-zinc-500 text-justify md:text-md text-[15px]">Embassy attestation is the process of legalizing official documents in order to be accepted in a foreign country. </p>
@@ -94,7 +94,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[150px]  py-2 block object-cover" src={MEA} alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
-                                <a href="/meaAttestation">
+                                <a href="/mea-attestation">
                                     <h5 className="text-lg font-semibold tracking-tight font-HeadingFont  text-gray-900 md:text-1xl hover:font-bold hover:text-gray-900"> MEA Attestation</h5>
                                 </a>
                                 <p className=" font-light tracking-normal text-zinc-500 text-justify md:text-md text-[15px]">MEA attestation refers to the process of getting documents authenticated by the Ministry of External Affairs (MEA) of a country.</p>
@@ -107,7 +107,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[150px]  py-2 block object-cover" src={MOFA} alt="Services_image" />
                                 <hr />
                             <div className=" h-full ">
-                                <a href="/mofaAttestation">
+                                <a href="/mofa-attestation">
                                     <h5 className="text-lg font-semibold tracking-tight font-HeadingFont  text-gray-900 md:text-1xl hover:font-bold hover:text-gray-900"> MOFA Attestation</h5>
                                 </a>
                                 <p className=" font-light tracking-normal text-zinc-500 text-justify md:text-md text-[15px]">It is the final step in this process, where the Ministry of Foreign Affairs of the destination country verifies and certifies the authenticity of the documents.</p>
@@ -120,7 +120,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[150px] p-2 block object-cover " src={HRD} alt="Services_image" />
                                 <hr />
                             <div className=" h-full ">
-                                <a href="/hrdAttestation">
+                                <a href="/hrd-attestation">
                                     <h5 className="text-lg font-semibold tracking-tight font-HeadingFont  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">HRD attestation</h5>
                                 </a>
                                 <p className=" font-light tracking-normal text-zinc-500 text-justify md:text-md text-[15px]">The purpose of HRD attestation is to verify the authenticity of educational documents issued by educational institutions</p>
@@ -133,7 +133,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[150px] p-2 block object-cover " src={apostille} alt="Services_image" />
                                 <hr />
                             <div className=" h-full ">
-                                <a href="/apostilleAttestation">
+                                <a href="/apostille-attestation">
                                     <h5 className="text-lg font-semibold tracking-tight font-HeadingFont  text-gray-900  hover:font-bold hover:text-gray-900">Apostille attestation</h5>
                                 </a>
                                 <p className=" font-light tracking-normal text-zinc-500 text-justify md:text-md text-[15px]">It verifies public document authenticity for international use, like birth certificates or diplomas, ensuring foreign recognition</p>
@@ -146,7 +146,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[150px] p-2 block object-cover " src={Home} alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
-                                <a href="/homeAttestation">
+                                <a href="/home-attestation">
                                     <h5 className="text-lg font-semibold tracking-tight font-HeadingFont  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">Home attestation</h5>
                                 </a>
                                 <p className=" font-light tracking-normal text-zinc-500 text-justify md:text-md">It is the attestation of non-educational documents from home countries where the documents are issued</p>
@@ -172,7 +172,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[150px] p-2 block object-cover " src={ExamCoaching} alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
-                                <a href="/examCoaching">
+                                <a href="/exam-coaching">
                                     <h5 className="text-lg font-semibold tracking-tight font-HeadingFont  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">Exam coaching</h5>
                                 </a>
                                 <p className=" font-light tracking-normal text-zinc-500 text-justify md:text-md">Expert coaching for OET, IELTS, and Prometric exams.</p>
@@ -185,7 +185,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[150px] p-2 block object-cover " src={ACLS} alt="Services_image" />
                                 <hr />
                             <div className=" h-full py-2">
-                                <a href="/acls_bls">
+                                <a href="/acls-bls">
                                     <h5 className="text-lg font-semibold tracking-tight font-HeadingFont  text-gray-900 md:text-1xl py-1 hover:font-bold hover:text-gray-900">ACLS/BLS</h5>
                                 </a>
                                 <p className=" font-light tracking-normal text-zinc-500 text-justify md:text-md">Providing life-saving ACLS and BLS medical training and support as a valuable and responsive service</p>
@@ -224,7 +224,7 @@ function ServicesSectionMob() {
                                 <img className="order-first w-[150px] p-2 block object-cover " src={verification} alt="Services_image" />
                                 <hr />
                             <div className=" h-full">
-                                <a href="/Council_verification">
+                                <a href="/goodstanding-council-verification">
                                     <h5 className="text-md font-semibold tracking-tight font-HeadingFont  text-gray-900  hover:font-bold hover:text-gray-900"> Goodstanding & Council Verification</h5>
                                 </a>
                                 <p className=" font-light tracking-normal text-zinc-500 text-justify md:text-md text-[15px]">Validation & additional offerings for authentication and assistance, including immigration, documentation, and consultation services.</p>

@@ -5,18 +5,18 @@ export const links = [
       subLinks : [
         {
           Head: "Embassy Attestation",
-          headLink:"/embassyAttestation",
+          headLink:"/embassy-attestation",
           subLink : [
-            {name:"UAE", link:"/uaeembassy"},
-            {name:"Qatar", link:"/qatarembassy"},
-            {name:"Kuwait", link:"/kuwaitembassy"},
-            {name:"Bahrain", link:"/bahrainembassy"},
-            {name:"Malaysia", link:"/malaysiaembassy"}
+            {name:"UAE", link:"/uae-embassy"},
+            {name:"Qatar", link:"/qatar-embassy"},
+            {name:"Kuwait", link:"/kuwait-embassy"},
+            {name:"Bahrain", link:"/bahrain-embassy"},
+            {name:"Malaysia", link:"/malaysia-embassy"}
           ]
         },
         {
           Head: "Home Attestation",
-          headLink:"/homeAttestation",
+          headLink:"/home-attestation",
           subLink : [
             {name:"Birth Certificate", link:"#!"},
             {name:"Death Certificate", link:"#!"},
@@ -28,7 +28,7 @@ export const links = [
         },
         {
           Head: "Apostille Attestation",
-          headLink:"/apostilleAttestation",
+          headLink:"/apostille-attestation",
           subLink : [
             {name:"Saudi Arabia", link:"#!"},
             {name:"UAE", link:"#!"},
@@ -39,23 +39,23 @@ export const links = [
         },
         {
           Head:"MEA Attestation",
-          headLink:"/meaAttestation",
+          headLink:"/mea-attestation",
           subLink: [
-            {name:"Ministry of External Affairs", link:"/meaAttestation"}
+            {name:"Ministry of External Affairs", link:"/mea-attestation"}
           ]
         },
         {
           Head:"MOFA Attestation",
-          headLink:"/mofaAttestation",
+          headLink:"/mofa-attestation",
           subLink: [
-            {name:"Ministry of Foreign Affairs", link:"/mofaAttestation"}
+            {name:"Ministry of Foreign Affairs", link:"/mofa-attestation"}
           ]
         },
         {
           Head:"HRD Attestation",
-          headLink:"/hrdAttestation",
+          headLink:"/hrd-attestation",
           subLink: [
-            {name:"Human Resource Development", link:"/hrdAttestation"}
+            {name:"Human Resource Development", link:"/hrd-attestation"}
           ]
         }
       ]
@@ -66,56 +66,56 @@ export const links = [
       subLinks : [
         {
           Head: "Saudi Arabia",
-          headLink:"/df_saudiArabia",
+          headLink:"/dataflow-saudiArabia",
           subLink : [
             {name:false, link:"#!"},
           ]
         },
         {
           Head: "Oman",
-          headLink:"/df_oman",
+          headLink:"/dataflow-oman",
           subLink : [
             {name:false, link:"#!"},
           ]
         },
         {
           Head: "Bahrain",
-          headLink:"/df_bahrain",
+          headLink:"/dataflow-bahrain",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head:"Qatar",
-          headLink:"/df_qatar",
+          headLink:"/dataflow-qatar",
           subLink: [
             {name:"", link:"#!"}
           ]
         },
         {
           Head:"Kuwait",
-          headLink:"/df_kuwait",
+          headLink:"/dataflow-kuwait",
           subLink: [
             {name:"", link:"#!"}
           ]
         },
         {
           Head:"DHA",
-          headLink:"/df_dha",
+          headLink:"/dataflow-dha",
           subLink: [
             {name:"", link:"#!"}
           ]
         },
         {
           Head:"HAAD",
-          headLink:"/df_haad",
+          headLink:"/dataflow-haad",
           subLink: [
             {name:"", link:"#!"}
           ]
         },
         {
           Head:"MOH",
-          headLink:"/df_moh",
+          headLink:"/dataflow-moh",
           subLink: [
             {name:"", link:"#!"}
           ]
@@ -142,7 +142,7 @@ export const links = [
         },
         {
           Head: "ACLS/BLS",
-          headLink:"/acls_bls",
+          headLink:"/acls-bls",
           subLink : [
             {name:"", link:"#!"},
           ]
@@ -162,35 +162,35 @@ export const links = [
         subLinks : [
         {
           Head: "Saudi Arabia",
-          headLink:"/pcc_ksa",
+          headLink:"/pcc-saudiArabia",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head: "Oman",
-          headLink:"/pcc_oman",
+          headLink:"/pcc-oman",
           subLink : [
             {name:"", link:"#!"},
           ]
         },
         {
           Head:"Qatar",
-          headLink:"/pcc_qatar",
+          headLink:"/pcc-qatar",
           subLink: [
             {name:"", link:"#!"}
           ]
         },
         {
           Head:"Kuwait",
-          headLink:"/pcc_kuwait",
+          headLink:"/pcc-kuwait",
           subLink: [
             {name:"", link:"#!"}
           ]
         },
         {
           Head:"UAE",
-          headLink:"/pcc_uae",
+          headLink:"/pcc-uae",
           subLink: [
             {name:"", link:"#!"}
           ]
@@ -223,7 +223,7 @@ export const links = [
         subMenu:true, 
         subLinks : [
         {
-          Head: "CANADA",
+          Head: "Canada",
           headlink:"#!",
           subLink : [
             {name:"", link:"#!"},
@@ -237,7 +237,7 @@ export const links = [
           ]
         },
         {
-          Head: "AUSTRALIA",
+          Head: "Australia",
           headLink:"#!",
           subLink : [
             {name:"", link:"#!"},
@@ -251,7 +251,7 @@ export const links = [
           ]
         },
         {
-          Head:"IRELAND",
+          Head:"Ireland",
           headLink:"#!",
           subLink: [
             {name:"", link:"#!"}

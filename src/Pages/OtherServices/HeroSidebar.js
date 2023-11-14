@@ -31,43 +31,43 @@ function HeroSidebar() {
                 <div className=''>
                     <ul className='list-none mt-4'>
                         <li className='my-[-15px]'>
-                            <a href="/certificateAttestation" onClick={scrollToTop}>
+                            <a href="/certificate-attestation" onClick={scrollToTop}>
                                 <img src={Certificate_img} alt="CertificateAttestation_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg'  />
                             </a>
                         </li> 
                         <li className='my-[-15px]'>
-                            <a href="/embassyAttestation" onClick={scrollToTop}>
+                            <a href="/embassy-attestation" onClick={scrollToTop}>
                                 <img src={embassy_img} alt="embassy_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </a>
                         </li>
                         <li className='my-[-15px]'>
-                            <a href="/meaAttestation" onClick={scrollToTop}>
+                            <a href="/mea-attestation" onClick={scrollToTop}>
                                 <img src={MEA_img} alt="MEA_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </a>
                         </li>
                         <li className='my-[-15px]'>
-                            <a href="/mofaAttestation" onClick={scrollToTop}>
+                            <a href="/mofa-attestation" onClick={scrollToTop}>
                                 <img src={Mofa_img} alt="Mofa_Attestation_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </a>
                         </li>
                         <li className='my-[-15px]'>
-                            <a href="/hrdAttestation" onClick={scrollToTop}>
+                            <a href="/hrd-attestation" onClick={scrollToTop}>
                                 <img src={HRD_img} alt="HrdAttestation_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </a>
                         </li>
                         <li className='my-[-15px]'>
-                            <a href="/apostilleAttestation" onClick={scrollToTop}>
+                            <a href="/apostille-attestation" onClick={scrollToTop}>
                                 <img src={Apostille_img} alt="AppostilleAttestation_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </a>
                         </li>
                         <li>
-                            <a href="/homeAttestation" onClick={scrollToTop}>
+                            <a href="/home-attestation" onClick={scrollToTop}>
                                 <img src={HOME_img} alt="HomeAttestation_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </a>
@@ -79,13 +79,13 @@ function HeroSidebar() {
                             </a>
                         </li>
                         <li className='my-[-15px]'>
-                            <a href="/examCoaching" onClick={scrollToTop}>
+                            <a href="/exam-coaching" onClick={scrollToTop}>
                                 <img src={Exam_img} alt="examCoaching_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </a>
                         </li>
                         <li className='my-[-15px]' onClick={scrollToTop}>
-                            <a href="/acls_bls">
+                            <a href="/acls-bls">
                                 <img src={ACLS_BLS_img} alt="ACLS_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </a>
@@ -103,7 +103,7 @@ function HeroSidebar() {
                             </a>
                         </li>
                         <li className='my-[-15px]' onClick={scrollToTop}>
-                            <a href="/Council_verification">
+                            <a href="/goodstanding-council-verification">
                                 <img src={verification_img} alt="otherServices_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </a>

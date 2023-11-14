@@ -33,14 +33,14 @@ const footerLinks = [
             },
             {
                 name:"Terms & Conditions",
-                link:"/terms&conditions"
+                link:"/terms-conditions"
             },
             {
                 name:"Refund Policy",
-                link:"/refundpolicy"
+                link:"/refund-policy"
             },{
                 name:"Privacy Policy",
-                link:"/privacypolicy"
+                link:"/privacy-policy"
             },
         ]
     },
@@ -49,31 +49,31 @@ const footerLinks = [
         links: [
             {
                 name:"Certificate Attestation",
-                link:"/certificateAttestation"
+                link:"/certificate-attestation"
             },
             {
                 name:"Embassy Attestation",
-                link:"/embassyAttestation"
+                link:"/embassy-attestation"
             },
             {
                 name:"MEA Attestation",
-                link:"/meaAttestation"
+                link:"/mea-attestation"
             },
             {
                 name:"MOFA Attestation",
-                link:"/mofaAttestation"
+                link:"/mofa-attestation"
             },
             {
                 name:"HRD Attestation",
-                link:"/hrdAttestation"
+                link:"/hrd-attestation"
             },
             {
                 name:"Apostille Attestation",
-                link:"/apostilleAttestation"
+                link:"/apostille-attestation"
             },
             {
                 name:"Home Attestation",
-                link:"/homeAttestation"
+                link:"/home-attestation"
             },
             {
                 name:"Data Flow Verification",
@@ -81,11 +81,11 @@ const footerLinks = [
             },
             {
                 name:"Exam Coaching",
-                link:"/examCoaching"
+                link:"/exam-coaching"
             },
             {
                 name:"ACLS/BLS",
-                link:"/acls_bls"
+                link:"/acls-bls"
             },
             {
                 name:"Police Clearance Certificate",
@@ -97,7 +97,7 @@ const footerLinks = [
             },
             {
                 name:"Goodstanding & Council Verification",
-                link:"/Council_verification"
+                link:"/goodstanding-council-verification"
             },
         ]
     }

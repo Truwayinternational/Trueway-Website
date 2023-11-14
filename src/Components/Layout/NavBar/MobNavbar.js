@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import {IoLogoWhatsapp} from 'react-icons/io'
-import {BsFacebook, BsFillTelephoneFill, BsInstagram, BsYoutube,} from 'react-icons/bs'
+import {BsFacebook, BsFillTelephoneFill, BsInstagram, } from 'react-icons/bs'
 import {AiOutlineCaretDown, AiOutlineCaretUp} from 'react-icons/ai'
 
 function MobNavbar() {
@@ -40,9 +40,9 @@ function MobNavbar() {
                                 <a href="https://www.instagram.com/truewayinternational/?hl=en" className='text-xl  text-green-700' target='_blank' rel="noopener noreferrer"><BsInstagram /></a>
                             </div>
 
-                            <div className='bg-white p-2 rounded-full mx-2 md:ml-3 my-2'>
+                            {/* <div className='bg-white p-2 rounded-full mx-2 md:ml-3 my-2'>
                                 <a href="https://www.youtube.com/channel/UCRq22m2bbJ5AONWGQug9FpA" className='text-xl  text-green-700' target='_blank' rel="noopener noreferrer"><BsYoutube /></a>
-                            </div>
+                            </div> */}
                         </div>
 
                         {/* search bar */}
@@ -113,37 +113,37 @@ function MobNavbar() {
                                 <div className="pt-5 duration-500">
                                     <ul className="mb-[-10px]">
                                         <li className="py-3 border-b-[1px] border-b-zinc-100 ">
-                                            <a href="/certificateAttestation"
+                                            <a href="/certificate-attestation"
                                             className="block text-white text-xl md:text-2xl font-medium font-poppins ">
                                             Certificate Attestation </a>
                                         </li>
                                         <li className="pt-3 border-b-[1px] border-b-zinc-100">
-                                            <a href="/embassyAttestation"
+                                            <a href="/embassy-attestation"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             Embassy Attestation </a>
                                         </li>
                                         <li className="pt-3 border-b-[1px] border-b-zinc-100">
-                                            <a href="/meaAttestation"
+                                            <a href="/mea-attestation"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             MEA Attestation </a>
                                         </li>
                                         <li className="pt-3 border-b-[1px] border-b-zinc-100">
-                                            <a href="/mofaAttestation"
+                                            <a href="/mofa-attestation"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             MOFA Attestation </a>
                                         </li>
                                         <li className="pt-3 border-b-[1px] border-b-zinc-100">
-                                            <a href="/hrdAttestation"
+                                            <a href="/hrd-attestation"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             HRD Attestation </a>
                                         </li>
                                         <li className="pt-3 border-b-[1px] border-b-zinc-100">
-                                            <a href="/apostilleAttestation"
+                                            <a href="/apostille-attestation"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             Apostille Attestation </a>
                                         </li>
                                         <li className="pt-3 border-b-[1px] border-b-zinc-100">
-                                            <a href="/homeAttestation"
+                                            <a href="/home-attestation"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             Home Attestation </a>
                                         </li>
@@ -153,12 +153,12 @@ function MobNavbar() {
                                             Dataflow Verification </a>
                                         </li>
                                         <li className="pt-3 border-b-[1px] border-b-zinc-100">
-                                            <a href="/examCoaching"
+                                            <a href="/exam-coaching"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             Exam Coaching </a>
                                         </li>
                                         <li className="pt-3 border-b-[1px] border-b-zinc-100">
-                                            <a href="/acls_bls"
+                                            <a href="/acls-bls"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             ACLS/BLS </a>
                                         </li>
@@ -173,7 +173,7 @@ function MobNavbar() {
                                             Migration </a>
                                         </li>
                                         <li className="pt-3 border-b-[1px] border-b-zinc-100">
-                                            <a href="/Council_verification"
+                                            <a href="/goodstanding-council-verification"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             Goodstanding & Council Verification </a>
                                         </li>
@@ -205,7 +205,7 @@ function MobNavbar() {
                                 <div className="pt-5">
                                     <ul className="mb-[-10px]">
                                         <li className="py-3 border-b-[1px] border-b-zinc-100 ">
-                                            <a href="#!"
+                                            <a href="/blogs"
                                             className="block text-white text-xl md:text-2xl font-medium font-poppins ">
                                             Blogs </a>
                                         </li>
