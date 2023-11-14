@@ -9,7 +9,7 @@ function CoachingWeProvideMob() {
   return (
     <>
         <div className="lg:hidden flex mx-auto px-10  max-w-[1240px]">
-    <Swiper 
+            <Swiper 
         className="w-full h-full "
         slidesPerView={1}
         spaceBetween={10}
@@ -67,8 +67,8 @@ function CoachingWeProvideMob() {
                 </div>
         </SwiperSlide>
 
-    </Swiper>
-    </div>
+            </Swiper>
+        </div>
     </>
   )
 }
