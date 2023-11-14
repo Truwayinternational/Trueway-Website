@@ -19,6 +19,9 @@ function GetTheGoodStanding() {
 
         {/* Nursing council content added here like slider - Mobile responsive */}
         <NursingCouncilSliderMob/>
+
+        {/* other council cards cards  */}
+        
     </>
   )
 }
