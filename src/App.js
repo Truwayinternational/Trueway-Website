@@ -1,5 +1,6 @@
 import React, {lazy , Suspense} from "react";
 import { Route, Routes} from "react-router-dom";
+import { SyncLoader } from 'react-spinners'
  
 // Navbar router in web page
 import TopBar from "./Components/Layout/TopBar";
@@ -82,9 +83,11 @@ function App() {
       <TopBar />
       <NavBar/>
       <QuickAction/>
-      <Suspense fallback={ <h1 className="flex justify-center items-center text-xl"> Loading... </h1>}>
-        <Routes>
+      <Suspense fallback={ <h1 className="flex justify-center items-center text-xl text-center font-HeadingFont"> Loading 
+          <SyncLoader color="#2bb134" loading/>
+        </h1>}>
 
+        <Routes>
           {/* Navbar menus  router*/}
           <Route exact path="/" element={ <HomeIndex/> } onClick={scrollToTop}/>
           <Route path="/about" element={<AboutIndex/>} onClick={scrollToTop}/> 
