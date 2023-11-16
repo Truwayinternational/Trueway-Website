@@ -8,6 +8,7 @@ import NavBar from "./Components/Layout/NavBar/NavBar";
 import Footer from './Components/Layout/Footer'
 import QuickAction from "./Components/Layout/QuickAction";
 
+
 // all pages from navbar router
 const HomeIndex = lazy(() => import("./Pages/Home/HomeIndex"));
 const AboutIndex = lazy(() => import("./Pages/AboutUs/AboutIndex"));
@@ -67,7 +68,7 @@ const PrometricsIndex = lazy(() => import("./Pages/OtherServices/Exam Coaching/P
 // goodstanding Nursing councils are :-
 const KeralaNursingIndex = lazy( ()=>import("./Pages/OtherServices/Good Standing & Verification/Kerala Nursing/KeralaNursingIndex"));
 const TamilNaduNursingIndex = lazy( ()=> import("./Pages/OtherServices/Good Standing & Verification/TamilNadu Nursing/TamilNaduNursingIndex"))
-
+const KarnatakaNursingIndex = lazy( ()=> import("./Pages/OtherServices/Good Standing & Verification/Karnataka Nursing/KarnatakaNursingIndex"))
 
 
 // clicking to nav link and scroll to top section
@@ -145,6 +146,7 @@ function App() {
           {/* goodstanding Nursing Councils  */}
           <Route path="/kerala-nursing-council" element={<KeralaNursingIndex/>}/>
           <Route path="/tamilnadu-nursing-council" element={<TamilNaduNursingIndex/>}/>
+          <Route path="/karnataka-nursing-council" element={<KarnatakaNursingIndex/>}/>
 
 
 
