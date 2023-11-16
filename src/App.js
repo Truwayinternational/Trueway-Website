@@ -65,7 +65,8 @@ const IeltsIndex = lazy(() => import("./Pages/OtherServices/Exam Coaching/IELTS/
 const PrometricsIndex = lazy(() => import("./Pages/OtherServices/Exam Coaching/PROMETRICS/PrometricsIndex"));
 
 // goodstanding Nursing councils are :-
-const KeralaNursingIndex = lazy(()=>import("./Pages/OtherServices/Good Standing & Verification/Kerala Nursing/KeralaNursingIndex"));
+const KeralaNursingIndex = lazy( ()=>import("./Pages/OtherServices/Good Standing & Verification/Kerala Nursing/KeralaNursingIndex"));
+const TamilNaduNursingIndex = lazy( ()=> import("./Pages/OtherServices/Good Standing & Verification/TamilNadu Nursing/TamilNaduNursingIndex"))
 
 
 
@@ -143,6 +144,8 @@ function App() {
 
           {/* goodstanding Nursing Councils  */}
           <Route path="/kerala-nursing-council" element={<KeralaNursingIndex/>}/>
+          <Route path="/tamilnadu-nursing-council" element={<TamilNaduNursingIndex/>}/>
+
 
 
         </Routes>
