@@ -14,7 +14,7 @@ function OurCommitment() {
                 </div>
             </div>
         </div>
-        {/* trueway services cards added */}
+        {/* trueway services cards slider added */}
       <WhyTruewaycards />
     </>
   )
