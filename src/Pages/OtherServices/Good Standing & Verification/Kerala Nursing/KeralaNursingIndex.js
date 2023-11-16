@@ -2,6 +2,7 @@ import React from 'react'
 import KeralaNursingHero from './KeralaNursingHero'
 import WeProvideGoodstanding from './WeProvideGoodstanding'
 import DocumentsRequiredKerala from './DocumentsRequiredKerala'
+import WhyShouldYouChooseUs from '../../../../Components/WhyShouldYouChooseUs'
 
 
 function KeralaNursingIndex() {
@@ -10,7 +11,8 @@ function KeralaNursingIndex() {
     <div>
         <KeralaNursingHero/>
         <WeProvideGoodstanding/> 
-        <DocumentsRequiredKerala/> 
+        <DocumentsRequiredKerala/>
+        <WhyShouldYouChooseUs/>
     </div>
   )
 }
