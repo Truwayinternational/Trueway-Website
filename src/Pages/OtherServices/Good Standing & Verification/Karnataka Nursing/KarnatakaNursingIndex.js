@@ -1,6 +1,7 @@
 import React from 'react'
 import KarnatakaNursingHero from './KarnatakaNursingHero'
 import WeProvideKarnataka from './WeProvideKarnataka'
+import DocumentRequiredKarnataka from './DocumentRequiredKarnataka'
 
 
 function KarnatakaNursingIndex() {
@@ -8,7 +9,7 @@ function KarnatakaNursingIndex() {
     <div>
         <KarnatakaNursingHero/>
         <WeProvideKarnataka/>
-        
+        <DocumentRequiredKarnataka/>
     </div>
   )
 }
