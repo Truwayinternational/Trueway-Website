@@ -69,6 +69,7 @@ const PrometricsIndex = lazy(() => import("./Pages/OtherServices/Exam Coaching/P
 const KeralaNursingIndex = lazy( ()=>import("./Pages/OtherServices/Good Standing & Verification/Kerala Nursing/KeralaNursingIndex"));
 const TamilNaduNursingIndex = lazy( ()=> import("./Pages/OtherServices/Good Standing & Verification/TamilNadu Nursing/TamilNaduNursingIndex"))
 const KarnatakaNursingIndex = lazy( ()=> import("./Pages/OtherServices/Good Standing & Verification/Karnataka Nursing/KarnatakaNursingIndex"))
+const MPnursingIndex = lazy(()=> import("./Pages/OtherServices/Good Standing & Verification/Madhya Predhesh Nursing/MPnursingIndex"));
 
 
 // clicking to nav link and scroll to top section
@@ -147,7 +148,7 @@ function App() {
           <Route path="/kerala-nursing-council" element={<KeralaNursingIndex/>}/>
           <Route path="/tamilnadu-nursing-council" element={<TamilNaduNursingIndex/>}/>
           <Route path="/karnataka-nursing-council" element={<KarnatakaNursingIndex/>}/>
-
+          <Route path="/madhyapradesh-nursing-council" element={<MPnursingIndex/>} />
 
 
         </Routes>
