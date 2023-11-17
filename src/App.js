@@ -70,6 +70,8 @@ const KeralaNursingIndex = lazy( ()=>import("./Pages/OtherServices/Good Standing
 const TamilNaduNursingIndex = lazy( ()=> import("./Pages/OtherServices/Good Standing & Verification/TamilNadu Nursing/TamilNaduNursingIndex"))
 const KarnatakaNursingIndex = lazy( ()=> import("./Pages/OtherServices/Good Standing & Verification/Karnataka Nursing/KarnatakaNursingIndex"))
 const MPnursingIndex = lazy(()=> import("./Pages/OtherServices/Good Standing & Verification/Madhya Predhesh Nursing/MPnursingIndex"));
+const MaharashtraIndex = lazy(()=> import("./Pages/OtherServices/Good Standing & Verification/Maharashtra/MaharashtraIndex"))
+
 
 
 // clicking to nav link and scroll to top section
@@ -148,8 +150,8 @@ function App() {
           <Route path="/kerala-nursing-council" element={<KeralaNursingIndex/>}/>
           <Route path="/tamilnadu-nursing-council" element={<TamilNaduNursingIndex/>}/>
           <Route path="/karnataka-nursing-council" element={<KarnatakaNursingIndex/>}/>
-          <Route path="/madhyapradesh-nursing-council" element={<MPnursingIndex/>} />
-
+          <Route path="/madhyapradesh-nursing-council" element={<MPnursingIndex/>}/>
+          <Route path="/maharashtra-nursing-council" element={<MaharashtraIndex/>}/>
 
         </Routes>
       </Suspense>

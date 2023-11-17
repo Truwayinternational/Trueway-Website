@@ -3,14 +3,14 @@ import section_img from '../../../../Assets/HRD Attestation/Document.png'
 
 import {BiSolidChevronRightCircle} from 'react-icons/bi'
 
-function DocumentRequiredForMP() {
+function DocumentsForMaharashtra() {
   return (
     <>
         <div className='bg-zinc-100 h-full w-full my-10'>
             <div className='flex  max-w-[1240px] mx-auto place-content-center '>
                 <div className='grid lg:grid-cols-2 max-w-[1280px] py-10 '>
                     <div className='flex flex-col lg:pl-12 md:px-10 lg:px-0  px-5 '>
-                        <h3 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500 '> <b className='text-black'> Documents Required For <br/> </b> Madhya Pradesh Nursing Council</h3>
+                        <h3 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500 '> <b className='text-black'> Documents Required For <br/> </b> Maharashtra Nursing Council</h3>
 
                         <div className='max-w-2xl my-4 font-HeadingFont'>
                             <h6 className='md:text-2xl text-xl  font-semibold'>Main documents needed are:</h6>
@@ -59,7 +59,7 @@ function DocumentRequiredForMP() {
 
                             <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Course completion 
+                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Course completion certificate
                             </li>
                             </div>
                         </ul>
@@ -81,4 +81,4 @@ function DocumentRequiredForMP() {
   )
 }
 
-export default DocumentRequiredForMP
+export default DocumentsForMaharashtra
