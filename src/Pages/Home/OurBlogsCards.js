@@ -3,7 +3,7 @@ import {SlCalender} from 'react-icons/sl'
 
 // Import Swiper React components (for responsive design )
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Mousewheel, Pagination } from 'swiper/modules';
+import { Pagination } from 'swiper/modules';
 
 
 // Import Swiper styles
@@ -16,14 +16,14 @@ function OurBlogsCards() {
     const BlogDatas = [
         {
           id:1,
-          date:"02 Jun 2022",
+          date:"02 Feb 2023",
           title:"HRD Attestation - What, Why & How",
           details:"HRD stands for Human Resources Development. While applying for jobs certain documents needed to be attested by the HRD Department of the state. This process is called HRD Attestation. In this article we are looking at some of the mostly asked doubts and questions related to HRD Attestation"
       
         },
         {
           id:2,
-          date:"22 Sep 2022",
+          date:"22 Sep 2023",
           title:"College Certificate Verifications",
           details:"No Objection Certificate or NOC Letter Format for Students for obtaining college degree or diploma, for college migration. This certificate is issued as per request of person for his specific need. NOC shows no objection upon the particular person and purpose.This article provides a discussion on NOC. "
         },
@@ -36,13 +36,13 @@ function OurBlogsCards() {
       
         {
           id:4,
-          date:"19 Feb 2021",
+          date:"19 Feb 2023",
           title:"Understanding IELTS",
           details:"The biggest mistake candidates make while preparing for IELTS is that they prepare on their language skills alone ignoring the more important aspect, communication. we need to differentiate language from communication. Planning a short talk in English for improving your pronunciation.Exam techniques to help you tackle all types of test questions."
         },
         {
           id:5,
-          date:"29 Oct 2021",
+          date:"29 Oct 2022",
           title:"What is Police Clearance Certificate?",
           details:"A police clearance certificate is a confirmation issued by the country of origin, in which a designated police specialist in the country of origin issues a police clearance certificate with their official seal or signature.Getting a PCC is very complicated if you have criminal records in the name of a person."
         },
@@ -76,9 +76,6 @@ function OurBlogsCards() {
                             dynamicBullets: true,
                             clickable: true,
                         }}
-                        mousewheel= {{
-                            releaseOnEdges: true,
-                        }}
                         breakpoints={{
                         '640': {
                             slidesPerView: 1,
@@ -93,7 +90,7 @@ function OurBlogsCards() {
                             spaceBetween: 20,
                         }
                         }}
-                        modules={[Pagination, Mousewheel]}
+                        modules={[Pagination]}
                     >
 
                         { BlogDatas.map((BlogData, index) => (
