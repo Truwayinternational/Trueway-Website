@@ -8,7 +8,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Pagination, Mousewheel } from 'swiper/modules';
+import { Pagination, Mousewheel  } from 'swiper/modules';
 
 
 import starRating from '../Assets/googleStar.png'
@@ -27,7 +27,7 @@ const TestimonialData = [
     {
         id:2,
         img:starRating,
-        quote: "I have completed my Qatar embassy attestation of educational documents with Trueway international. I had such a woderful experience all along the way of procedure. Thank you Shimna mam for your assistance. Your cordial, systematic and timely arrangements made me so happy… Once again heartful thanks to Trueway International  team and especially Shimna mam.",
+        quote: "I have completed my Qatar embassy attestation of educational documents with Trueway international. I had such a wonderful experience all along the way of procedure. Thank you Shimna mam for your assistance. Your cordial, systematic and timely arrangements made me so happy.",
         name:"Chandra",
         relation:"Customer"
 
@@ -43,7 +43,7 @@ const TestimonialData = [
     {
         id:4,
         img:starRating,
-        quote: "I am super happy to found Trueway International for the apostille attestation and translation process of my documents in the study abroad process. Within a short time I have received my certificate and got updated with every steps in the process via WhatsApp. Thanks to Trueway International especially thanks to you Lezitha for fastened the process and on time delivery.",
+        quote: "I am super happy to found Trueway International for the apostille attestation and translation process of my documents in the study abroad process. Within a short time I have received my certificate and got updated with every steps in the process via WhatsApp.",
         name:"Anna Shaji",
         relation:"Customer"
 
@@ -107,6 +107,9 @@ function TestimonialCard() {
         mousewheel= {{
           releaseOnEdges: true,
         }}
+        keyboard={{
+          enabled: true,
+        }}
         breakpoints={{
           '640': {
               slidesPerView: 1,
@@ -125,16 +128,16 @@ function TestimonialCard() {
         className="mySwiper"
       >
         { TestimonialData.map((Data, Index) => (
-          <SwiperSlide key={Index}>
-             <div className="mb-16 h-[400px] overflow-y-scroll py-5  justify-center px-auto m-4 p-3 bg-green-50 px-4 rounded-3xl hover:shadow-lg hover:bg-zinc-100 cursor-pointer">
-                <div>
+          <SwiperSlide key={Index} className=''>
+             <div className="mb-16 h-[400px] overflow-auto py-5 justify-center px-auto m-4 p-3 bg-green-50 px-4 rounded-3xl hover:shadow-lg hover:bg-zinc-100 cursor-pointer">
+                <div >
                   <h2 className='font-bold  text-md tracking-wider text-center mt-3'> {Data.name} </h2>
                   <p className='text-gray-400 text-center my-1'> {Data.relation} </p>
                   <hr className='h-1 w-24 rounded bg-green-400 mx-auto mt-2 '/>
                   <img className='block w-24 object-cover mx-auto my-2'  src={Data.img}  alt='star rating'/>
                   <FaQuoteLeft className=' text-4xl text-green-500 mb-3'/>
                   <p className='leading-relaxed text-zinc-500 my-3'>
-                      { Data.quote }
+                    { Data.quote }
                   </p>
                 </div>
               </div>
