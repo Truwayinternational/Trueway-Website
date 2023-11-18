@@ -72,6 +72,8 @@ const KarnatakaNursingIndex = lazy( ()=> import("./Pages/OtherServices/Good Stan
 const MPnursingIndex = lazy(()=> import("./Pages/OtherServices/Good Standing & Verification/Madhya Predhesh Nursing/MPnursingIndex"));
 const MaharashtraIndex = lazy(()=> import("./Pages/OtherServices/Good Standing & Verification/Maharashtra/MaharashtraIndex"))
 const TelenganaIndex =lazy(()=>import("./Pages/OtherServices/Good Standing & Verification/Telangana/TelenganaIndex"));
+const DelhiNursingIndex =lazy(()=>import("./Pages/OtherServices/Good Standing & Verification/Delhi/DelhiNursingIndex"));
+
 
 
 
@@ -155,7 +157,7 @@ function App() {
           <Route path="/madhyapradesh-nursing-council" element={<MPnursingIndex/>}/>
           <Route path="/maharashtra-nursing-council" element={<MaharashtraIndex/>}/>
           <Route path="/telangana-nursing-council" element={<TelenganaIndex/>}/>
-
+          <Route path="/delhi-nursing-council" element={<DelhiNursingIndex/>}/>
 
         </Routes>
       </Suspense>
