@@ -13,7 +13,7 @@ function SaudiNursingHero() {
                 {/* mobile banner here */}
                 <img className='lg:hidden ' src={SaudiNursingMOb} alt=" saudi nursing nursing banner" />
                 {/* content here */}
-                <h1 className='md:text-5xl text-4xl py-10  font-HeadingFont font-extrabold text-black tracking-normal text-center px-4'>Need a Good standing certificate from <b className='text-green-500'> Saudi Nursing Council</b> securely?
+                <h1 className='md:text-5xl text-4xl py-10  font-HeadingFont font-extrabold text-black tracking-normal text-center px-4'>Need a Good standing certificate from <b className='text-green-500'> Saudi Arabia Nursing Council</b> securely?
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
