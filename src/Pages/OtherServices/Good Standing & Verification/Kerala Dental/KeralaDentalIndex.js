@@ -2,6 +2,7 @@ import React from 'react'
 import KeralaDentalHero from './KeralaDentalHero'
 import ContactForGoodstanding from '../ContactForGoodstanding'
 import WeProvideDental from './WeProvideDental'
+import DocumentsForKeralaDental from './DocumentsForKeralaDental'
 
 function KeralaDentalIndex() {
   return (
@@ -9,6 +10,7 @@ function KeralaDentalIndex() {
         <KeralaDentalHero/>
         <ContactForGoodstanding/>
         <WeProvideDental/>
+        <DocumentsForKeralaDental/>
     </div>
   )
 }
