@@ -77,6 +77,9 @@ const SaudiNursingIndex =lazy(()=>import("./Pages/OtherServices/Good Standing & 
 const AndhraNursingIndex=lazy(()=>import("./Pages/OtherServices/Good Standing & Verification/Andhra pradesh/AndhraNursingIndex"));
 const TCMCindex=lazy(()=>import("./Pages/OtherServices/Good Standing & Verification/TCMC/TCMCindex"));
 const KeralaDentalIndex=lazy(()=>import("./Pages/OtherServices/Good Standing & Verification/Kerala Dental/KeralaDentalIndex"));
+const KeralaParamedicalIndex =lazy(()=> import("./Pages/OtherServices/Good Standing & Verification/Kerala Paramedical/KeralaParamedicalIndex"));
+
+
 
 
 
@@ -167,6 +170,7 @@ function App() {
           <Route path="/andhrapredesh-nursing-council" element={<AndhraNursingIndex/>}/>
           <Route path="/travancore-cochin-medical-council"element={<TCMCindex/>}/>
           <Route path="/kerala-dental-council" element={<KeralaDentalIndex/>}/>
+          <Route path="/kerala-paramedical-council" element={<KeralaParamedicalIndex/>}/>
 
         </Routes>
       </Suspense>
