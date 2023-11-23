@@ -29,7 +29,7 @@ const linkName = readMore ? '' : 'Read More...'
             </div>
 
             {/* responsive banner of Certificate attestation */}
-            <div className='w-full top-0 lg:ml-20 relative lg:hidden'>
+            <div className='w-full top-0 relative lg:hidden'>
               <img className='object-cover w-full ' src={banner_mob} alt="page_banner" />
             </div>
 
