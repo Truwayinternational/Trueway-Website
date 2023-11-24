@@ -1,19 +1,19 @@
 import React from 'react'
 
 // images import for sidebar
-import Certificate_img from '../../Assets/services_Sidebar/certificate.png';
-import embassy_img from '../../Assets/services_Sidebar/embassy.png'
-import MEA_img from '../../Assets/services_Sidebar/mea.png'
-import Mofa_img from '../../Assets/services_Sidebar/mofa.png'
-import HRD_img from '../../Assets/services_Sidebar/HRD.png'
-import Apostille_img from '../../Assets/services_Sidebar/APOSTILLE.png'
-import HOME_img from '../../Assets/services_Sidebar/HOME.png'
-import Dataflow_img from '../../Assets/services_Sidebar/DATAFLOW.png'
-import Exam_img from '../../Assets/services_Sidebar/EXAM.png'
-import ACLS_BLS_img from '../../Assets/services_Sidebar/ACLS.png'
-import PCC_img from '../../Assets/services_Sidebar/PCC.png'
-import migration_img from '../../Assets/services_Sidebar/MIGRATION.png'
-import verification_img from '../../Assets/services_Sidebar/verifications.png'
+import Certificate_img from '../../Assets/services_Sidebar/certificate.webp';
+import embassy_img from '../../Assets/services_Sidebar/embassy.webp'
+import MEA_img from '../../Assets/services_Sidebar/mea.webp'
+import Mofa_img from '../../Assets/services_Sidebar/mofa.webp'
+import HRD_img from '../../Assets/services_Sidebar/HRD.webp'
+import Apostille_img from '../../Assets/services_Sidebar/APOSTILLE.webp'
+import HOME_img from '../../Assets/services_Sidebar/HOME.webp'
+import Dataflow_img from '../../Assets/services_Sidebar/DATAFLOW.webp'
+import Exam_img from '../../Assets/services_Sidebar/EXAM.webp'
+import ACLS_BLS_img from '../../Assets/services_Sidebar/ACLS.webp'
+import PCC_img from '../../Assets/services_Sidebar/PCC.webp'
+import migration_img from '../../Assets/services_Sidebar/MIGRATION.webp'
+import verification_img from '../../Assets/services_Sidebar/verifications.webp'
 
 // clicking to nav link and scroll to top section
 function scrollToTop() {
