@@ -1,5 +1,4 @@
 import  React, {useState} from 'react'
-import { useForm, ValidationError } from '@formspree/react';
 
 // social media icons 
 import {MdOutlineEmail} from 'react-icons/md'
@@ -10,24 +9,48 @@ import {FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaYoutube} from 'reac
 
 function ContactHeroForm() {
 
-    const [formData, setFormData] = useState({
-        name:"",
-        phone:"",
-        subject:"",
-        email:"",
-        message:"",
-    })    
-
-    const handleInputChange = (event) => {
-        const {name, value} = event.target
-        setFormData((prevData) => ({...prevData,[name]:value}))
-    }
-    
-    const [state, handleSubmit] = useForm("xjvqrzwz");
-        if (state.succeeded) {
-            alert("Form submitted Successfully")
-            window.location.reload();
+    const [status, setStatus] = useState("Submit")
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setStatus("Sending...");
+        const { name, email, number, message } = e.target.elements
+        let details = {
+            name: name.value,
+            number: number.value,
+            email: email.value,
+            message: message.value
         }
+        let response = await fetch("http://localhost:8080/contact", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json;charset=utf-8"
+            },
+            body: JSON.stringify(details)
+        })
+        setStatus("Submit");
+        let result = await response.json();
+        alert(result.status);
+        window.location.reload();
+    }
+
+    // const [formData, setFormData] = useState({
+    //     name:"",
+    //     phone:"",
+    //     subject:"",
+    //     email:"",
+    //     message:"",
+    // })    
+
+    // const handleInputChange = (event) => {
+    //     const {name, value} = event.target
+    //     setFormData((prevData) => ({...prevData,[name]:value}))
+    // }
+    
+    // const [state, handleSubmit] = useForm("xjvqrzwz");
+    //     if (state.succeeded) {
+    //         alert("Form submitted Successfully")
+    //         window.location.reload();
+    //     }
 
   return (
     <>
@@ -120,43 +143,28 @@ function ContactHeroForm() {
                         <div className='bg-zinc-200 rounded-3xl'>
                             <h2 className='text-center font-bold md:text-3xl text-2xl text-black py-10 px-5 font-HeadingFont'> Fill Here For Quick Response </h2>
                             <div className='w-full md:px-10 px-4'>
-                                <form action="" method='POST' onSubmit={handleSubmit} >
+                                <form onSubmit={handleSubmit}>
                                     <div className="w-full my-3">
                                         <label htmlFor="name_field" className=' text-lg font-HeadingFont font-semibold text-black pt-5'> Name </label>
-                                        <input className="rounded-lg h-12 p-5 w-full  ring-0 focus:ring-0 focus:outline-none focus:border-none" type="text" name="name" id="name_field" required value={formData.name} onChange={(event)=>handleInputChange(event)}/>
-                                        <ValidationError 
-                                        prefix="Name" 
-                                        field="name"
-                                        errors={state.errors}
-                                        />
+                                        <input className="rounded-lg h-12 p-5 w-full  ring-0 focus:ring-0 focus:outline-none focus:border-none" type="text" name="name" id="name" required />
                                     </div>
+
                                     <div className="w-full my-3">
                                         <label htmlFor="phone_field" className="text-lg font-HeadingFont font-semibold text-black pt-5">Phone Number</label>
-                                        <input className="rounded-lg h-12 p-5 w-full  ring-0 focus:ring-0 focus:outline-none focus:border-none" type="tel" name="phone" id="phone_number" required value={formData.phone} onChange={(event)=> handleInputChange (event)}/>
-                                        <ValidationError 
-                                        prefix="Phone" 
-                                        field="phone"
-                                        errors={state.errors}
-                                        />
+                                        <input className="rounded-lg h-12 p-5 w-full  ring-0 focus:ring-0 focus:outline-none focus:border-none" type="tel" name="phone" id="number" required />
                                     </div>
+
                                     <div className="w-full my-3">
                                         <label htmlFor="email_field" className="text-lg font-HeadingFont font-semibold text-black pt-5">Email ID</label>
-                                        <input className="rounded-lg h-12 p-5 w-full ring-0 focus:ring-0 focus:outline-none focus:border-none" type="email" name="email" id="email_field" required value={formData.email} onChange={(event)=> handleInputChange(event)}/>
-                                        <ValidationError 
-                                        prefix="Email" 
-                                        field="email"
-                                        errors={state.errors}/>
+                                        <input className="rounded-lg h-12 p-5 w-full ring-0 focus:ring-0 focus:outline-none focus:border-none" type="email" name="email" id="email" required />
                                     </div>
+
                                     <div className="w-full my-3">
                                         <label htmlFor="message_field" className="text-lg font-HeadingFont font-semibold text-black pt-5">Message</label>
-                                        <textarea className="w-full rounded-lg p-5 ring-0 focus:ring-0 focus:outline-none focus:border-none" name="message" id="message_field" rows="6" value={formData.message} onChange={(event)=> handleInputChange (event)}></textarea>
-                                        <ValidationError 
-                                        prefix="Message" 
-                                        field="message"
-                                        errors={state.errors}/>
+                                        <textarea className="w-full rounded-lg p-5 ring-0 focus:ring-0 focus:outline-none focus:border-none" name="message" id="message" rows="6" />
                                     </div>
                                 <div className='flex justify-center'>
-                                    <button className="flex justify-center bg-green-600 text-white mt-8 mb-12 items-center font-HeadingFont  py-3 px-8 text-xl rounded-xl shadow-2xl hover:bg-green-800 " type="submit" disabled={state.submitting} > Submit </button>
+                                    <button className="flex justify-center bg-green-600 text-white mt-8 mb-12 items-center font-HeadingFont  py-3 px-8 text-xl rounded-xl shadow-2xl hover:bg-green-800 " type="submit"> {status}</button>
                                 </div>
                                 </form>
                             </div>

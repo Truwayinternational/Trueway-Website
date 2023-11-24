@@ -7,6 +7,9 @@
     "@material-tailwind/react": "^2.1.2",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.5.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7",
     "path-browserify": "^1.0.1",
     "react": "^18.2.0",
     "react-collapse": "^5.1.1",
@@ -21,7 +24,6 @@
     "react-slick": "^0.29.0",
     "react-spinners": "^0.13.8",
     "slick-carousel": "^1.8.1",
-    "smtpjs": "^0.0.1",
     "swiper": "^10.1.0",
     "tailwind-scrollbar-hide": "^1.1.7",
     "web-vitals": "^3.4.0"
@@ -54,7 +56,7 @@
   "main": "index.js",
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "tailwindcss": "^3.3.3"
+    "tailwindcss": "^3.3.5"
   },
   "author": "",
   "license": "ISC"
