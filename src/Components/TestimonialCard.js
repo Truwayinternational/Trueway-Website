@@ -8,7 +8,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Pagination, Mousewheel  } from 'swiper/modules';
+import { Pagination } from 'swiper/modules';
 
 
 import starRating from '../Assets/googleStar.png'
@@ -67,7 +67,7 @@ const TestimonialData = [
     {
       id:7,
       img:starRating,
-      quote: "I had a wonderful experience with trueway international. Especially I would like to thank Ms. Lezitha for assisting me to get the relevant documents from the colleges, and being extremely patient, supportive and responsive throughout the process. Even though there was a delay from the college, she followed up with them constantly and ensure that it’s been received on time.",
+      quote: "I had a wonderful experience with trueway international. Especially I would like to thank Ms. Lezitha for assisting me to get the relevant documents from the colleges, and being extremely patient, supportive and responsive throughout the process.",
       name:"Binitha KB",
       relation:"Customer"
 
@@ -104,9 +104,6 @@ function TestimonialCard() {
           clickable: true,
           dynamicBullets: true,
         }}
-        mousewheel= {{
-          releaseOnEdges: true,
-        }}
         keyboard={{
           enabled: true,
         }}
@@ -124,12 +121,12 @@ function TestimonialCard() {
               spaceBetween: 10,
           }
           }}
-        modules={[Pagination, Mousewheel]}
+        modules={[Pagination]}
         className="mySwiper"
       >
         { TestimonialData.map((Data, Index) => (
           <SwiperSlide key={Index} className=''>
-             <div className="mb-16 h-[400px] overflow-auto py-5 justify-center px-auto m-4 p-3 bg-green-50 px-4 rounded-3xl hover:shadow-lg hover:bg-zinc-100 cursor-pointer">
+             <div className="mb-16 h-fit md:h-[400px] py-5 justify-center px-auto m-4 p-3 bg-green-50 px-4 rounded-3xl hover:shadow-lg hover:bg-zinc-100 cursor-pointer">
                 <div >
                   <h2 className='font-bold  text-md tracking-wider text-center mt-3'> {Data.name} </h2>
                   <p className='text-gray-400 text-center my-1'> {Data.relation} </p>
