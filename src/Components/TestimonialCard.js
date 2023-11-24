@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 
 
-import starRating from '../Assets/googleStar.png'
+import starRating from '../Assets/googleStar.webp'
 import {FaQuoteLeft} from 'react-icons/fa'
 
 

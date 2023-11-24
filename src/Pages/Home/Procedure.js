@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Procedure_img from '../../Assets/Procedure_4.png'
-import Procedure_sm from '../../Assets/prosedures 2.png'
+import Procedure_img from '../../Assets/Procedure_4.webp'
+import Procedure_sm from '../../Assets/prosedures 2.webp'
 
 function Procedure() {
   return (

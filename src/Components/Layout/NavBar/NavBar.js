@@ -1,5 +1,5 @@
 import React  from 'react'
-import LogoMain from '../../../Assets/logo.png'
+import LogoMain from '../../../Assets/logo.webp'
 import { NavLink} from 'react-router-dom'
 import NavLinks from './NavLinks'
 

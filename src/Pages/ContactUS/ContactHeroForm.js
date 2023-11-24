@@ -33,25 +33,6 @@ function ContactHeroForm() {
         window.location.reload();
     }
 
-    // const [formData, setFormData] = useState({
-    //     name:"",
-    //     phone:"",
-    //     subject:"",
-    //     email:"",
-    //     message:"",
-    // })    
-
-    // const handleInputChange = (event) => {
-    //     const {name, value} = event.target
-    //     setFormData((prevData) => ({...prevData,[name]:value}))
-    // }
-    
-    // const [state, handleSubmit] = useForm("xjvqrzwz");
-    //     if (state.succeeded) {
-    //         alert("Form submitted Successfully")
-    //         window.location.reload();
-    //     }
-
   return (
     <>
         <div className='lg:flex  justify-center max-w-[1240px] mx-auto place-content-center lg:my-20 my-10'>

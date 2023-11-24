@@ -1,7 +1,7 @@
 import  React, {useState} from 'react'
 import { useForm, ValidationError } from '@formspree/react';
 
-import bgContact from '../../Assets/bg_contact.png'
+import bgContact from '../../Assets/bg_contact.webp'
 
 
 
