@@ -11,19 +11,19 @@ import 'swiper/css/pagination';
 
 //import services images 
 
-import Certificate from '../../Assets/services/Certificate.png'
-import embassy from '../../Assets/services/Embassy.png'
-import MEA from '../../Assets/services/MEA-Attestation.png'
-import MOFA from '../../Assets/services/MOFA-Attestation.png'
-import HRD from '../../Assets/services/HRD-Attestation.png'
-import apostille from '../../Assets/services/Apostille.png'
-import Home from '../../Assets/services/Home-attestation.png'
-import DataFlow from '../../Assets/services/Data-Flow.png'
-import ExamCoaching from '../../Assets/services/Exam-Coaching.png'
-import ACLS from '../../Assets/services/ACLS.png'
-import PCC from '../../Assets/services/Police-Clearance.png'
-import Migration from '../../Assets/services/Migration_1.png'
-import verification from '../../Assets/services/Verification.png'
+import Certificate from '../../Assets/services/Certificate.webp'
+import embassy from '../../Assets/services/Embassy.webp'
+import MEA from '../../Assets/services/MEA-Attestation.webp'
+import MOFA from '../../Assets/services/MOFA-Attestation.webp'
+import HRD from '../../Assets/services/HRD-Attestation.webp'
+import apostille from '../../Assets/services/Apostille.webp'
+import Home from '../../Assets/services/Home-attestation.webp'
+import DataFlow from '../../Assets/services/Data-Flow.webp'
+import ExamCoaching from '../../Assets/services/Exam-Coaching.webp'
+import ACLS from '../../Assets/services/ACLS.webp'
+import PCC from '../../Assets/services/Police-Clearance.webp'
+import Migration from '../../Assets/services/Migration_1.webp'
+import verification from '../../Assets/services/Verification.webp'
 
 
 function ServicesSectionMob() {
