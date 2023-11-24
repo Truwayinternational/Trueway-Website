@@ -1,30 +1,32 @@
 import React, { useState } from 'react'
-import { useForm, ValidationError } from '@formspree/react';
-
 import {MdCall, MdEmail, MdWhatsapp} from 'react-icons/md'
 
 
 export function GetinTouch() {
 
-    const [formData, setFormData] = useState ({
-        name: "",
-        message:"",
-        phone:"",
-        email:"",
-    })
-
-    const handleInputChange = (event) =>{
-        const {name, value} = event.target
-        setFormData ((prevData) => ({...prevData, [name]: value}))
-    }
-
-
-    const [state, handleSubmit] = useForm("moqowbaw");
-
-        if (state.succeeded) {
-            alert("Form submitted Successfully")
-            window.location.reload();
+    const [status, setStatus] = useState("Submit")
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setStatus("Sending...");
+        const { name, email, number, message } = e.target.elements
+        let details = {
+            name: name.value,
+            number: number.value,
+            email: email.value,
+            message: message.value
         }
+        let response = await fetch("http://localhost:8080/", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json;charset=utf-8"
+            },
+            body: JSON.stringify(details)
+        })
+        setStatus("Submit");
+        let result = await response.json();
+        alert(result.status);
+        window.location.reload();
+    }
     
   return (
     <>
@@ -32,55 +34,30 @@ export function GetinTouch() {
             <div className='m-auto bg-zinc-200  max-w-[768px] lg:w-2/3 mx-5 p-10  rounded-2xl'>
                 <h1 className='font-bold text-3xl subpixel-antialiased text-center font-HeadingFont'> Write to us </h1>
                 <div className='my-10 '>
-                    <form className='m-auto' action="https://formspree.io/f/moqowbaw" method='POST' 
-                    onSubmit={handleSubmit}>
+                    <form className='m-auto' onSubmit={handleSubmit}>
                         <div className="lg:flex mb-5 ">
                             <div className="w-full lg:w-1/2 mr-6">
                                 <label htmlFor="first_name_field" className="block text-md text-gray-800">Name</label>
-                                <input className=" w-full rounded-lg px-3 py-2 my-3 ring-0 focus:ring-0 shadow-none focus:shadow-none focus:outline-none border-none focus:border-none " type="text" name="name" required value={formData.name} onChange={(event) => handleInputChange (event)}/>
-                                <ValidationError 
-                                    className='text-red-500'
-                                    prefix="Name"
-                                    field="name"
-                                    errors={state.errors}
-                                />
+                                <input className=" w-full rounded-lg px-3 py-2 my-3 ring-0 focus:ring-0 shadow-none focus:shadow-none focus:outline-none border-none focus:border-none " type="text" name="name" required id='name'/>
                             </div>
                             <div className="w-full lg:w-1/2">
                                 <label htmlFor="message_felid" className="block text-md text-gray-800">Comment or Message </label>
-                                <textarea className="rounded-lg  w-full py-2 px-3 my-3 ring-0 focus:ring-0 shadow-none focus:shadow-none focus:outline-none border-none focus:border-none " type="text" name="message" rows={8} required value={formData.message} onChange={(event) => handleInputChange (event)}/>
-                            <ValidationError
-                                className='text-red-500'
-                                prefix="Message" 
-                                field="message"
-                                errors={state.errors}
-                            />
+                                <textarea className="rounded-lg  w-full py-2 px-3 my-3 ring-0 focus:ring-0 shadow-none focus:shadow-none focus:outline-none border-none focus:border-none " type="text" name="message" rows={8} required id='message'/>
                             </div>
                         </div>
 
                         <div className="w-full lg:w-1/2 mr-6 lg:mt-[-12rem]">
                             <label htmlFor="phoneNumber_field" className="block text-md text-gray-800">Phone Number</label>
-                            <input className="  w-full rounded-lg px-3 py-2 my-3 ring-0 focus:ring-0 shadow-none focus:shadow-none focus:outline-none border-none focus:border-none " type="text" name="phone" required value={formData.phone} onChange={(event) => handleInputChange (event)}/>
-                            <ValidationError 
-                                className='text-red-500'
-                                prefix="phone" 
-                                field="phone"
-                                errors={state.errors}
-                            />
+                            <input className="  w-full rounded-lg px-3 py-2 my-3 ring-0 focus:ring-0 shadow-none focus:shadow-none focus:outline-none border-none focus:border-none " type="tel" name="phone" required id='number'/>
                         </div>
 
                         <div className="w-full lg:w-1/2 mr-6 ">
                             <label htmlFor="phoneNumber_field" className="block text-md text-gray-800">Email Address</label>
-                            <input className="  w-full rounded-lg px-3 py-2 my-3 ring-0 focus:ring-0 shadow-none focus:shadow-none focus:outline-none border-none focus:border-none " type="email" name="email" required value={formData.email} onChange={(event) => handleInputChange (event)} />
-                            <ValidationError 
-                                className='text-red-500'
-                                prefix="email" 
-                                field="email"
-                                errors={state.errors}
-                            />
+                            <input className="  w-full rounded-lg px-3 py-2 my-3 ring-0 focus:ring-0 shadow-none focus:shadow-none focus:outline-none border-none focus:border-none " type="email" name="email" required id='email' />
                         </div>
                         
                         <div className='text-center'>
-                            <button className=' px-8 my-10 py-3 border-none bg-green-500  hover:bg-green-700 text-white rounded-xl ' type="submit" disabled={state.submitting}> Submit </button>
+                            <button className=' px-8 my-10 py-3 border-none bg-green-500  hover:bg-green-700 text-white rounded-xl ' type="submit" > {status} </button>
                         </div>
                     </form>
                     

@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
 
-import supportIcon from '../../Assets/24:7 supportIcon.png'
-import quickEnguiry from '../../Assets/Q.png'
+import supportIcon from '../../Assets/24-7 supportIcon.webp'
+import quickEnguiry from '../../Assets/Q.webp'
 
-import whatsapp from '../../Assets/whatsapp.png'
-import callIcon from '../../Assets/Phone.png'
+import whatsapp from '../../Assets/whatsapp.webp'
+import callIcon from '../../Assets/Phone.webp'
 
 
 

@@ -94,8 +94,8 @@ function OurBlogsCards() {
                     >
 
                         { BlogDatas.map((BlogData, index) => (
-                            <SwiperSlide>
-                                <div key={index} className="mb-16 h-fit py-5  justify-center px-auto m-4 p-3 bg-zinc-100 px-4 rounded-3xl hover:shadow-lg hover:bg-green-50 cursor-pointer">
+                            <SwiperSlide key={index}>
+                                <div className="mb-16 h-fit py-5  justify-center px-auto m-4 p-3 bg-zinc-100 px-4 rounded-3xl hover:shadow-lg hover:bg-green-50 cursor-pointer">
                                     <div className='flex   text-green-800 px-4'>
                                         <SlCalender className='mt-3 text-lg'/> <span className='font-bold'>{BlogData.date}</span>
                                     </div>

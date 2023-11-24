@@ -1,5 +1,5 @@
 import React from 'react'
-import whiteLogo from '../../Assets/Trueway_Wt.png'
+import whiteLogo from '../../Assets/Trueway_Wt.webp'
 import FooterAccordian from './FooterAccordian'
 
 // import {FaLocationDot} from 'react-icons/fa6'
