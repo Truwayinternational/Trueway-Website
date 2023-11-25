@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 
-import Dataflow_banner from '../../../Assets/dataflow/dataflow_web.png'
+import Dataflow_banner from '../../../Assets/dataflow/dataflow_web.webp'
 import banner_mob from '../../../Assets/mobile banners/dataflow.webp'
 
 import HeroSidebar from '../HeroSidebar';

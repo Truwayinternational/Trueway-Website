@@ -9,7 +9,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 
-import Avatar_3 from '../../../Assets/certificate attestation/avatar_3.png'
+import Avatar_3 from '../../../Assets/certificate attestation/avatar_3.webp'
 
 // import card background images
 import step1 from '../../../Assets/MOFA : HOME/Group1.webp'

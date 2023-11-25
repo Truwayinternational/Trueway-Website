@@ -1,6 +1,6 @@
 import React from 'react'
   
-import Avatar_3 from '../../../Assets/certificate attestation/avatar_3.png'
+import Avatar_3 from '../../../Assets/certificate attestation/avatar_3.webp'
 
 // import 3 pie chart picture format
 import Educational_piechart from '../../../Assets/embassy attestation/Edu.webp'

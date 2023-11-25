@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Avatar_1 from '../../../Assets/certificate attestation/avatar_1.png'
+import Avatar_1 from '../../../Assets/certificate attestation/avatar_1.webp'
 
 function WhatisCertificationAttestation() {
 

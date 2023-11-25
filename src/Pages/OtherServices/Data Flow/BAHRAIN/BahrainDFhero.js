@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Bahrain_Banner from '../../../../Assets/dataflow/bahrainWeb.png'
+import Bahrain_Banner from '../../../../Assets/dataflow/bahrainWeb.webp'
 import Bahrain_MobileBanner from '../../../../Assets/mobile banners/bahrainMob.webp'
 
 function BahrainDFhero() {

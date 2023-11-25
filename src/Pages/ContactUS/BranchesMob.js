@@ -9,11 +9,11 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // location Branches images added here
-import Kazhakoottam from '../../Assets/contactUs/Kazhakkoottam.png'
-import Attingal from '../../Assets/contactUs/Attingal.png'
-import Kochi from '../../Assets/contactUs/Kochi.png'
-import Bangalure from '../../Assets/contactUs/Bangalore.png'
-import Chennai from '../../Assets/contactUs/Chennai.png'
+import Kazhakoottam from '../../Assets/contactUs/Kazhakkoottam.webp'
+import Attingal from '../../Assets/contactUs/Attingal.webp'
+import Kochi from '../../Assets/contactUs/Kochi.webp'
+import Bangalure from '../../Assets/contactUs/Bangalore.webp'
+import Chennai from '../../Assets/contactUs/Chennai.webp'
 
 
 

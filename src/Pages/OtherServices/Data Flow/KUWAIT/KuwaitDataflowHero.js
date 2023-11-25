@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Kuwait_Banner from '../../../../Assets/dataflow/Dataflow KUWAIT.png'
+import Kuwait_Banner from '../../../../Assets/dataflow/Dataflow KUWAIT.webp'
 import Kuwait_Banner_MobileBanner from '../../../../Assets/mobile banners/MOB Dataflow - KUWAIT.webp'
 
 

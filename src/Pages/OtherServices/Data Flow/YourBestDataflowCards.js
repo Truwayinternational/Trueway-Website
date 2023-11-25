@@ -11,13 +11,13 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // import section images 
-import Doctor from '../../../Assets/dataflow/doctor.png'
-import nurses from '../../../Assets/dataflow/nurses.png'
-import dentist from '../../../Assets/dataflow/dentist.png'
-import physiotherapist from '../../../Assets/dataflow/physio.png'
-import medical from '../../../Assets/dataflow/medical.png'
-import pharmacist from '../../../Assets/dataflow/pharmacy.png'
-import radiographer from '../../../Assets/dataflow/radio.png'
+import Doctor from '../../../Assets/dataflow/doctor.webp'
+import nurses from '../../../Assets/dataflow/nurses.webp'
+import dentist from '../../../Assets/dataflow/dentist.webp'
+import physiotherapist from '../../../Assets/dataflow/physio.webp'
+import medical from '../../../Assets/dataflow/medical.webp'
+import pharmacist from '../../../Assets/dataflow/pharmacy.webp'
+import radiographer from '../../../Assets/dataflow/radio.webp'
 
 
 function YourBestDataflowCards() {

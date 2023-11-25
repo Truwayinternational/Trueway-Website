@@ -1,5 +1,5 @@
 import React from 'react'
-import OurVisionImg from '../../Assets/AboutUs/Our Vision.png'
+import OurVisionImg from '../../Assets/AboutUs/Our Vision.webp'
 
 function OurVision() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import Avatar_3 from '../../../../Assets/certificate attestation/avatar_3.png'
+import Avatar_3 from '../../../../Assets/certificate attestation/avatar_3.webp'
 
 import EducationalAttestation from '../../../../Assets/embassy attestation/qatar/educationalattestation.webp'
 import personalAttestation from '../../../../Assets/embassy attestation/qatar/personalattestaion.webp'

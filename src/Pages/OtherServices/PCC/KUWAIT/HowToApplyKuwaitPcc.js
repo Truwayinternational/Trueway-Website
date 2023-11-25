@@ -1,5 +1,5 @@
 import React from 'react'
-import avatar_1 from '../../../../Assets/certificate attestation/avatar_1.png'
+import avatar_1 from '../../../../Assets/certificate attestation/avatar_1.webp'
 
 import {BiSolidChevronRightCircle} from 'react-icons/bi'
 

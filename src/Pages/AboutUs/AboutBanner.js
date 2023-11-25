@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import AboutWeb from '../../Assets/AboutUs/AboutWeb.png'
+import AboutWeb from '../../Assets/AboutUs/AboutWeb.webp'
 import AboutMob from '../../Assets/mobile banners/Mob About Us.webp'
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import HAAD_Banner from '../../../../Assets/dataflow/Dataflow - HAAD.png'
+import HAAD_Banner from '../../../../Assets/dataflow/Dataflow - HAAD.webp'
 import HAAD_MobileBanner from '../../../../Assets/mobile banners/MOB Dataflow - HAAD.webp'
 
 
