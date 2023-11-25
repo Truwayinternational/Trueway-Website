@@ -1,5 +1,5 @@
 import React from 'react'
-import avatar_2 from '../../../../Assets/certificate attestation/avatar_2.png'
+import avatar_2 from '../../../../Assets/certificate attestation/avatar_2.webp'
 
 
 function PrimarySourceVerification() {

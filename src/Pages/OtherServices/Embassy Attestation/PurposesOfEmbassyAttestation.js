@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import avatar_2 from '../../../Assets/certificate attestation/avatar_2.png'
+import avatar_2 from '../../../Assets/certificate attestation/avatar_2.webp'
 import {
     Accordion,
     AccordionHeader,

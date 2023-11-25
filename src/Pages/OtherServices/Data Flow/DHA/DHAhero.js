@@ -1,6 +1,6 @@
 import React from 'react'
 
-import DHA_Banner from '../../../../Assets/dataflow/Dataflow - DHA.png'
+import DHA_Banner from '../../../../Assets/dataflow/Dataflow - DHA.webp'
 import DHA_MobileBanner from '../../../../Assets/mobile banners/MOB Dataflow - DHA.webp'
 
 

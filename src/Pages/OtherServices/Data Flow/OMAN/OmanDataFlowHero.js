@@ -1,6 +1,6 @@
 import React from 'react'
 
-import oman_Banner from '../../../../Assets/dataflow/oman Banner.png'
+import oman_Banner from '../../../../Assets/dataflow/oman Banner.webp'
 import oman_MobileBanner from '../../../../Assets/mobile banners/omanMobbanner.webp'
 
 function OmanDataFlowHero() {

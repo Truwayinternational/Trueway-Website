@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Helpyou_web from '../../../Assets/certificate attestation/helpyou1.png'
-import Helpyou_mob from '../../../Assets/certificate attestation/helpyou2.png'
+import Helpyou_web from '../../../Assets/certificate attestation/helpyou1.webp'
+import Helpyou_mob from '../../../Assets/certificate attestation/helpyou2.webp'
 
 function HelpYou() {
   return (

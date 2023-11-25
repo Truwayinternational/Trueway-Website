@@ -5,12 +5,12 @@ import 'swiper/css';
 
 import { Autoplay} from 'swiper/modules';
 
-import uae from '../../../Assets/dataflow/uae.png'
-import ksa from '../../../Assets/dataflow/soudi.png'
-import oman from '../../../Assets/dataflow/oman.png'
-import bahrain from '../../../Assets/dataflow/bahrain.png'
-import qatar from '../../../Assets/dataflow/qatar.png'
-import kuwait from '../../../Assets/dataflow/kuwait.png'
+import uae from '../../../Assets/dataflow/uae.webp'
+import ksa from '../../../Assets/dataflow/soudi.webp'
+import oman from '../../../Assets/dataflow/oman.webp'
+import bahrain from '../../../Assets/dataflow/bahrain.webp'
+import qatar from '../../../Assets/dataflow/qatar.webp'
+import kuwait from '../../../Assets/dataflow/kuwait.webp'
 
 
 function ServicesDataflowMob() {
