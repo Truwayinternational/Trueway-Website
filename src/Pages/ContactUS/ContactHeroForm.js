@@ -20,7 +20,7 @@ function ContactHeroForm() {
             email: email.value,
             message: message.value
         }
-        let response = await fetch("http://localhost:8080/contact", {
+        let response = await fetch("http://localhost:8080/contact" || "https://truewayinternational.com/contact", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json;charset=utf-8"
