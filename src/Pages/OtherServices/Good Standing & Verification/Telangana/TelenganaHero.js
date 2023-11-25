@@ -1,7 +1,7 @@
 import React from 'react'
 
-import TelanganaNursingWEB from '../../../../Assets/goodstanding/Web Telangana Nursing Council.png'
-import TelenganaNursingMOB from '../../../../Assets/mobile banners/TelenganaMOB.png'
+import TelanganaNursingWEB from '../../../../Assets/goodstanding/Web Telangana Nursing Council.webp'
+import TelenganaNursingMOB from '../../../../Assets/mobile banners/TelenganaMOB.webp'
 function TelenganaHero() {
   return (
     <>

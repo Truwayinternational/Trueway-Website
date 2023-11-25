@@ -1,6 +1,6 @@
 import React from 'react'
 import contactBanner from '../../Assets/contactUs/Contact Us.png'
-import contactMobBanner from '../../Assets/mobile banners/Mob Contact Us.png'
+import contactMobBanner from '../../Assets/mobile banners/Mob Contact Us.webp'
 
 function ContactBanner() {
   return (

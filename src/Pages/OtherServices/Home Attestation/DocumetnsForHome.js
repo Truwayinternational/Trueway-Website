@@ -1,5 +1,5 @@
 import React from 'react'
-import section_img from '../../../Assets/HRD Attestation/Document.png'
+import section_img from '../../../Assets/HRD Attestation/Document.webp'
 
 import {BiSolidChevronRightCircle} from 'react-icons/bi'
 

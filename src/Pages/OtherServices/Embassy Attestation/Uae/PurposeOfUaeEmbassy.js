@@ -3,9 +3,9 @@ import avatar_2 from '../../../../Assets/certificate attestation/avatar_2.png'
 
 
 // flow chart images added here
-import EducationalCertificate from '../../../../Assets/embassy attestation/qatar/educational_certificate.png'
-import personalCertificate from '../../../../Assets/embassy attestation/uae/personalCertificate.png'
-import commercialDocument from '../../../../Assets/embassy attestation/uae/commercialDocument.png'
+import EducationalCertificate from '../../../../Assets/embassy attestation/qatar/educational_certificate.webp'
+import personalCertificate from '../../../../Assets/embassy attestation/uae/personalCertificate.webp'
+import commercialDocument from '../../../../Assets/embassy attestation/uae/commercialDocument.webp'
 
 
 function PurposeOfUaeEmbassy() {

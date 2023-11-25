@@ -1,7 +1,7 @@
 import React from 'react'
 
-import qatarEmbassyBanner from '../../../../Assets/embassy attestation/qatar/QATAR Embassy Banner.png'
-import MobQatarEmbassy from '../../../../Assets/mobile banners/MOB QATAR Embassy.png'
+import qatarEmbassyBanner from '../../../../Assets/embassy attestation/qatar/QATAR Embassy Banner.webp'
+import MobQatarEmbassy from '../../../../Assets/mobile banners/MOB QATAR Embassy.webp'
 
 function QatarEmbassyHero() {
   return (

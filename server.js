@@ -19,6 +19,7 @@ const contactEmail = nodemailer.createTransport({
   },
 });
 
+
 contactEmail.verify((error) => {
   if (error) {
     console.log(error);
@@ -26,6 +27,7 @@ contactEmail.verify((error) => {
     console.log("Ready to Send");
   }
 });
+
 
 
 // form submission from contact us page

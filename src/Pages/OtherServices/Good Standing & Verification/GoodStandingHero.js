@@ -1,7 +1,7 @@
 import React from 'react'
 
-import goodstanding_banner from '../../../Assets/goodstanding/Web Good Standing & Verification From Council.png'
-import banner_mob from '../../../Assets/mobile banners/Mob Good Standing & Verification From Council.png'
+import goodstanding_banner from '../../../Assets/goodstanding/Web Good Standing & Verification From Council.webp'
+import banner_mob from '../../../Assets/mobile banners/Mob Good Standing & Verification From Council.webp'
 
 import HeroSidebar from '../HeroSidebar';
 

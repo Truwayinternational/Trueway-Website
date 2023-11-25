@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import HRD_banner from '../../../Assets/HRD Attestation/HRD banner.png'
-import banner_mob from '../../../Assets/mobile banners/HRDattestation.png'
+import HRD_banner from '../../../Assets/HRD Attestation/HRD banner.webp'
+import banner_mob from '../../../Assets/mobile banners/HRDattestation.webp'
 import HeroSidebar from '../HeroSidebar';
 
 function HRDattestation() {

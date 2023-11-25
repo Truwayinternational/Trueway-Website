@@ -1,7 +1,7 @@
 import React from 'react'
 
-import SaudiNursingWEB from '../../../../Assets/goodstanding/Web Saudi Nursing Council.png'
-import SaudiNursingMOb from '../../../../Assets/mobile banners/SaudiNursingMOB.png'
+import SaudiNursingWEB from '../../../../Assets/goodstanding/Web Saudi Nursing Council.webp'
+import SaudiNursingMOb from '../../../../Assets/mobile banners/SaudiNursingMOB.webp'
 
 
 function SaudiNursingHero() {

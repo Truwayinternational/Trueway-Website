@@ -3,9 +3,9 @@ import React from 'react'
 import Avatar_3 from '../../../Assets/certificate attestation/avatar_3.png'
 
 // import 3 pie chart picture format
-import Educational_piechart from '../../../Assets/embassy attestation/Edu.png'
-import Commercial_piechart from '../../../Assets/embassy attestation/Com.png'
-import personal_piechart from '../../../Assets/embassy attestation/Per.png'
+import Educational_piechart from '../../../Assets/embassy attestation/Edu.webp'
+import Commercial_piechart from '../../../Assets/embassy attestation/Com.webp'
+import personal_piechart from '../../../Assets/embassy attestation/Per.webp'
 
 function HowDoIGet() {
 

@@ -1,11 +1,11 @@
 import React from 'react'
 
-import uae_img from '../../../Assets/embassy attestation/uae.png'
-import qatar_img from '../../../Assets/embassy attestation/qatar.png'
-import oman_img from '../../../Assets/embassy attestation/oman.png'
-import kuwait_img from '../../../Assets/embassy attestation/kuwait.png'
-import bahrain_img from '../../../Assets/embassy attestation/bahrain.png'
-import malaysia_img from '../../../Assets/embassy attestation/malaysia.png'
+import uae_img from '../../../Assets/embassy attestation/uae.webp'
+import qatar_img from '../../../Assets/embassy attestation/qatar.webp'
+import oman_img from '../../../Assets/embassy attestation/oman.webp'
+import kuwait_img from '../../../Assets/embassy attestation/kuwait.webp'
+import bahrain_img from '../../../Assets/embassy attestation/bahrain.webp'
+import malaysia_img from '../../../Assets/embassy attestation/malaysia.webp'
 
 
 import {BiSolidChevronRightCircle} from 'react-icons/bi'

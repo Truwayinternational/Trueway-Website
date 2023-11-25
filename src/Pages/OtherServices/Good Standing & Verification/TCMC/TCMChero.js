@@ -1,7 +1,7 @@
 import React from 'react'
 
-import TCMCweb from '../../../../Assets/goodstanding/Web TCMC (Travancore- Cochin Medical  Council) for doctors.png'
-import TCMCmob from '../../../../Assets/mobile banners/TCMCmob.png'
+import TCMCweb from '../../../../Assets/goodstanding/Web TCMC (Travancore- Cochin Medical  Council) for doctors.webp'
+import TCMCmob from '../../../../Assets/mobile banners/TCMCmob.webp'
 
 function TCMChero() {
   return (

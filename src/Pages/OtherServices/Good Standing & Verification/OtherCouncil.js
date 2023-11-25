@@ -1,9 +1,9 @@
 import React from 'react'
 
-import dentalCouncil from '../../../Assets/goodstanding/dentalcouncil.png'
-import pharmacyCouncil from '../../../Assets/goodstanding/pharmacyCouncil.png'
-import paramedicalCouncil from '../../../Assets/goodstanding/paramedicalCouncil.png'
-import TCMC from '../../../Assets/goodstanding/TCMC.png'
+import dentalCouncil from '../../../Assets/goodstanding/dentalcouncil.webp'
+import pharmacyCouncil from '../../../Assets/goodstanding/pharmacyCouncil.webp'
+import paramedicalCouncil from '../../../Assets/goodstanding/paramedicalCouncil.webp'
+import TCMC from '../../../Assets/goodstanding/TCMC.webp'
 
 function OtherCouncil() {
   return (

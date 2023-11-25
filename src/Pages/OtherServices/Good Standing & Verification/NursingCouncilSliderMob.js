@@ -5,7 +5,7 @@ import 'swiper/css';
 
 import { Autoplay} from 'swiper/modules';
 
-import NursingCouncilImage from '../../../Assets/goodstanding/Nursing Council_.png'
+import NursingCouncilImage from '../../../Assets/goodstanding/Nursing Council_.webp'
 
 function NursingCouncilSliderMob() {
   return (

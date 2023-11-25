@@ -1,7 +1,7 @@
 import React from 'react'
 
-import ParamedicalWEB from '../../../../Assets/goodstanding/Web Paramedical Council.png'
-import ParamedicalMOB from '../../../../Assets/mobile banners/paramedicalMOB.png'
+import ParamedicalWEB from '../../../../Assets/goodstanding/Web Paramedical Council.webp'
+import ParamedicalMOB from '../../../../Assets/mobile banners/paramedicalMOB.webp'
 
 
 function KeralaParamedicalHero() {

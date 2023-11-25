@@ -1,8 +1,8 @@
 import React from 'react'
 
 
-import IELTSbanner from '../../../../Assets/examCoaching/IELTS Coaching.png'
-import MOBIELTSbanner from '../../../../Assets/mobile banners/MOB IELTS BANNER.png'
+import IELTSbanner from '../../../../Assets/examCoaching/IELTS Coaching.webp'
+import MOBIELTSbanner from '../../../../Assets/mobile banners/MOB IELTS BANNER.webp'
 
 
 function IeltsHero() {

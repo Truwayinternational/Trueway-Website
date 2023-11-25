@@ -1,9 +1,9 @@
 import React from 'react'
 import Avatar_3 from '../../../../Assets/certificate attestation/avatar_3.png'
 
-import EducationalAttestation from '../../../../Assets/embassy attestation/bahrain/EducationalAttestation.png'
-import personalAttestation from '../../../../Assets/embassy attestation/bahrain/personalAttestation.png'
-import CommercialAttestation from '../../../../Assets/embassy attestation/bahrain/CommercialAttestation.png'
+import EducationalAttestation from '../../../../Assets/embassy attestation/bahrain/EducationalAttestation.webp'
+import personalAttestation from '../../../../Assets/embassy attestation/bahrain/personalAttestation.webp'
+import CommercialAttestation from '../../../../Assets/embassy attestation/bahrain/CommercialAttestation.webp'
 
 
 function HowDoIGetBahrain() {

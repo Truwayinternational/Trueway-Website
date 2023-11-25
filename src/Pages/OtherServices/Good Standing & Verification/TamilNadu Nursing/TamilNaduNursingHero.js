@@ -1,8 +1,8 @@
 import React from 'react'
 
 
-import tamilNaduNursingWeb from '../../../../Assets/goodstanding/Web Tamil Nadu Nursing Council.png'
-import tamilNaduNursingMob from '../../../../Assets/mobile banners/tamil nadu nursing.png'
+import tamilNaduNursingWeb from '../../../../Assets/goodstanding/Web Tamil Nadu Nursing Council.webp'
+import tamilNaduNursingMob from '../../../../Assets/mobile banners/tamil nadu nursing.webp'
 
 function TamilNaduNursingHero() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Qatar_Banner from '../../../../Assets/dataflow/qatarWebBanner.png'
-import Qatar_MobileBanner from '../../../../Assets/mobile banners/qatarMobBanner.png'
+import Qatar_MobileBanner from '../../../../Assets/mobile banners/qatarMobBanner.webp'
 
 function QatarDataflowHero() {
   return (

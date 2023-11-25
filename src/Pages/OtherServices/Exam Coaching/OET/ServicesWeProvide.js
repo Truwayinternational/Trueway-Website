@@ -1,12 +1,12 @@
 import React from 'react'
 
-import writing from '../../../../Assets/examCoaching/writing.png'
-import reading from '../../../../Assets/examCoaching/reading.png'
-import listening from '../../../../Assets/examCoaching/listening.png'
-import speaking from '../../../../Assets/examCoaching/speaking.png'
+import writing from '../../../../Assets/examCoaching/writing.webp'
+import reading from '../../../../Assets/examCoaching/reading.webp'
+import listening from '../../../../Assets/examCoaching/listening.webp'
+import speaking from '../../../../Assets/examCoaching/speaking.webp'
 
-import graphWeb from '../../../../Assets/examCoaching/graphweb.png'
-import graphMob from '../../../../Assets/examCoaching/graphMob.png'
+import graphWeb from '../../../../Assets/examCoaching/graphweb.webp'
+import graphMob from '../../../../Assets/examCoaching/graphMob.webp'
 
 
 function ServicesWeProvide() {

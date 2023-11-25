@@ -1,8 +1,8 @@
 import React from 'react'
 
 
-import SaudiBaanner from '../../../../Assets/pcc/PCC for Saudi Arabia.png'
-import MobSaudiPCC from '../../../../Assets/mobile banners/MOB PCC - Saudi Arabia.png'
+import SaudiBaanner from '../../../../Assets/pcc/PCC for Saudi Arabia.webp'
+import MobSaudiPCC from '../../../../Assets/mobile banners/MOB PCC - Saudi Arabia.webp'
 
 
 function SaudiPccHero() {

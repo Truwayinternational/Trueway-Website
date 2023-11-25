@@ -9,14 +9,14 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // added images here
-import saudiPrometric from '../../../../Assets/examCoaching/prometric/Mob Saudi Prometric Exam coaching  in kerala.png'
-import qatarPrometric from '../../../../Assets/examCoaching/prometric/Mob Qatar Prometric Exam coaching  in kerala.png'
-import omanPrometric from '../../../../Assets/examCoaching/prometric/Mob oman Prometric Exam coaching in Kerala.png'
-import KuwaitPrometric from '../../../../Assets/examCoaching/prometric/Mob Kuwait Prometric Exam coaching in Kerala-1.png'
-import bahrainPrometric from '../../../../Assets/examCoaching/prometric/Mob Bahrain Prometric Exam coaching  in Kerala.png'
-import DHAprometric from '../../../../Assets/examCoaching/prometric/Mob DHA Prometric Exam coaching  in Kerala.png'
-import MohPrometric from '../../../../Assets/examCoaching/prometric/Mob MOH Prometric Exam Coaching in Kerala.png'
-import HaadPrometric from '../../../../Assets/examCoaching/prometric/Mob HAAD Prometric Exam coaching  in Kerala.png'
+import saudiPrometric from '../../../../Assets/examCoaching/prometric/Mob Saudi Prometric Exam coaching  in kerala.webp'
+import qatarPrometric from '../../../../Assets/examCoaching/prometric/Mob Qatar Prometric Exam coaching  in kerala.webp'
+import omanPrometric from '../../../../Assets/examCoaching/prometric/Mob oman Prometric Exam coaching in Kerala.webp'
+import KuwaitPrometric from '../../../../Assets/examCoaching/prometric/Mob Kuwait Prometric Exam coaching in Kerala-1.webp'
+import bahrainPrometric from '../../../../Assets/examCoaching/prometric/Mob Bahrain Prometric Exam coaching  in Kerala.webp'
+import DHAprometric from '../../../../Assets/examCoaching/prometric/Mob DHA Prometric Exam coaching  in Kerala.webp'
+import MohPrometric from '../../../../Assets/examCoaching/prometric/Mob MOH Prometric Exam Coaching in Kerala.webp'
+import HaadPrometric from '../../../../Assets/examCoaching/prometric/Mob HAAD Prometric Exam coaching  in Kerala.webp'
 
 import {BiSolidChevronRightCircle} from 'react-icons/bi'
 

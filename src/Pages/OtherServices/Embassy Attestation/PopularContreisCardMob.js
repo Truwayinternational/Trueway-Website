@@ -9,12 +9,12 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // import in countries images
-import uae_img from '../../../Assets/embassy attestation/Mob uae.png'
-import qatar_img from '../../../Assets/embassy attestation/Mob Qatar .png'
-import oman_img from '../../../Assets/embassy attestation/Mob Oman .png'
-import kuwait_img from '../../../Assets/embassy attestation/Mob Kuwait .png'
-import bahrain_img from '../../../Assets/embassy attestation/Mob Bahrain .png'
-import malaysia_img from '../../../Assets/embassy attestation/Mob Malaysia .png'
+import uae_img from '../../../Assets/embassy attestation/Mob uae.webp'
+import qatar_img from '../../../Assets/embassy attestation/Mob Qatar .webp'
+import oman_img from '../../../Assets/embassy attestation/Mob Oman .webp'
+import kuwait_img from '../../../Assets/embassy attestation/Mob Kuwait .webp'
+import bahrain_img from '../../../Assets/embassy attestation/Mob Bahrain .webp'
+import malaysia_img from '../../../Assets/embassy attestation/Mob Malaysia .webp'
 
 //  react icon for 
 import {BiSolidChevronRightCircle} from 'react-icons/bi'

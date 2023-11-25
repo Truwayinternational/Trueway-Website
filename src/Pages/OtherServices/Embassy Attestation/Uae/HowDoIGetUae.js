@@ -2,9 +2,9 @@ import React from 'react'
 import Avatar_3 from '../../../../Assets/certificate attestation/avatar_3.png'
 
 
-import EducationalAttestation from '../../../../Assets/embassy attestation/uae/Educational embassy.png'
-import personalAttestation from '../../../../Assets/embassy attestation/uae/Personal embassy.png'
-import CommercialAttestation from '../../../../Assets/embassy attestation/uae/commercial attestation.png'
+import EducationalAttestation from '../../../../Assets/embassy attestation/uae/Educational embassy.webp'
+import personalAttestation from '../../../../Assets/embassy attestation/uae/Personal embassy.webp'
+import CommercialAttestation from '../../../../Assets/embassy attestation/uae/commercial attestation.webp'
 
 
 function HowDoIGetUae() {

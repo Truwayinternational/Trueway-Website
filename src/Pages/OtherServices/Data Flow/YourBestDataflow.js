@@ -1,5 +1,5 @@
 import React from 'react'
-import thumb_img from '../../../Assets/ISO/thumb.png'
+import thumb_img from '../../../Assets/ISO/thumb.webp'
 import YourBestDataflowCards from './YourBestDataflowCards'
 
 

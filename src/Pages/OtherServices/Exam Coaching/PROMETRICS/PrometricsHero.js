@@ -1,8 +1,8 @@
 import React from 'react'
 
 
-import PrometricsBanner from '../../../../Assets/examCoaching/Prometric coaching.png'
-import MobPrometrics from '../../../../Assets/mobile banners/MOB PROMETRIC BANNER.png'
+import PrometricsBanner from '../../../../Assets/examCoaching/Prometric coaching.webp'
+import MobPrometrics from '../../../../Assets/mobile banners/MOB PROMETRIC BANNER.webp'
 
 function PrometricsHero() {
   return (

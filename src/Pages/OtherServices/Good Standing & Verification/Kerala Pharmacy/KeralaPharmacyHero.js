@@ -1,7 +1,7 @@
 import React from 'react'
 
-import keralaPharmacyWEB from '../../../../Assets/goodstanding/Web Kerala Pharmacy Council.png'
-import KeralaPharmacyMOB from '../../../../Assets/mobile banners/PharmacyMOB.png'
+import keralaPharmacyWEB from '../../../../Assets/goodstanding/Web Kerala Pharmacy Council.webp'
+import KeralaPharmacyMOB from '../../../../Assets/mobile banners/PharmacyMOB.webp'
 
 function KeralaPharmacyHero() {
   return (

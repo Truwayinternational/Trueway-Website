@@ -1,7 +1,7 @@
 import React from 'react'
 
-import DelhiNursingWEB from '../../../../Assets/goodstanding/Web Delhi Nursing Council.png'
-import DelhiNursingMOB from '../../../../Assets/mobile banners/Delhi Nursing Mob.png'
+import DelhiNursingWEB from '../../../../Assets/goodstanding/Web Delhi Nursing Council.webp'
+import DelhiNursingMOB from '../../../../Assets/mobile banners/Delhi Nursing Mob.webp'
 
 
 function DelhiNursingHero() {
