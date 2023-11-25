@@ -29,6 +29,7 @@ const PccIndex = lazy(() => import("./Pages/OtherServices/PCC/PccIndex"));
 const ExamCoachingIndex = lazy(() => import("./Pages/OtherServices/Exam Coaching/ExamCoachingIndex"));
 const ApostilleIndex = lazy(()=> import("./Pages/OtherServices/Apostille Attestaion/ApostilleIndex"));
 const GoodStandingIndex = lazy(()=>import("./Pages/OtherServices/Good Standing & Verification/GoodStandingIndex"));
+const AclsBlsIndex = lazy(()=> import("./Pages/OtherServices/ACLS-BLS/AclsBlsIndex"));
 
 
 
@@ -172,7 +173,7 @@ function App() {
           <Route path="/kerala-dental-council" element={<KeralaDentalIndex/>}/>
           <Route path="/kerala-paramedical-council" element={<KeralaParamedicalIndex/>}/>
           <Route path="/kerala-pharmacy-council" element={<KeralaPharmacyIndex/>}/>
-
+          <Route path="/acls-bls" element={<AclsBlsIndex/>}/>
 
 
 
