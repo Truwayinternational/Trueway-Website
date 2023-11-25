@@ -1,8 +1,8 @@
 import React from 'react'
 
 
-import keralaNursingWeb from '../../../../Assets/goodstanding/Web Kerala  Nursing Council.png'
-import keralaNursingMob from '../../../../Assets/mobile banners/kerala Nursing .png'
+import keralaNursingWeb from '../../../../Assets/goodstanding/Web Kerala  Nursing Council.webp'
+import keralaNursingMob from '../../../../Assets/mobile banners/kerala Nursing .webp'
 
 function KeralaNursingHero() {
   return (

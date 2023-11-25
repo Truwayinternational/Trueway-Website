@@ -9,13 +9,13 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // import states images 
-import KA from '../../../Assets/HRD Attestation/karnatakaMob.png'
-import TN from '../../../Assets/HRD Attestation/tamilnaduMob.png'
-import maharashtra from '../../../Assets/HRD Attestation/MaharashtraMob.png'
-import andhra from '../../../Assets/HRD Attestation/andhraMob.png'
-import telengana from '../../../Assets/HRD Attestation/TelenganaMob.png'
-import delhi from '../../../Assets/HRD Attestation/Delhi Mob.png'
-import MP from '../../../Assets/HRD Attestation/Madhya PredheshMob.png'
+import KA from '../../../Assets/HRD Attestation/karnatakaMob.webp'
+import TN from '../../../Assets/HRD Attestation/tamilnaduMob.webp'
+import maharashtra from '../../../Assets/HRD Attestation/MaharashtraMob.webp'
+import andhra from '../../../Assets/HRD Attestation/andhraMob.webp'
+import telengana from '../../../Assets/HRD Attestation/TelenganaMob.webp'
+import delhi from '../../../Assets/HRD Attestation/Delhi Mob.webp'
+import MP from '../../../Assets/HRD Attestation/Madhya PredheshMob.webp'
 
 //  react icon for 
 import {BiSolidChevronRightCircle} from 'react-icons/bi'

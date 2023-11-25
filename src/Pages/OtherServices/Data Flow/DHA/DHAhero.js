@@ -1,7 +1,7 @@
 import React from 'react'
 
 import DHA_Banner from '../../../../Assets/dataflow/Dataflow - DHA.png'
-import DHA_MobileBanner from '../../../../Assets/mobile banners/MOB Dataflow - DHA.png'
+import DHA_MobileBanner from '../../../../Assets/mobile banners/MOB Dataflow - DHA.webp'
 
 
 function DHAhero() {

@@ -1,7 +1,7 @@
 import React from 'react'
 
-import KeralaDentalWEB from '../../../../Assets/goodstanding/Web Kerala Dental Council.png'
-import KeralaDentalMOB from '../../../../Assets/mobile banners/KeralaDentalMOB.png'
+import KeralaDentalWEB from '../../../../Assets/goodstanding/Web Kerala Dental Council.webp'
+import KeralaDentalMOB from '../../../../Assets/mobile banners/KeralaDentalMOB.webp'
 
 function KeralaDentalHero() {
   return (

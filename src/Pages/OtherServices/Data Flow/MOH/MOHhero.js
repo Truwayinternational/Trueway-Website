@@ -1,7 +1,7 @@
 import React from 'react'
 
 import MOH_Banner from '../../../../Assets/dataflow/Dataflow - MOH.png'
-import Moh_MobileBanner from '../../../../Assets/mobile banners/dataflow-MOH.png'
+import Moh_MobileBanner from '../../../../Assets/mobile banners/dataflow-MOH.webp'
 
 
 

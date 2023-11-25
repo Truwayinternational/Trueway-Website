@@ -1,8 +1,8 @@
 import React from 'react'
 
 
-import OetBanner from '../../../../Assets/examCoaching/OET Coaching.png'
-import MobOetBanner from '../../../../Assets/mobile banners/Mob OET  Coaching.png'
+import OetBanner from '../../../../Assets/examCoaching/OET Coaching.webp'
+import MobOetBanner from '../../../../Assets/mobile banners/Mob OET  Coaching.webp'
 
 function OetHero() {
   return (

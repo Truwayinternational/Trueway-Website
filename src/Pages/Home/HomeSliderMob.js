@@ -8,10 +8,10 @@ import 'swiper/css/pagination';
 import { Pagination, Autoplay } from 'swiper/modules';
 
 //import slider images 
-import slider1 from '../../Assets/responsive:home/Banner1.png'
-import slider2 from '../../Assets/responsive:home/Banner2.png'
-import slider3 from '../../Assets/responsive:home/Banner3.png'
-import slider4 from '../../Assets/responsive:home/Banner4.png'
+import slider1 from '../../Assets/responsive:home/Banner1.webp'
+import slider2 from '../../Assets/responsive:home/Banner2.webp'
+import slider3 from '../../Assets/responsive:home/Banner3.webp'
+import slider4 from '../../Assets/responsive:home/Banner4.webp'
 
 //icons import
 import {IoLogoWhatsapp} from 'react-icons/io'

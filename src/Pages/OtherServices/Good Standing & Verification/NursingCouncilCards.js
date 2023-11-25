@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-import NursingCouncilImage from '../../../Assets/goodstanding/Nursing Council_.png'
+import NursingCouncilImage from '../../../Assets/goodstanding/Nursing Council_.webp'
 
 function NursingCouncilCards() {
 

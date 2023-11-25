@@ -1,7 +1,7 @@
 import React from 'react'
 
-import uaeEmbassyBanner from '../../../../Assets/embassy attestation/uae/UAE Embassy Banner.png'
-import MobuaeEmbassy from '../../../../Assets/mobile banners/MOB UAE Embassy.png'
+import uaeEmbassyBanner from '../../../../Assets/embassy attestation/uae/UAE Embassy Banner.webp'
+import MobuaeEmbassy from '../../../../Assets/mobile banners/MOB UAE Embassy.webp'
 
 function UaeEmbassyHero() {
   return (

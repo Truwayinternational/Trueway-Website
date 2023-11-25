@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import attestation_img from '../../../Assets/embassy attestation/Group 852.png'
+import attestation_img from '../../../Assets/embassy attestation/Group 852.webp'
 
 import {BiSolidChevronRightCircle} from 'react-icons/bi'
 

@@ -2,13 +2,13 @@ import React from 'react'
 
 import {BiSolidChevronRightCircle} from 'react-icons/bi'
 
-import Karnataka from '../../../Assets/HRD Attestation/karnataka.png'
-import TamilNadu from '../../../Assets/HRD Attestation/tamil nadu.png'
-import maharashtra from '../../../Assets/HRD Attestation/state 3.png'
-import Andhra_predhesh from '../../../Assets/HRD Attestation/andhra pradhesh.png'
-import telengana from '../../../Assets/HRD Attestation/telangana.png'
-import Delhi from '../../../Assets/HRD Attestation/delhi.png'
-import Madhyapredhesh from '../../../Assets/HRD Attestation/madhya predhesh.png'
+import Karnataka from '../../../Assets/HRD Attestation/karnataka.webp'
+import TamilNadu from '../../../Assets/HRD Attestation/tamil nadu.webp'
+import maharashtra from '../../../Assets/HRD Attestation/state 3.webp'
+import Andhra_predhesh from '../../../Assets/HRD Attestation/andhra pradhesh.webp'
+import telengana from '../../../Assets/HRD Attestation/telangana.webp'
+import Delhi from '../../../Assets/HRD Attestation/delhi.webp'
+import Madhyapredhesh from '../../../Assets/HRD Attestation/madhya predhesh.webp'
 
 function ServicesCard() {
   return (

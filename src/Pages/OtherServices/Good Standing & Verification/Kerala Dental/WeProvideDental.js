@@ -1,5 +1,5 @@
 import React from 'react'
-import Avatar_4 from '../../../../Assets/embassy attestation/avatar 4.png'
+import Avatar_4 from '../../../../Assets/embassy attestation/avatar 4.webp'
 
 
 function WeProvideDental() {

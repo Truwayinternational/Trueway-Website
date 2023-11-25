@@ -1,8 +1,8 @@
 import React from 'react'
 
 
-import QatarPccBanner from '../../../../Assets/pcc/PCC for Qatar.png'
-import MobQatarPcc from '../../../../Assets/mobile banners/MOB PCC - Qatar.png'
+import QatarPccBanner from '../../../../Assets/pcc/PCC for Qatar.webp'
+import MobQatarPcc from '../../../../Assets/mobile banners/MOB PCC - Qatar.webp'
 
 function QatarPccHero() {
 

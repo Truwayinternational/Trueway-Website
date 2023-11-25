@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import EA_banner from '../../../Assets/embassy attestation/Embassy.png'
-import banner_mob from '../../../Assets/mobile banners/EMBASSY.png'
+import EA_banner from '../../../Assets/embassy attestation/Embassy.webp'
+import banner_mob from '../../../Assets/mobile banners/EMBASSY.webp'
 
 import HeroSidebar from '../HeroSidebar';
 

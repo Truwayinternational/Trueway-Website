@@ -3,14 +3,14 @@ import React from 'react'
 import {BiSolidChevronRightCircle} from 'react-icons/bi'
 
 // images added here
-import saudiPrometric from '../../../../Assets/examCoaching/prometric/saudi prometric.png'
-import qatarPrometric from '../../../../Assets/examCoaching/prometric/qatar prometric.png'
-import omanPrometric from '../../../../Assets/examCoaching/prometric/oman prometric.png'
-import KuwaitPrometric from '../../../../Assets/examCoaching/prometric/kuwait prometric.png'
-import bahrainPrometric from '../../../../Assets/examCoaching/prometric/bahrain prometric.png'
-import DHAprometric from '../../../../Assets/examCoaching/prometric/DHA prometric.png'
-import MohPrometric from '../../../../Assets/examCoaching/prometric/MOH prometric.png'
-import HaadPrometric from '../../../../Assets/examCoaching/prometric/HAAD prometric.png'
+import saudiPrometric from '../../../../Assets/examCoaching/prometric/saudi prometric.webp'
+import qatarPrometric from '../../../../Assets/examCoaching/prometric/qatar prometric.webp'
+import omanPrometric from '../../../../Assets/examCoaching/prometric/oman prometric.webp'
+import KuwaitPrometric from '../../../../Assets/examCoaching/prometric/kuwait prometric.webp'
+import bahrainPrometric from '../../../../Assets/examCoaching/prometric/bahrain prometric.webp'
+import DHAprometric from '../../../../Assets/examCoaching/prometric/DHA prometric.webp'
+import MohPrometric from '../../../../Assets/examCoaching/prometric/MOH prometric.webp'
+import HaadPrometric from '../../../../Assets/examCoaching/prometric/HAAD prometric.webp'
 
 
 function DifferentCountriesWeb() {

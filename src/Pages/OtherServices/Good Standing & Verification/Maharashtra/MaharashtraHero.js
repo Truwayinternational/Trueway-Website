@@ -1,7 +1,7 @@
 import React from 'react'
 
-import MaharashtraWEB from '../../../../Assets/goodstanding/Web Maharashtra Nursing Council.png'
-import MaharashtraMob from '../../../../Assets/mobile banners/MaharashtraMOB.png'
+import MaharashtraWEB from '../../../../Assets/goodstanding/Web Maharashtra Nursing Council.webp'
+import MaharashtraMob from '../../../../Assets/mobile banners/MaharashtraMOB.webp'
 
 function MaharashtraHero() {
   return (

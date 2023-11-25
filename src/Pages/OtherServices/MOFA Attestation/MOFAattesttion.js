@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
-import MOFA_banner from '../../../Assets/MOFA : HOME/MOFA_WEB.png'
-import banner_mob from '../../../Assets/mobile banners/MOFA.png'
+import MOFA_banner from '../../../Assets/MOFA : HOME/MOFA_WEB.webp'
+import banner_mob from '../../../Assets/mobile banners/MOFA.webp'
 
 import HeroSidebar from '../HeroSidebar';
 

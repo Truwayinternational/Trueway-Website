@@ -1,11 +1,11 @@
 import React from 'react'
 
 // added countries logs 
-import PccUae from '../../../Assets/pcc/PCC UAE.png'
-import PccSaudi from '../../../Assets/pcc/PCC Saudi.png'
-import PccQatar from '../../../Assets/pcc/PCC Qatar.png'
-import PccOman from '../../../Assets/pcc/PCC Oman.png'
-import PccKuwait from '../../../Assets/pcc/PCC Kuwait.png'
+import PccUae from '../../../Assets/pcc/PCC UAE.webp'
+import PccSaudi from '../../../Assets/pcc/PCC Saudi.webp'
+import PccQatar from '../../../Assets/pcc/PCC Qatar.webp'
+import PccOman from '../../../Assets/pcc/PCC Oman.webp'
+import PccKuwait from '../../../Assets/pcc/PCC Kuwait.webp'
 
 
 // responsive card slider added here

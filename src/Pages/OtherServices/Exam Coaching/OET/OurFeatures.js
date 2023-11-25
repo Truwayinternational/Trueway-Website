@@ -1,7 +1,7 @@
 import React from 'react'
 
-import OurFeaturesWeb from '../../../../Assets/examCoaching/ourfeatureWeb.png'
-import OurFeaturesmob from '../../../../Assets/examCoaching/ourfeatureMob.png'
+import OurFeaturesWeb from '../../../../Assets/examCoaching/ourfeatureWeb.webp'
+import OurFeaturesmob from '../../../../Assets/examCoaching/ourfeatureMob.webp'
 
 
 function OurFeatures() {

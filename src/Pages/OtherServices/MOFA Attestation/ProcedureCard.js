@@ -12,10 +12,10 @@ import 'swiper/css/pagination';
 import Avatar_3 from '../../../Assets/certificate attestation/avatar_3.png'
 
 // import card background images
-import step1 from '../../../Assets/MOFA : HOME/Group1.png'
-import step2 from '../../../Assets/MOFA : HOME/Group2.png'
-import step3 from '../../../Assets/MOFA : HOME/Group3.png'
-import step4 from '../../../Assets/MOFA : HOME/Group4.png'
+import step1 from '../../../Assets/MOFA : HOME/Group1.webp'
+import step2 from '../../../Assets/MOFA : HOME/Group2.webp'
+import step3 from '../../../Assets/MOFA : HOME/Group3.webp'
+import step4 from '../../../Assets/MOFA : HOME/Group4.webp'
 
 
 import {BiSolidChevronRightCircle} from 'react-icons/bi'

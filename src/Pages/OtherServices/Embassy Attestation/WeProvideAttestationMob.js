@@ -5,11 +5,11 @@ import 'swiper/css';
 
 import { Autoplay} from 'swiper/modules';
 
-import qatarembassy from '../../../Assets/embassy attestation/QATAR Embassy.png'
-import kuwaitembassy from '../../../Assets/embassy attestation/KUWAIT Embassy.png'
-import ueaembassy from '../../../Assets/embassy attestation/UAE Embassy.png'
-import malaysiaembassy from '../../../Assets/embassy attestation/MALAYSIA Embassy.png'
-import bahrainembassy from '../../../Assets/embassy attestation/BAHRAIN Embassy.png'
+import qatarembassy from '../../../Assets/embassy attestation/QATAR Embassy.webp'
+import kuwaitembassy from '../../../Assets/embassy attestation/KUWAIT Embassy.webp'
+import ueaembassy from '../../../Assets/embassy attestation/UAE Embassy.webp'
+import malaysiaembassy from '../../../Assets/embassy attestation/MALAYSIA Embassy.webp'
+import bahrainembassy from '../../../Assets/embassy attestation/BAHRAIN Embassy.webp'
 
 function WeProvideAttestationMob() {
 

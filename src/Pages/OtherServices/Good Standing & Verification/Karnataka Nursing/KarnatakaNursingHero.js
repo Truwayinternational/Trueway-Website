@@ -1,8 +1,8 @@
 import React from 'react'
 
 
-import karnatakaNursingWEB from '../../../../Assets/goodstanding/Web Karnataka Nursing Council.png'
-import KarnatakaNursingMOB from '../../../../Assets/mobile banners/karnataka nursing MOB.png'
+import karnatakaNursingWEB from '../../../../Assets/goodstanding/Web Karnataka Nursing Council.webp'
+import KarnatakaNursingMOB from '../../../../Assets/mobile banners/karnataka nursing MOB.webp'
 
 function KarnatakaNursingHero() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 
-import MalaysiaEmbassyBanner from '../../../../Assets/embassy attestation/malaysia/MALAYSIA Embassy Banner.png'
-import MobMalaysiaEmbassy from '../../../../Assets/mobile banners/MOB MALAYSIA Embassy.png'
+import MalaysiaEmbassyBanner from '../../../../Assets/embassy attestation/malaysia/MALAYSIA Embassy Banner.webp'
+import MobMalaysiaEmbassy from '../../../../Assets/mobile banners/MOB MALAYSIA Embassy.webp'
 
 
 function MalaysiaEmbassyHero() {

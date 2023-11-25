@@ -1,6 +1,6 @@
 import React from 'react';
-import pccBanner from '../../../Assets/pcc/Police Clearance Certificate banner.png'
-import MobPccBanner from '../../../Assets/mobile banners/MOB Police ClearanceCertificate.png'
+import pccBanner from '../../../Assets/pcc/Police Clearance Certificate banner.webp'
+import MobPccBanner from '../../../Assets/mobile banners/MOB Police ClearanceCertificate.webp'
 
 
 import {IoLogoWhatsapp} from 'react-icons/io'

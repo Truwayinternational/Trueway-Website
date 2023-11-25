@@ -1,8 +1,8 @@
 import React from 'react'
 
 
-import UaePccBanner from '../../../../Assets/pcc/PCC for UAE.png'
-import MobUaePcc from '../../../../Assets/mobile banners/MOB PCC - UAE.png'
+import UaePccBanner from '../../../../Assets/pcc/PCC for UAE.webp'
+import MobUaePcc from '../../../../Assets/mobile banners/MOB PCC - UAE.webp'
 
 
 function UaePccHero() {

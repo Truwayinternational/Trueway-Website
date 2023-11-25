@@ -2,15 +2,15 @@ import React from 'react'
 
 
 // images added here
-import Doctors from '../../../../Assets/examCoaching/Attendcoaching/doctors.png'
-import Nurses from '../../../../Assets/examCoaching/Attendcoaching/nurses.png'
-import occupational from '../../../../Assets/examCoaching/Attendcoaching/occupational.png'
-import optometrists from '../../../../Assets/examCoaching/Attendcoaching/optometrists.png'
-import dentists from '../../../../Assets/examCoaching/Attendcoaching/dentists.png'
-import dietitians from '../../../../Assets/examCoaching/Attendcoaching/dietitians.png'
-import physiotherapists from '../../../../Assets/examCoaching/Attendcoaching/physiotherapists.png'
-import pharmacists from '../../../../Assets/examCoaching/Attendcoaching/pharmacists.png'
-import podiatrists from '../../../../Assets/examCoaching/Attendcoaching/podiatrists.png'
+import Doctors from '../../../../Assets/examCoaching/Attendcoaching/doctors.webp'
+import Nurses from '../../../../Assets/examCoaching/Attendcoaching/nurses.webp'
+import occupational from '../../../../Assets/examCoaching/Attendcoaching/occupational.webp'
+import optometrists from '../../../../Assets/examCoaching/Attendcoaching/optometrists.webp'
+import dentists from '../../../../Assets/examCoaching/Attendcoaching/dentists.webp'
+import dietitians from '../../../../Assets/examCoaching/Attendcoaching/dietitians.webp'
+import physiotherapists from '../../../../Assets/examCoaching/Attendcoaching/physiotherapists.webp'
+import pharmacists from '../../../../Assets/examCoaching/Attendcoaching/pharmacists.webp'
+import podiatrists from '../../../../Assets/examCoaching/Attendcoaching/podiatrists.webp'
 
 
 import WhoAndWhyCardsMob from './WhoAndWhyCardsMob'

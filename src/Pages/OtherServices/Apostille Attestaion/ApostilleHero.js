@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Apostille_banner from '../../../Assets/MOFA : HOME/Apostille Banner.png'
-import banner_mob from '../../../Assets/mobile banners/Mob Apostille.png'
+import Apostille_banner from '../../../Assets/MOFA : HOME/Apostille Banner.webp'
+import banner_mob from '../../../Assets/mobile banners/Mob Apostille.webp'
 
 import HeroSidebar from '../HeroSidebar';
 

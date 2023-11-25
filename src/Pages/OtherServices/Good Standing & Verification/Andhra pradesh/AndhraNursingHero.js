@@ -1,7 +1,7 @@
 import React from 'react'
 
-import AndhraNursingWeb from '../../../../Assets/goodstanding/Andra predesh web.png'
-import AndhraNursingMOB from '../../../../Assets/mobile banners/Andra predesh MOB.png'
+import AndhraNursingWeb from '../../../../Assets/goodstanding/Andra predesh web.webp'
+import AndhraNursingMOB from '../../../../Assets/mobile banners/Andra predesh MOB.webp'
 
 function AndhraNursingHero() {
   return (

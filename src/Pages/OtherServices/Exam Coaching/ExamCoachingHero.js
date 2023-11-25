@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import examCoachingBanner from '../../../Assets/examCoaching/Exam  Coaching.png'
-import banner_mob from '../../../Assets/mobile banners/Mob Exam  Coaching.png';
+import examCoachingBanner from '../../../Assets/examCoaching/Exam  Coaching.webp'
+import banner_mob from '../../../Assets/mobile banners/Mob Exam  Coaching.webp';
 
 import HeroSidebar from '../HeroSidebar';
 

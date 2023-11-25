@@ -1,8 +1,8 @@
 import React from 'react'
 
 
-import OmanPccBanner from '../../../../Assets/pcc/PCC for Oman.png'
-import MobOmanPcc from '../../../../Assets/mobile banners/MOB PCC - Oman.png'
+import OmanPccBanner from '../../../../Assets/pcc/PCC for Oman.webp'
+import MobOmanPcc from '../../../../Assets/mobile banners/MOB PCC - Oman.webp'
 
 function OmanPccHero() {
   return (

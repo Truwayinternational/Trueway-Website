@@ -1,8 +1,8 @@
 import React from 'react'
 
 
-import MPnursingWeb from '../../../../Assets/goodstanding/Web Madhya Pradesh Nursing Council.png'
-import MPnursingMob from '../../../../Assets/mobile banners/MadhyapredeshMOB.png'
+import MPnursingWeb from '../../../../Assets/goodstanding/Web Madhya Pradesh Nursing Council.webp'
+import MPnursingMob from '../../../../Assets/mobile banners/MadhyapredeshMOB.webp'
 
 function MPnursingHero() {
   return (

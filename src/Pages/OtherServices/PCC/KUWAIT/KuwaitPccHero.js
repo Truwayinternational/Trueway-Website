@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 
 
-import KuwaitPccBanner from '../../../../Assets/pcc/PCC for Kuwait.png'
-import MObKuwaitPCC from '../../../../Assets/mobile banners/MOB PCC - Kuwait.png'
+import KuwaitPccBanner from '../../../../Assets/pcc/PCC for Kuwait.webp'
+import MObKuwaitPCC from '../../../../Assets/mobile banners/MOB PCC - Kuwait.webp'
 
 function KuwaitPccHero() {
 
