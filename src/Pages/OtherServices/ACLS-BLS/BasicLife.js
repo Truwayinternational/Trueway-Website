@@ -13,7 +13,7 @@ function BasicLife() {
                         <img src={BLS} alt="BLS" />
                     </div>
                     <div className='grid '>
-                        <h2 className='text-3xl px-4 lg:px-0 text-center lg:text-start  md:text-5xl font-HeadingFont font-bold tracking-wide'>
+                        <h2 className='text-4xl px-4 lg:px-0 text-center lg:text-start  md:text-5xl font-HeadingFont font-bold tracking-wide'>
                             Basic Life  Support - <b      className='text-green-500'> BLS
                             </b>
                         </h2>

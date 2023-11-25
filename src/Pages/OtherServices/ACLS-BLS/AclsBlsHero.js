@@ -31,7 +31,7 @@ function AclsBlsHero() {
 
             {/* web content sections */}
             <div className='m-3 my-10 lg:ml-20'>
-              <h1 className='text-3xl px-4 lg:px-0 text-start md:text-5xl font-HeadingFont font-extrabold tracking-wide'>Best <br /><p className='text-green-500'>ACLS & BLS Coaching</p> class in Kerala </h1>
+              <h1 className='text-4xl px-4 lg:px-0 text-start md:text-5xl font-HeadingFont font-extrabold tracking-wide'>Best <br /><p className='text-green-500'>ACLS & BLS Coaching</p> class in Kerala </h1>
               <p className='text-md md:text-xl lg:text-lg text-justify text-gray-500 font-poppins mt-10 px-4 lg:p-0'>
               Looking for the best ACLS and BLS coaching classes? Trueway International offers the best ACLS and BLS coaching classes in Kerala. If you are a medical professional who plans to move abroad for a job, then an ACLS or BLS certificate is mandatory. For that, you should attend three days of coaching classes in ACLS and BLS. We are providing American Heart Association (AHA)-approved certificates for Basic Life Support and Advanced Cardiac Life Support. This AHA-approved certificate is to be considered proficient in their service field.</p>
               {/* readMore add in paragraph */}

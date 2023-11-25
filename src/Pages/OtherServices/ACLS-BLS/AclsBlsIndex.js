@@ -3,6 +3,7 @@ import AclsBlsHero from './AclsBlsHero'
 import AdvancedCardio from './AdvancedCardio'
 import BasicLife from './BasicLife'
 import CourseFeatures from './CourseFeatures'
+import DocumentsForACLS from './DocumentsForACLS'
 
 function AclsBlsIndex() {
   return (
@@ -11,6 +12,7 @@ function AclsBlsIndex() {
         <AdvancedCardio/>
         <BasicLife/>
         <CourseFeatures/>
+        <DocumentsForACLS/>
     </div>
   )
 }
