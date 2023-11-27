@@ -17,7 +17,7 @@ function scrollToTop() {
 function NavBar() {
     
     return <nav className='bg-white sticky top-0 z-10 border border-b-1 border-gray-300'>
-        <div className='flex items-center lg:text-md text-sm font-semibold  justify-around'>
+        <div className='flex items-center 2xl:text-xl text-sm font-semibold  justify-around'>
             <div className='lg:Z-50  p-6 lg:w-auto w-full flex justify-between'>
                 <img src={LogoMain} alt='logo' className='lg:ms-0 mx-auto items-center  cursor-pointer h-12  '/>
             </div>
