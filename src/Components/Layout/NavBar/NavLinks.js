@@ -17,7 +17,7 @@ function NavLinks() {
         {
           links.map((link, index) => (
             <div key={index} >
-              <div className='lg:px-3 px-3 text-xl lg:text-sm text-left lg:cursor-pointer group'>
+              <div className='lg:px-3 px-3 2xl:text-xl lg:text-sm text-left lg:cursor-pointer group'>
                 <h1 className='py-7 hover:text-green-500 '> {link.name } </h1>
                 {link.subMenu && (
                   <div className=''>
@@ -29,11 +29,11 @@ function NavLinks() {
                       <div className='bg-green-50 rounded-xl p-5 grid grid-cols-3 gap-10'>
                         {link.subLinks.map((mysublinks, index)=>(
                             <div key={index}>
-                              <h1 className='text-md font-semibold'>
+                              <h1 className='text-sm 2xl:text-lg font-semibold'>
                                 <Link to={mysublinks.headLink} onClick={scrollToTop} > {mysublinks.Head} </Link>
                               </h1>
                               {mysublinks.subLink.map((slink, index)=>(
-                                <li key={index} className='text-xs onClick={scrollToTop}" text-gray-600 py-1 px-1 '>
+                                <li key={index} className='text-sm 2xl:text-lg" text-gray-600 py-1 px-1'onClick={scrollToTop}>
                                   <Link onClick={scrollToTop} to={slink.link} className='hover:text-green-600' > {slink.name} </Link>
                                 </li>
                               ))} 
