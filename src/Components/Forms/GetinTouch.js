@@ -15,7 +15,7 @@ export function GetinTouch() {
             email: email.value,
             message: message.value
         }
-        let response = await fetch("https://truewayinternational.com/", {
+        let response = await fetch("http://localhost:8080/" || "https://truewayinternational.com/",  {
             method: "POST",
             headers: {
                 "Content-Type": "application/json;charset=utf-8"
