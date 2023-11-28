@@ -58,7 +58,7 @@ function Form2() {
                                 </div>
                                 <div className="lg:w-1/2 w-full">
                                     <label htmlFor="email_field" className=" text-lg text-white pt-5">Email ID</label>
-                                    <input className="rounded-md h-12 p-5 w-full bg-green-50 ring-0 focus:ring-0 focus:outline-none focus:border-none" type="email" name="email" id="email"/>
+                                    <input className="rounded-md h-12 p-5 w-full bg-green-50 ring-0 focus:ring-0 focus:outline-none focus:border-none" type="email" name="email" id="email" required/>
                                 </div>
                             </div>
                             <div className="my-5 ">
