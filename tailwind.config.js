@@ -23,8 +23,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-        "HeadingFont" : ["Bricolage Grotesque"]
+        'poppins': ['Poppins', 'sans-serif'],
+        'HeadingFont' : ['Bricolage Grotesque', 'sans-serif'],
       }
     }
   },
