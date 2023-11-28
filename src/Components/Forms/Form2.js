@@ -63,7 +63,7 @@ function Form2() {
                             </div>
                             <div className="my-5 ">
                                     <label htmlFor="message_field" className=" text-lg text-white pt-5">Message</label>
-                                    <textarea className="w-full rounded-md p-5 ring-0 focus:ring-0 focus:outline-none focus:border-none" name="message" id="message" rows="6" ></textarea>
+                                    <textarea className="w-full rounded-md p-5 ring-0 focus:ring-0 focus:outline-none focus:border-none" name="message" id="message" rows="6" required></textarea>
                             </div>
                             <div className='flex justify-center'>
                                 <button className="flex justify-center bg-white mt-8 mb-12 items-center text-black py-3 px-8 text-xl rounded-xl shadow-2xl hover:text-white hover:bg-green-700 " type="submit">{status}</button>
