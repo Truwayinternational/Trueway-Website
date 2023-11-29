@@ -15,17 +15,25 @@ export function GetinTouch() {
             email: email.value,
             message: message.value
         }
-        const response = await fetch("http://localhost:8080/",  {
+        const response = await fetch("https://www.truewayinternational.com/",  {
             method: "POST",
             headers: {
                 "Content-Type": "application/json;charset=utf-8"
             },
             body: JSON.stringify(details)
         })
-        setStatus("Submit");
-        const result = await response.json();
-        alert(result.status);
-        window.location.reload();
+        
+        if (response.ok) {
+            const result = await response.json();
+            setStatus("Submit");
+            alert(result.status);
+            window.location.reload();
+        } else {
+            // Handle non-ok response (HTTP 4xx or 5xx)
+            setStatus("Submit");
+            const result = await response.json();
+            alert(result.error);
+        }
     }
     
   return (
