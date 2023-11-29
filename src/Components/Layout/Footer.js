@@ -156,7 +156,7 @@ function Footer() {
     
             <div className='flex-[2] lg:flex-[3] pl-4 text-start w-full flex flex-row justify-between flex-wrap mt-10 md:mt-0'>
                 <div className='flex flex-col sm:my-2 my-4 lg:ml-10 '>
-                    <h4 className='lg:text-2xl text-xl text-zinc-100 font-bold px-3'> Our Branches </h4>
+                    <h6 className='lg:text-2xl text-xl text-zinc-100 font-bold px-3'> Our Branches </h6>
                     <div className='list'>
                         {
                             OurBranches.map((item, index) => (

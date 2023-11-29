@@ -47,13 +47,7 @@ function OurVideos(props) {
                 <iframe className='rounded-3xl m-2 md:w-[360px] md:h-[215px]' src={video.url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
             </div>
-          ))}  
-            {/* <div className=' top-[50%] -translate-x-0 translate-y-[-50% left-5 text-2xl rounded-full bg-green-500 p-2 text-white cursor-pointer] '>
-              <BsChevronCompactLeft size={30} onClick={prevSlide}/>
-            </div>
-            <div className='top-[50%] -translate-x-0 translate-y-[-50% right-5 text-2xl rounded-full bg-green-500 p-2 text-white cursor-pointer] '>
-              <BsChevronCompactRight size={30} onClick={nextSlide}/>
-            </div> */}
+          ))}
           </div>
       </div>
   );

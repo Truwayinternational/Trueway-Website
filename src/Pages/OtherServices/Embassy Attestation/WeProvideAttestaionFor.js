@@ -20,9 +20,9 @@ function WeProvideAttestaionFor() {
                 <div className='flex flex-col w-full  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4 '>
                      <img className='px-3 w-[200px] mx-auto' src={qatarembassy} alt="qatarembassy" />
                      <a href="/qatar-embassy">
-                        <h1 className='font-HeadingFont lg:text-2xl font-bold text-center pb-4 '>
+                        <p className='font-HeadingFont lg:text-2xl font-bold text-center pb-4 '>
                             QATAR EMBASSY
-                        </h1>
+                        </p>
                      </a>
                 </div>
 
@@ -30,27 +30,27 @@ function WeProvideAttestaionFor() {
                 <div className='flex flex-col w-full  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                      <img className='px-3 w-[200px] mx-auto' src={kuwaitembassy} alt="kuwaitembassy" />
                      <a href="/kuwait-embassy">
-                        <h1 className='font-HeadingFont lg:text-2xl font-bold text-center pb-4 '>
+                        <p className='font-HeadingFont lg:text-2xl font-bold text-center pb-4 '>
                             KUWAIT EMBASSY 
-                        </h1>
+                        </p>
                      </a>
                 </div>
                 {/* card 3 bahrain embassy */}
                 <div className='flex flex-col w-full  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                      <img className='px-3 w-[200px] mx-auto' src={bahrainembassy} alt="bahrainembassy" />
                      <a href="/bahrain-embassy">
-                        <h1 className='font-HeadingFont lg:text-2xl font-bold text-center pb-4 '>
+                        <p className='font-HeadingFont lg:text-2xl font-bold text-center pb-4 '>
                             BAHRAIN EMBASSY  
-                        </h1>
+                        </p>
                      </a>
                 </div>
                 {/* card 4 Malasia attestation */}
                 <div className='flex flex-col w-full  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4 ml-52'>
                      <img className='px-3 w-[200px] mx-auto' src={malaysiaembassy} alt="malaysiaembassy" />
                      <a href="/malaysia-embassy">
-                        <h1 className='font-HeadingFont lg:text-2xl font-bold text-center pb-4 '>
+                        <p className='font-HeadingFont lg:text-2xl font-bold text-center pb-4 '>
                             MALAYSIA EMBASSY  
-                        </h1>
+                        </p>
                      </a>
                 </div>
 
@@ -58,9 +58,9 @@ function WeProvideAttestaionFor() {
                 <div className='flex flex-col w-full  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4 ml-52'>
                      <img className='px-3 w-[200px] mx-auto' src={ueaembassy} alt="uaeembassy" />
                      <a href="/uae-embassy">
-                        <h1 className='font-HeadingFont lg:text-2xl font-bold text-center pb-4 '>
+                        <p className='font-HeadingFont lg:text-2xl font-bold text-center pb-4 '>
                             UAE EMBASSY  
-                        </h1>
+                        </p>
                      </a>
                 </div>
 

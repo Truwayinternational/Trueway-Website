@@ -40,9 +40,9 @@ function CoachingWeProvideMob() {
         <SwiperSlide>
             <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer  py-16'>
                     <a href="/oet">
-                        <h3 className='font-HeadingFont lg:text-2xl font-bold text-center '>
+                        <p className='font-HeadingFont lg:text-2xl font-bold text-center '>
                             OET
-                        </h3>
+                        </p>
                      </a>
             </div>
         </SwiperSlide>
@@ -50,9 +50,9 @@ function CoachingWeProvideMob() {
         <SwiperSlide>
             <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer py-16'>
                     <a href="/ielts">
-                        <h3 className='font-HeadingFont lg:text-2xl font-bold text-center '>
+                        <p className='font-HeadingFont lg:text-2xl font-bold text-center '>
                             IELTS  
-                        </h3>
+                        </p>
                     </a>
                 </div>
         </SwiperSlide>
@@ -60,9 +60,9 @@ function CoachingWeProvideMob() {
         <SwiperSlide>
             <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer py-16'>
                     <a href="/prometric">
-                        <h3 className='font-HeadingFont lg:text-2xl font-bold text-center '>
+                        <p className='font-HeadingFont lg:text-2xl font-bold text-center '>
                             PROMETRICS  
-                        </h3>
+                        </p>
                     </a>
                 </div>
         </SwiperSlide>

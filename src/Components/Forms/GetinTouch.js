@@ -30,9 +30,9 @@ export function GetinTouch() {
     
   return (
     <>
-        <div className='w-full h-full flex justify-center items-centre'>
-            <div className='grid m-auto bg-zinc-200   lg:w-2/3 mx-5 p-10  rounded-2xl'>
-                <h1 className='font-bold text-3xl subpixel-antialiased text-center font-HeadingFont'> Write to us </h1>
+        <div className='w-full h-full  flex justify-center items-centre'>
+            <div className='grid m-auto max-w-2xl bg-zinc-200 lg:w-2/3 mx-5 p-10  rounded-2xl'>
+                <p className='font-bold text-3xl md:text-5xl subpixel-antialiased text-center font-HeadingFont my-5'> Write to us </p>
                 <div className='my-10 '>
                     <form className='m-auto' onSubmit={handleSubmit}>
                         <div className="lg:flex mb-5 ">

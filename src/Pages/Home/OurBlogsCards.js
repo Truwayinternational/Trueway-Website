@@ -54,9 +54,9 @@ function OurBlogsCards() {
     <>
         <div className='max-w-[1240px] mx-auto place-content-center mb-10'>
                 <div className='my-10 '>
-                    <h1 className='text-center font-bold text-gray-800 text-3xl md:text-5xl lg:my-[100px] font-HeadingFont'>
+                    <h5 className='text-center font-bold text-gray-800 text-3xl md:text-5xl lg:my-[100px] font-HeadingFont'>
                         Read<span className='text-green-500 font-bold '>Our Blogs</span>
-                    </h1>
+                    </h5>
                 </div>
                 <div className='flex flex-row pb-10 mx-5'>
                     <Swiper

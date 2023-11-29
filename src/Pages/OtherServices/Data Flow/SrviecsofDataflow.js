@@ -25,9 +25,9 @@ function SrviecsofDataflow() {
                 <div className='flex flex-col w-full  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                      <img className='px-3 w-[150px] mx-auto' src={uae} alt="uae_logo" />
                      <a href="/dataflow-moh">
-                        <h1 className='font-HeadingFont lg:text-3xl text-xl font-bold text-center pb-4 '>
+                        <p className='font-HeadingFont lg:text-3xl text-xl font-bold text-center pb-4 '>
                             MOH
-                        </h1>
+                        </p> 
                      </a>
                 </div>
 
@@ -35,27 +35,27 @@ function SrviecsofDataflow() {
                 <div className='flex flex-col  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                      <img className='px-3 w-[150px] mx-auto' src={ksa} alt="ksa_logo" />
                      <a href="/dataflow-saudiArabia">
-                        <h1 className='font-HeadingFont text-3xl font-bold text-center pb-4 '>
+                        <p className='font-HeadingFont text-3xl font-bold text-center pb-4 '>
                             Saudi Arabia
-                        </h1>
+                        </p>
                      </a>
                 </div>
                 {/* card 3 oman SERVICE */}
                 <div className='flex flex-col  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                     <img className='px-3 w-[150px] mx-auto' src={oman} alt="oman_logo" />
                      <a href="/dataflow-oman">
-                        <h1 className='font-HeadingFont text-3xl font-bold text-center pb-4 '>
+                        <p className='font-HeadingFont text-3xl font-bold text-center pb-4 '>
                             Oman
-                        </h1>
+                        </p>
                      </a>
                 </div>
                 {/* card 4 bahrain SERVICE */}
                 <div className='flex flex-col  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                     <img className='px-3 w-[150px] mx-auto' src={bahrain} alt="bahrain_logo" />
                      <a href="/dataflow-bahrain">
-                        <h1 className='font-HeadingFont text-3xl font-bold text-center pb-4'>
+                        <p className='font-HeadingFont text-3xl font-bold text-center pb-4'>
                             Bahrain
-                        </h1>
+                        </p>
                      </a>
                 </div>
 
@@ -63,9 +63,9 @@ function SrviecsofDataflow() {
                 <div className='flex flex-col  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                     <img className='px-3 w-[150px] mx-auto' src={uae} alt="DHA_logo" />
                      <a href="/dataflow-dha">
-                        <h1 className='font-HeadingFont text-3xl font-bold text-center pb-4'>
+                        <p className='font-HeadingFont text-3xl font-bold text-center pb-4'>
                             DHA
-                        </h1>
+                        </p>
                      </a>
                 </div>
 
@@ -73,9 +73,9 @@ function SrviecsofDataflow() {
                 <div className='flex flex-col  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                     <img className='px-3 w-[150px] mx-auto' src={qatar} alt="QATAR_logo" />
                      <a href="/dataflow-qatar">
-                        <h1 className='font-HeadingFont text-3xl font-bold text-center pb-4'>
+                        <p className='font-HeadingFont text-3xl font-bold text-center pb-4'>
                             QATAR
-                        </h1>
+                        </p>
                      </a>
                 </div>
 
@@ -83,18 +83,18 @@ function SrviecsofDataflow() {
                 <div className='flex flex-col  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                     <img className='px-3 w-[150px] mx-auto' src={kuwait} alt="kuwait_logo" />
                      <a href="/dataflow-kuwait">
-                        <h1 className='font-HeadingFont text-3xl font-bold text-center pb-4'>
+                        <p className='font-HeadingFont text-3xl font-bold text-center pb-4'>
                             KUWAIT
-                        </h1>
+                        </p>
                      </a>
                 </div>
                 {/* card  HAAD SERVICE */}
                 <div className='flex flex-col  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                     <img className='px-3 w-[150px] mx-auto' src={uae} alt="kuwait_logo" />
                      <a href="/dataflow-haad">
-                        <h1 className='font-HeadingFont text-3xl font-bold text-center pb-4'>
+                        <p className='font-HeadingFont text-3xl font-bold text-center pb-4'>
                             HAAD
-                        </h1>
+                        </p>
                      </a>
                 </div>
             </div>

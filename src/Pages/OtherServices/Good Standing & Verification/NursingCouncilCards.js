@@ -24,73 +24,73 @@ function NursingCouncilCards() {
                 <div className='grid grid-cols-3 my-10 mx-10 gap-6'>
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer  py-10'>
                         <a href="/kerala-nursing-council">
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
+                        <h6 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
                             Kerala <br/> Nursing Council
-                        </h3>
+                        </h6>
                      </a>
                     </div>
 
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer  py-10'>
                         <a href="/tamilnadu-nursing-council">
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
+                        <h6 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
                             Tamil Nadu <br/> Nursing Council
-                        </h3>
+                        </h6>
                         </a>
                     </div>
 
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer  py-10'>
                         <a href="/andhrapredesh-nursing-council">
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
+                        <h6 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
                             Andhra Pradesh <br/> Nursing Council
-                        </h3>
+                        </h6>
                      </a>
                     </div>
 
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer  py-10'>
                         <a href="/karnataka-nursing-council">
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
+                        <h6 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
                             Karnataka <br/> Nursing Council
-                        </h3>
+                        </h6>
                      </a>
                     </div>
 
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer  py-10'>
                         <a href="/maharashtra-nursing-council">
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
+                        <h6 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
                             Maharashtra <br/> Nursing Council
-                        </h3>
+                        </h6>
                      </a>
                     </div>
 
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer  py-10'>
                         <a href="/delhi-nursing-council">
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
+                        <h6 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
                             Delhi <br/> Nursing Council
-                        </h3>
+                        </h6>
                      </a>
                     </div>
 
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer  py-10'>
                         <a href="/telangana-nursing-council">
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
+                        <h6 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
                             Telangana <br/> Nursing Council
-                        </h3>
+                        </h6>
                      </a>
                     </div>
 
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer  py-10'>
                         <a href="/madhyapradesh-nursing-council">
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
+                        <h6 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
                             Madhya Pradesh <br/> Nursing Council
-                        </h3>
+                        </h6>
                      </a>
                     </div>
 
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer  py-10'>
                         <a href="/saudiarabia-nursing-council">
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
+                        <h6 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
                             Saudi Arabia <br/> Nursing Council
-                        </h3>
+                        </h6>
                      </a>
                     </div>
                 </div>
