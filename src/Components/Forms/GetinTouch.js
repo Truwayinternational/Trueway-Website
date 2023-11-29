@@ -15,15 +15,15 @@ export function GetinTouch() {
             email: email.value,
             message: message.value
         }
-        let response = await fetch("http://localhost:8080/" || "https://truewayinternational.com/",  {
+        const response = await fetch("http://localhost:8080/",  {
             method: "POST",
             headers: {
-                "Content-Type": "application/json"
+                "Content-Type": "application/json;charset=utf-8"
             },
             body: JSON.stringify(details)
         })
         setStatus("Submit");
-        let result = await response.json();
+        const result = await response.json();
         alert(result.status);
         window.location.reload();
     }
@@ -31,7 +31,7 @@ export function GetinTouch() {
   return (
     <>
         <div className='w-full h-full flex justify-center items-centre'>
-            <div className='m-auto bg-zinc-200  max-w-[768px] lg:w-2/3 mx-5 p-10  rounded-2xl'>
+            <div className='grid m-auto bg-zinc-200   lg:w-2/3 mx-5 p-10  rounded-2xl'>
                 <h1 className='font-bold text-3xl subpixel-antialiased text-center font-HeadingFont'> Write to us </h1>
                 <div className='my-10 '>
                     <form className='m-auto' onSubmit={handleSubmit}>
@@ -62,7 +62,7 @@ export function GetinTouch() {
                     </form>
                     
                     <div className='text-center'>
-                        <p className='text-gray-700 font-bold text-md font-HeadingFont'> To Know more Get in touch with our experts </p>
+                        <p className='text-gray-700 font-bold text-xl font-HeadingFont'> To Know more Get in touch with our experts </p>
                     </div>
                     <div className='text-center flex justify-center items-center '>
                         <div className='flex flex-row  mt-8'>

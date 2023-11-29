@@ -19,15 +19,15 @@ function Form2() {
             subject:subject.value,
             message: message.value
         }
-        let response = await fetch("http://localhost:8080/" || "https://truewayinternational.com/",  {
+        const response = await fetch("http://localhost:8080/",  {
             method: "POST",
             headers: {
-                "Content-Type": "application/json"
+                "Content-Type": "application/json;charset=utf-8"
             },
             body: JSON.stringify(details)
         })
         setStatus("Submit");
-        let result = await response.json();
+        const result = await response.json();
         alert(result.status);
         window.location.reload();
     }

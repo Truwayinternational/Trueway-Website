@@ -20,15 +20,15 @@ function ContactHeroForm() {
             email: email.value,
             message: message.value
         }
-        let response = await fetch("http://localhost:8080/contact" || "https://truewayinternational.com/contact", {
+        const response = await fetch("http://localhost:8080/contact", {
             method: "POST",
             headers: {
-                "Content-Type": "application/json"
+                "Content-Type": "application/json;charset=utf-8"
             },
             body: JSON.stringify(details)
         })
         setStatus("Submit");
-        let result = await response.json();
+        const result = await response.json();
         alert(result.status);
         window.location.reload();
     }

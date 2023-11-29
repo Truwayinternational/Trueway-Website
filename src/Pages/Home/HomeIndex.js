@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 
 import Form2 from "../../Components/Forms/Form2";
 import FromClients from "./FromClients";
@@ -18,6 +19,13 @@ import WhyisTrueway from "../../Components/WhyisTrueway";
 function HomeIndex() {
   return (
     <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Certificate Attestation Consultancy|Indian Document|Fast Service</title>
+          <meta name="description" content="Trueway is a leading attestation consultancy that offers quick and secure services across India. We provide Embassy, MEA, MOFA, HRD, Home & Apostille attestation." />
+          <link rel="canonical" href="http://truewayinternational.com/" />
+        </Helmet>
+
       <HomeSlider />
       <HomeSliderMob />
       <Hero />
