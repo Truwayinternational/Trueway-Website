@@ -10,7 +10,7 @@ function DocumentsForKuwait() {
             <div className='flex  max-w-[1240px] mx-auto place-content-center '>
                 <div className='grid lg:grid-cols-2 max-w-[1280px] pt-10 '>
                     <div className='flex flex-col lg:pl-12 md:px-10 lg:px-0  px-5 '>
-                        <h1 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500 '> <b className='text-black'> Documents Required For<br/> </b> Dataflow in Kuwait </h1>
+                        <h5 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500 '> <b className='text-black'> Documents Required For<br/> </b> Dataflow in Kuwait </h5>
                         <p className='text-gray-500 font-poppins text-md md:text-xl lg:text-lg '>
                             To do dataflow in Kuwait the candidate has to submit some documents. So prior to the actual process, you should gather the documents and submit them before Trueway. These are the documents needed:
                         </p>

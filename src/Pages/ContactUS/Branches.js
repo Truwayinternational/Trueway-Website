@@ -16,7 +16,7 @@ function Branches() {
         <div className='w-full my-20'>
             <div className='max-w-[1240px] mx-auto place-content-center'>
                 <div className='text-center'>
-                    <h2 className='text-5xl font-bold font-HeadingFont'>Our <b className='text-green-500'> Branches</b></h2>
+                    <h5 className='text-5xl font-bold font-HeadingFont'>Our <b className='text-green-500'> Branches</b></h5>
                 </div>
                 <div className='hidden md:grid grid-cols-3 mx-10 my-14 gap-5'>
                     {/* kazhakkoottam */}

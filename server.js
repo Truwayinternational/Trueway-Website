@@ -2,16 +2,33 @@ const express = require("express");
 const router = express.Router();
 const nodemailer = require("nodemailer");
 const cors = require("cors")
+const bodyParser = require('body-parser');
 
 const app = express();
 app.use(cors())
 
 
-app.use(express.json());
-app.use("/", router);
-const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => console.log("Server is running on port "));
 
+const path = require('path');
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, 'build')));
+
+
+// Handle requests to the root URL
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
+
+// Middleware to parse JSON requests
+app.use(bodyParser.json());
+app.use("/", router);
+// Start the server
+const port = process.env.PORT || 8080;
+app.listen(port, () => console.log("Server is running on port "));
+
+
+// Nodemailer configuration
 const contactEmail = nodemailer.createTransport({
   service: "gmail",
   auth: {
@@ -48,6 +65,8 @@ router.post("/contact", (req, res) => {
             <p>MESSAGE : ${message}</p>
           `,
   };
+  
+    // Send email
   contactEmail.sendMail(mail, (error) => {
     if (error) {
       res.json({ status: "ERROR" });

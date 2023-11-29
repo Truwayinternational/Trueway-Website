@@ -33,7 +33,7 @@ function OurTeam() {
         <div className='w-full my-20'>
             <div className='max-w-[1240px] mx-auto place-content-center'>
                 <div className='text-center'>
-                    <h2 className='text-5xl font-bold font-HeadingFont px-5'>Meet <b className='text-green-500'> Our Team</b></h2>
+                    <h5 className='text-5xl font-bold font-HeadingFont px-5'>Meet <b className='text-green-500'> Our Team</b></h5>
                 </div>
                 <div className='grid justify-center mx-auto px-6 py-3'>
                     <img className='w-[350px]' src={HassanSir} alt="Mdsir " />

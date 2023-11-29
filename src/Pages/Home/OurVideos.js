@@ -1,36 +1,41 @@
 import React from 'react'
-// import {useState} from 'react'
+import YouTube from 'react-youtube';
 
-// import {BsChevronCompactLeft, BsChevronCompactRight} from 'react-icons/bs'
 
 function OurVideos(props) {
 
   const youtubeSlides = [
     {
-      url: "https://www.youtube.com/embed/UB_wG18xLJA"
+      url: "UB_wG18xLJA"
     },
     {
-      url: "https://www.youtube.com/embed/MChZHq0RwkU"
+      url: "MChZHq0RwkU"
     },
     {
-      url: "https://www.youtube.com/embed/xZdRqlHfQ-Y"
+      url: "xZdRqlHfQ-Y"
     },
     {
-      url: "https://www.youtube.com/embed/mf2x6gaGDuw"
+      url: "mf2x6gaGDuw"
     },
     {
-      url: "https://www.youtube.com/embed/c4gGjwHvH9Q"
+      url: "c4gGjwHvH9Q"
     },
     {
-      url: "https://www.youtube.com/embed/0xruayMI2Nk"
+      url: "0xruayMI2Nk"
     },
     {
-      url: "https://www.youtube.com/embed/TiFZOTCrM7A"
+      url: "TiFZOTCrM7A"
     },
     {
-      url: "https://www.youtube.com/embed/YuXe4CaOAmM"
+      url: "YuXe4CaOAmM"
     }
   ]
+
+  const opts = {
+    height:'215',
+    width: '360',
+    };
+
 
   return (
       <div className='bg-zinc-600 md:py-6 py-3'>
@@ -43,17 +48,10 @@ function OurVideos(props) {
           <div className="flex flex-row my-16 w-full m-auto  pr-4  carousel scroll-smooth px-5 items-center justify-start overflow-x-auto overflow-y-hidden max-w-[1240px]">
           {youtubeSlides.map((video, index) => (
             <div key={index} className='flex m-auto md:mx-5'>
-
-                <iframe className='rounded-3xl m-2 md:w-[360px] md:h-[215px]' src={video.url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-
+              <YouTube videoId={video.url} opts={opts} className={'rounded-xl'}/>
+                {/* <iframe className='rounded-3xl m-2 md:w-[360px] md:h-[215px]' src={video.url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
             </div>
-          ))}  
-            {/* <div className=' top-[50%] -translate-x-0 translate-y-[-50% left-5 text-2xl rounded-full bg-green-500 p-2 text-white cursor-pointer] '>
-              <BsChevronCompactLeft size={30} onClick={prevSlide}/>
-            </div>
-            <div className='top-[50%] -translate-x-0 translate-y-[-50% right-5 text-2xl rounded-full bg-green-500 p-2 text-white cursor-pointer] '>
-              <BsChevronCompactRight size={30} onClick={nextSlide}/>
-            </div> */}
+          ))}
           </div>
       </div>
   );

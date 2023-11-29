@@ -10,7 +10,7 @@ function DocumentsForDHA() {
             <div className='flex  max-w-[1240px] mx-auto place-content-center '>
                 <div className='grid lg:grid-cols-2 max-w-[1280px] pt-10 '>
                     <div className='flex flex-col lg:pl-12 md:px-10 lg:px-0  px-5 '>
-                        <h1 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500 '> <b className='text-black'> Documents Required For<br/> </b> DHA (Dubai Health Authority) Dataflow </h1>
+                        <h5 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500 '> <b className='text-black'> Documents Required For<br/> </b> DHA (Dubai Health Authority) Dataflow </h5>
                         <p className='text-gray-500 font-poppins text-md md:text-xl lg:text-lg '>
                             Healthcare practitioners seeking employment or licensure must submit particular papers for authentication under Dubai's Dataflow protocol. These records are important for confirming the validity of their educational and professional background. The crucial paperwork required for the Dubai Dataflow procedure is described in the section that follows.
                         </p>

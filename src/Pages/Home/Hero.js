@@ -5,13 +5,18 @@ import heroImg from '../../Assets/heroImg.webp'
 
 function Hero() {
   return (
-    <div className='w-full h-full bg-zinc-100 flex flex-col justify-between'>
+    <div className='w-full bg-zinc-100 flex flex-col justify-center'>
+        <div className='flex max-w-4xl justify-center mx-auto mt-10 mb-5'>
+           <h1 className='font-bold  px-3 md:px-10 text-3xl md:text-5xl text-center  font-HeadingFont'>
+                The Prime Partner for <br/><b className='text-green-500 '> Certificate Attestation, Authentication, Verification services </b> in India
+            </h1>
+        </div>
         <div className="grid lg:grid-cols-2 max-w-[1240px] m-auto">
             <div className='flex flex-col justify-center md:items-start w-full px-5 py-4 lg:pl-16'>
-                <h2 className='pt-12 pb-8 px-3 text-3xl md:text-5xl lg:text-4xl tracking-wider md:leading-snug text-center lg:text-start font-HeadingFont md:px-[100px] lg:px-4'>
-                The Prime Partner for<b className='text-green-500 lg:text-black text-'> Certificate Attestation, Authentication,<br /> Verification services </b> in India
-                </h2>
-                <div className='md:flex  items-center lg:hidden'>
+                {/* <h1 className='py-5  px-3 text-3xl md:text-5xl text-center lg:text-start font-HeadingFont'>
+                The Prime Partner for<b className='text-green-500 '> Certificate Attestation, Authentication, Verification services </b> in India
+                </h1> */}
+                <div className='md:flex  mx-auto lg:hidden'>
                   <img className='w-full md:px-12 lg:p-5 lg:pt-48' src={heroImg} alt="MainImage..." />
                 </div>
                 <p className='font-poppins md:text-lg text-md text-justify px-1 text-gray-500'>

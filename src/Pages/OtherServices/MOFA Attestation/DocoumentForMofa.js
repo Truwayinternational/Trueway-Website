@@ -14,7 +14,7 @@ function DocoumentForMofa() {
         <div className='flex  max-w-[1240px] mx-auto place-content-center '>
             <div className='grid lg:grid-cols-2 max-w-[1280px] py-10 '>
                 <div className='flex flex-col lg:pl-12 md:px-10 lg:px-0  px-5'>
-                <h1 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500'> <b className='text-black'> Documents Required For <br/> </b> MOFA Attestation</h1>
+                <h5 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500'> <b className='text-black'> Documents Required For <br/> </b> MOFA Attestation</h5>
                     <p className='text-gray-500 font-poppins md:text-xl lg:text-lg'>
                     MOFA attestation basically takes 2-3 weeks. To complete the MOFA attestation rapidly and smoothly you must have some documents with you. 
                     <b> They are: </b>

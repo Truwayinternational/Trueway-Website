@@ -19,17 +19,26 @@ function Form2() {
             subject:subject.value,
             message: message.value
         }
-        let response = await fetch("http://localhost:8080/" || "https://truewayinternational.com/" , {
+        const response = await fetch("https://www.truewayinternational.com/",  {
             method: "POST",
             headers: {
                 "Content-Type": "application/json;charset=utf-8"
             },
             body: JSON.stringify(details)
         })
-        setStatus("Submit");
-        let result = await response.json();
-        alert(result.status);
-        window.location.reload();
+
+        if (response.ok) {
+            const result = await response.json();
+            setStatus("Submit");
+            alert(result.status);
+            window.location.reload();
+        } else {
+            // Handle non-ok response (HTTP 4xx or 5xx)
+            setStatus("Submit");
+            const result = await response.json();
+            alert(result.error);
+        }
+
     }
 
   return (
@@ -58,12 +67,12 @@ function Form2() {
                                 </div>
                                 <div className="lg:w-1/2 w-full">
                                     <label htmlFor="email_field" className=" text-lg text-white pt-5">Email ID</label>
-                                    <input className="rounded-md h-12 p-5 w-full bg-green-50 ring-0 focus:ring-0 focus:outline-none focus:border-none" type="email" name="email" id="email"/>
+                                    <input className="rounded-md h-12 p-5 w-full bg-green-50 ring-0 focus:ring-0 focus:outline-none focus:border-none" type="email" name="email" id="email" required/>
                                 </div>
                             </div>
                             <div className="my-5 ">
                                     <label htmlFor="message_field" className=" text-lg text-white pt-5">Message</label>
-                                    <textarea className="w-full rounded-md p-5 ring-0 focus:ring-0 focus:outline-none focus:border-none" name="message" id="message" rows="6" ></textarea>
+                                    <textarea className="w-full rounded-md p-5 ring-0 focus:ring-0 focus:outline-none focus:border-none" name="message" id="message" rows="6" required></textarea>
                             </div>
                             <div className='flex justify-center'>
                                 <button className="flex justify-center bg-white mt-8 mb-12 items-center text-black py-3 px-8 text-xl rounded-xl shadow-2xl hover:text-white hover:bg-green-700 " type="submit">{status}</button>

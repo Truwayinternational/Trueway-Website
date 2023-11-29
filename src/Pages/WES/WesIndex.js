@@ -5,7 +5,7 @@ function WesIndex() {
     <div>
       <div className='w-full h-screen bg-zinc-100 flex justify-center items-center'>
 
-        <h1> world educational services</h1>
+        <p> world educational services</p>
       </div>
     </div>
   )

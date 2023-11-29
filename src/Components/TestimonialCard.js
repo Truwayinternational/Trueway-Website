@@ -128,7 +128,7 @@ function TestimonialCard() {
           <SwiperSlide key={Index} className=''>
              <div className="mb-16 h-fit md:h-[400px] py-5 justify-center px-auto m-4 p-3 bg-green-50 px-4 rounded-3xl hover:shadow-lg hover:bg-zinc-100 cursor-pointer">
                 <div >
-                  <h2 className='font-bold  text-md tracking-wider text-center mt-3'> {Data.name} </h2>
+                  <h6 className='font-bold  text-md tracking-wider text-center mt-3'> {Data.name} </h6>
                   <p className='text-gray-400 text-center my-1'> {Data.relation} </p>
                   <hr className='h-1 w-24 rounded bg-green-400 mx-auto mt-2 '/>
                   <img className='block w-24 object-cover mx-auto my-2'  src={Data.img}  alt='star rating'/>

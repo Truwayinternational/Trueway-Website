@@ -39,18 +39,7 @@ function MobNavbar() {
                             <div className='bg-white p-2 rounded-full mx-2 md:ml-3 my-2'>
                                 <a href="https://www.instagram.com/truewayinternational/?hl=en" className='text-xl  text-green-700' target='_blank' rel="noopener noreferrer"><BsInstagram /></a>
                             </div>
-
-                            {/* <div className='bg-white p-2 rounded-full mx-2 md:ml-3 my-2'>
-                                <a href="https://www.youtube.com/channel/UCRq22m2bbJ5AONWGQug9FpA" className='text-xl  text-green-700' target='_blank' rel="noopener noreferrer"><BsYoutube /></a>
-                            </div> */}
                         </div>
-
-                        {/* search bar */}
-
-                        {/* <div className='relative md:ml-[-150px] ml-0'>
-                            <input type="text" className='p-2 bg-gray-100 rounded-lg md:w-50 w-48 mx-auto pl-10 align-middle  focus:outline-0 placeholder:font-light' placeholder='Tracking Number'/>
-                            <BsSearch  className='absolute left-3 top-3 text-gray-500 cursor-pointer'/>
-                        </div> */}
 
                     <div className="lg:hidden">
                     <button

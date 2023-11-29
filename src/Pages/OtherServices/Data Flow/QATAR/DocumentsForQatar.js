@@ -10,7 +10,7 @@ function DocumentsForQatar() {
             <div className='flex  max-w-[1240px] mx-auto place-content-center '>
                 <div className='grid lg:grid-cols-2 max-w-[1280px] pt-10 '>
                     <div className='flex flex-col lg:pl-12 md:px-10 lg:px-0  px-5 '>
-                        <h1 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500 '> <b className='text-black'> Documents Required For <br/> </b> Qatar Dataflow </h1>
+                        <h5 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500 '> <b className='text-black'> Documents Required For <br/> </b> Qatar Dataflow </h5>
                         <p className='text-gray-500 font-poppins text-md md:text-xl lg:text-lg '>
                         Healthcare professionals in Qatar who are applying for a job or a license must submit particular documents for verification as part of the Dataflow procedure. These documents are important for verifying the credibility of their educational history and work experience. The documentation required for Qatar's Dataflow procedure is provided in the section which contains.
                         </p>
