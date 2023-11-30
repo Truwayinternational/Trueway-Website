@@ -2,7 +2,7 @@ import React from 'react'
 import YouTube from 'react-youtube';
 
 
-function OurVideos(props) {
+function OurVideos() {
 
   const youtubeSlides = [
     {
