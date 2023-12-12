@@ -30,79 +30,79 @@ function HeroSidebar() {
             <div className='flex flex-col justify-center items-center'>
                 <div className=''>
                     <ul className='list-none mt-4'>
-                        <li className='my-[-15px]'>
+                        <li className='my-[-15px] p-4'>
                             <a href="/certificate-attestation" onClick={scrollToTop}>
                                 <img src={Certificate_img} alt="CertificateAttestation_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg'  />
                             </a>
                         </li> 
-                        <li className='my-[-15px]'>
+                        <li className='my-[-15px] p-4'>
                             <a href="/embassy-attestation" onClick={scrollToTop}>
                                 <img src={embassy_img} alt="embassy_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </a>
                         </li>
-                        <li className='my-[-15px]'>
+                        <li className='my-[-15px] p-4'>
                             <a href="/mea-attestation" onClick={scrollToTop}>
                                 <img src={MEA_img} alt="MEA_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </a>
                         </li>
-                        <li className='my-[-15px]'>
+                        <li className='my-[-15px] p-4'>
                             <a href="/mofa-attestation" onClick={scrollToTop}>
                                 <img src={Mofa_img} alt="Mofa_Attestation_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </a>
                         </li>
-                        <li className='my-[-15px]'>
+                        <li className='my-[-15px] p-4'>
                             <a href="/hrd-attestation" onClick={scrollToTop}>
                                 <img src={HRD_img} alt="HrdAttestation_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </a>
                         </li>
-                        <li className='my-[-15px]'>
+                        <li className='my-[-15px] p-4'>
                             <a href="/apostille-attestation" onClick={scrollToTop}>
                                 <img src={Apostille_img} alt="AppostilleAttestation_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </a>
                         </li>
-                        <li>
+                        <li className='p-4'>
                             <a href="/home-attestation" onClick={scrollToTop}>
                                 <img src={HOME_img} alt="HomeAttestation_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </a>
                         </li>
-                        <li className='my-[-15px]'>
+                        <li className='my-[-15px] p-4'>
                             <a href="/dataflow" onClick={scrollToTop}>
                                 <img src={Dataflow_img} alt="dataflow_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </a>
                         </li>
-                        <li className='my-[-15px]'>
+                        <li className='my-[-15px] p-4'>
                             <a href="/exam-coaching" onClick={scrollToTop}>
                                 <img src={Exam_img} alt="examCoaching_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </a>
                         </li>
-                        <li className='my-[-15px]' onClick={scrollToTop}>
+                        <li className='my-[-15px] p-4' onClick={scrollToTop}>
                             <a href="/acls-bls">
                                 <img src={ACLS_BLS_img} alt="ACLS_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </a>
                         </li>
-                        <li className='my-[-15px]'>
+                        <li className='my-[-15px] p-4'>
                             <a href="/pcc" onClick={scrollToTop}>
                                 <img src={PCC_img} alt="pcc_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </a>
                         </li>
-                        <li className='my-[-15px]'>
+                        <li className='my-[-15px] p-4'>
                             <a href="/migration" onClick={scrollToTop}>
                                 <img src={migration_img} alt="migration_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />
                             </a>
                         </li>
-                        <li className='my-[-15px]' onClick={scrollToTop}>
+                        <li className='my-[-15px] p-4' onClick={scrollToTop}>
                             <a href="/goodstanding-council-verification">
                                 <img src={verification_img} alt="otherServices_link" 
                                 className='border border-solid border-transparent rounded-xl hover:border-green-500 hover:shadow-lg' />

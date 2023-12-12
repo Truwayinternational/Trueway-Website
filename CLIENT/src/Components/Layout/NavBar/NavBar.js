@@ -25,33 +25,33 @@ function NavBar() {
             {/* web nav bar */}
 
             <ul className='lg:flex hidden Capitalize items-center gap-2 font-[poppins] cursor-pointer'>
-                <li>
-                    <NavLink to="/" className='py-3 cursor-pointer  inline-block hover:text-green-500 [&.active]:text-green-600 [&.active]:font-bold' onClick={scrollToTop} > 
+                <li className='p-4'>
+                    <NavLink to="/" className='py-3 cursor-pointer  inline-block hover:text-green-500 [&.active]:text-green-600 [&.active]:font-bold ' onClick={scrollToTop} > 
                         Home
                     </NavLink>
                 </li>
-                <li>
+                <li className='p-4'>
                     <NavLink to="/about" className='py-3 cursor-pointer  inline-block hover:text-green-500 [&.active]:text-green-600 [&.active]:font-bold' onClick={scrollToTop}> 
                         About
                     </NavLink>
                 </li>
                 <NavLinks />
-                <li>
+                <li className='p-4'>
                     <NavLink to="/wes" className='py-3 cursor-pointer  inline-block hover:text-green-500 [&.active]:text-green-600 [&.active]:font-bold' onClick={scrollToTop}> 
                         WES
                     </NavLink>
                 </li>
-                <li>
+                <li className='p-4'>
                     <NavLink to="/services" className='py-3 cursor-pointer  inline-block hover:text-green-500 [&.active]:text-green-600 [&.active]:font-bold' onClick={scrollToTop}> 
                         Services
                     </NavLink>
                 </li>
-                <li>
+                <li className='p-4'>
                     <NavLink to="/blogs" className='py-3 cursor-pointer  inline-block hover:text-green-500 [&.active]:text-green-600 [&.active]:font-bold' onClick={scrollToTop}> 
                         Blogs 
                     </NavLink>
                 </li>
-                <li>
+                <li className='p-4'>
                     <NavLink to="/contact" className='py-3 cursor-pointer  inline-block hover:text-green-500 [&.active]:text-green-600 [&.active]:font-bold ' onClick={scrollToTop}> 
                        Contact
                     </NavLink>

@@ -15,37 +15,37 @@ function DocumentsRequired() {
                             <ul className='md:text-xl  py-3 text-lg  text-green-500 w-fit font-HeadingFont font-semibold cursor-pointer'>
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Dataflow Report
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Dataflow Report
                                     </li>
                                 </div>
 
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Copy of passport
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Copy of passport
                                     </li>
                                 </div>
 
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> USER ID and Password of Dataflow
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> USER ID and Password of Dataflow
                                     </li>
                                 </div>
 
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Registered Mail ID
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Registered Mail ID
                                     </li>
                                 </div>
 
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> All the other Documents submitted at the time of Dataflow
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> All the other Documents submitted at the time of Dataflow
                                     </li>
                                 </div>
 
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> BLS Certificate<span> (Only for Nurses. This certificate is not required for Physicians.)</span>
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> BLS Certificate<span> (Only for Nurses. This certificate is not required for Physicians.)</span>
                                     </li>
                                 </div>
                             </ul>

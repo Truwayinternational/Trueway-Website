@@ -8,7 +8,7 @@ function HowToApplyKuwaitPcc() {
     <>
         <div className='max-w-[1240px] mx-auto place-content-center pt-10'>
             <div className='flex mx-4  lg:px-16 px-3'>
-              <h3 className='md:text-5xl text-3xl pb-5  font-HeadingFont font-extrabold text-black  tracking-wide  '>How to apply for<br/> <b className='text-green-500'>Kuwait Police Clearance Certificate? </b></h3>
+              <h3 className='md:text-5xl text-3xl pb-5  font-HeadingFont font-extrabold text-black  tracking-wide'>How to apply for<br/> <b className='text-green-500'>Kuwait Police Clearance Certificate? </b></h3>
               <img className='md:hidden grid  w-[100px]  mt-[-30px]' src={avatar_1} alt="avatar_1" />
             </div>
             <div className='flex'>
@@ -22,17 +22,17 @@ function HowToApplyKuwaitPcc() {
                         </p>
                         <ul className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-5  pt-5'>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Passport</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Passport</li> 
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Visa </li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Visa </li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>ID copy</li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>ID copy</li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Passport size photo</li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Passport size photo</li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Kuwait Civil ID Number</li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Kuwait Civil ID Number</li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Permanent Address</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Permanent Address</li> 
                         </ul>
                     </div>
                 </div>

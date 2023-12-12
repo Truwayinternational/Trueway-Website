@@ -18,13 +18,13 @@ function CharacteristicsIELTS() {
 
                 <ul className='list-none text-green-500 font-semibold text-lg md:text-xl md:ml-24 lg:ml-16 px-4 py-6'>
                     <BiSolidChevronRightCircle />
-                    <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Special Consideration for IELTS Candidates</li> 
+                    <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Special Consideration for IELTS Candidates</li> 
                     <BiSolidChevronRightCircle />
-                    <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Advanced Technology Learning</li>
+                    <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Advanced Technology Learning</li>
                     <BiSolidChevronRightCircle />
-                    <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Updated IELTS Syllabus</li>
+                    <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Updated IELTS Syllabus</li>
                     <BiSolidChevronRightCircle />
-                    <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Anytime availability</li> 
+                    <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Anytime availability</li> 
                 </ul>
             </div>
         </div>

@@ -39,11 +39,11 @@ function ProcedureOfCA() {
                 <div className='w-full lg:px-12 lg:pr-16 px-4 pl-6 py-3'>
                     <ul className='list-none text-green-500 font-semibold text-lg md:text-xl my-3  ml-3 font-HeadingFont'>
                         <BiSolidChevronRightCircle />
-                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>  Educational certificates </li> 
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>  Educational certificates </li> 
                         <BiSolidChevronRightCircle />
-                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'> Non-educational certificates </li>
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'> Non-educational certificates </li>
                         <BiSolidChevronRightCircle />
-                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'> Commercial certificates </li>
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'> Commercial certificates </li>
                     </ul>
                       <p className=' text-md  lg:text-lg md:text-xl text-start text-gray-500 font-poppins pr-2 lg:p-0'>
                         Certificate attestation requires the original certificates and passport copies. These documents are verified by relevant authorities based on the type of attestation needed. Certificate attestation is a way to prove that educational, non-educational, and commercial documents are genuine. It's crucial for people planning to work or study abroad.

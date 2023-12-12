@@ -20,9 +20,9 @@ function ProcessForQatar() {
             Dataflow starts for Qatar's medical providers with thorough data gathering from patients, including medical records and test results. Data is collected from different sources that includes patient records, medical equipment, and other details. This data is examined and classified to ensure validity and regularity, and it is analysed in order to clarify information, assist making decisions, and improve the overall healthcare services provided by patients as well as doctors in Qatar.
             </p>
             <ol className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-xl py-3 font-HeadingFont'>
-                <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Verifying Documents</li> 
-                <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Dataflow process </li>
-                <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Prometric exam booking </li>
+                <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Verifying Documents</li> 
+                <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Dataflow process </li>
+                <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Prometric exam booking </li>
             </ol>
           </div>    
         </div>     

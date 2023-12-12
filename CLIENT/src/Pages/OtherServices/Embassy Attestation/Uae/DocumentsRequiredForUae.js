@@ -19,13 +19,13 @@ function DocumentsRequiredForUae() {
                         <ul className='md:text-xl  py-3 text-lg  text-green-500 w-fit font-HeadingFont font-semibold cursor-pointer'>
                             <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Original Certificate
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Original Certificate
                             </li>
                             </div>
                             
                             <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Copy of Passport
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Copy of Passport
                             </li>
                             </div>
                             

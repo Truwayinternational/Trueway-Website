@@ -28,11 +28,11 @@ function ProcedureOfApostille() {
                 <p className='md:text-2xl text-xl font-HeadingFont  font-semibold py-3'>The three main types of Apostilles are listed below: </p>
                     <ul className='list-none text-green-500 font-semibold text-lg md:text-xl my-5  ml-3 font-HeadingFont'>
                         <BiSolidChevronRightCircle />
-                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'> Educational certificate Apostille.</li> 
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4 '> Educational certificate Apostille.</li> 
                         <BiSolidChevronRightCircle />
-                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'> Non-educational certificate Apostille.</li>
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4 '> Non-educational certificate Apostille.</li>
                         <BiSolidChevronRightCircle />
-                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'> Commercial certificate Apostille.</li>
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4 '> Commercial certificate Apostille.</li>
                     </ul>
                     <p className='text-md md:text-xl lg:text-lg text-gray-500 font-poppins pr-3 lg:p-0'>
                     In India, the MEA department is in charge of giving the Apostille stamp, which validates the document and is attached to the reverse. Extra confirmation may only be required in particular instances if a document has acquired an Apostille. In the current global atmosphere, any outsider should obtain an apostille before travelling to any country that is a signatory to the Hague Convention.
@@ -48,11 +48,11 @@ function ProcedureOfApostille() {
                 </p>
                 <ul className='inline-flex list-none text-green-500 font-semibold text-lg md:text-xl lg:px-xl mt-3 font-HeadingFont'>
                     <BiSolidChevronRightCircle />
-                    <li className='cursor-pointer mt-[-20px] font-HeadingFont  md:mr-20'> SDM </li>
+                    <li className='cursor-pointer p-4  mt-[-20px] font-HeadingFont  md:mr-20'> SDM </li>
                     <BiSolidChevronRightCircle />
-                    <li className='cursor-pointer mt-[-20px] font-HeadingFont md:mr-20'> MEA </li>
+                    <li className='cursor-pointer p-4  mt-[-20px] font-HeadingFont md:mr-20'> MEA </li>
                     <BiSolidChevronRightCircle />
-                    <li className='cursor-pointer mt-[-20px] font-HeadingFont md:mr-10'> Apostille </li>
+                    <li className='cursor-pointer p-4  mt-[-20px] font-HeadingFont md:mr-10'> Apostille </li>
                 </ul>
             </div>
         </div> 

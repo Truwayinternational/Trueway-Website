@@ -16,10 +16,10 @@ function PurposesOfMEA() {
                 <div className='lg:w-2/3 ml-3 lg:md-12 lg:px-20 px-4 '>
                     <div className='text-md md:text-lg lg:text-lg text-start text-gray-500  pr-3 lg:p-0 lg:mr-0'>
                         <ol className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-5 md:pr-20 py-3 '>
-                            <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/> For higher education. </li>
-                            <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>For migration.</li> 
-                            <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>For employment. </li> 
-                            <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>To get a resident visa. </li> 
+                            <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/> For higher education. </li>
+                            <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/>For migration.</li> 
+                            <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/>For employment. </li> 
+                            <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/>To get a resident visa. </li> 
                         </ol>
                         <p>
                             The original certificate is the only document that can be considered for every attestation, including MEA attestation. MEA attestation is the second step of the attestation process. It is necessary that the applicant properly completes all attestation procedures. The applicant must provide each and every document required for MEA attestation without fail. The country's foreign relations are managed by the Ministry of External Affairs. When travelling internationally, a person's documents have to be verified and recognized as their own, necessitating MEA attestation. MEA attestation verifies the authenticity of the documents.

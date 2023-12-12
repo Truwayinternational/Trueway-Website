@@ -13,13 +13,13 @@ function EducationalDocuments() {
         <div className='text-green-500'>
             <ol className='list-none font-semibold text-lg md:text-xl py-3 ml-4'>
                 <BiSolidChevronRightCircle />
-                <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Law degree certificate attestation</li> 
+                <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Law degree certificate attestation</li> 
                 <BiSolidChevronRightCircle />
-                <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Technical degree certificate attestation</li> 
+                <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Technical degree certificate attestation</li> 
                 <BiSolidChevronRightCircle />
-                <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Professional degree certificate attestation</li> 
+                <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Professional degree certificate attestation</li> 
                 <BiSolidChevronRightCircle />
-                <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>PhD degree certificate attestation</li>
+                <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>PhD degree certificate attestation</li>
             </ol>
         </div>
     </div>
@@ -38,17 +38,17 @@ function EducationalDocuments() {
                     <div className='text-green-500'>
                         <ol className='list-none font-semibold text-lg md:text-xl py-3 ml-4'>
                         <BiSolidChevronRightCircle />
-                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>UG, PG degree certificate attestation</li> 
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>UG, PG degree certificate attestation</li> 
                         <BiSolidChevronRightCircle />
-                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Diploma degree certificate attestation</li> 
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Diploma degree certificate attestation</li> 
                         <BiSolidChevronRightCircle />
-                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Engineering degree certificate attestation</li> 
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Engineering degree certificate attestation</li> 
                         <BiSolidChevronRightCircle />
-                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Management degree certificate attestation</li>
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Management degree certificate attestation</li>
                         <BiSolidChevronRightCircle />
-                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Hotel management certificate attestation</li>
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Hotel management certificate attestation</li>
                         <BiSolidChevronRightCircle />
-                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Medical degree certificate attestation</li>
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Medical degree certificate attestation</li>
                         </ol>
                     </div>
                 </div>
@@ -63,13 +63,13 @@ function EducationalDocuments() {
                     <div className='text-green-500'>
                     <ol className='list-none font-semibold text-lg md:text-xl py-3'>
                     <BiSolidChevronRightCircle />
-                    <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Law degree certificate attestation</li> 
+                    <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Law degree certificate attestation</li> 
                     <BiSolidChevronRightCircle />
-                    <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Technical degree certificate attestation</li> 
+                    <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Technical degree certificate attestation</li> 
                     <BiSolidChevronRightCircle />
-                    <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Professional degree certificate attestation</li> 
+                    <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Professional degree certificate attestation</li> 
                     <BiSolidChevronRightCircle />
-                    <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>PhD degree certificate attestation</li>
+                    <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>PhD degree certificate attestation</li>
                     </ol>
                     </div>
                 </div>

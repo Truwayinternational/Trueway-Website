@@ -243,16 +243,18 @@ router.get("/blogs/:blogId", async (req, res) => {
 // search single blog
   router.get("/blogs", async (req, res) => {
     try {
-      const search = req.query.search
+      const search = req.query.search || ""
+      const limit = req.query.limit
       const blogs = await BlogModel
         .find({
           title: { $regex: search, $options: 'i' }         
-      }).sort({ createdAt: -1 });
+      }).sort({ createdAt: -1 }).limit(limit)
       res.json(blogs)
     } catch (error) {
       console.log(error)
     }
   })
+
 
 
 module.exports = router

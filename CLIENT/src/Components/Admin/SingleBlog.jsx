@@ -10,7 +10,6 @@ import TextEditor from './TextEditor'
 function SingleBlog() {
 
     const [title, setTitle] = useState ("")
-    const [date, setDate] = useState ("")
     const [content, setContent] = useState ("")
 
     const navigate = useNavigate()
@@ -25,7 +24,7 @@ function SingleBlog() {
             e.preventDefault();
 
             const formData = {
-                title, date, content, uploaded, metaTitle, metaDescription
+                title, content, uploaded, metaTitle, metaDescription
 
             }
             if(blogId){
@@ -46,28 +45,23 @@ function SingleBlog() {
 
 
     const {blogId} = useParams()
-    const fetchSingleBlog = async ()=>{
-        const {data} = await userInstance.get("/admin/blogs/" + blogId)
-        setTitle(data.title)
-        setDate(data.date)
-        setContent(data.content)
-        setUploaded(data.image)
-    }
 
     useEffect(()=> {
+        const fetchSingleBlog = async ()=>{
+            const {data} = await userInstance.get("/admin/blogs/" + blogId)
+            setTitle(data.title)
+            setContent(data.content)
+            setUploaded(data.image)
+            setMetaTitle(data.metaTitle)
+            setMetaDescription(data.metaDescription)
+            
+        }
         if (blogId) {
             fetchSingleBlog()
         }else{
             return
         }
-    },[])
-
-    const editBlog = async () =>{
-        const {data} = await userInstance.put("/admin/blogs/" + blogId)
-        console.log(data)
-
-
-    }
+    },[blogId])
 
     
 

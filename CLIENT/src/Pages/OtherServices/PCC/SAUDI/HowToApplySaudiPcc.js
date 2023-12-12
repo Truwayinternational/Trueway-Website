@@ -24,13 +24,13 @@ function HowToApplySaudiPcc() {
                     <b className='text-lg md:text-xl font-HeadingFont'>Documents needed are:</b>
                     <ul className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-5  py-5'>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>IQAMA copy</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>IQAMA copy</li> 
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Passport copy of first entry and last exit</li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Passport copy of first entry and last exit</li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Passport size photo</li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Passport size photo</li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Visa copy</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Visa copy</li> 
                         </ul>
                     </div>
                 </div>    

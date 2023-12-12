@@ -17,11 +17,11 @@ function PurposesofUaePcc() {
                         <b>PCC from UAE is needed for the following reasons</b>
                         <ol className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-5  py-5'>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Migration to any other country from UAE</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Migration to any other country from UAE</li> 
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>To take a family visa</li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>To take a family visa</li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>To start a new business in other country</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>To start a new business in other country</li> 
                         </ol>
                         <p>
                         UAE PCC will get if the relevant government feels that the candidate is less harmful and a good citizen.

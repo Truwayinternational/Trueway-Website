@@ -17,15 +17,15 @@ function HowToApply() {
                         <p>PCC is needed if you are now a resident of UAE and planning to migrate to any other country. To get the PCC process done you have the following documents.</p>
                         <ul className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-5  py-5'>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Emirates ID</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Emirates ID</li> 
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>UAE Visa Stamped page</li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>UAE Visa Stamped page</li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Passport copy old & new</li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Passport copy old & new</li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Purpose of migration</li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Purpose of migration</li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Photo</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Photo</li> 
                         </ul>
                     </div>
                 </div>

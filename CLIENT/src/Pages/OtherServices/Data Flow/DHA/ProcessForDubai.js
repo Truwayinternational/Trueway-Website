@@ -21,10 +21,10 @@ function ProcessForDubai() {
                 Dubai Medical Professionals typically involves three key steps: data collection, data transformation, and data analysis. First, data is collected from different sources including patient records, medical equipment, and other details. This data is transformed and sorted to ensure accuracy and consistency, and it is analysed to understand information, help decision-making, and improve the overall healthcare services provided by DHA to medical professionals and patients in Dubai.
                 </p>
                 <ol className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-xl py-3 font-HeadingFont'>
-                    <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Verifying Documents</li> 
-                    <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Dataflow process </li>
-                    <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Prometric exam booking </li>
-                    <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Get Licence \ Credentialing </li>
+                    <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Verifying Documents</li> 
+                    <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Dataflow process </li>
+                    <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Prometric exam booking </li>
+                    <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Get Licence \ Credentialing </li>
                 </ol>
             </div>    
         </div>     
