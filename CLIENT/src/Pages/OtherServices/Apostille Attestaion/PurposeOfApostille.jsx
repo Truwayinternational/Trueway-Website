@@ -22,11 +22,11 @@ function PurposeOfApostille() {
                         </b>
                         <ol className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-5 md:pr-20 py-5 '>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'> Educational certificate Apostille. </li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4 '> Educational certificate Apostille. </li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'> Non-educational certificate Apostille.</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4 '> Non-educational certificate Apostille.</li> 
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'> Commercial certificate Apostille. </li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4 '> Commercial certificate Apostille. </li>
                         </ol>
                         <p>
                             In India, the MEA department is responsible for the duty of providing apostille stamping, which is to validate the document's authenticity with the apostille stamp. The stamp will stick to the back of the document. Apostille approval is mandatory for every outsider to obtain an apostille before moving to any Hague Convention country.

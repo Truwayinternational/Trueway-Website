@@ -17,49 +17,49 @@ function DocumentsForTelengana() {
                             <ul className='md:text-xl  py-3 text-lg  text-green-500 w-fit font-HeadingFont font-bold cursor-pointer'>
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Telangana registration Certificate copy
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Telangana registration Certificate copy
                                     </li>
                                 </div>
 
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Midwives/nurses registration of Andra Candidates
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Midwives/nurses registration of Andra Candidates
                                     </li>
                                 </div>
 
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Passport size photo
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Passport size photo
                                     </li>
                                 </div>
 
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white md:w-max w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Passport copy
+                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Passport copy
                                 </li>
                             </div>
 
                             <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Mail id & phone number
+                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Mail id & phone number
                             </li>
                             </div>
 
                             <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Renewal Certificate
+                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Renewal Certificate
                             </li>
                             </div>
 
                             <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Overseas address
+                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Overseas address
                             </li>
                             </div>
 
                             <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Latest Experience Certificate
+                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Latest Experience Certificate
                             </li>
                             </div>
                         </ul>

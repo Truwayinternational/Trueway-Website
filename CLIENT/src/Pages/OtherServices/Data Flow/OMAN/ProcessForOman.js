@@ -23,9 +23,9 @@ function ProcessForOman() {
             Dataflow for Oman Medical Professionals begins with the collection of patient data, including medical records and test results. You must follow certain steps in order to immigrate to Oman; else, your certificate won't be accepted. Only you can show up for future procedures until the authority verifies and shows that your certifications are legitimate and real. The Oman Dataflow's primary processes are listed below.
             </p>
             <ol className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-xl py-3 font-HeadingFont'>
-                  <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Verifying Documents</li> 
-                  <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Dataflow process </li>
-                  <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Prometric exam booking</li>
+                  <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Verifying Documents</li> 
+                  <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Dataflow process </li>
+                  <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Prometric exam booking</li>
             </ol>
           </div>    
         </div>     

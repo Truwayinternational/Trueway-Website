@@ -77,18 +77,18 @@ function MobNavbar() {
                 {isOpen && (
                 <div className="lg:hidden mt-4 my-10 max-h-[500px] overflow-auto">
                     <ul>
-                        <li className="ml-5 py-5">
+                        <li className="ml-5 py-5 p-4">
                             <a href="/"
                             className="block text-white text-2xl md:text-3xl  font-bold font-HeadingFont">
                             Home </a>
                         </li>
-                        <li className="ml-5 py-5">
+                        <li className="ml-5 py-5 p-4">
                             <a href="/about"
                             className="block text-white text-2xl md:text-3xl  font-bold font-HeadingFont">
                             About </a>
                         </li>
                         {/* our services dropdown added here */}
-                        <li className="ml-5 py-5 block text-white text-2xl md:text-3xl  font-bold font-HeadingFont "
+                        <li className="ml-5 py-5 block text-white text-2xl md:text-3xl  font-bold font-HeadingFont p-4"
                         onClick={()=> setDropdownServices ((prev) => !prev)} >
                          Our Services 
 
@@ -101,67 +101,67 @@ function MobNavbar() {
                             { DropdownServices && (
                                 <div className="pt-5 duration-500">
                                     <ul className="mb-[-10px]">
-                                        <li className="py-3 border-b-[1px] border-b-zinc-100 ">
+                                        <li className="py-3 border-b-[1px] border-b-zinc-100 p-4">
                                             <a href="/certificate-attestation"
                                             className="block text-white text-xl md:text-2xl font-medium font-poppins ">
                                             Certificate Attestation </a>
                                         </li>
-                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100 p-4">
                                             <a href="/embassy-attestation"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             Embassy Attestation </a>
                                         </li>
-                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100 p-4">
                                             <a href="/mea-attestation"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             MEA Attestation </a>
                                         </li>
-                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100 p-4">
                                             <a href="/mofa-attestation"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             MOFA Attestation </a>
                                         </li>
-                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100 p-4">
                                             <a href="/hrd-attestation"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             HRD Attestation </a>
                                         </li>
-                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100 p-4">
                                             <a href="/apostille-attestation"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             Apostille Attestation </a>
                                         </li>
-                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100 p-4">
                                             <a href="/home-attestation"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             Home Attestation </a>
                                         </li>
-                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100 p-4">
                                             <a href="/dataflow"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             Dataflow Verification </a>
                                         </li>
-                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100 p-4">
                                             <a href="/exam-coaching"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             Exam Coaching </a>
                                         </li>
-                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100 p-4">
                                             <a href="/acls-bls"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             ACLS/BLS </a>
                                         </li>
-                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100 p-4">
                                             <a href="/pcc"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             Police Clearance Certificate </a>
                                         </li>
-                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100 p-4">
                                             <a href="/migration"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             Migration </a>
                                         </li>
-                                        <li className="pt-3 border-b-[1px] border-b-zinc-100">
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100 p-4">
                                             <a href="/goodstanding-council-verification"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             Goodstanding & Council Verification </a>
@@ -173,14 +173,14 @@ function MobNavbar() {
 
                         </li>
 
-                        <li className="ml-5 py-5">
+                        <li className="ml-5 py-5 p-4">
                             <a href="/wes"
-                            className="block text-white text-2xl md:text-3xl  font-bold font-HeadingFont">
+                            className="block text-white text-2xl md:text-3xl  font-bold font-HeadingFont ">
                             WES </a>
                         </li>
 
                         {/* blogs and vlogs added here */}
-                        <li className="ml-5 py-5 block text-white  text-2xl    md:text-3xl font-bold font-HeadingFont"
+                        <li className="ml-5 py-5 block text-white  text-2xl    md:text-3xl font-bold font-HeadingFont p-4"
                         onClick={()=> setDropdownBlogs ((prev) => !prev)} >
                         Blogs & Videos
 
@@ -193,12 +193,12 @@ function MobNavbar() {
                             { DropdownBlogs && (
                                 <div className="pt-5">
                                     <ul className="mb-[-10px]">
-                                        <li className="py-3 border-b-[1px] border-b-zinc-100 ">
+                                        <li className="py-3 border-b-[1px] border-b-zinc-100 p-4">
                                             <a href="/blogs"
                                             className="block text-white text-xl md:text-2xl font-medium font-poppins ">
                                             Blogs </a>
                                         </li>
-                                        <li className="pt-3">
+                                        <li className="pt-3 p-4">
                                             <a href="https://www.youtube.com/channel/UCRq22m2bbJ5AONWGQug9FpA"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
                                             Videos </a>
@@ -208,7 +208,7 @@ function MobNavbar() {
                             )}
                             
                         </li>
-                        <li className="ml-5 py-5">
+                        <li className="ml-5 py-5 p-4">
                             <a href="/contact"
                             className="block text-white  text-2xl md:text-3xl  font-bold font-HeadingFont">
                             Contact</a>

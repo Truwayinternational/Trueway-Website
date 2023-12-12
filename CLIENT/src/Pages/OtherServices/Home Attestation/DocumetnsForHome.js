@@ -26,25 +26,25 @@ function DocumetnsForHome() {
                         <ul className='lg:text-xl md:text-lg text-sm  text-green-500'>
                             <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'> Birth certificate
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px] p-4'> Birth certificate
                             </li>
                             </div>
 
                             <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'> Marriage certificate
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px] p-4'> Marriage certificate
                             </li>
                             </div>
 
                             <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'> Death certificate
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px] p-4'> Death certificate
                             </li>
                             </div>
 
                             <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'> Transfer certificate
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px] p-4'> Transfer certificate
                             </li>
                             </div>
 
@@ -54,19 +54,19 @@ function DocumetnsForHome() {
                         <ul className='text-sm lg:text-xl md:text-lg text-green-500 '>
                             <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'> Experience certificate
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px] p-4'> Experience certificate
                             </li>
                             </div>
 
                             <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'> Single status certificate
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px] p-4'> Single status certificate
                             </li>
                             </div>
 
                             <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'> Divorce certificate, etc.
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px] p-4'> Divorce certificate, etc.
                             </li>
                             </div>
                         </ul>

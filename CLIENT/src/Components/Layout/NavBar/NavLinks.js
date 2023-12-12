@@ -33,7 +33,7 @@ function NavLinks() {
                                 <Link to={mysublinks.headLink} onClick={scrollToTop} > {mysublinks.Head} </Link>
                               </p>
                               {mysublinks.subLink.map((slink, index)=>(
-                                <li key={index} className='text-sm 2xl:text-lg" text-gray-600 py-1 px-1'onClick={scrollToTop}>
+                                <li key={index} className='text-sm 2xl:text-lg text-gray-600 py-1 px-1 p-4'onClick={scrollToTop}>
                                   <Link onClick={scrollToTop} to={slink.link} className='hover:text-green-600' > {slink.name} </Link>
                                 </li>
                               ))} 

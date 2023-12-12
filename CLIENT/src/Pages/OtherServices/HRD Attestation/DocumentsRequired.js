@@ -27,42 +27,42 @@ function DocumentsRequired() {
                     <ul className='lg:text-xl md:text-lg text-sm  text-green-500'>
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'>
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px] p-4'>
                              Degree Certificate
                         </li>
                         </div>
 
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'>
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px] p-4'>
                              PG Degree Certificate
                         </li>
                         </div>
 
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'>
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px] p-4'>
                              BE Certificate
                         </li>
                         </div>
 
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'>
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px] p-4'>
                              Diploma Certificate
                         </li>
                         </div>
 
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'>
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px] p-4'>
                              Nursing Certificate
                         </li>
                         </div>
 
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'>
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px] p-4'>
                              SSC Certificate
                         </li>
                         </div>
@@ -72,37 +72,37 @@ function DocumentsRequired() {
                     <ul className='text-sm lg:text-xl md:text-lg text-green-500 '>
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'> HSC Certificate
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px] p-4'> HSC Certificate
                         </li>
                         </div>
 
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'> MBBS Certificate
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px] p-4'> MBBS Certificate
                         </li>
                         </div>
 
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'> Inter Certificate
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px] p-4'> Inter Certificate
                         </li>
                         </div>
 
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'> Pharmacy Certificate
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px] p-4'> Pharmacy Certificate
                         </li>
                         </div>
 
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'> Engineering Certificate
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px] p-4'> Engineering Certificate
                         </li>
                         </div>
 
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px]'> Mark Certificate
+                                <li className='ml-2 md:ml-4 md:mt-[-40px] mt-[-33px] mb-[-20px] p-4'> Mark Certificate
                         </li>
                         </div>
                     </ul>

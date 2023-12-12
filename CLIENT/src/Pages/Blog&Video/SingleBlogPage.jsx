@@ -97,7 +97,7 @@ function SingleBlogPage() {
               </h3>
               <ul className='my-10 list-disc mx-3 font-poppins text-gray-600'>
               { blogs.length > 0 && blogs.map((blog, index)=>(
-                <li key={index} className='text-lg hover:text-blue-500 hover:underline cursor-pointer'
+                <li key={index} className='text-lg hover:text-blue-500 hover:underline cursor-pointer p-4'
                 onClick={() => navigate("/blogs/" + blog._id)}>
                   {blog.title} 
                 </li>

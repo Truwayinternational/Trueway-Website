@@ -25,20 +25,20 @@ function ProcedureOfMEA() {
                 <h4 className='md:text-2xl text-xl  font-bold'>The procedure of attestation goes like this:</h4>
                 <ul className='text-green-500 font-semibold text-lg md:text-xl lg:px-5 md:pr-20  mt-5'>
                   <BiSolidChevronRightCircle />
-                  <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>SDM (Sub-Divisional Magistrate) / HRD (Human Resource Development) </li>
+                  <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>SDM (Sub-Divisional Magistrate) / HRD (Human Resource Development) </li>
                   <BiSolidChevronRightCircle />
-                  <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>MEA (Ministry of External Affairs)</li> 
+                  <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>MEA (Ministry of External Affairs)</li> 
                   <BiSolidChevronRightCircle />
-                  <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Embassy Attestation</li> 
+                  <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Embassy Attestation</li> 
                   <BiSolidChevronRightCircle />
-                  <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>MOFA (Ministry of Foreign Affairs) </li> 
+                  <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>MOFA (Ministry of Foreign Affairs) </li> 
                 </ul>
                 <h4 className='md:text-2xl text-xl  font-bold'>Required documents for MEA attestation:</h4>
                 <ul className='text-green-500 font-semibold text-lg md:text-xl lg:px-5 md:pr-20 mt-5 '>
                   <BiSolidChevronRightCircle />
-                  <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Original certificate</li>
+                  <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Original certificate</li>
                   <BiSolidChevronRightCircle />
-                  <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Passport copy</li>
+                  <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Passport copy</li>
                 </ul>
             </div>
           </div>    

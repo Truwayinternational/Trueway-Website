@@ -24,38 +24,38 @@ function PurposesOfHome() {
                     <div className='md:flex pb-5'>
                         <div className='grid'>
                             <ul className='lg:text-xl md:text-lg  text-md  text-green-500'>
-                                <li className='py-2 cursor-pointer font-HeadingFont '>
+                                <li className='py-2 cursor-pointer font-HeadingFont p-4 '>
                                     <BiSolidChevronRightCircle className='inline-flex '/> Birth certificate
                                 </li>
-                                <li className='py-2 cursor-pointer font-HeadingFont '>
+                                <li className='py-2 cursor-pointer font-HeadingFont p-4 '>
                                     <BiSolidChevronRightCircle className='inline-flex '/> Marriage certificate
                                 </li>
-                                <li className='py-2 cursor-pointer font-HeadingFont '>
+                                <li className='py-2 cursor-pointer font-HeadingFont p-4 '>
                                     <BiSolidChevronRightCircle className='inline-flex'/> Death certificate
                                 </li>
-                                <li className='py-2 cursor-pointer font-HeadingFont '>
+                                <li className='py-2 cursor-pointer font-HeadingFont p-4 '>
                                     <BiSolidChevronRightCircle className='inline-flex'/> Driving licence certificate
                                 </li>
-                                <li className='py-2 cursor-pointer font-HeadingFont '>
+                                <li className='py-2 cursor-pointer font-HeadingFont p-4 '>
                                     <BiSolidChevronRightCircle className='inline-flex'/> Medical certificate 
                                 </li>
                             </ul>
                         </div>
                         <div className='grid'>
                             <ul className='text-md lg:text-xl md:text-lg  text-green-500 '>
-                                <li className='py-2 cursor-pointer font-HeadingFont '>
+                                <li className='py-2 cursor-pointer font-HeadingFont p-4 '>
                                     <BiSolidChevronRightCircle className='inline-flex'/> Police clearance certificate
                                 </li>
-                                <li className='py-2 cursor-pointer font-HeadingFont '>
+                                <li className='py-2 cursor-pointer font-HeadingFont p-4 '>
                                     <BiSolidChevronRightCircle className='inline-flex'/> Transfer certificate
                                 </li>
-                                <li className='py-2 cursor-pointer font-HeadingFont '>
+                                <li className='py-2 cursor-pointer font-HeadingFont p-4 '>
                                     <BiSolidChevronRightCircle className='inline-flex'/> Experience certificate
                                 </li>
-                                <li className='py-2 cursor-pointer font-HeadingFont '>
+                                <li className='py-2 cursor-pointer font-HeadingFont p-4 '>
                                     <BiSolidChevronRightCircle className='inline-flex'/> Single status certificate
                                 </li>
-                                <li className='py-2 cursor-pointer font-HeadingFont '>
+                                <li className='py-2 cursor-pointer font-HeadingFont p-4 '>
                                     <BiSolidChevronRightCircle className='inline-flex'/> Divorce certificate
                                 </li>
                             </ul>

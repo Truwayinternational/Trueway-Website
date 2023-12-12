@@ -22,15 +22,15 @@ function TruewayBestForMalaysia() {
                     </p>
                     <ul className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-xl py-3 font-HeadingFont mt-3'>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Trustworthy and Tension-free Services</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Trustworthy and Tension-free Services</li> 
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Speedy and accurate process</li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Speedy and accurate process</li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Services Available for PAN India</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Services Available for PAN India</li> 
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'> 24*7 Assistance</li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'> 24*7 Assistance</li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'> Affordable price</li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'> Affordable price</li>
                     </ul>
                     <p className='text-md md:text-xl lg:text-lg text-gray-500 font-poppins lg:p-0 '>
                     To get your document attestation from the most reliable document attestation company,<br/>

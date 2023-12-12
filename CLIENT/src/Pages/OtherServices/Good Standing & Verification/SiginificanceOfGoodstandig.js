@@ -16,15 +16,15 @@ function SiginificanceOfGoodstandig() {
                 </p>
                     <ul className='list-none text-green-500 font-semibold text-lg md:text-xl my-5 font-HeadingFont'>
                         <BiSolidChevronRightCircle />
-                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'> The current status of registration and licence</li> 
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'> The current status of registration and licence</li> 
                         <BiSolidChevronRightCircle />
-                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'> Identifying details (full name, GMC number)</li>
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'> Identifying details (full name, GMC number)</li>
                         <BiSolidChevronRightCircle />
-                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'> Registration details (restricted, suspended, or revoked)</li>
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'> Registration details (restricted, suspended, or revoked)</li>
                         <BiSolidChevronRightCircle />
-                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'> Registration History</li>
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'> Registration History</li>
                         <BiSolidChevronRightCircle />
-                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'> Relevant details about your fitness practice</li>
+                        <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'> Relevant details about your fitness practice</li>
                     </ul>
             </div>
         </div>

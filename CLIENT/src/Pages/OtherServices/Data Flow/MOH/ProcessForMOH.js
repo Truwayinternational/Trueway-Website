@@ -21,11 +21,11 @@ function ProcessForMOH() {
             <p className='text-md md:text-xl lg:text-lg text-gray-500 font-poppins pr-3 lg:p-0'>
             There are numerous procedures and paperwork requirements behind each immigration process. If you're doing this alone, you're going to spend a lot of days on it. However, if you entrust the work to Trueway, you have peace of mind that it will be completed in an effective way, rapidly, and without interruption.</p>
             <ol className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-xl py-3 font-HeadingFont'>
-                  <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Verifying Documents</li> 
-                  <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Get license/Credentialing </li> 
-                  <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Dataflow process </li>
-                  <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Exam id activation </li>
-                  <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Prometric exam booking</li> 
+                  <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Verifying Documents</li> 
+                  <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Get license/Credentialing </li> 
+                  <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Dataflow process </li>
+                  <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Exam id activation </li>
+                  <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Prometric exam booking</li> 
             </ol>
             
           </div>    

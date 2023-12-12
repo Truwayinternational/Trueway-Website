@@ -18,55 +18,55 @@ function DocumentsForOman() {
                             <ul className='md:text-xl  py-3 text-lg  text-green-500 w-fit font-HeadingFont font-bold cursor-pointer'>
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Degree / Diploma certificate
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Degree / Diploma certificate
                                 </li>
                                 </div>
 
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Registration Certificate
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Registration Certificate
                                 </li>
                                 </div>
 
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Experience Certificate<span className='font-normal p-3'>( Min 3 years)</span>
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Experience Certificate<span className='font-normal p-3'>( Min 3 years)</span>
                                 </li>
                                 </div>
 
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white md:w-max w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> All year Mark sheets & Course Completion Certificate
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> All year Mark sheets & Course Completion Certificate
                                 </li>
                                 </div>
                             
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Transcript & Updated Resume
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Transcript & Updated Resume
                                 </li>
                                 </div>
 
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Passport size Photo
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Passport size Photo
                                 </li>
                                 </div>
 
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Passport copy
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Passport copy
                                 </li>
                                 </div>
 
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Mail id & Mobile Number 
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Mail id & Mobile Number 
                                 </li>
                                 </div>
 
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Address 
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Address 
                                 </li>
                                 </div>
 

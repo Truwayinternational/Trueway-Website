@@ -16,55 +16,55 @@ function DocumentsRequiredKerala() {
                             <ul className='md:text-xl  py-3 text-lg  text-green-500 w-fit font-HeadingFont font-bold cursor-pointer'>
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> SSLC certificate copy
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> SSLC certificate copy
                                     </li>
                                 </div>
 
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Kerala Registration Certificate copy
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Kerala Registration Certificate copy
                                     </li>
                                 </div>
 
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                     <BiSolidChevronRightCircle />
-                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Experience Certificate Copy<span className='font-normal p-3'>(In Kerala)</span>
+                                    <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Experience Certificate Copy<span className='font-normal p-3'>(In Kerala)</span>
                                     </li>
                                 </div>
 
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white md:w-max w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Request Letter
+                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Request Letter
                                 </li>
                             </div>
 
                             <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Passport Copy
+                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Passport Copy
                             </li>
                             </div>
 
                             <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Overseas council address
+                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Overseas council address
                             </li>
                             </div>
 
                             <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Mail id of candidate
+                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Mail id of candidate
                             </li>
                             </div>
 
                             <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Mobile number of candidate
+                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Mobile number of candidate
                             </li>
                             </div>
                             
                             <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                                 <BiSolidChevronRightCircle />
-                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Address of candidate
+                                <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Address of candidate
                             </li>
                             </div>
                             </ul>

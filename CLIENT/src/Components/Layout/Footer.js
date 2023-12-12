@@ -175,7 +175,7 @@ function Footer() {
                         <ul className='list-none mt-4'>
                             {footerLink.links.map((toFooterlink, index) => (
                                 <li key={index}
-                                className="font-poppins font-normal text-[16px] leading-[24px] text-white hover:text-green-950 cursor-pointer px-3 py-1">
+                                className="font-poppins font-normal text-[16px] leading-[24px] text-white hover:text-green-950 cursor-pointer px-3 py-1 p-4">
                                     <a href={toFooterlink.link} className='hover:text-black hover:font-semibold' onClick={scrollToTop}>
                                     {toFooterlink.name}
                                     </a>

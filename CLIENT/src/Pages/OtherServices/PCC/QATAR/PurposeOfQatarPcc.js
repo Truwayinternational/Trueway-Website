@@ -16,11 +16,11 @@ function PurposeOfQatarPcc() {
                     <div className='text-md md:text-xl lg:text-lg text-start text-gray-500 font-poppins pr-3 lg:p-0'>
                         <ul className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-5  py-5'>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>To make the migration smooth and fast</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>To make the migration smooth and fast</li> 
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>To prove that the applicant has good conduct and no criminal background</li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>To prove that the applicant has good conduct and no criminal background</li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>To prove that they have not done any illicit activities that are harmful for the country or other people</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>To prove that they have not done any illicit activities that are harmful for the country or other people</li> 
                         </ul>
                         <p>
                         After getting a PCC, it is easy to relocate or migrate to other countries. People who are 18 years of age or older should apply for PCC.

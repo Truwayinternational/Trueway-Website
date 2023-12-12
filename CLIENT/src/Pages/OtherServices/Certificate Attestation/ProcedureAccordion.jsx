@@ -26,11 +26,11 @@ function ProcedureAccordion() {
                         <AccordionHeader className='text-green-500 cursor-pointer font-HeadingFont py-2' onClick={handleAlwaysOpen}>  Educational certificates <IoIosArrowDropdownCircle className='ms-auto'/>
                         </AccordionHeader>
                         <AccordionBody className="text-[16px] text-gray-500">
-                          <ol className='lg:leading-3'>
-                            <li >SDM (sub-divisional magistrate)/ HRD (human resource development).</li>
-                            <li> MEA (Ministry of External Affairs)</li>
-                            <li>Embassy attestation / Apostille</li>
-                            <li>MOFA (Ministry of Foreign Affairs)</li>
+                          <ol className='lg:leading-3 '>
+                            <li className='p-3'>SDM (sub-divisional magistrate)/ HRD (human resource development).</li>
+                            <li className='p-3'> MEA (Ministry of External Affairs)</li>
+                            <li className='p-3'>Embassy attestation / Apostille</li>
+                            <li className='p-3'>MOFA (Ministry of Foreign Affairs)</li>
                           </ol>
                         </AccordionBody>
                     </Accordion>
@@ -41,11 +41,11 @@ function ProcedureAccordion() {
                         </AccordionHeader>
                         <AccordionBody className="text-[16px] text-gray-500">
                           <ol className='lg:leading-3 '>
-                            <li>Notary Attestation</li>
-                            <li> Home department</li>
-                            <li>Embassy attestation / Apostille</li>
-                            <li>MEA (Ministry of External Affairs)</li>
-                            <li>MOFA (Ministry of Foreign Affairs)</li>
+                            <li className='p-3'>Notary Attestation</li>
+                            <li className='p-3'> Home department</li>
+                            <li className='p-3'>Embassy attestation / Apostille</li>
+                            <li className='p-3'>MEA (Ministry of External Affairs)</li>
+                            <li className='p-3'>MOFA (Ministry of Foreign Affairs)</li>
                           </ol>
                         </AccordionBody>
                     </Accordion>
@@ -56,10 +56,10 @@ function ProcedureAccordion() {
                         </AccordionHeader>
                         <AccordionBody className="text-[16px]  text-gray-500">
                           <ol className='lg:leading-3'>
-                            <li>Chamber of Commerce attestation</li>
-                            <li>Embassy attestation / Apostille</li>
-                            <li>MEA (Ministry of External Affairs)</li>
-                            <li>MOFA (Ministry of Foreign Affairs)</li>
+                            <li className='p-3'>Chamber of Commerce attestation</li>
+                            <li className='p-3'>Embassy attestation / Apostille</li>
+                            <li className='p-3'>MEA (Ministry of External Affairs)</li>
+                            <li className='p-3'>MOFA (Ministry of Foreign Affairs)</li>
                           </ol>
                         </AccordionBody>
                     </Accordion>

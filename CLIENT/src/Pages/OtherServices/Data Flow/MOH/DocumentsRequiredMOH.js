@@ -14,62 +14,62 @@ function DocumentsRequiredMOH() {
                     <ul className='md:text-xl  py-3 text-lg  text-green-500 w-fit font-HeadingFont font-bold cursor-pointer'>
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                             <BiSolidChevronRightCircle />
-                            <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Passport Size Photo<span className='font-normal p-3'>(White Background)</span>
+                            <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Passport Size Photo<span className='font-normal p-3'>(White Background)</span>
                         </li>
                         </div>
 
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                             <BiSolidChevronRightCircle />
-                            <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Passport Front and Back Page
+                            <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Passport Front and Back Page
                         </li>
                         </div>
 
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                             <BiSolidChevronRightCircle />
-                            <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> S.L.C<span className='font-normal p-3'>( Secondary School Certificate)</span>
+                            <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> S.L.C<span className='font-normal p-3'>( Secondary School Certificate)</span>
                         </li>
                         </div>
 
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                             <BiSolidChevronRightCircle />
-                            <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Plus Two<span className='font-normal p-3'>   (Higher Secondary)</span>
+                            <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Plus Two<span className='font-normal p-3'>   (Higher Secondary)</span>
                         </li>
                         </div>
 
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                             <BiSolidChevronRightCircle />
-                            <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Degree / Diploma Certificate
+                            <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Degree / Diploma Certificate
                         </li>
                         </div>
 
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                             <BiSolidChevronRightCircle />
-                            <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Registration Certificate <span className='font-normal p-3'>(License)</span>
+                            <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Registration Certificate <span className='font-normal p-3'>(License)</span>
                         </li>
                         </div>
 
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                             <BiSolidChevronRightCircle />
-                            <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Last 2 Years Experience Certificate for MOH
+                            <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Last 2 Years Experience Certificate for MOH
                         </li>
                         </div>
 
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                             <BiSolidChevronRightCircle />
-                            <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Basic Life Support (BLS) Certificate
+                            <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Basic Life Support (BLS) Certificate
                         </li>
                         </div>
 
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                             <BiSolidChevronRightCircle />
-                            <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> Good Standing Certificate <p className='font-normal'>(Good Standing certificate is a certificate issued by the Medical Council / Regulatory body from where your previous licence has been issued OR State Nursing Council. Of the last employer It is valid only for six months)
+                            <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> Good Standing Certificate <p className='font-normal'>(Good Standing certificate is a certificate issued by the Medical Council / Regulatory body from where your previous licence has been issued OR State Nursing Council. Of the last employer It is valid only for six months)
                             </p>
                         </li>
                         </div>
 
                         <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>
                             <BiSolidChevronRightCircle />
-                            <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px]'> The candidate who has an abroad Experience, License and Good standing Certificate from the Consent regulatory body is mandatory.
+                            <li className='ml-2 md:ml-4 mt-[-40px]  mb-[-20px] p-4'> The candidate who has an abroad Experience, License and Good standing Certificate from the Consent regulatory body is mandatory.
                         </li>
                         </div>
 

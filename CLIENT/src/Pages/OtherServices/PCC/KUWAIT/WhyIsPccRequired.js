@@ -24,13 +24,13 @@ function WhyIsPccRequired() {
                     <div className='py-2'>
                         <ul className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-5  py-3'>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>They can demonstrate that they were not damaged with the aid of PCC.</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>They can demonstrate that they were not damaged with the aid of PCC.</li> 
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Individuals can streamline and simplify their immigration procedure by using a PCC.</li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Individuals can streamline and simplify their immigration procedure by using a PCC.</li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>They can use the testimony or the authority of the target country to show their character.</li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>They can use the testimony or the authority of the target country to show their character.</li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Other nations' primary motivation for bringing up PCC is to protect their nation from nefarious activities.</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Other nations' primary motivation for bringing up PCC is to protect their nation from nefarious activities.</li> 
                         </ul>
                     </div>
                 </div>    

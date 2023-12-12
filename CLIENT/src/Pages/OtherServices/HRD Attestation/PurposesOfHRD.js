@@ -21,13 +21,13 @@ function PurposesOfHRD() {
                         <b>The following are the main purposes of HRD attestation:</b>
                         <ol className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-5  py-3 mt-3'>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>For higher education in overseas nations.</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>For higher education in overseas nations.</li> 
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>To migrate abroad.   </li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>To migrate abroad.   </li> 
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>To secure a job permit abroad. </li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>To secure a job permit abroad. </li> 
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>To obtain a visa.</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>To obtain a visa.</li> 
                         </ol>
                         <p>
                         HRD attestation is primarily used to attest educational certificates such as degree certificates, diploma certificates, SSLC certificates, and so on. To confirm the authenticity and legitimacy of your certificates, you should complete this. Then only you can enter foreign nations.

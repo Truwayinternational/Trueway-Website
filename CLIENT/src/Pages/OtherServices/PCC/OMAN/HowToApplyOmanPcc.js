@@ -18,15 +18,15 @@ function HowToApplyOmanPcc() {
                         <b>These documents are required: </b>
                         <ul className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-5  py-5'>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Oman Civil ID</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Oman Civil ID</li> 
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Visa Stamped page</li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Visa Stamped page</li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Photo</li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Photo</li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Purpose of Migration</li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Purpose of Migration</li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Passport Copy</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Passport Copy</li> 
                         </ul>
                     </div>
                 </div>

@@ -23,13 +23,13 @@ function HowToApplyQatarPcc() {
                     <b className='text-lg md:text-xl font-HeadingFont'>Documents needed are:</b>
                         <ul className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-5  pt-5'>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Visa page</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Visa page</li> 
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Qatar ID card</li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Qatar ID card</li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Passport copy</li>
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Passport copy</li>
                             <BiSolidChevronRightCircle />
-                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5'>Passport size photo</li> 
+                            <li className='cursor-pointer mt-[-40px] font-HeadingFont ml-5 p-4'>Passport size photo</li> 
                         </ul>
                     </div>
                 </div>    

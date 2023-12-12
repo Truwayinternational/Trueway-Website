@@ -19,10 +19,10 @@ function ProcessForSaudi() {
             <p className='text-md md:text-xl lg:text-lg text-gray-500 font-poppins pr-3 lg:p-0'>
             The process in Dataflow for Saudi medical professionals typically involves the collection, storage, analysis, and utilisation of healthcare data. You must follow certain steps in order to immigrate to Saudi; else, your certificate won't be accepted. Only you can show up for future procedures until the authority verifies and shows that your certifications are legitimate and real. The Saudi Dataflow's primary processes are listed below.</p>
             <ol className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-xl py-3 font-HeadingFont'>
-                  <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Verifying Documents</li> 
-                  <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Dataflow process </li>
-                  <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Prometric exam booking</li> 
-                  <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Get license / Credentialing</li>
+                  <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Verifying Documents</li> 
+                  <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Dataflow process </li>
+                  <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/>Prometric exam booking</li> 
+                  <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Get license / Credentialing</li>
             </ol>
           </div>    
         </div>     

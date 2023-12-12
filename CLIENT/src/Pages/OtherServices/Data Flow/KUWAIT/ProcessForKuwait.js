@@ -20,8 +20,8 @@ function ProcessForKuwait() {
                     The dataflow in Kuwait is slightly different from other countries. In the case of Kuwait Dataflow, Trueway provides services for medical professionals such as doctors, nurses, MLTs, pharmacists, dentists, etc.
                 </p>
                 <ol className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-xl py-3 font-HeadingFont'>
-                    <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Verifying Documents</li> 
-                    <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Dataflow process </li>
+                    <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Verifying Documents</li> 
+                    <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Dataflow process </li>
                 </ol>
             </div>    
         </div>     

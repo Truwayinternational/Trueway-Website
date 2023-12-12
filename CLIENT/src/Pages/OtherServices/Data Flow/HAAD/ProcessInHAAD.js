@@ -22,10 +22,10 @@ function ProcessInHAAD() {
                 The process of dataflow is verifying the authenticity and truthiness of the documents that are submitted. The submitted documents need to be verified to check their genuineness. So, this is the mandatory step in this process.
                 </p>
                 <ol className='list-none text-green-500 font-semibold text-lg md:text-xl lg:px-xl py-3 font-HeadingFont'>
-                    <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Verifying Documents</li> 
-                    <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Dataflow process </li>
-                    <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Get Licence \ Credentialing  </li>
-                    <li className='cursor-pointer py-2 font-HeadingFont'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Prometric exam booking </li>
+                    <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Verifying Documents</li> 
+                    <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Dataflow process </li>
+                    <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Get Licence \ Credentialing  </li>
+                    <li className='cursor-pointer py-2 font-HeadingFont p-4'><BiSolidChevronRightCircle className='inline-flex mr-2'/> Prometric exam booking </li>
                 </ol>
             </div>    
         </div>     

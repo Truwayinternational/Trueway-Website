@@ -8,7 +8,7 @@ function AdvancedCardio() {
             <div className='flex flex-col mx-4 lg:px-16 md:px-3 px-1'>
                 <div className='grid lg:grid-cols-2 '>
                     <div className='grid '>
-                        <h2 className='text-4xl px-4 text-center lg:text-start  md:text-5xl font-HeadingFont font-bold tracking-wide'>
+                        <h2 className='text-2xl px-4 text-center lg:text-start  md:text-5xl font-HeadingFont font-bold tracking-wide'>
                             Advanced Cardiovascular Life  Support - <b      className='text-green-500'> ACLS
                             </b>
                         </h2>
