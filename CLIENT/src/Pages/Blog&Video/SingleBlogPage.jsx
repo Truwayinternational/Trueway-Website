@@ -56,7 +56,7 @@ function SingleBlogPage() {
                   {/* blog other details here */}
                   <div className="flex p-3 py-5">
                     <div className="">
-                      <h1 className="md:text-3xl text-xl font-semibold font-HeadingFont cursor-pointer hover:text-gray-700">
+                      <h1 className="md:text-5xl text-3xl font-semibold font-HeadingFont cursor-pointer hover:text-gray-700">
                         {blog.title}
                       </h1>
                       <p className="text-lg py-3 text-green-800">
@@ -66,9 +66,7 @@ function SingleBlogPage() {
                       </p>
 
                       <div dangerouslySetInnerHTML={{ __html: blog.content }} />
-                      {/* <p className="md:text-[16px] md:leading-6 text-sm font-poppins text-justify text-gray-600 ">
-                        {blog.content}
-                      </p> */}
+                      
                     </div>
                   </div>
                 </div>

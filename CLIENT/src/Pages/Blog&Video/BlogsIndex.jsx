@@ -41,7 +41,7 @@ function BlogsIndex() {
                     onClick={() => navigate("/blogs/" + blog._id)}
                   >
                     <img
-                      className="object-fill rounded-lg p-5"
+                      className="object-contain rounded-lg p-5"
                       src={IMG_URL + blog.image}
                       alt="blogImageHere"
                     />

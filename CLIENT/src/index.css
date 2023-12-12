@@ -8,10 +8,7 @@
 @import 'tailwindcss/utilities';
 
 @layer base {
-    li {
-        /* @apply p-4; */
-    }
-    
+
     /* span {
         @apply p-3;
     } */

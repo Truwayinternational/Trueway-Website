@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
 
@@ -7,7 +7,8 @@ function TextEditor({content, setContent}) {
 
     var toolbarOptions = [
         ['bold', 'italic', 'underline', 'strike','blockquote','link'],        // toggled buttons
-        [{ 'list': 'ordered'}, { 'list': 'bullet' }],     // superscript
+        [{ 'indent': '-1'}, { 'indent': '+1' }],
+        // [{ 'list': 'ordered'}, { 'list': 'bullet' }],
         [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
         [{ 'color': [] }, { 'background': [] }], 
         [{ 'font': [] }],
