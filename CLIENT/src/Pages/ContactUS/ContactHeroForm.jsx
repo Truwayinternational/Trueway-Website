@@ -1,6 +1,7 @@
 import  React, {useState} from 'react'
 
 import { userInstance } from '../../axiosInstance'
+import { toast } from 'react-toastify';
 
 // social media icons 
 import {MdOutlineEmail} from 'react-icons/md'
@@ -12,6 +13,7 @@ import {FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaYoutube} from 'reac
 function ContactHeroForm() {
 
     const [status, setStatus] = useState("Submit")
+
     const handleSubmit = async (e) => {
         e.preventDefault();
         setStatus("Sending...");
@@ -27,13 +29,13 @@ function ContactHeroForm() {
         if (response.data) {
             const result =  response.data;
             setStatus("Submit");
-            alert(result.status);
-            window.location.reload();
+            toast.success(result.status);
+            e.target.reset();
         } else {
             // Handle non-ok response (HTTP 4xx or 5xx)
             setStatus("Submit");
             const result = response.data;
-            alert(result.error);
+            toast.error(result.status);
         }
 
     }

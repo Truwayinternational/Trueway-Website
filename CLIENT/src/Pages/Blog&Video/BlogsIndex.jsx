@@ -65,8 +65,7 @@ function BlogsIndex() {
 
                       <button
                         className=" text-white bg-blue-400 p-3 font-poppins rounded-xl mt-5 cursor-pointer"
-                        onClick={() => navigate("/blogs/" + blog._id)}
-                      >
+                        onClick={() => navigate("/blogs/" + blog._id)}>
                         {" "}
                         Read more...
                       </button>

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useRef, useState } from 'react'
 import { userInstance } from '../../axiosInstance';
 import { IMG_URL } from '../../constent';
 

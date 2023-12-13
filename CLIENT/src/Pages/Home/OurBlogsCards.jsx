@@ -71,7 +71,7 @@ function OurBlogsCards() {
                         modules={[Pagination]}
                     >
 
-                        { blogs.map((blog, index) => (
+                        {blogs.length > 0 && blogs.map((blog, index) => (
                             <SwiperSlide key={index}>
                                 <div className="mb-16 h-[450px] py-5  justify-center px-auto m-4 p-3 bg-zinc-100 px-4 rounded-3xl hover:shadow-lg hover:bg-green-50 cursor-pointer">
                                     <div className='flex   text-green-800 px-4'>

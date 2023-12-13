@@ -1,11 +1,13 @@
-import React, { useState } from 'react'
+import React, {useState } from 'react'
 import {MdCall, MdEmail, MdWhatsapp} from 'react-icons/md'
 import { userInstance } from '../../axiosInstance';
+import { toast } from 'react-toastify';
 
 
 export function GetinTouch() {
 
     const [status, setStatus] = useState("Submit")
+
     const handleSubmit = async (e) => {
         e.preventDefault();
         setStatus("Sending...");
@@ -22,13 +24,14 @@ export function GetinTouch() {
         if (response.data) {
             const result = response.data;
             setStatus("Submit");
-            alert(result.status);
-            window.location.reload();
+            toast.success(result.status);
+            e.target.reset();
+            // window.location.reload();
         } else {
             // Handle non-ok response (HTTP 4xx or 5xx)
             setStatus("Submit");
             const result = response.data;
-            alert(result.error);
+            toast.error(result.error);
         }
     }
     

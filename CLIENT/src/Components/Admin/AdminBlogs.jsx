@@ -3,27 +3,53 @@ import { userInstance } from '../../axiosInstance'
 import { NavLink } from 'react-router-dom'
 import { IMG_URL } from '../../constent'
 import { AdminContext } from './AdminContext'
+import Swal from 'sweetalert2'
 
 
 function AdminBlogs() {
-
+    
     const [blogs, setBlogs] = useState([])
     const [reload, setReload] = useState(false)
-
+    
     const {admin, setAdmin} = useContext(AdminContext)
-
-    const fetchBlogs = async ()=>{
-        const {data} = await userInstance.get("/admin/blogs")
-        setBlogs(data)
-    }
+    
 
     const deleteBlog = async (blogId) =>{
-        const {data} = await userInstance.delete("/admin/blogs/" + blogId)
-        alert("Are you Sure..?", data)
-        setReload(!reload)
+         await userInstance.delete("/admin/blogs/" + blogId)
+        // alert("Are you Sure..?", data)
     }
 
+    // blog delete alert with popup
+    const handleDeleteAlert = (blogId) => {
+        Swal.fire({
+          title: "Are you sure..?",
+          text: 'delete item',
+          icon: 'warning',
+          showCancelButton: true,
+          confirmButtonText: 'Yes, Delete it',
+          cancelButtonText: 'Cancel',
+        }).then(async (result) => {
+          if (result.isConfirmed) {
+            try {
+              await deleteBlog(blogId);
+              Swal.fire("Deleted", 'Your file has been deleted', 'success');
+              setReload(!reload);
+            } catch (error) {
+              Swal.fire("Error", 'Failed to delete the file', 'error');
+            }
+          } else if (result.dismiss === Swal.DismissReason.cancel) {
+            Swal.fire("Cancelled", 'Your file is safe ☺️', 'error');
+          }
+        });
+    };
+
+
+
     useEffect(()=>{
+        const fetchBlogs = async () => {
+            const {data} = await userInstance.get("/admin/blogs")
+            setBlogs(data)
+        }
         fetchBlogs()
     },[reload])
 
@@ -46,8 +72,8 @@ function AdminBlogs() {
         </div>
         
         <ul>
-            {blogs.map((blog) => (
-            <li key={blog.id} className="lg:flex mb-4 p-4 border rounded">
+            {blogs.length > 0 && blogs.map((blog) => (
+            <li key={blog.Id} className="lg:flex mb-4 p-4 border rounded">
                 <div className='block lg:w-1/3 w-full mx-3 p-3'>
                     <img className='w-[300px] h-[300px] m-3 p-3' src={IMG_URL + blog.image} alt="BlogPoster"/>
                 </div>
@@ -66,7 +92,7 @@ function AdminBlogs() {
                         <NavLink className='bg-blue-500 text-white px-4 py-2 rounded-lg mx-2' to={"/admin/blogs/" + blog._id} > Edit </NavLink>
                         <button
                             className="bg-red-500 text-white px-4 py-2 rounded-lg mx-2"
-                            onClick={() => deleteBlog(blog._id)}>
+                            onClick={() => handleDeleteAlert(blog._id)}>
                             Delete
                         </button>
                     </div>
