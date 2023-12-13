@@ -1,6 +1,8 @@
 import React, {lazy , Suspense} from "react";
 import { Route, Routes} from "react-router-dom";
 import { SyncLoader } from 'react-spinners'
+import { ToastContainer } from "react-toastify";
+
  
 // Navbar router in web page
 import TopBar from "./Components/Layout/TopBar";
@@ -202,6 +204,7 @@ function App() {
         </Routes>
         </Suspense>
       <Footer/>
+      <ToastContainer />
     </div>
   );
 }

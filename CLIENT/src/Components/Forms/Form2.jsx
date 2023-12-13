@@ -2,6 +2,7 @@ import  React, {useState} from 'react'
 
 import bgContact from '../../Assets/bg_contact.webp'
 import { userInstance } from '../../axiosInstance';
+import { toast } from 'react-toastify';
 
 
 
@@ -9,6 +10,7 @@ import { userInstance } from '../../axiosInstance';
 function Form2() {
 
     const [status, setStatus] = useState("Submit")
+    
     const handleSubmit = async (e) => {
         e.preventDefault();
         setStatus("Sending...");
@@ -26,13 +28,14 @@ function Form2() {
         if (response.data) {
             const result = response.data;
             setStatus("Submit");
-            alert(result.status);
-            window.location.reload();
+            toast.success(result.status);
+            e.target.reset();
         } else {
             // Handle non-ok response (HTTP 4xx or 5xx)
             setStatus("Submit");
             const result = response.data;
-            alert(result.error);
+            toast.error(result.status);
+            
         }
     }
 

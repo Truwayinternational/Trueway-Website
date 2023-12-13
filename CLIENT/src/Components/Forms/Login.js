@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import login from '../../Assets/login.webp'
 import { useNavigate } from 'react-router-dom'
 import { userInstance } from '../../axiosInstance'
+import { toast } from 'react-toastify';
 
 import { IoIosEye } from "react-icons/io";
 import { IoIosEyeOff } from "react-icons/io";
@@ -26,8 +27,9 @@ function Login() {
             
         } catch (error) {
             console.error("Axios error:", error);
-            alert(error.response.data.message)
-            window.location.reload()
+            toast.error(error.response.data.message);
+            // alert(error.response.data.message)
+            // window.location.reload()
         }
     }
 

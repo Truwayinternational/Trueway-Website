@@ -7,6 +7,7 @@ const mongoose = require('mongoose')
 const dotenv = require('dotenv');
 dotenv.config()
 
+const path = require('path');
 const app = express();
 
 
@@ -29,28 +30,22 @@ app.use(cors({
   ]
 }))
 
-
-
-
-const path = require('path');
-// Serve static files from the React app
-app.use(express.static(path.join(__dirname, 'build')));
-
-
-// Handle requests to the root URL
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
-
-// Middleware to parse JSON
-app.use(express.json());
-
-// Middleware to parse JSON requests
-app.use(bodyParser.json());
-app.use("/", router);
-
-//static files setup
-app.use('/uploads',express.static(__dirname + '/uploads'));
+// for runnig build folder
+app.use(express.static(path.join(__dirname, '/build')));
+  
+  // Middleware to parse JSON
+  app.use(express.json());
+  
+  // Middleware to parse JSON requests
+  app.use(bodyParser.json());
+  
+  //static files setup
+  app.use('/uploads',express.static(__dirname + '/uploads'));
+  app.use("/api", router);
+  
+  app.get('*', (req, res) => {
+      res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  });
 
 
 // Start the server

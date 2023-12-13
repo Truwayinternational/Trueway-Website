@@ -1,0 +1,65 @@
+const express = require("express");
+const router = express.Router();
+const nodemailer = require("nodemailer");
+const cors = require("cors")
+const bodyParser = require('body-parser');
+const mongoose = require('mongoose')
+
+
+const app = express();
+
+// connect mongoose
+mongoose.connect("mongodb+srv://Trueway:Trueway123@truewaycluster.0ay9t15.mongodb.net/?retryWrites=true&w=majority").then(()=>{
+  console.log("database connect")
+}).catch((error)=>{
+  console.log("database error ",error)
+})
+
+
+app.use(cors())
+
+
+
+
+const path = require('path');
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, 'build')));
+
+
+// Handle requests to the root URL
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
+
+// Middleware to parse JSON requests
+app.use(bodyParser.json());
+app.use("/", router);
+// Start the server
+const port = process.env.PORT || 8080;
+app.listen(port, () => console.log("Server is running on port "));
+
+
+// Nodemailer configuration
+const contactEmail = nodemailer.createTransport({
+  service: "gmail",
+  auth: {
+    user: "tvm@truewayinternational.com",
+    pass: "lxnnzoumsodpcaty",
+  },
+});
+
+
+contactEmail.verify((error) => {
+  if (error) {
+    console.log(error);
+  } else {
+    console.log("Ready to Send");
+  }
+});
+
+
+
+
+
+"postbuild": "cp server.js build/ && echo 'Server file copied to build folder'",

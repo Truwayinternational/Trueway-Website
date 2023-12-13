@@ -146,6 +146,7 @@ router.get("/verify",auth, async (req, res) => {
 router.get("/admin/blogs",auth, async (req, res) => {
   try {
     const blogs = await BlogModel.find({})
+    console.log(blogs)
     res.json(blogs)
   } catch (error) {
     console.log(error)
