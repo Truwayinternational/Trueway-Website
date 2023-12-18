@@ -17,7 +17,6 @@ const jwt = require('jsonwebtoken')
 router.post("/contact", async (req, res) => {
   try {
     const {name, number, email, message} = req.body
-    console.log(req.body)
     const toMail = "tvm@truewayinternational.com"
     const subject = "Trueway Website Contact Form Submission"
     const html = `
@@ -27,7 +26,6 @@ router.post("/contact", async (req, res) => {
           <p>MESSAGE : ${message}</p>
         `
     const success = await sendEmail(email, toMail, subject, html)
-    console.log(success)
         if (success) {
         res.json({ status: "Form submitted successfully" }); 
         } else {
@@ -44,7 +42,6 @@ router.post("/contact", async (req, res) => {
 router.post("/", async (req, res) => {
   try {
     const {name, number, email, subject, message} = req.body
-    console.log(req.body)
     const toMail = "tvm@truewayinternational.com"
     const formSubject = "Trueway Website Services Enquiry Form Submission"
     const html = `
@@ -55,7 +52,6 @@ router.post("/", async (req, res) => {
           <p>MESSAGE : ${message}</p>
         `
     const success = await sendEmail(email, toMail, formSubject, html)
-    console.log(success)
         if (success) {
         res.json({ status: "Form submitted successfully" }); 
         } else {
@@ -73,7 +69,6 @@ router.post("/", async (req, res) => {
 // blog form page here
 router.post("/add-blog",auth, async (req, res) => {
   try {
-    console.log(req.body)
     const {title, content, uploaded, metaTitle, metaDescription} = req.body
     const newBlog = await BlogModel.create({
       title: title,
@@ -82,7 +77,6 @@ router.post("/add-blog",auth, async (req, res) => {
       metaTitle: metaTitle,
       metaDescription: metaDescription
     })
-    console.log(newBlog)
     res.json({message: "blog added successfully"})
   } catch (error) {
     console.log(error)
@@ -93,12 +87,10 @@ router.post("/add-blog",auth, async (req, res) => {
 // admin login 
 router.post("/admin", async (req, res) => {
   try {
-    console.log(req.body)
     const {email, password} = req.body
     const admin = await AdminModel.findOne({
       email:email
     })
-    console.log(admin)
     if (!admin) {
       throw Error("Admin not found");
     }
@@ -146,7 +138,6 @@ router.get("/verify",auth, async (req, res) => {
 router.get("/admin/blogs",auth, async (req, res) => {
   try {
     const blogs = await BlogModel.find({})
-    console.log(blogs)
     res.json(blogs)
   } catch (error) {
     console.log(error)
@@ -187,7 +178,6 @@ router.put("/admin/blogs/:blogId",auth, async (req, res) => {
 router.delete("/admin/blogs/:blogId",auth, async (req, res) => {
   try {
     const blog = await BlogModel.findByIdAndDelete(req.params.blogId)
-    console.log(blog)
     const imagePath = `./uploads/${blog.image}`;
     // Check if the file exists
     await fs.access(imagePath);
@@ -204,7 +194,6 @@ router.delete("/admin/blogs/:blogId",auth, async (req, res) => {
 router.post("/upload",auth, upload.single('image'), async (req, res) => {
   try {
     const file = req.file
-    console.log(req.file)
     res.json(file)
   } catch (error) {
     console.log(error)
@@ -215,7 +204,6 @@ router.post("/upload",auth, upload.single('image'), async (req, res) => {
 router.delete("/delete-image/:filename",auth, async (req, res) => {
   try {
     const filename = req.params.filename
-    console.log(filename)
     // Specify the path where your images are stored
     const imagePath = `./uploads/${filename}`;
     // Check if the file exists

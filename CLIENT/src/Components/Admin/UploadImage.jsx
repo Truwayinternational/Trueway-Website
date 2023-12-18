@@ -20,7 +20,6 @@ function UploadImage({uploaded, setUploaded}) {
             },
         };
         const { data } = await userInstance.post('/upload', formData, config)
-        console.log('upload photos', data);
         setUploaded(data.filename);
         // setImage('');
     }
@@ -44,14 +43,11 @@ function UploadImage({uploaded, setUploaded}) {
         }
     function onFileSelect(e) {
         const file = e.target.files[0];
-        console.log(e.target.files)
         if (file.length === 0) return;
-        console.log('file', file);
         addPhoto(file)
     }
     async function removeImage(name) {
         const { data } = await userInstance.delete('/delete-image/' + name);
-        console.log('removed', data);
         setUploaded('');
     }
     function onDragOver(e) {

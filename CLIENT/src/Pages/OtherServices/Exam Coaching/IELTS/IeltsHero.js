@@ -14,7 +14,7 @@ function IeltsHero() {
                 {/* mobile banner here */}
                 <img className='lg:hidden w-screen ' src={MOBIELTSbanner} alt="mobile IELTS banner" />
                 {/* content here */}
-                <h1 className='md:text-5xl text-4xl py-10  font-HeadingFont font-extrabold text-black  tracking-normal text-center px-4'>Join the Best <b className='text-green-500'> IELTS online & OET coaching centre </b> in Kerala
+                <h1 className='md:text-5xl text-4xl py-10  font-HeadingFont font-extrabold text-black  tracking-normal text-center px-4'>The best <b className='text-green-500'> IELTS coaching centre </b> in Kerala
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
