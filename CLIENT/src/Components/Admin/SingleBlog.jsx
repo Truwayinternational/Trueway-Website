@@ -30,11 +30,9 @@ function SingleBlog() {
             if(blogId){
                 //update blog
                 const { data } = await userInstance.put("/admin/blogs/" + blogId, formData)
-                console.log(data)
             }else{
                 //add blog
                 const { data } = await userInstance.post("/add-blog", formData)
-                console.log(data);
             }
             navigate('/admin/blogs')
         } catch (error) {
