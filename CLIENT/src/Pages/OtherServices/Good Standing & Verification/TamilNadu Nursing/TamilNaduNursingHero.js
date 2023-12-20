@@ -17,7 +17,7 @@ function TamilNaduNursingHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                     Nurses who plan to migrate from Tamil Nadu for jobs abroad should need a good standing certificate. Because when they reach their destination council, they will be asked for a good standing certificate from the candidate’s state. A good standing certificate asserts that the candidate has a good background. You can apply for a good standing certificate only if you are currently working as a registered nurse.
                 </p>
             </div>    

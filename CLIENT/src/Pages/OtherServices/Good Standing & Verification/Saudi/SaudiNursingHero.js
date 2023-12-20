@@ -17,7 +17,7 @@ function SaudiNursingHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                 Medical professionals working in Saudi Arabia must obtain a Good Standing Certificate before they can move abroad. This certificate is essential for migrants who are healthcare professionals because it plays a significant role in verifying the genuineness of documents and professional status (whether it's restricted, suspended, or revoked). A Good Standing Certificate is important for various purposes, including licence renewal, visa and immigration requirements, and employment needs.
                 </p>
             </div>    

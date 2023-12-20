@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react'
 import { userInstance } from '../../axiosInstance';
 import { IMG_URL } from '../../constent';
+import Swal from 'sweetalert2';
 
 
 function UploadImage({uploaded, setUploaded}) {
@@ -48,6 +49,7 @@ function UploadImage({uploaded, setUploaded}) {
     }
     async function removeImage(name) {
         const { data } = await userInstance.delete('/delete-image/' + name);
+        Swal.fire("Deleted",data.message , 'success');
         setUploaded('');
     }
     function onDragOver(e) {

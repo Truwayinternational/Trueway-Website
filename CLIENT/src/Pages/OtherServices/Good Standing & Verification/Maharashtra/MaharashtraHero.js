@@ -16,7 +16,7 @@ function MaharashtraHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                 Nursing professionals who are practising in the Maharashtra state should have a good standing certificate if they are planning a migration. This certificate plays a crucial role in verifying the credentials of a nurse and maintaining a professional status in Maharashtra.
                 Mainly for licence renewal, visa and immigration purposes, professional credentials verification, and employment requirements, a good standing certificate is so significant.
                 </p>

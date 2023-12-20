@@ -17,7 +17,7 @@ function KarnatakaNursingHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                 The Karnataka State Nursing Council regulates the nursing sector in Kerala. As a result, in order to obtain a licence or other documents relevant to the nursing industry, the candidate must contact this nursing council. To relocate abroad or pursue higher education abroad, a nurse must apply for a good standing certificate from the Karnataka State Nursing Council.<br/>
                 You can only apply if you are a registered nurse, and you must also have a current Karnataka Nursing Council licence. The good standing certificate is a report that validates nurses' goodwill and behaviour in their Karnataka careers. You must be a registered nurse with the KSNC to get a good standing certificate.
                 </p>

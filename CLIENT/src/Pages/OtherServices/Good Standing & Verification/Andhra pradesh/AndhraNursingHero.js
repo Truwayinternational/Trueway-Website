@@ -16,7 +16,7 @@ function AndhraNursingHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                 A certificate of good standing is required for nurses from Andhra Pradesh who wish to move abroad to work. Since the candidate's state will require them to present a certificate of good standing on landing in their target council. One can verify the candidate's strong background with a certificate of good standing. You may apply for a good standing certificate only if you are a registered nurse who is currently employed.
                 </p>
             </div>    

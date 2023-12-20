@@ -10,7 +10,7 @@ function DocumentsRequired() {
             <div className='flex  max-w-[1240px] mx-auto place-content-center '>
                 <div className='grid lg:grid-cols-2 max-w-[1240px] py-10 '>
                     <div className='flex flex-col lg:pl-12 md:px-10 lg:px-0  px-5'>
-                        <h5 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500'> <b className='text-black'> Documents Required For <br/> </b>  Credentialing in DataFlow typically include:</h5>
+                        <h5 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500'> <b className='text-black'> Documents Required For </b>  Credentialing in DataFlow typically include:</h5>
                         <div className='max-w-2xl font-HeadingFont'>
                             <ul className='md:text-xl  py-3 text-lg  text-green-500 w-fit font-HeadingFont font-semibold cursor-pointer'>
                                 <div className='bg-transparent md:rounded-2xl md:hover:bg-white w-fit p-2 my-1 cursor-pointer'>

@@ -4,6 +4,7 @@ import { userInstance } from '../../axiosInstance'
 import { useState } from 'react'
 import UploadImage from './UploadImage'
 import TextEditor from './TextEditor'
+import Swal from 'sweetalert2'
 
 
 
@@ -30,9 +31,12 @@ function SingleBlog() {
             if(blogId){
                 //update blog
                 const { data } = await userInstance.put("/admin/blogs/" + blogId, formData)
+                Swal.fire("Blog Edited",data.message , 'success');
             }else{
                 //add blog
                 const { data } = await userInstance.post("/add-blog", formData)
+                Swal.fire("Blog Added",data.message , 'success');
+                
             }
             navigate('/admin/blogs')
         } catch (error) {

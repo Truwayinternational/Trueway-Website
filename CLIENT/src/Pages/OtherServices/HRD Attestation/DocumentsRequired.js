@@ -10,7 +10,7 @@ function DocumentsRequired() {
         <div className='flex  max-w-[1240px] mx-auto place-content-center '>
             <div className='grid lg:grid-cols-2 max-w-[1280px] py-10 '>
                 <div className='flex flex-col lg:pl-12 md:px-10 lg:px-0  px-5'>
-                <h5 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500'> <b className='text-black'> Documents Required For <br/> </b> HRD Attestation</h5>
+                <h5 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500'> <b className='text-black'> Documents Required For </b> HRD Attestation</h5>
                     <p className='text-gray-500 font-poppins md:text-xl lg:text-lg'>
                     To obtain attestation from the HRD office, you are required to submit the authentic original degree certificate, along with copies of the mark sheet, the offer letter, your passport, and two passport-size photos.<br/>
                     Attestation by the State Human Resource Department is the process used to certify educational documents. Additionally, the legitimacy of the certificate is verified through an authentication procedure. An attestation stamp, commonly referred to as an HRD certificate, is acquired to confirm the authenticity of the document. Furthermore, multiple educational documents are required to be submitted to Trueway International in order to initiate the State Human Resource Department attestation procedure.<br/>

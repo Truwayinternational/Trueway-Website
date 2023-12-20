@@ -14,7 +14,7 @@ function SiginificanceOfQatarEmbassy() {
                 <h2 className='md:text-5xl text-4xl py-5  font-HeadingFont font-extrabold text-black  tracking-normal text-center px-4 lg:px-'>Significance of<b className='text-green-500'><br/> Qatar Embassy Attestation </b>
                 </h2>
                 <div className='w-full lg:px-10 px-5 '>
-                    <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins '>
+                    <p className='text-md md:text-lg text-justify text-gray-500 font-poppins '>
                     Documents issued in one nation and intended for use in Qatar have to be authenticated and legalised by the Qatari embassy there. This process ensures that the papers are authentic and can be recognized as valid legal or official documents under Qatari law. It is mandatorily required for various purposes, such as employment, education, business transactions, and residency, as Qatar authorities need to verify the authenticity or genuineness of foreign documents before accepting them.
                     </p>
                 </div> 

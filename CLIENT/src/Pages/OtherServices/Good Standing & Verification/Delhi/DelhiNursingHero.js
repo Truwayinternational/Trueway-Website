@@ -17,7 +17,7 @@ function DelhiNursingHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                 Medical professionals who work in Delhi and plan to move abroad to work in the healthcare sector should obtain a good-standing certificate. Otherwise, you can never achieve your goal, which is to secure a job abroad. This is where Trueway is playing a crucial role in this sector. We help you pursue a good-standing certificate hassle-free.
                 </p>
             </div>    

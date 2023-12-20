@@ -10,7 +10,7 @@ function DocumentsForOman() {
             <div className='flex  max-w-[1240px] mx-auto place-content-center '>
                 <div className='grid lg:grid-cols-2 max-w-[1280px] pt-10 '>
                     <div className='flex flex-col lg:pl-12 md:px-10 lg:px-0  px-5 '>
-                        <h5 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500 '> <b className='text-black'> Documents Required For <br/> </b> Oman Dataflow </h5>
+                        <h5 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500 '> <b className='text-black'> Documents Required For  </b> Oman Dataflow </h5>
                         <p className='text-gray-500 font-poppins text-md md:text-xl lg:text-lg '>
                         In the context of Oman's Dataflow process, healthcare professionals seeking employment or licensure are required to submit specific documents for verification. These documents are important in confirming the credibility of their qualifications and professional documents.<br/> <b> The following documents are needed for the Oman Dataflow procedure :- </b>
                         </p>

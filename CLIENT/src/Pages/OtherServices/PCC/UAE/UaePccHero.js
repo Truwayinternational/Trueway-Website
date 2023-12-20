@@ -18,7 +18,7 @@ function UaePccHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                 Planning to migrate and want a police clearance certificate? Then Trueway is the solution. If you are living or working in the UAE, Abu Dhabi, Dubai, Sharjah, Fujairah, Razal Khaimah, or Ajman, then you have to get a PCC from the UAE. To get a job, people simply migrate or relocate, but they need a PCC to prove themselves real and free from any illegal activities.
                 To get your PCC done smoothly in an affordable package, contact us and avail of our services. PCC from the UAE is uncomplicated after you connect with us.
                 </p>

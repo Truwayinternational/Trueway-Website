@@ -115,9 +115,9 @@ function App() {
       <TopBar />
       <NavBar/>
       <QuickAction/>
-      <Suspense fallback={ <h1 className="flex justify-center items-center text-xl text-center font-HeadingFont"> Loading 
+      <Suspense fallback={ <p className="flex justify-center items-center text-xl text-center font-HeadingFont"> Loading 
           <SyncLoader color="#2bb134" loading/>
-        </h1>}>
+        </p>}>
 
         <Routes>
           {/* Navbar menus  router*/}

@@ -18,7 +18,7 @@ function QatarPccHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg  text-justify text-gray-500 font-poppins lg:p-0'>
                     Qatar PCC is a confirmation certificate that states the applicant is clean, abstain from illegal and offensive activities, has decent conduct, and it is safe to enter him/her into another country. In the case of Qatar, this is one of the legally strict Arab nations; therefore, before giving the candidate a police clearance certificate, the police department will directly examine the applicant’s past activities.
                 </p>
             </div>    
