@@ -16,7 +16,7 @@ function KeralaDentalHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                 Trueway is an agency in India that offers hassle-free and swift services to its clients to meet their needs. A good standing certificate is an essential document for dentists who are practising in Kerala. If they are planning a migration, then this will help them with visa applications, credential verification, and so on. Without consuming much time, Trueway completes the process to get a good standing certificate.
                 </p>
             </div>    

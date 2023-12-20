@@ -10,7 +10,7 @@ function DocumentsForBahrain() {
             <div className='flex  max-w-[1240px] mx-auto place-content-center '>
                 <div className='grid lg:grid-cols-2 max-w-[1280px] pt-10 '>
                     <div className='flex flex-col lg:pl-12 md:px-10 lg:px-0  px-5 '>
-                        <h6 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500 '> <b className='text-black'> Documents Required For<br/> </b> Bahrain Dataflow </h6>
+                        <h6 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500 '> <b className='text-black'> Documents Required For </b> Bahrain Dataflow </h6>
                         <p className='text-gray-500 font-poppins text-md md:text-xl lg:text-lg '>
                         As dataflow verification checks the authenticity of the documents, applicants must provide the documents required for the whole process. It is mandatory for the dataflow group to ensure the authenticity and genuineness of the submitted information. The original documents are not required, but scanned copies are.
                         </p>

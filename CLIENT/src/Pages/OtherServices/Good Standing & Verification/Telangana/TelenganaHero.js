@@ -15,7 +15,7 @@ function TelenganaHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                 Every nurse working in the Telangana state who plans to migrate has to apply for a good standing certificate. Without this certificate, you cannot prove the validity of your professional credentials. That is why it is said that a good standing certificate is so crucial and important. In cases of professional recognition, credentialing, licence renewal, legal requirements, visas, and immigration, this certificate is mandatory. Trueway helps you pursue this certificate without giving you any burden.
                 </p>
             </div>    

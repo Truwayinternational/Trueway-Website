@@ -17,7 +17,7 @@ function MPnursingHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                 Nurses planning to relocate from Madhya Pradesh to work in another country need to have a good standing certificate. Because they will be asked for a good standing certificate from the candidate's state when they arrive at their destination council. A certificate of good standing certifies that the candidate has a solid background. Only if you are currently employed as a registered nurse can you apply for a good standing certificate.
                 </p>
             </div>    

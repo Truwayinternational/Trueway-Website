@@ -18,7 +18,7 @@ function IeltsHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                 IELTS is a requirement for all students and professionals in the major English-speaking nations. One of the essential stages you must complete before moving abroad is passing the IELTS exam. Trueway International can offer you the greatest and most promising IELTS coaching in the area if you're eagerly looking for the top IELTS tutoring in Kerala. We are well-equipped to guide you and provide excellent coaching with current study materials thanks to our years of experience and highly skilled faculty. Our coaching program focuses on teaching non-native speakers who want to study or work in an English-speaking environment language skills in four categories, such as Listening, Reading, Writing, and Speaking.
                 </p>
             </div>    

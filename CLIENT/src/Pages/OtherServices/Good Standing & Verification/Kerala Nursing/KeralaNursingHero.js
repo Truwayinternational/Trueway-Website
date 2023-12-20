@@ -17,7 +17,7 @@ function KeralaNursingHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                 In Kerala, the nursing sector is regulated by the Kerala Nursing Council. Therefore, in order to issue any licence or any other paperwork related to the nursing field, the candidate has to connect with this nursing council. For a nurse to migrate abroad or to pursue higher studies abroad, they have to apply for a good standing certificate at the Kerala Nursing Council.
                 Only if you are a registered nurse can you apply for this, and along with that, you should hold a current Kerala Nursing Council licence.
                 </p>

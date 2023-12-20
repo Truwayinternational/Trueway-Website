@@ -17,7 +17,7 @@ function KeralaParamedicalHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                 When the candidate migrates to another nation, their respective department will definitely need a good standing certificate. A good standing certificate is mandatory for visa application requirements, job opportunities, licence process, etc. In India, Trueway is the one and only fastest consultancy that helps you get a Kerala Pharmaceutical Good Standing Certificate without any hassle or trouble. Our dedicated team members have 15 years of experience in this process, and they will look after the entire process when you submit the documents.
                 </p>
             </div>    

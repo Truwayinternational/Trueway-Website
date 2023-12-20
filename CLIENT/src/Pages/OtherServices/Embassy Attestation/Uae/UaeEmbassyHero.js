@@ -16,7 +16,7 @@ function UaeEmbassyHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                     If you want to use your certificates in the UAE, then you should definitely go through UAE embassy attestation procedures. For foreigners who land in the UAE, they can use their educational, personal, or commercial documents after this procedure. Without proper documentation, you will not get a UAE visa to fly there, which is why attestation is so crucial. Also, to prove the genuineness of the certificates you provided, attestation is needed. To get a work permit and start a new business there, the applicant should follow the attestation procedures of the respective country. After successfully completing the full process, your certificates will be stamped as authentic, and then you are good to go to the relevant embassy and country.
                 </p>
             </div>    

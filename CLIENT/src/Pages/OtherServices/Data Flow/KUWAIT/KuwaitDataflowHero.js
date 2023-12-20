@@ -16,7 +16,7 @@ function KuwaitDataflowHero() {
                 <h1 className='md:text-5xl text-4xl py-10  font-HeadingFont font-extrabold text-black  tracking-wider text-center px-4'>The Leading <b className='text-green-500'> Dataflow Verification Service in India </b> for Kuwait </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                     Trueway is India's most promising and fastest dataflow verification service. We specialize in providing dataflow services for healthcare professionals going abroad, including Nurses, Doctors, MLTs, Dentists, Pharmacists, and more. Trueway leads the verification process among our competitors. The Kuwait dataflow process sets itself apart as a challenging one, but our professionals are here to simplify and streamline it for you, making the process easy and hassle-free.
                 </p>
             </div>    

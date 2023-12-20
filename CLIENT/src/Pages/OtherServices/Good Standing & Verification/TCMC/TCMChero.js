@@ -16,7 +16,7 @@ function TCMChero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                 Trueway is an organisation in India that helps you migrate without facing many troubles or headaches. Because Trueway helps complete the process by providing fast-track services, For job opportunities abroad, visa application requirements, the licence process, etc., a good standing certificate is mandatory. Because when the applicant migrates to another country, their respective department asks for a good standing certificate, and the applicant has to produce that. So contacting an authorised agency for the process to be done is the most accurate way.
                 </p>
             </div>    

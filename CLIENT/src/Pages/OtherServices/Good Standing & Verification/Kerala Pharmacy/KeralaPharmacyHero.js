@@ -16,7 +16,7 @@ function KeralaPharmacyHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                     Trueway is a recognized agency located in India that helps in obtaining good standing certificates from Kerala pharmacy rapidly. The speciality of Trueway is that they are well versed in documentation, application, and verification processes, so we can complete the process efficiently. Trueway ensures fast-track services, thus saving you time and money and also helping you reduce potential stress. To get employment abroad, a visa, immigration purposes, licence renewal, etc., good standing is mandatory.
                 </p>
             </div>    

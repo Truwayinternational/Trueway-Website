@@ -23,7 +23,10 @@ mongoose.connect(process.env.MONGO_URL).then(()=>{
 
 app.use(cors({
   credentials:true,
-  origin: process.env.CLIENT_URL,
+  origin: [
+    process.env.CLIENT_URL_1,
+    process.env.CLIENT_URL_2
+  ],
   methods:[
     "GET","POST","DELETE","PUT","PATCH"
   ]

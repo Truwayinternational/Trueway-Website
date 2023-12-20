@@ -22,7 +22,7 @@ export function AdminContextProvider({children}){
                     setAdmin({id:data.id, email:data.email});
                 }
             } catch (error) {
-                console.error(error);
+                // console.error(error);
             }
         }
         if(!admin){

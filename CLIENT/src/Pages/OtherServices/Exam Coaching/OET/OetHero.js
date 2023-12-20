@@ -17,7 +17,7 @@ function OetHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                 OET is a mandatory qualification in major English-speaking countries for healthcare professionals. It is one of the vital steps you must take to pass the OET exam before your overseas migration. If you're eagerly searching for the best OET coaching in Kerala, Trueway can provide you with the best and most promising OET coaching in the region. With years of experience and highly qualified faculty, we are well-equipped to guide you and offer perfect coaching with updated study materials. Our coaching program specializes in training healthcare professionals in medical English, such as doctors, nurses, pharmacists, dentists, veterinarians, dietitians, and other healthcare professionals.
                 </p>
             </div>    

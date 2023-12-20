@@ -17,7 +17,7 @@ function BahrainEmbassyHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                     Trueway International is known as the leading Embassy attestation agency in India because of its ability to solve the complexity of attestation procedures. The procedure for having your documents attested by an embassy can be difficult and time-consuming. It can be very difficult for regular people to handle and comprehend. Trueway International provides stress-free embassy certificate attestation services with an online document monitoring tool to make things easy for you.
                 </p>
             </div>    

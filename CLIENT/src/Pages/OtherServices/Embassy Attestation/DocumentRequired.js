@@ -10,7 +10,7 @@ function DocumentRequired() {
             <div className='flex  max-w-[1240px] mx-auto place-content-center '>
                 <div className='grid lg:grid-cols-2 max-w-[1280px] py-10 '>
                     <div className='flex flex-col lg:pl-12 md:px-10 lg:px-0  px-5 '>
-                        <h5 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500 '> <b className='text-black'> Documents Required For <br/> </b> Embassy Attestation</h5>
+                        <h5 className='text-4xl py-4 md:text-5xl font-HeadingFont font-bold text-green-500 '> <b className='text-black'> Documents Required For </b> Embassy Attestation</h5>
                         <div className='md:hidden py-auto'>
                             <img className='lg:w-[400px] px-14 py-4 mx-auto lg:my-10' src={section_img} alt="section_img" />
                          </div>

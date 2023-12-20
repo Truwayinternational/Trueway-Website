@@ -16,7 +16,7 @@ function KuwaitEmbassyHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                 Are you seeking a 24*7 service for attestation? Trueway can help you with all attestation processes at any time. For a Kuwait Embassy attestation, you must follow the guidelines of the Kuwait Embassy. There are 3 types of documents for the process of Kuwait embassy attestation: educational, non-educational, and commercial. All these documents can be attested in India by the Kuwait embassy. It is essential to securing admission to Kuwait schools and universities, getting a work permit, acquiring a business licence in Kuwait, etc.
                 <br />
                 The attestation process is different in several departments. The attested documents have to be passed through various departments before the final attestation. We will ensure your documents are sent to the correct departments, and if you have any inquiries about your document's status, you can call our customer service executive.

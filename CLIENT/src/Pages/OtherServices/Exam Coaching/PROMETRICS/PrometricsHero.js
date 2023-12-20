@@ -17,7 +17,7 @@ function PrometricsHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                 Trueway International is one of Kerala's best coaching centres for prometric exam preparation. With a successful track record, we are devoted to assisting aspiring healthcare professionals to do well on various metric exams.
                 <br/>
                 Trueway International offers the best syllabus to guarantee your success. You will receive professional assistance from highly qualified staff with 15 years of experience in daily one-hour lessons. We offer thorough study guides and notes that may be sent to you effortlessly via email and WhatsApp. We provide practice sessions with more than 1500 questions.

@@ -18,7 +18,7 @@ function SaudiPccHero() {
                 </h1>
             </div>
             <div className='w-full lg:px-20 px-5 '>
-                <p className='text-md md:text-lg lg:text-center text-justify text-gray-500 font-poppins lg:p-0'>
+                <p className='text-md md:text-lg text-justify text-gray-500 font-poppins lg:p-0'>
                     Saudi police clearance certificates will be issued by the Saudi government itself. It is needed for an individual who has lived in Saudi Arabia for more than two years with a resident visa. This PCC is proof that this individual didn’t engage in any illegal practices, unlawful offences, or other wrongdoings against other individuals or nations.
                 </p>
             </div>    
