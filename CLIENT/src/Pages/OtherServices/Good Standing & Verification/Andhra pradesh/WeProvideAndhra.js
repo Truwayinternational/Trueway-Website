@@ -11,7 +11,7 @@ function WeProvideAndhra() {
                 <div className='md:flex md:flex-col md:pl-3'>
                     <div className='flex md:flex-col'>
                     <img className='md:hidden grid  w-[100px]  mt-[-30px]'src={Avatar_4} alt="Avatar_4 "/>
-                    <h2 className='md:text-5xl text-3xl pb-5 font-HeadingFont font-extrabold text-black tracking-wide'><b className='text-green-500'>We Provide Good Standing </b> for these Countries</h2>
+                    <h2 className='md:text-5xl text-3xl pb-5 font-HeadingFont font-extrabold text-black tracking-wide'> <b className='text-green-500'>We Provide Good Standing </b> for these Countries</h2>
                     </div>
                     <p className='text-md md:text-xl lg:text-lg text-gray-500 font-poppins pr-3 lg:p-0'>
                     The GCC and European countries are the two main categories of nations to which Trueway certifies good standing. The nations listed below are those for which we offer certificates of good standing.
@@ -31,13 +31,13 @@ function WeProvideAndhra() {
                 <div className='grid grid-cols-2 max-w-lg px-4 pt-10 gap-3 content-center mx-auto'>
 
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-2xl hover:bg-green-500 hover:text-white cursor-pointer  p-5'>
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center py-auto'>
+                        <h3 className='font-HeadingFont text-lg  md:text-2xl font-semibold text-center py-auto'>
                         BAHRAIN
                         </h3>
                     </div>
 
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-2xl hover:bg-green-500 hover:text-white cursor-pointer  p-5'>
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
+                        <h3 className='font-HeadingFont text-lg md:text-2xl font-semibold text-center '>
                         KUWAIT
                         </h3>
                     </div>
@@ -46,37 +46,37 @@ function WeProvideAndhra() {
                 <div className='grid grid-cols-3 max-w-3xl px-4 gap-3 content-center mx-auto py-4 mb-4'>
 
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-2xl hover:bg-green-500 hover:text-white cursor-pointer  p-5'>
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center py-auto'>
+                        <h3 className='font-HeadingFont text-lg md:text-2xl font-semibold text-center py-auto'>
                              DHA
                         </h3>
                     </div>
 
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-2xl hover:bg-green-500 hover:text-white cursor-pointer  p-5'>
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center'>
+                        <h3 className='font-HeadingFont text-lg md:text-2xl font-semibold text-center'>
                             HAAD
                         </h3>
                     </div>
 
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-2xl hover:bg-green-500 hover:text-white cursor-pointer  p-5'>
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center'>
+                        <h3 className='font-HeadingFont text-lg md:text-2xl font-semibold text-center'>
                             MOH
                         </h3>
                     </div>
 
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-2xl hover:bg-green-500 hover:text-white cursor-pointer  p-5'>
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
+                        <h3 className='font-HeadingFont text-lg md:text-2xl font-semibold text-center '>
                         QATAR
                         </h3>
                     </div>
 
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-2xl hover:bg-green-500 hover:text-white cursor-pointer  p-5'>
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
+                        <h3 className='font-HeadingFont text-lg md:text-2xl font-semibold text-center '>
                         OMAN
                         </h3>
                     </div>
 
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-2xl hover:bg-green-500 hover:text-white cursor-pointer  p-5'>
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
+                        <h3 className='font-HeadingFont text-lg md:text-2xl font-semibold text-center '>
                         SAUDI
                         </h3>
                     </div>
@@ -90,25 +90,25 @@ function WeProvideAndhra() {
                 <div className='grid grid-cols-2 max-w-xl px-4 pt-10 gap-3 content-center mx-auto'>
 
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-2xl hover:bg-green-500 hover:text-white cursor-pointer  p-5'>
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center py-auto'>
+                        <h3 className='font-HeadingFont text-lg md:text-2xl font-semibold text-center py-auto'>
                         NMBI <br/>(IRELAND)
                         </h3>
                     </div>
 
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-2xl hover:bg-green-500 hover:text-white cursor-pointer  p-5'>
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
+                        <h3 className='font-HeadingFont text-lg md:text-2xl font-semibold text-center '>
                         ANMAC <br/>(AUSTRALIA)
                         </h3>
                     </div>
 
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-2xl hover:bg-green-500 hover:text-white cursor-pointer  p-5'>
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
+                        <h3 className='font-HeadingFont text-lg md:text-2xl font-semibold text-center '>
                         MALDIVES
                         </h3>
                     </div>
 
                     <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-2xl hover:bg-green-500 hover:text-white cursor-pointer  p-5'>
-                        <h3 className='font-HeadingFont lg:text-2xl font-semibold text-center '>
+                        <h3 className='font-HeadingFont text-lg md:text-2xl font-semibold text-center '>
                         MALTA
                         </h3>
                     </div>

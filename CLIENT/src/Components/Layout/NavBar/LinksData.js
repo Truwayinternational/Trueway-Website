@@ -65,6 +65,13 @@ export const links = [
       subMenu:true, 
       subLinks : [
         {
+          Head: "DataFlow",
+          headLink:"/dataflow",
+          subLink : [
+            {name:false, link:"#!"},
+          ]
+        },
+        {
           Head: "Saudi Arabia",
           headLink:"/dataflow-saudiArabia",
           subLink : [
@@ -126,6 +133,13 @@ export const links = [
         name:"Exam Coaching",
         subMenu:true, 
         subLinks : [
+          {
+            Head: "Exam Coaching",
+            headLink:"/exam-coaching",
+            subLink : [
+              {name:"", link:"#!"},
+            ]
+          },
         {
           Head: "OET",
           headLink:"/oet",
@@ -160,6 +174,13 @@ export const links = [
         name:"PCC",
         subMenu:true, 
         subLinks : [
+          {
+            Head: "PCC",
+            headLink:"/pcc",
+            subLink : [
+              {name:"", link:"#!"},
+            ]
+          },
         {
           Head: "Saudi Arabia",
           headLink:"/pcc-saudiArabia",
@@ -219,44 +240,33 @@ export const links = [
       ]
     },
     {
-        name:"Migration",
+        name:"Verifications",
         subMenu:true, 
         subLinks : [
         {
-          Head: "Canada",
+          Head: "Hospital",
           headlink:"#!",
           subLink : [
-            {name:"", link:"#!"},
+            {name:"NMBI", link:"#!"},
           ]
         },
         {
-          Head: "UK",
+          Head: "College",
           headLink:"#!",
           subLink : [
-            {name:"", link:"#!"},
+            {name:"CGFNS", link:"/cgfns-council-verification"},
+            {name:"NMBI", link:"#!"},
+            {name:"NNAS", link:"#!"},
+            {name:"ERES", link:"#!"}
           ]
         },
-        {
-          Head: "Australia",
-          headLink:"#!",
-          subLink : [
-            {name:"", link:"#!"},
-          ]
-        },
-        {
-          Head:"New Zealand",
-          headLink:"#!",
-          subLink: [
-            {name:"", link:"#!"}
-          ]
-        },
-        {
-          Head:"Ireland",
-          headLink:"#!",
-          subLink: [
-            {name:"", link:"#!"}
-          ]
-        }
+        // {
+        //   Head: "Council",
+        //   headLink:"#!",
+        //   subLink : [
+        //     {name:"", link:"#!"},
+        //   ]
+        // }
       ]
     }
   ]

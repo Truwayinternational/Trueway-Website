@@ -11,13 +11,15 @@ import Footer from './Components/Layout/Footer'
 import QuickAction from "./Components/Layout/QuickAction";
 
 
+
+
 // root backend
-import Login from "./Components/Forms/Login";
-import ErrorPage from "./Pages/ErrorPage";
-import AdminBlogs from "./Components/Admin/AdminBlogs";
-import SingleBlog from "./Components/Admin/SingleBlog";
-import AdminAuth from "./Components/Admin/AdminAuth";
-import SingleBlogPage from "./Pages/Blog&Video/SingleBlogPage";
+const Login = lazy(()=>import("./Components/Forms/Login"))
+const ErrorPage = lazy(()=>import("./Pages/ErrorPage"))
+const AdminBlogs = lazy(()=>import("./Components/Admin/AdminBlogs"))
+const SingleBlog = lazy(()=>import("./Components/Admin/SingleBlog"))
+const AdminAuth = lazy(()=>import("./Components/Admin/AdminAuth"))
+const SingleBlogPage = lazy(()=>import("./Pages/Blog&Video/SingleBlogPage"))
 
 
 // all pages from navbar router
@@ -94,8 +96,20 @@ const KeralaParamedicalIndex =lazy(()=> import("./Pages/OtherServices/Good Stand
 const KeralaPharmacyIndex =lazy(()=> import("./Pages/OtherServices/Good Standing & Verification/Kerala Pharmacy/KeralaPharmacyIndex"));
 
 
-
-
+// CGFNS - COUNCIL VERIFICATION HOME PAGE AND INNER PAGES 
+const CgfnsIndex = lazy(()=> import("./Pages/Verifications/CGFNS/CgfnsIndex"))
+const KeralaCgfnsIndex = lazy(()=> import("./Pages/Verifications/CGFNS/Kerala-CGFNS/KeralaCgfnsIndex"))
+const TamilnaduCgfnsIndex = lazy(()=>import("./Pages/Verifications/CGFNS/Tamilnadu-CGFNS/TamilnaduCgfnsIndex"))
+const MaharashtraCgfnsIndex = lazy(()=> import("./Pages/Verifications/CGFNS/Mahrarashtra-CGFNS/MaharashtraCgfnsIndex"))
+const KarnatakaCgfnsIndex =lazy(()=>import("./Pages/Verifications/CGFNS/Karnataka-CGFNS/KarnatakaCgfnsIndex"))
+const TelanganaCgfnsIndex =lazy(()=>import("./Pages/Verifications/CGFNS/Telangana-CGFNS/TelanganaCgfnsIndex"))
+const MadhyapredeshCgfnsIndex =lazy(()=>import("./Pages/Verifications/CGFNS/MadhyaPredesh-CGFNS/MadhyapredeshCgfnsIndex"))
+const DelhiCgfnsIndex =lazy(()=>import("./Pages/Verifications/CGFNS/Delhi-CGFNS/DelhiCgfnsIndex"))
+const SaudiCgfnsIndex=lazy(()=>import("./Pages/Verifications/CGFNS/Saudi-CGFNS/SaudiCgfnsIndex"))
+const AndhraCfgnsIndex=lazy(()=>import("./Pages/Verifications/CGFNS/Andhra-CGFNS/AndhraCfgnsIndex"))
+const GujratCgfnsIndex =lazy(()=>import("./Pages/Verifications/CGFNS/Gujrat-CGFNS/GujratCgfnsIndex"))
+const PunjabCgfnsIndex =lazy(()=>import("./Pages/Verifications/CGFNS/Punjab-CGFNS/PunjabCgfnsIndex"))
+const OmanCgfnsIndex =lazy(()=>import("./Pages/Verifications/CGFNS/Oman-CGFNS/OmanCgfnsIndex"))
 
 
 
@@ -118,7 +132,7 @@ function App() {
       <Suspense fallback={ <p className="flex justify-center items-center text-xl text-center font-HeadingFont"> Loading 
           <SyncLoader color="#2bb134" loading/>
         </p>}>
-
+          
         <Routes>
           {/* Navbar menus  router*/}
           <Route exact path="/" element={ <HomeIndex/> } onClick={scrollToTop}/>
@@ -145,7 +159,7 @@ function App() {
 
           {/* We Provide Dataflow Services For ---DATAFLOW VERIFICATIONS ---*/}
           <Route path="/dataflow-moh" element={ <MohIndex/> } />
-          <Route path="/dataflow-saudiArabia" element = { <SaudiDataflowIndex/> } />
+          <Route path="/dataflow-saudiArabia" element = { <SaudiDataflowIndex/>}/>
           <Route path="/dataflow-oman" element = { <OmanDataflowIndex/> } />
           <Route path="/dataflow-bahrain" element={ <BahrainDataflowIndex/> } />
           <Route path="/dataflow-qatar" element={ <QatarDataflowIndex/> } />
@@ -187,6 +201,21 @@ function App() {
           <Route path="/kerala-paramedical-council" element={<KeralaParamedicalIndex/>}/>
           <Route path="/kerala-pharmacy-council" element={<KeralaPharmacyIndex/>}/>
           <Route path="/acls-bls" element={<AclsBlsIndex/>}/>
+
+          {/* CGFNS - VERIFICATION HOME & Inner pages */}
+          <Route path="/cgfns-council-verification" element={<CgfnsIndex/>}/>
+          <Route path="/cgfns-kerala-council-verification" element={<KeralaCgfnsIndex/>}/>
+          <Route path="/cgfns-tamilnadu-council-verification" element={<TamilnaduCgfnsIndex/>}/>
+          <Route path="/cgfns-maharashtra-council-verification" element={<MaharashtraCgfnsIndex/>}/>
+          <Route path="/cgfns-karnataka-council-verification" element={<KarnatakaCgfnsIndex/>}/>
+          <Route path="/cgfns-telangana-council-verification" element={<TelanganaCgfnsIndex/>}/>
+          <Route path="/cgfns-madhyapradesh-council-verification" element={<MadhyapredeshCgfnsIndex/>}/>
+          <Route path="/cgfns-delhi-council-verification" element={<DelhiCgfnsIndex/>}/>
+          <Route path="/cgfns-saudiarabia-council-verification" element={<SaudiCgfnsIndex/>}/>
+          <Route path="/cgfns-andhrapradesh-council-verification" element={<AndhraCfgnsIndex/>}/>
+          <Route path="/cgfns-gujarat-council-verification" element={<GujratCgfnsIndex/>}/>
+          <Route path="/cgfns-punjab-council-verification" element={<PunjabCgfnsIndex/>}/>
+          <Route path="/cgfns-oman-council-verification" element={<OmanCgfnsIndex/>}/>
 
 
           {/* backend root  Admin */}
