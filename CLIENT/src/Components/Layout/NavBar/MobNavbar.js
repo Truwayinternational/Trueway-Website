@@ -14,6 +14,7 @@ function MobNavbar() {
 
     const [DropdownBlogs, setDropdownBlogs] = useState (false)
     const [DropdownServices, setDropdownServices] = useState (false)
+    const [DropdownVerification, setDropdownVerification] = useState (false)
 
   return (
     <>
@@ -93,9 +94,9 @@ function MobNavbar() {
                          Our Services 
 
                             { !DropdownServices ? (
-                                <AiOutlineCaretDown className='h-8 inline-block justify-between ml-16 ' />
+                                <AiOutlineCaretDown className='h-8 inline-block justify-between mx-2 ' />
                             ):(
-                                <AiOutlineCaretUp className="h-8 inline-block justify-between ml-16 " />
+                                <AiOutlineCaretUp className="h-8 inline-block justify-between mx-2 " />
                             )}
 
                             { DropdownServices && (
@@ -169,14 +170,41 @@ function MobNavbar() {
                                     </ul>
                                 </div>
                             )}
-
-
                         </li>
 
                         <li className="ml-5 py-5 p-4">
                             <a href="/wes"
                             className="block text-white text-2xl md:text-3xl  font-bold font-HeadingFont ">
                             WES </a>
+                        </li>
+                        {/* verifications dropdown here */}
+                        <li className="ml-5 py-5 block text-white  text-2xl    md:text-3xl font-bold font-HeadingFont p-4"
+                        onClick={()=> setDropdownVerification ((prev) => !prev)} >
+                        Verifications
+
+                            { !DropdownVerification ? (
+                                <AiOutlineCaretDown className='h-8 inline-block justify-between mx-2' />
+                            ):(
+                                <AiOutlineCaretUp className="h-8 inline-block justify-between mx-2" />
+                            )}
+
+                            { DropdownVerification && (
+                                <div className="pt-5">
+                                    <ul className="mb-[-10px]">
+                                        <li className="py-3 border-b-sss[1px] border-b-zinc-100 p-4">
+                                            <a href="#!"
+                                            className="block text-white text-xl md:text-2xl font-medium font-poppins ">
+                                            Hospital </a>
+                                        </li>
+                                        <li className="pt-3 p-4">
+                                        <a href="/cgfns-council-verification"
+                                            className="block text-white text-xl md:text-2xl font-medium  font-poppins">
+                                            College </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            )}
+                            
                         </li>
 
                         {/* blogs and vlogs added here */}
@@ -185,9 +213,9 @@ function MobNavbar() {
                         Blogs & Videos
 
                             { !DropdownBlogs ? (
-                                <AiOutlineCaretDown className='h-8 inline-block justify-between ml-10' />
+                                <AiOutlineCaretDown className='h-8 inline-block justify-between mx-2' />
                             ):(
-                                <AiOutlineCaretUp className="h-8 inline-block justify-between ml-10" />
+                                <AiOutlineCaretUp className="h-8 inline-block justify-between mx-2" />
                             )}
 
                             { DropdownBlogs && (

@@ -48,8 +48,7 @@ function OurVideos() {
           <div className="flex flex-row my-16 w-full m-auto  pr-4  carousel scroll-smooth px-5 items-center justify-start overflow-x-auto overflow-y-hidden max-w-[1240px]">
           {youtubeSlides.map((video, index) => (
             <div key={index} className='flex m-auto md:mx-5'>
-              <YouTube videoId={video.url} opts={opts} className={'rounded-xl'}/>
-                {/* <iframe className='rounded-3xl m-2 md:w-[360px] md:h-[215px]' src={video.url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
+              <YouTube videoId={video.url} opts={opts} />
             </div>
           ))}
           </div>

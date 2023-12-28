@@ -47,10 +47,10 @@ app.use(cors({
   app.use("/api", router);
 
   // // for runnig build folder
-  app.use(express.static(path.join(__dirname, '/build')));
-  app.get('*', (req, res) => {
-      res.sendFile(path.join(__dirname, 'build', 'index.html'));
-  });
+  // app.use(express.static(path.join(__dirname, '/build')));
+  // app.get('*', (req, res) => {
+  //     res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  // });
 
 
 // Start the server

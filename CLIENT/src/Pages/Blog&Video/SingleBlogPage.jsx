@@ -89,11 +89,12 @@ function SingleBlogPage() {
               </label>
             </div>
 
-            <div className='pl-5 my-5 '>
-              <h3 className='text-3xl font-semibold font-HeadingFont underline-offset-8 underline'>
-                  Recent Articles
+            <div className='md:pl-5 my-5 '>
+              <h3 className='text-3xl font-semibold font-HeadingFont text-center md:text-left mb-5'>
+              Recent Articles/<br/> Case Studies
               </h3>
-              <ul className='my-10 list-disc mx-3 font-poppins text-gray-600'>
+              <hr />
+              <ul className='my-10 list-disc mx-3 font-poppins text-gray-600 pl-5 md:pl-0'>
               { blogs.length > 0 && blogs.map((blog, index)=>(
                 <li key={index} className='text-lg hover:text-blue-500 hover:underline cursor-pointer p-4'
                 onClick={() => navigate("/blogs/" + blog._id)}>
