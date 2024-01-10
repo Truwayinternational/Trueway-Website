@@ -4,7 +4,7 @@ import avatar_2 from "../../../Assets/certificate attestation/avatar_2.webp";
 function PurposeOfCgfns() {
   return (
     <>
-        <div className="max-w-[1240px] mx-auto place-content-center py-10">
+      <div className="max-w-[1240px] mx-auto place-content-center py-10">
         <div className="flex lg:px-16 mx-3">
             <h2 className="md:text-5xl text-3xl pb-5  font-HeadingFont font-extrabold text-black ">
             What is the purpose of <br />

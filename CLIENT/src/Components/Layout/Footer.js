@@ -147,9 +147,9 @@ function Footer() {
                 <img 
                 src={whiteLogo} 
                 alt="Trueway " 
-                className='w-[266px] h-[72px] object-contain mx-2'
+                className='w-[266px] h-[72px] object-contain px-2'
                 />
-                <p className='font-poppins font-normal text-white text-md  md:text-lg  mt-4  md:pl-10 px-6 md:px-0 text-start'>
+                <p className='font-poppins font-normal text-white text-md  md:text-md  mt-4  md:pl-10 px-6 md:px-0 text-justify'>
                     We are the Experts to make your dream migration seamless. The True way to your future can be paid by us. Trust us to help you take the leap towards a rewarding career abroad. 
                 </p>
             </div>
@@ -175,8 +175,8 @@ function Footer() {
                         <ul className='list-none mt-4'>
                             {footerLink.links.map((toFooterlink, index) => (
                                 <li key={index}
-                                className="font-poppins font-normal text-[16px] leading-[24px] text-white hover:text-green-950 cursor-pointer px-3 py-1 p-4">
-                                    <a href={toFooterlink.link} className='hover:text-black hover:font-semibold' onClick={scrollToTop}>
+                                className="font-poppins font-medium text-[14px] leading-[20px] text-white hover:text-green-950 cursor-pointer px-3 py-1 p-4">
+                                    <a href={toFooterlink.link} className='hover:text-black' onClick={scrollToTop}>
                                     {toFooterlink.name}
                                     </a>
                                 </li>
@@ -188,11 +188,11 @@ function Footer() {
         </div>
 
         <div className='w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-white'>
-            <p className='font-poppins font-normal text-center text-[16px] leading-[27px] text-white px-6'>
+            <p className='font-poppins font-normal text-center text-[14px] leading-[24px] text-white px-6'>
              &copy; Copyright 2023 Trueway International. All Rights Reserved 
             </p>
             <div className='flex flex-row md:mt-0 mt-6 px-6 '>
-                     <a href="https://www.facebook.com/truewayinternational" className='text-[20px] text-white hover:text-green-900 m-2'>
+                     <a href="https://www.facebook.com/truewayinternational" className='text-[18px] text-white hover:text-green-900 m-2'>
                         <BsFacebook />
                     </a>
                     <a href="https://wa.link/c3ukjh" className='text-[20px] text-white hover:text-green-900 m-2'>
