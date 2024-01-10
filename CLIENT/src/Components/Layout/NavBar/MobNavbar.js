@@ -191,15 +191,35 @@ function MobNavbar() {
                             { DropdownVerification && (
                                 <div className="pt-5">
                                     <ul className="mb-[-10px]">
-                                        <li className="py-3 border-b-sss[1px] border-b-zinc-100 p-4">
-                                            <a href="#!"
+                                        <li className="py-3 border-b-[1px] border-b-zinc-100 p-4">
+                                            <a href="/nursing-midwifery-council"
                                             className="block text-white text-xl md:text-2xl font-medium font-poppins ">
-                                            Hospital </a>
+                                            NMC </a>
                                         </li>
-                                        <li className="pt-3 p-4">
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100 p-4">
                                         <a href="/cgfns-council-verification"
                                             className="block text-white text-xl md:text-2xl font-medium  font-poppins">
-                                            College </a>
+                                            CGFNS </a>
+                                        </li>
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100 p-4">
+                                        <a href="/nmbi-council-verification"
+                                            className="block text-white text-xl md:text-2xl font-medium  font-poppins">
+                                            NMBI </a>
+                                        </li>
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100 p-4">
+                                        <a href="/nmbi-hospital-verification"
+                                            className="block text-white text-xl md:text-2xl font-medium  font-poppins">
+                                            NMBI - Hospital</a>
+                                        </li>
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100 p-4">
+                                        <a href="/nmbi-college-verification"
+                                            className="block text-white text-xl md:text-2xl font-medium  font-poppins">
+                                            NMBI - College</a>
+                                        </li>
+                                        <li className="pt-3 border-b-[1px] border-b-zinc-100 p-4">
+                                        <a href="/ahpra-anmac-nursing-council-verification"
+                                            className="block text-white text-xl md:text-2xl font-medium  font-poppins">
+                                            AHPRA & ANMAC </a>
                                         </li>
                                     </ul>
                                 </div>

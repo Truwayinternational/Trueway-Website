@@ -174,13 +174,13 @@ export const links = [
         name:"PCC",
         subMenu:true, 
         subLinks : [
-          {
+        {
             Head: "PCC",
             headLink:"/pcc",
             subLink : [
               {name:"", link:"#!"},
             ]
-          },
+        },
         {
           Head: "Saudi Arabia",
           headLink:"/pcc-saudiArabia",
@@ -243,30 +243,72 @@ export const links = [
         name:"Verifications",
         subMenu:true, 
         subLinks : [
+          {
+            Head: "CGFNS",
+            headLink:"/cgfns-council-verification",
+            subLink : [
+              {name:"", link:"#!"},
+            ]
+        },
         {
-          Head: "Hospital",
-          headlink:"#!",
+          Head: "NMC",
+          headLink:"/nursing-midwifery-council",
           subLink : [
-            {name:"NMBI", link:"#!"},
+            {name:"", link:"#!"},
           ]
         },
         {
-          Head: "College",
-          headLink:"#!",
+          Head: "NMBI",
+          headLink:"/nmbi-council-verification",
           subLink : [
-            {name:"CGFNS", link:"/cgfns-council-verification"},
-            {name:"NMBI", link:"#!"},
-            {name:"NNAS", link:"#!"},
-            {name:"ERES", link:"#!"}
+            {name:"", link:"#!"},
           ]
         },
-        // {
-        //   Head: "Council",
-        //   headLink:"#!",
-        //   subLink : [
-        //     {name:"", link:"#!"},
-        //   ]
-        // }
+        {
+          Head:"AHPRA & ANMAC",
+          headLink:"/ahpra-anmac-nursing-council-verification",
+          subLink: [
+            {name:"", link:"#!"}
+          ]
+        },
+        {
+          Head:"NMBI - HOSPITAL",
+          headLink:"/nmbi-hospital-verification",
+          subLink: [
+            {name:"", link:"#!"}
+          ]
+        },
+        {
+          Head:"NMBI - COLLEGE",
+          headLink:"/nmbi-college-verification",
+          subLink: [
+            {name:"", link:"#!"}
+          ]
+        }
+          // {
+          //   Head: "Council",
+          //   headLink:"#!",
+          //   subLink : [
+          //     {name:"CGFNS", link:"/cgfns-council-verification"},
+          //     {name:"NMC", link:"/nursing-midwifery-council"},
+          //     {name:"NMBI", link:"/nmbi-council-verification"},
+          //     {name:"AHPRA & ANMAC", link:"#!"},
+          //   ]
+          // },
+          // {
+          //   Head: "Hospital",
+          //   headlink:"#!",
+          //   subLink : [
+          //     {name:"NMBI", link:"/nmbi-hospital-verification"},
+          //   ]
+          // },
+          // {
+          //   Head: "College",
+          //   headlink:"#!",
+          //   subLink : [
+          //     {name:"NMBI", link:"/nmbi-college-verification"},
+          //   ]
+          // }
       ]
     }
   ]
