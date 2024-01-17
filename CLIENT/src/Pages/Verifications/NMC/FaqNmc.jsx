@@ -28,7 +28,6 @@ function FaqNmc() {
             question:"Who is eligible for NMC UK?",
             Answer:"Only Indian citizens or Indian citizens living abroad are eligible to apply for an eligibility certificate, according to the screening test regulations. According to existing regulations, you are not qualified to file for an eligibility certificate if you are a citizen of any country other than India or Nepal and you are not an OCI."
         },
-        ,
         {
             id:4,
             question:"Is a birth certificate mandatory for NMC registration?",

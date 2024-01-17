@@ -140,7 +140,20 @@ const NmbiHospitalIndex =lazy(()=>import("./Pages/Verifications/NMBI-Hospital/Nm
 
 
 // AHPRA nursing council verification home & inner pages
-const AHPRAindex=lazy(()=>import("./Pages/Verifications/AHPRA & ANMAC/AHPRAindex"))
+const AHPRAindex= lazy(()=> import("./Pages/Verifications/AHPRA & ANMAC/AHPRAindex"))
+const KeralaAhpraIndex =lazy(()=>import("./Pages/Verifications/AHPRA & ANMAC/Kerala-AHPRA/KeralaAhpraIndex"))
+const TamilNaduAhpraIndex =lazy(()=> import("./Pages/Verifications/AHPRA & ANMAC/TamilNadu-AHPRA/TamilNaduAhpraIndex"))
+const PunjabAhpraIndex =lazy(()=>import("./Pages/Verifications/AHPRA & ANMAC/Punjab-AHPRA/PunjabAhpraIndex"))
+const TelanganaAhpraIndex=lazy(()=>import("./Pages/Verifications/AHPRA & ANMAC/Telangana-AHPRA/TelanganaAhpraIndex"))
+const AndhraAhpraIndex =lazy(()=>import("./Pages/Verifications/AHPRA & ANMAC/Andhra-AHPRA/AndhraAhpraIndex"))
+const KarnatakaAhpraIndex =lazy(()=>import("./Pages/Verifications/AHPRA & ANMAC/Karnataka-AHPRA/KarnatakaAhpraIndex"))
+const GujaratAhpraIndex =lazy(()=>import("./Pages/Verifications/AHPRA & ANMAC/Gujarat-AHPRA/GujaratAhpraIndex"))
+const DelhiAhpraIndex =lazy(()=>import("./Pages/Verifications/AHPRA & ANMAC/Delhi-AHPRA/DelhiAhpraIndex"))
+const MadhyapradeshAhpraIndex =lazy(()=>import("./Pages/Verifications/AHPRA & ANMAC/Madhyapradesh-AHPRA/MadhyapradeshAhpraIndex"))
+const MaharashtraAhpraIndex=lazy(()=>import("./Pages/Verifications/AHPRA & ANMAC/Maharashtra-AHPRA/MaharashtraAhpraIndex"))
+
+
+
 
 
 // clicking to nav link and scroll to top section
@@ -319,8 +332,19 @@ function App() {
         <Route path="/nmbi-hospital-verification" element={<NmbiHospitalIndex/>}/>
 
         {/* AHPRA nursing council verification home & inner pages  */}
-        <Route path="/ahpra-anmac-nursing-council-verification"element={<AHPRAindex/>}/>
-        
+        <Route path="/ahpra-anmac-nursing-council-verification" element={<AHPRAindex/>}/>
+        <Route path="/ahpra-kerala-nursing-council-verification" element={<KeralaAhpraIndex/>}/>
+        <Route path="/ahpra-tamilnadu-nursing-council-verification" element={<TamilNaduAhpraIndex/>}/>
+        <Route path="/ahpra-punjab-nursing-council-verification" element={<PunjabAhpraIndex/>}/>
+        <Route path="/ahpra-telangana-nursing-council-verification" element={<TelanganaAhpraIndex/>}/>
+        <Route path="/ahpra-andhrapradesh-nursing-council-verification" element={<AndhraAhpraIndex/>}/>
+        <Route path="/ahpra-karnataka-nursing-council-verification" element={<KarnatakaAhpraIndex/>}/>
+        <Route path="/ahpra-gujarat-nursing-council-verification" element={<GujaratAhpraIndex/>}/>
+        <Route path="/ahpra-delhi-nursing-council-verification" element={<DelhiAhpraIndex/>}/>
+        <Route path="/ahpra-madhyapradesh-nursing-council-verification" element={<MadhyapradeshAhpraIndex/>}/>
+        <Route path="/ahpra-maharashtra-nursing-council-verification" element={<MaharashtraAhpraIndex/>}/>
+
+
 
           {/* backend root  Admin */}
           <Route path="/admin" element={<Login/>}/>
@@ -329,7 +353,7 @@ function App() {
             <Route path="/admin/blogs" element={<AdminBlogs/>}/>
             <Route path="/admin/blogs/:blogId" element={<SingleBlog/>}/>
           </Route>
-
+            
 
           {/* 404 error */}
           <Route path="/*" element={<ErrorPage/>}/>
