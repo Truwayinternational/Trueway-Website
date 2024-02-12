@@ -3,7 +3,6 @@ import { Route, Routes } from "react-router-dom";
 import { SyncLoader } from 'react-spinners'
 import { ToastContainer } from "react-toastify";
 
-
 // Navbar router in web page
 import TopBar from "./Components/Layout/TopBar";
 import NavBar from "./Components/Layout/NavBar/NavBar";
@@ -92,6 +91,12 @@ const TCMCindex = lazy(() => import("./Pages/OtherServices/Good Standing & Verif
 const KeralaDentalIndex = lazy(() => import("./Pages/OtherServices/Good Standing & Verification/Kerala Dental/KeralaDentalIndex"));
 const KeralaParamedicalIndex = lazy(() => import("./Pages/OtherServices/Good Standing & Verification/Kerala Paramedical/KeralaParamedicalIndex"));
 const KeralaPharmacyIndex = lazy(() => import("./Pages/OtherServices/Good Standing & Verification/Kerala Pharmacy/KeralaPharmacyIndex"));
+
+// Migration and migration inner pages here
+const MigrationIndex =lazy(()=>import("./Pages/OtherServices/Migration/MigrationIndex"))
+const IrelandMigrationIndex =lazy(()=>import("./Pages/OtherServices/Migration/Ireland/IrelandMigrationIndex"))
+const NewzilandMigrationIndex =lazy(()=>import("./Pages/OtherServices/Migration/NewZiland/NewzilandMigrationIndex"))
+
 
 
 // CGFNS - COUNCIL VERIFICATION HOME PAGE AND INNER PAGES 
@@ -267,6 +272,13 @@ function App() {
            {<KeralaPharmacyIndex/>}/>
           <Route path="/acls-bls" element={<AclsBlsIndex/>}/>
 
+          {/* Migrarion and inner migration pages here */}
+          <Route path="/migration" element={<MigrationIndex/>}/>
+          <Route path="/ireland-migration" element={<IrelandMigrationIndex/>}/>
+          <Route path="/newziland-migration" element={<NewzilandMigrationIndex/>}/>
+
+
+
           {/* CGFNS - VERIFICATION HOME & Inner pages */}
           <Route path="/cgfns-council-verification" element={<CgfnsIndex/>}/>
           <Route path="/cgfns-kerala-council-verification" element= 
@@ -343,6 +355,8 @@ function App() {
         <Route path="/ahpra-delhi-nursing-council-verification" element={<DelhiAhpraIndex/>}/>
         <Route path="/ahpra-madhyapradesh-nursing-council-verification" element={<MadhyapradeshAhpraIndex/>}/>
         <Route path="/ahpra-maharashtra-nursing-council-verification" element={<MaharashtraAhpraIndex/>}/>
+
+        
 
 
 

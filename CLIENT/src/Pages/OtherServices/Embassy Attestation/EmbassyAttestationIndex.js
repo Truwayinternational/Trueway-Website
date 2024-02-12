@@ -25,24 +25,24 @@ function EmbassyAttestationIndex() {
     <>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Embassy Attestation Services India | Fast & Secure Certificate Verification</title>
-          <meta name="description" content="If you plan to visit a foreign country, Trueway offers affordable embassy attestation services for UAE, Qatar, Oman, Kuwait, Bahrain, Malaysia. Book a free quote now" />
-          <link rel="canonical" href="http://truewayinternational.com/embassy-attestation" />
+          <title>Fast & Secure Embassy Certificate Attestation Services in India </title>
+          <meta name="description" content="Trueway is India's top Embassy Attestation Consultancy providing fast & secure documentation verification services for UAE, Qatar, Kuwait, Bahrain & Malaysia at affordable rate." />
+          <link rel="canonical" href="http://truewayinternational.com/embassy-attestation"/>
         </Helmet>
 
-        <EmbassyAttestation />
-        <WhatIsEmbassy />
-        <PurposesOfEmbassyAttestation />
-        <PopulerContries />  {/*  countries in Large screen size and countries added in large size hide in mobile screen */}
-        <PopularContreisCardMob /> {/*  countries in mobile screen size */}
-        <HowDoIGet />
+        <EmbassyAttestation/>
+        <WhatIsEmbassy/>
+        <PurposesOfEmbassyAttestation/>
+        <PopulerContries/>  {/*  countries in Large screen size and countries added in large size hide in mobile screen */}
+        <PopularContreisCardMob/> {/*  countries in mobile screen size */}
+        <HowDoIGet/>
         <DocumentRequired/>
-        <YourBestChoice />
+        <YourBestChoice/>
         <EducationalDocuments/>
         <NonEducational/>
-        <WeProvideAttestaionFor />
+        <WeProvideAttestaionFor/>
         <OurCommitment/>
-        <OurClients />
+        <OurClients/>
         <Form2/>
         <FaqEmbassy/>
     </>

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktrueway=self.webpackChunktrueway||[]).push([[8467],{38467:(e,n,r)=>{r.r(n),r.d(n,{default:()=>s});r(72791);var t=r(80184);const u=function(){return(0,t.jsx)("div",{children:"MigrationHero"})};const s=function(){return(0,t.jsx)("div",{children:(0,t.jsx)(u,{})})}}}]);
+//# sourceMappingURL=8467.2d4fe94a.chunk.js.map

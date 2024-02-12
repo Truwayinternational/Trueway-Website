@@ -2,9 +2,6 @@ import React, { useState } from 'react'
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
 
-
-
-
 import iso from  '../../Assets/ISO/isocertified.webp'
 import thumb from  '../../Assets/ISO/thumb.webp'
 import document from  '../../Assets/ISO/Document.webp'

@@ -28,7 +28,6 @@ function FaqCgfns() {
             question:"How long does the CGFNS verification process take?",
             Answer:"The processing time can vary depending on the CGFNS workload and individual circumstances. However, at Trueway, we complete the process within 4-6 months."
         },
-        ,
         {
             id:4,
             question:" How much does the CGFNS verification service cost?",

@@ -23,7 +23,7 @@ function ConfusionsWes() {
   return (
     <>
       <div className="max-w-[1240px] mx-auto place-content-center py-10">
-        <div className="flex lg:px-16 mx-3">
+        <div className="flex justify-center lg:justify-start lg:px-16 mx-3">
             <h2 className="md:text-5xl text-3xl pb-5  font-HeadingFont font-extrabold text-black ">
             Confusions & <br /> Complications of<br/>
             <b className="text-green-500 "> WES Verification</b>
