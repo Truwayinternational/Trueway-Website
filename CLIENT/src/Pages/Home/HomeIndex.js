@@ -14,6 +14,7 @@ import Procedure from "./Procedure";
 import ServicesSection from "./ServicesSection";
 import ServicesSectionMob from './ServicesSectionMob'
 import WhyisTrueway from "../../Components/WhyisTrueway";
+import WebForm from '../../Components/Forms/WebForm';
 
 
 function HomeIndex() {
@@ -33,6 +34,7 @@ function HomeIndex() {
       <ServicesSection />
       <ServicesSectionMob />
       <GetinTouch />
+      {/* <WebForm/> */}
       <WhyisTrueway />
       <Procedure />
       <FromClients />

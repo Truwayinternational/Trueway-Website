@@ -49,7 +49,7 @@ function PccFromCountriesMob() {
             <div className='flex flex-col w-full  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                 <img className='px-3 w-[150px] mx-auto' src={PccUae} alt="PCC UAE" />
                 <a href="/pcc-uae">
-                    <h1 className='font-HeadingFont md:text-lg text-md font-bold text-center pb-4 '>
+                    <h1 className='font-HeadingFont md:text-lg text-sm font-bold text-center pb-4 '>
                     PCC UAE
                     </h1>
                 </a>
@@ -60,7 +60,7 @@ function PccFromCountriesMob() {
             <div className='flex flex-col w-full  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                 <img className='px-3 w-[150px] mx-auto' src={PccSaudi} alt="PCC SAUDI" />
                 <a href="/pcc-saudiArabia">
-                    <h1 className='font-HeadingFont md:text-lg text-md font-bold text-center pb-4 '>
+                    <h1 className='font-HeadingFont md:text-lg text-sm font-bold text-center pb-4 '>
                         PCC SAUDI
                     </h1>
                 </a>
@@ -71,7 +71,7 @@ function PccFromCountriesMob() {
             <div className='flex flex-col w-full  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                 <img className='px-3 w-[150px] mx-auto' src={PccQatar} alt="PCC QATAR" />
                 <a href="/pcc-qatar">
-                    <h1 className='font-HeadingFont md:text-lg text-md font-bold text-center pb-4 '>
+                    <h1 className='font-HeadingFont md:text-lg text-sm font-bold text-center pb-4 '>
                     PCC QATAR 
                     </h1>
                 </a>
@@ -82,7 +82,7 @@ function PccFromCountriesMob() {
             <div className='flex flex-col w-full  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
                 <img className='px-3 w-[150px] mx-auto' src={PccOman} alt="PCC OMAN" />
                 <a href="/pcc-oman">
-                    <h1 className='font-HeadingFont md:text-lg text-md font-bold text-center pb-4 '>
+                    <h1 className='font-HeadingFont md:text-lg text-sm font-bold text-center pb-4 '>
                         PCC OMAN 
                     </h1>
                 </a>
@@ -93,7 +93,7 @@ function PccFromCountriesMob() {
         <div className='flex flex-col  bg-white border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer p-4'>
             <img className='px-3 w-[150px] mx-auto' src={PccKuwait} alt="PCC KUWAIT" />
              <a href="/pcc-kuwait">
-                <h1 className='font-HeadingFont md:text-lg text-md font-bold text-center pb-4'>
+                <h1 className='font-HeadingFont md:text-lg text-sm font-bold text-center pb-4'>
                     PCC KUWAIT
                 </h1>
              </a>

@@ -83,7 +83,7 @@ function OurBlogsCards() {
                                         <h5 className="text-2xl font-bold tracking-wide font-HeadingFont  text-black py-2 text-center"> {`${blog.title.slice(0, 40)}...`} </h5>
                                         <p className=" font-light tracking-normal text-zinc-500 text-justify md:text-lg">
                                         </p>
-                                        <div className='h-fit overflow-hidden font-light tracking-normal text-zinc-500 text-justify md:text-lg' dangerouslySetInnerHTML={{ __html: blog.content.slice(0, 250) + '...' }} />
+                                        <div className='h-fit overflow-hidden font-light tracking-normal text-zinc-500 text-justify md:text-lg' dangerouslySetInnerHTML={{ __html: blog.content.slice(0, 350) + '...' }} />
                                         <br/>
                                         <a href={`/blogs/${blog._id}`}
                                         className='mt-10 font-bold text-green-600 hover:text-green-900 px-3 text-center mx-auto'>
