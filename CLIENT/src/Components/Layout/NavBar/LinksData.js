@@ -140,6 +140,13 @@ export const links = [
               {name:"", link:"#!"},
             ]
           },
+          {
+            Head: "Medical Coding",
+            headLink:"/medical-coding",
+            subLink : [
+              {name:"", link:"#!"},
+            ]
+          },
         {
           Head: "OET",
           headLink:"/oet",
