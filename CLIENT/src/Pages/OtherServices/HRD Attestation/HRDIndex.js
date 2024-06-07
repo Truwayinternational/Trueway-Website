@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Helmet} from "react-helmet";
 
 import HRDattestation from './HRDattestation'
 import WhatIsHRD from './WhatIsHRD';
@@ -22,6 +22,13 @@ function HRDIndex() {
 
   return (
     <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Fast & Secure HRD Attestation Services in India |Educational Certificate</title>
+          <meta name="description" content="Trueway is the top Home Department Attestation Agency in India. We offer various kinds of educational document verification services quickly at affordable rates." />
+          <link rel="canonical" href="https://truewayinternational.com/hrd-attestation"/>
+        </Helmet>
+
         <HRDattestation />
         <WhatIsHRD />
         <HRDservices />

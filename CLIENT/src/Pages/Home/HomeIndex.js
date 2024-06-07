@@ -9,7 +9,7 @@ import HomeSlider from "./HomeSlider";
 import HomeSliderMob from './HomeSliderMob'
 import ISO from "./ISO";
 import OurBlogsCards from './OurBlogsCards';
-import OurVideos from "./OurVideos";
+// import OurVideos from "./OurVideos";
 import Procedure from "./Procedure";
 import ServicesSection from "./ServicesSection";
 import ServicesSectionMob from './ServicesSectionMob'
@@ -34,13 +34,13 @@ function HomeIndex() {
       <ServicesSection />
       <ServicesSectionMob />
       <GetinTouch />
-      {/* <WebForm/> */}
+      <WebForm/>
       <WhyisTrueway />
       <Procedure />
       <FromClients />
       <Form2 />
       <OurBlogsCards/>
-      <OurVideos />
+      {/* <OurVideos /> */}
     </div>
   )
 }

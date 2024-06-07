@@ -30,6 +30,7 @@ app.use(cors({
   methods:[
     "GET","POST","DELETE","PUT","PATCH"
   ]
+  
 }))
 
   

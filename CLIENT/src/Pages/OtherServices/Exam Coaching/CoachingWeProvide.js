@@ -10,7 +10,7 @@ function CoachingWeProvide() {
                     <h2 className='md:text-5xl text-3xl font-bold font-HeadingFont pb-10 px-10'>Coaching <b className='text-green-500'> we provide </b> are</h2>
                 </div>
 
-                <div className='hidden w-2/3  lg:grid grid-cols-3 mx-auto my-5 gap-10'>
+                <div className='hidden w-2/3  lg:grid grid-cols-2 mx-auto my-5 gap-10'>
 
                 <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer  py-16'>
                     <a href="/oet">
@@ -31,8 +31,16 @@ function CoachingWeProvide() {
 
                 <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer py-16'>
                     <a href="/prometric">
-                        <h3 className='font-HeadingFont lg:text-2xl font-bold text-center '>
+                        <h3 className='font-HeadingFont lg:text-2xl font-bold text-center'>
                             PROMETRICS  
+                        </h3>
+                    </a>
+                </div>
+
+                <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer py-16'>
+                    <a href="/medical-coding">
+                        <h3 className='font-HeadingFont lg:text-2xl font-bold text-center '>
+                            Medical Coding  
                         </h3>
                     </a>
                 </div>

@@ -11,7 +11,7 @@ import {IoIosArrowDropdownCircle} from 'react-icons/io'
 
 function Facilitating() {
 
-  const [open, setOpen] = useState(0);
+    const [open, setOpen] = useState(0);
     const [alwaysOpen, setAlwaysOpen] = useState(true)
 
     const handleAlwaysOpen = () => setAlwaysOpen((cur) => !cur);

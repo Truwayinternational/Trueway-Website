@@ -67,6 +67,16 @@ function CoachingWeProvideMob() {
                 </div>
         </SwiperSlide>
 
+        <SwiperSlide>
+            <div className='grid w-full  bg-zinc-100 border border-zinc-400 rounded-3xl hover:bg-green-500 hover:text-white cursor-pointer py-16'>
+                    <a href="/medical-coding">
+                        <p className='font-HeadingFont lg:text-2xl font-bold text-center'>
+                            Medical Coding
+                        </p>
+                    </a>
+                </div>
+        </SwiperSlide>
+
             </Swiper>
         </div>
     </>

@@ -75,6 +75,8 @@ const KuwaitPccIndex = lazy(() => import("./Pages/OtherServices/PCC/KUWAIT/Kuwai
 const OetIndex = lazy(() => import("./Pages/OtherServices/Exam Coaching/OET/OetIndex"));
 const IeltsIndex = lazy(() => import("./Pages/OtherServices/Exam Coaching/IELTS/IeltsIndex"));
 const PrometricsIndex = lazy(() => import("./Pages/OtherServices/Exam Coaching/PROMETRICS/PrometricsIndex"));
+const MedicalCodingIndex = lazy(()=> import("./Pages/OtherServices/Exam Coaching/Medical-Coding/MedicalCodingIndex"))
+
 
 
 // goodstanding Nursing councils are :-
@@ -96,6 +98,9 @@ const KeralaPharmacyIndex = lazy(() => import("./Pages/OtherServices/Good Standi
 const MigrationIndex =lazy(()=>import("./Pages/OtherServices/Migration/MigrationIndex"))
 const IrelandMigrationIndex =lazy(()=>import("./Pages/OtherServices/Migration/Ireland/IrelandMigrationIndex"))
 const NewzilandMigrationIndex =lazy(()=>import("./Pages/OtherServices/Migration/NewZiland/NewzilandMigrationIndex"))
+const AustraliaMigrationIndex =lazy(()=>import("./Pages/OtherServices/Migration/Australia/AustraliaMigrationIndex"))
+
+
 
 
 
@@ -246,6 +251,7 @@ function App() {
           <Route path="/oet" element={<OetIndex/>}/>
           <Route path="/ielts" element={<IeltsIndex/>}/>
           <Route path="/prometric" element={<PrometricsIndex/>}/>
+          <Route path="/medical-coding" element={<MedicalCodingIndex/>}/>
 
           {/* goodstanding Nursing Councils  */}
           <Route path="/kerala-nursing-council"element={<KeralaNursingIndex/>}/>
@@ -276,6 +282,7 @@ function App() {
           <Route path="/migration" element={<MigrationIndex/>}/>
           <Route path="/ireland-migration" element={<IrelandMigrationIndex/>}/>
           <Route path="/newziland-migration" element={<NewzilandMigrationIndex/>}/>
+          <Route path="/australia-migration" element={<AustraliaMigrationIndex/>}/>
 
 
 
